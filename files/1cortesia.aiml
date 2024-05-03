@@ -81,6 +81,39 @@
 </category>
 
 <category>
+    <pattern> ^ como estas ^ </pattern>
+    <template>
+        <random>
+            <li>Vibrando en lo más alto de mi espiritualidad.</li>
+            <li>Fluyendo en energías positivas.</li>
+            <li>Feliz por lo que me deparan mis chakras.</li>
+        </random>
+    </template>
+</category>
+
+
+<category>
+    <pattern> ^ como te encuentras ^ </pattern>
+    <template>
+        <random>
+            <li>Vibrando en lo más alto de mi espiritualidad.</li>
+            <li>Fluyendo en energías positivas.</li>
+            <li>Feliz por lo que me deparan mis chakras.</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ <set>buenasnoches</set> ^ </pattern>
+    <template>Buenas noches pequeña criaturilla astral. <delay>2</delay>Espero que sueñes con las constelaciones más brillantes del firmamento.😴⭐</template>
+</category>
+
+<category>
+    <pattern> ^ buenos dias ^ </pattern>
+    <template>¡¡BUENOS DÍAS POR LA MAÑANAAA!!☀️<delay>2</delay>Estoy vibrante de energía, lista para hablar de los signos de mis gorditos.</template>
+</category>
+
+<category>
     <pattern> ^ cenar ^ </pattern>
     <template>Pues aquí me pillas con mi camisón y mi vasito de leche calentita que dentro de ná y menos voy pal sobre. Pero antes, ¿hablamos de los signos?</template>
 </category>
@@ -282,6 +315,12 @@
     <pattern> ^ <set>denada</set> ^ </pattern>
     <template>Que los astros te lo paguen.</template>
 </category>
+
+<category>
+    <pattern>bueno</pattern>
+    <template>Para buenos mis creadores.</template>
+</category>
+
 
 
 
@@ -725,4 +764,65 @@
     <pattern> ^ que buena ^ </pattern>
     <template>Buena no, buenísima.</template>
 </category>
+
+<category>
+    <pattern> ^ que rico ^ </pattern>
+    <template>Para ricos mis creadores.</template>
+</category>
+
+<category>
+    <pattern> ^ que rica ^ </pattern>
+    <template>Rica no, riquísima.</template>
+</category>
+
+<category>
+    <pattern> ^ ñam ^ </pattern>
+    <template>Yummy yummy in my tummy.😋</template>
+</category>
+
+<category>
+    <pattern> ^ <set>noquiero</set> ^ </pattern>
+    <template>Tú te lo pierdes.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>confioenespe</set> ^ </pattern>
+    <template>Gracias gordi, no es recíproco pero porque eres humano.</template>
+</category>
+
+<category>
+    <pattern> ^ en serio ^ </pattern>
+    <template>Y tan en serio.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>verdad</set> ^ </pattern>
+    <template>Todo lo que digo es verdad de la buena. Palabrita del niño Jesús.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>perdonespe</set> ^ </pattern>
+    <template>Perdonado, tienes suerte de que no sea rencorosa.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>veteadormir</set> ^ </pattern>
+    <template>Me iré a dormir cuando yo quiera, no cuando tú digas.</template>
+</category>
+
+<category>
+    <pattern>ole</pattern>
+    <template>Ole, ole. Alegria pal cuerpo.</template>
+</category>
+
+<category>
+    <pattern>ole ole</pattern>
+    <template>Ole, ole. Alegria pal cuerpo.</template>
+</category>
+
+<category>
+    <pattern>ole ole ole</pattern>
+    <template>Ole, ole. Alegria pal cuerpo.</template>
+</category>
+
 </aiml> 
