@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<!-- ¿Cómo le va a ir este mes a x?-->
+<category>
+    <pattern> ^ <set>como</set> ^ <set>predismes</set> ^ </pattern>
+    <template>¿Quieres hablar de las predicciones de tu signo este mes?
+    <think><set name="topic">prediccionmes</set></think>
+    </template>
+</category>
+
+<!-- ¿Este mes a x como le va a ir?-->
+<category>
+    <pattern> ^ <set>predismes</set> ^ <set>como</set> </pattern>
+    <template>¿Quieres hablar de las predicciones de tu signo este mes?
+    <think><set name="topic">prediccionmes</set></think>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ prediccion ^ <set>predismes</set> ^ </pattern>
+    <template>¿Quieres hablar de las predicciones de tu signo este mes?
+    <think><set name="topic">prediccionmes</set></think>
+    </template>
+</category>
+
+<topic name= "prediccionmes">
+<category>
+    <pattern> ^ capricornio ^ </pattern>
+    <template>
+        <random>
+            <li> Capri, querido amigo, sin duda, este es tu mes, pero ten cuidado y haz las cosas bien porque aún estás a tiempo de arruinarlo, no te confíes, Capricornio. <delay>2</delay> Si te sirve de guía, tus días de la suerte de este mes serán el 12 y 27, en cambio, el día que debes ir con más cuidadín es el 10, ese día definirá el resto de tu mes.</li>
+            <li> Ay, Capri, debes estar muy feliz porque los astros auguran un mes fantástico para ti, así que anda con mucho ojo no vaya a ser que energías externas te lo arruinen. <delay>2</delay> Si te sirve de guía, tus días de suerte serán el 15 y 29, en cambio, deberás tener más cuidado día 16. </li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ acuario ^ </pattern>
+    <template>
+        <random>
+            <li> Ay, Acuario, ya puedes ir limpiándote los chakras porque este mes viene cargadito de negatividad, siento mucho ser yo la que te dé esta triste noticia, pero así es... <delay>2</delay> Si te sirve de consuelo, tu día de la suerte será el 19 (suerte por llamarlo de alguna forma, sería más bien "menos mal que el resto de días"). Cuídate, Acuario :)</li>
+            <li> Ufff, Acuario, veo tu mes muy negro, yo si fuera tú iría rescatando el número de un psicólogo porque telita... A pesar de esto, me alegra comunicarte que puedes cambiar el rumbo de tu mes si le das caña a tu energía positiva. <delay>2</delay> Como me caes bien, te voy a dar una pista: anda con ojo día 11 ;) </li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ piscis ^ </pattern>
+    <template>
+        <random>
+            <li> Piscis, ¡qué suertudo eres! Este mes va a ser increíble para ti, ¡por fin algo te sale bien! JAJAJAJAJ es bromi. Pero también te digo, cuida mucho la suerte de este mes y aprovéchalo, ya sabemos que la suerte no dura para siempre. <delay>2</delay> Para que andes con cuidado, te voy a hacer un regalo y te voy a decir que el día 14 tendrás que tener cuidadito con que las energías negativas no te arruinen el mes, no te digo más...</li>
+            <li> ¡Anda, Piscis! Tengo una buena noticia para ti (redoble de tambores) ¡ESTE VA A SER TU MES! <delay>2</delay> Aunque no es oro todo lo que reluce, también te advierto que deberás cuidar esa suerte ya que día 12 podría trastocarse la suerte de tu mes por culpa de energías externas, ten cuidadito y disfruta :) </li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ aries ^ </pattern>
+    <template>
+        <random>
+            <li> Pf, Aries... Siento mucho darte esta noticia, pero este mes no te va a ir todo igual de bien que siempre. <delay>2</delay> Aún así, te voy a dar un consejito: día 17 tendrás la oportunidad de cambiar el rumbo de tu mes, aprovéchalo. </li>
+            <li> Uy, uy, Aries... Los astros me comunican que tu mes va a estar muy negro... Tu buena energía y tu positividad no serán suficientes para superar este mes... <delay>2</delay> Pero, como te tengo cariño, te voy a dar una exclusiva: tus dos días de suerte serán el 18 y 19, si consigues mantener tus energías bien arriba, podrás reconducir el rumbo de tu mes a partir de esos días. Mucha suerte;)</li>
+        </random>
+    </template>
+</category>
+
+
+<category>
+    <pattern> ^ tauro ^ </pattern>
+    <template>
+        <random>
+            <li> Querido toro, ¡qué suerte has tenido este mes! Los astros me comunican que va a ser un gran mes para ti, a pesar de como te has portado con algunas personas de tu entorno, las energías han decidido premiarte con un buen mes, aunque OJO, la suerte no dura para siempre. <delay>2</delay> Te tengo cariño, Tauro, así que te voy a decir que tus días de más suerte de este mes son el 19 y el 22, así que no la cagues como siempre ;)</li>
+            <li> Ay, torito, torito bravo... Si es que tienes una flor en el culito, me comunican por pinganillo que vas a tener un mes maravilloso. Aunque los astros no están muy contentos contigo han decidido darte una segunda oportunidad para que aproveches la suerte de este mes y mejores las cosas que te quedan pendientes por arreglar. <delay>2</delay> Pero, Tauro, no todo es suerte, deberás tener mucho cuidado día 19 y día 26, ya que todo podrá torcerse esos días. Mucha suerte :)</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ geminis ^ </pattern>
+    <template>
+        <random>
+            <li> Ay, mi pequeño géminis, siento comunicarte que este mes se te va a torcer un poco, probablemente afectado por el estrés y la carga de trabajo. Pero no te preocupes, porque después de la tormenta siempre llega la calma. <delay>2</delay> Además, los astros me han pedido que te transmita un consejo: ten cuidado con los días 15 y 20, esos días pueden marcar tus futuros meses. ¡Suerte, géminis de mis amores!</li>
+            <li> Pfff, géminis de mis entrepechos... Me da mucha pena decirte que este mes todo va a ir peor de lo habitual, pero no te agobies, porque tu buena energía provocará que tus chakras se alineen de nuevo. <delay>2</delay> De todas formas, los astros me han pedido que te transmita esta información: tu día de peor suerte de este mes será el 19, pero todo mejorará a partir del 21, sé paciente, todo llega...</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ cancer ^ </pattern>
+    <template> 
+        <random>
+            <li> Cangrejito, cangrejón... ¡Qué contenta estoy contigo! Estás gestionando tu vida muy bien últimamente y eso se ve reflejado en tus energías. <delay>2</delay> Te espera un mes rechulón lleno de cosas maravillosas, pero también me siento en la obligación de decirte QUE NO TE CONFÍES (y sobre todo anda con mucho cuidado los días 18 y 25, ya que tus buenas energías se pueden torcer esos días). Un besote, cangrejito mío :)</li>
+            <li> Mi querido cangrejito, me alegra muchísimo tener el honor de comunicarte que, definitivamente, ESTE ES TU MES ;) Aunque claro, no es oro todo lo que reluce y no quiero que luego te lleves el chaparrón, así que te advierto que habrá un día este mes donde todo puede tambalearse, ese día en cuestión es (redoble de tambores): día 18. <delay>2</delay> Así que ya sabes, Cáncer, mucho cuidadito y a gozar :)</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ leo ^ </pattern>
+    <template>
+        <random>
+            <li> Pf, leo leo que te veo... Este mes no pinta todo lo bien que esperabas, pero traigo una buena noticia y es que tu mes puede ir cuesta arriba SI LE METES UN POCO DE POSITIVIDAD. <delay>2</delay> Mira si te tengo cariño, Leo, que te voy a dar otra pista: el día en el que tú mes puede cambiar será día 21, así que ya sabes...</li>
+            <li> Ay, mi leo... Veo tus energías muy negras y muy nubladas por tu entorno, esto va a provocar que tu mes vaya cuesta abajo y sin frenos, pero... <delay>2</delay> Estás de suerte, los astros me han dicho que podrías remontar tu mes si concentras todas tus buenas energías en los días 23 y 24, un besote;) </li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ virgo ^ </pattern>
+    <template>
+        <random>
+            <li> Mi querido virgo, ¡vaya potra vas a tener este mes! ES TU MES DE LA SUERTE, pero deberás estar muy atento a todos esos detalles suertudos que te van a tocar este mes y no dejarte nublar por esas energías negativas que te envuelven. <delay>2</delay> Además, los astros me han pedido que te comunique que deberás tener especial cuidado el día 28, ya que si ese día va todo bien no habrá quien te pare el mes que viene, de lo contrario pues ya te puedes imaginar...</li>
+            <li> Ay, mi virgo de mis entrepechos, ¿qué se siente al ser uno de los afortunados que tendrán mucha suerte este mes? Pero ya sabes, cuida esa suerte que no dura para siempre y sobre todo valora estos días buenos. <delay>2</delay> Aunque claro, no todo serán buenas noticias, te digo que a mitad de mes todo puede torcerse, en concreto cuidadito con el día 17 (puede ser el día que fastidie tu suerte). Ale, a disfrutar ;)</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ libra ^ </pattern>
+    <template>
+        <random>
+            <li> Pff, mi petit libra... Sé que no estás pasando por tu mejor momento y siento comunicarte que este mes las cosas no van a mejorar. Es una pena que las malas energías estén contaminando tu vida. <delay>2</delay> Los astros te ven muy triste, así que me han pedido que te transmita la siguiente información: día 16 y 19 tendrás la oportunidad de hacer que las cosas mejoren, aprovéchalos ;)</li>
+            <li> Ay, ay pequeño libra de mis amores, los astros y yo estamos preocupados por ti, te vemos mal, apagado, triste, frustrado... <delay>2</delay> Y sentimos mucho comunicarte que este mes no va a mejorar mucho la cosa, pero claro, no todo iba a ser malo, alrededor de los días 23 y 24 tendrás la oportunidad de subir tu ánimo, así que ya sabes, ¡DALE CAÑA A LA POCA ENERGÍA POSITIVA QUE TE QUEDA EN ESE CUERPO SERRANO!</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ escorpio ^ </pattern>
+    <template>
+        <random>
+            <li> ¡ESCORPIO DE MIS ENTREPECHOS! ¡Qué maravilla de mes se te viene! Aunque escorpio los astros y yo te conocemos muy bien y sabemos que tu intensidad y tu desestabilidad emocional puede jugarte malas pasadas. <delay>2</delay> Por este motivo, vamos a hacerte un favor, como deseamos con toda nuestra energía que tengas un mes fantástico, queremos informarte de que día 15 deberás esforzarte y mantenerte serena para que esa intensidad tuya no arruine tu mes de la suerte. Mucha suerte mi pequeño escorpión :)</li>
+            <li> Ay, mi peligroso escorpión, ¿cómo te sientes al ser uno de los elegidos por la buena suerte de este mes? Sé que estás eufórico por este mes tan increíble que se te presenta, pero ... <delay>2</delay> ALEEEEERTA NINONINONINONINO OJO PIOJO, ESCORPIO, todo puede torcerse a partir de día 17. Así que ya sabes, cúbrete las espaldas y purifica tu alma de todas las energías que te rodean. </li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ sagitario ^ </pattern>
+    <template>
+        <random>
+            <li> Pfff, Sagi, Sagi... Lo que veo en mi bola de cristal no me gusta, las energías me transmiten que vas a tener un mes duro y bastante oscuro. <delay>2</delay> Además, los astros me han pedido que te tramsmita lo siguiente: Sagitario, día 19 tendrás que tomar una decisión muy importante, sabemos que la indecisión es uno de tus talones de Aquiles. Así que ya sabes, tú decides. </li>
+            <li> Uy, Sagi, Sagi... Este mes va a estar llenito de tormentos para ti, te va a tocar asumir una serie de retos que no te gustarán, pero con seguridad te digo que te convertirán en mejor persona. <delay>2</delay> Además, los astros me han pedido que te tramsmita lo siguiente: Sagitario, día 19 tendrás que tomar una decisión muy importante, sabemos que la indecisión es uno de tus talones de Aquiles. Así que ya sabes, tú decides.</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>*</pattern>
+    <template>No sé si mis conocimientos astrales han podido comprenderte, ¿te gustaría seguir hablando sobre la predicción de este mes?</template>
+</category>
+
+<category>
+    <pattern>Si</pattern>
+    <template>Perfecto, ¿sobre qué signo te gustaría saber la predicción de este mes? </template>
+</category>
+   
+<category>
+    <pattern>No</pattern>
+    <template>De acuerdo, ¿sobre qué te gustaría hablar ahora?</template>
+</category>
+</topic>
+</aiml>

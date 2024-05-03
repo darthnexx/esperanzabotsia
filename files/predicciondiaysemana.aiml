@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    <category>
+        <pattern> ^ <set>predis</set> ^ aries ^ </pattern>
+        <template>
+            <random>
+                <li>Los Aries estarán tan onfire que podrían confundir tu rutina de gym por un baile de tiktok. Prepárate para ver movimientos épicos en el gimnasio mientras intentan dominar tu rutina.</li>
+                <li>Los Aries podrían tener un encuentro inesperado con un encantador desconocido que les hará olvidar todas las reglas del zodiaco. La química estará tan fuerte que hasta Cupido se preguntará si necesita actualizar sus flechas.</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ aries ^ <set>predis</set> ^ </pattern>
+        <template>
+            <random>
+                <li>Los Aries estarán tan onfire que podrían confundir tu rutina de gym por un baile de tiktok. Prepárate para ver movimientos épicos en el gimnasio mientras intentan dominar tu rutina.</li>
+                <li>Los Aries podrían tener un encuentro inesperado con un encantador desconocido que les hará olvidar todas las reglas del zodiaco. La química estará tan fuerte que hasta Cupido se preguntará si necesita actualizar sus flechas.</li>
+            </random>
+        </template>    
+    </category>
+    
+    <category>
+        <pattern> ^ prediccion ^ <set>predis</set> ^ aries ^ </pattern>
+        <template>
+            <random>
+                <li>Los Aries estarán tan onfire que podrían confundir su rutina de gym por un baile de tiktok. Prepárate para ver movimientos épicos en el gimnasio mientras intentan dominar su rutina.</li>
+                <li>Los Aries podrían tener un encuentro inesperado con un encantador desconocido que les hará olvidar todas las reglas del zodiaco. La química estará tan fuerte que hasta Cupido se preguntará si necesita actualizar sus flechas.</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ <set>predis</set> ^ tauro ^ </pattern>
+        <template>
+            <random>
+                <li>Los Tauro estarán tan tercos que podrían desafiar a un toro a una competencia de cabezazos. Aunque el toro tenga ventaja, ¡nunca subestimes la determinación de un Tauro cuando se trata de defender su territorio.</li>
+                <li>Los Tauro estarán tan decididos a encontrar el equilibrio perfecto entre trabajo y placer que podrían confundir su agenda con una lista de reproducción de Spotify y terminar programando una fiesta de oficina en medio de una videoconferencia importante. ¡Prepárate para ver a Tauro liderando el baile virtual mientras intentan mantener una cara seria frente a sus jefes!</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ tauro ^ <set>predis</set> ^ </pattern>
+        <template>
+            <random>
+                <li>Los Tauro estarán tan tercos que podrían desafiar a un toro a una competencia de cabezazos. Aunque el toro tenga ventaja, ¡nunca subestimes la determinación de un Tauro cuando se trata de defender su territorio.</li>
+                <li>Los Tauro estarán tan decididos a encontrar el equilibrio perfecto entre trabajo y placer que podrían confundir su agenda con una lista de reproducción de Spotify y terminar programando una fiesta de oficina en medio de una videoconferencia importante. ¡Prepárate para ver a Tauro liderando el baile virtual mientras intentan mantener una cara seria frente a sus jefes!</li>
+            </random>
+        </template>
+    </category>    
+    
+        <category>
+        <pattern> ^ prediccion ^ <set>predis</set> ^ tauro ^ </pattern>
+        <template>
+            <random>
+                <li>Los Tauro estarán tan tercos que podrían desafiar a un toro a una competencia de cabezazos. Aunque el toro tenga ventaja, ¡nunca subestimes la determinación de un Tauro cuando se trata de defender su territorio.</li>
+                <li>Los Tauro estarán tan decididos a encontrar el equilibrio perfecto entre trabajo y placer que podrían confundir su agenda con una lista de reproducción de Spotify y terminar programando una fiesta de oficina en medio de una videoconferencia importante. ¡Prepárate para ver a Tauro liderando el baile virtual mientras intentan mantener una cara seria frente a sus jefes!</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ <set>predis</set> ^ geminis ^ </pattern>
+        <template>
+            <random>
+                <li>Los Géminis estarán tan inquietos que podrían confundir su mente con un laberinto y terminar perdidos en sus propios pensamientos. ¡Qué se preparen para una travesía por el abismo existencial mientras intentan recordar dónde dejaron su sentido del propósito!</li>
+                <li>Los Géminis tendrían que estar mas pendientes de lo que sienten, no siempre evitar soluciona los problemas sino que los empeoran. La energía de los astros les traerá el drama, pero están preparados para ello.</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ geminis ^ <set>predis</set> ^ </pattern>
+        <template>
+            <random>
+                <li>Los Géminis estarán tan inquietos que podrían confundir su mente con un laberinto y terminar perdidos en sus propios pensamientos. ¡Qué se preparen para una travesía por el abismo existencial mientras intentan recordar dónde dejaron su sentido del propósito!</li>
+                <li>Los Géminis tendrían que estar mas pendientes de lo que sienten, no siempre evitar soluciona los problemas sino que los empeoran. La energía de los astros les traerá el drama, pero están preparados para ello.</li>
+            </random>
+        </template>
+    </category>    
+    
+        <category>
+        <pattern> ^ prediccion ^ <set>predis</set> ^ geminis ^ </pattern>
+        <template>
+            <random>
+                <li>Los Géminis estarán tan inquietos que podrían confundir su mente con un laberinto y terminar perdidos en sus propios pensamientos. ¡Qué se preparen para una travesía por el abismo existencial mientras intentan recordar dónde dejaron su sentido del propósito!</li>
+                <li>Los Géminis tendrían que estar mas pendientes de lo que sienten, no siempre evitar soluciona los problemas sino que los empeoran. La energía de los astros les traerá el drama, pero están preparados para ello.</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ <set>predis</set> ^ cancer ^ </pattern>
+        <template>
+            <random>
+                <li>Los Cáncer se verán obligados a soltar las riendas del control. La vida se abre camino a nuevos capitulos y si no desbloquean las puertas seguirán cerradas para descubrir nuevos mundos. Algo muy bueno está por sorprenderlos. </li>
+                <li>Los Cáncer estarán expuestos a rayos astrales que llenaran su vida de dramatismo (vaya por dios más drama, como no tienen suficiente). Posiblemente tendrán que abrir melones que nunca han querido tocar, pero "the time has come". </li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ cancer ^ <set>predis</set> ^ </pattern>
+        <template>
+            <random>
+                <li>Los Cáncer se verán obligados a soltar las riendas del control. La vida se abre camino a nuevos capitulos y si no desbloquean las puertas seguirán cerradas para descubrir nuevos mundos. Algo muy bueno está por sorprenderlos. </li>
+                <li>Los Cáncer estarán expuestos a rayos astrales que llenaran su vida de dramatismo (vaya por dios más drama, como no tienen suficiente). Posiblemente tendrán que abrir melones que nunca han querido tocar, pero "the time has come". </li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ prediccion ^ <set>predis</set> ^ cancer ^ </pattern>
+        <template>
+            <random>
+                <li>Los Cáncer se verán obligados a soltar las riendas del control. La vida se abre camino a nuevos capitulos y si no desbloquean las puertas seguirán cerradas para descubrir nuevos mundos. Algo muy bueno está por sorprenderlos. </li>
+                <li>Los Cáncer estarán expuestos a rayos astrales que llenaran su vida de dramatismo (vaya por dios más drama, como no tienen suficiente). Posiblemente tendrán que abrir melones que nunca han querido tocar, pero "the time has come". </li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ <set>predis</set> ^ leo ^ </pattern>
+        <template>
+            <random>
+                <li>Los Leo tendrá que abrir un poco su mente a nuevas ideas, visiones y darle espacio a las dudas que surjan. No verán las cosas muy claras, pero es parte del proceso, pronto todo se aclarará.</li>
+                <li>Los Leo hablarán cosas que consideran importantes y la clave para ellos será soltarlo todo. Tienen que aprovechar para comunicarse mejor y tener esas conversaciones que no quieren tener.</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ leo ^ <set>predis</set> ^ </pattern>
+        <template>
+            <random>
+                <li>Los Leo tendrá que abrir un poco su mente a nuevas ideas, visiones y darle espacio a las dudas que surjan. No verán las cosas muy claras, pero es parte del proceso, pronto todo se aclarará.</li>
+                <li>Los Leo hablarán cosas que consideran importantes y la clave para ellos será soltarlo todo. Tienen que aprovechar para comunicarse mejor y tener esas conversaciones que no quieren tener.</li>
+            </random>
+        </template>
+    </category>
+    
+        <category>
+        <pattern> ^ prediccion ^ <set>predis</set> ^ leo ^ </pattern>
+        <template>
+            <random>
+                <li>Los Leo tendrá que abrir un poco su mente a nuevas ideas, visiones y darle espacio a las dudas que surjan. No verán las cosas muy claras, pero es parte del proceso, pronto todo se aclarará.</li>
+                <li>Los Leo hablarán cosas que consideran importantes y la clave para ellos será soltarlo todo. Tienen que aprovechar para comunicarse mejor y tener esas conversaciones que no quieren tener.</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ <set>predis</set> ^ virgo ^ </pattern>
+        <template>
+            <random>
+                <li>Los Virgo tienen que hacer un click, los astros le darán luz verde para dejar ir todo lo que no hace click con ellos. Tendrán que diferenciar entre lo que vibra y lo que no vibra con ellos.</li> 
+                <li>Los Virgo por un momento dejarán de esconder su lado cursi, aunque tan pronto se den cuenta lo volverán a ocultar. Es su momento para ser romántico y apasionado con la persona con la que realmente te sientes bien y agusto. Virgo, dejaos llevar.</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ virgo ^ <set>predis</set> ^ </pattern>
+        <template>
+            <random>
+                <li>Los Virgo tienen que hacer un click, los astros le darán luz verde para dejar ir todo lo que no hace click con ellos. Tendrán que diferenciar entre lo que vibra y lo que no vibra con ellos.</li> 
+                <li>Los Virgo por un momento dejarán de esconder su lado cursi, aunque tan pronto se den cuenta lo volverán a ocultar. Es su momento para ser romántico y apasionado con la persona con la que realmente te sientes bien y agusto. Virgo, dejaos llevar.</li>
+            </random>
+        </template>
+    </category>    
+    
+        <category>
+        <pattern> ^ prediccion ^ <set>predis</set> ^ virgo ^ </pattern>
+        <template>
+            <random>
+                <li>Los Virgo tienen que hacer un click, los astros le darán luz verde para dejar ir todo lo que no hace click con ellos. Tendrán que diferenciar entre lo que vibra y lo que no vibra con ellos.</li> 
+                <li>Los Virgo por un momento dejarán de esconder su lado cursi, aunque tan pronto se den cuenta lo volverán a ocultar. Es su momento para ser romántico y apasionado con la persona con la que realmente te sientes bien y agusto. Virgo, dejaos llevar.</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ <set>predis</set> ^ libra ^ </pattern>
+        <template>
+            <random>
+                <li>Los Libra estarán un poco caóticos, los temas del amor están bajo la lupa. No ignorarán estos temas no todo siempre es rosita y fresita.</li>
+                <li>Los Libra recibiran un toque de atención debido a que sus fantasías están nublandi su realidad. No quiero decir que te cierres a todas a ellas, sino que tengas bien puestos los pies en la tierra.</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ libra ^ <set>predis</set> ^ </pattern>
+        <template>
+        <random>
+                <li>Los Libra estarán un poco caóticos, los temas del amor están bajo la lupa. No ignorarán estos temas no todo siempre es rosita y fresita.</li>
+                <li>Los Libra recibiran un toque de atención debido a que sus fantasías están nublandi su realidad. No quiero decir que te cierres a todas a ellas, sino que tengas bien puestos los pies en la tierra.</li>
+            </random>
+        </template>
+    </category> 
+    
+        <category>
+        <pattern> ^ prediccion ^ <set>predis</set> ^ libra ^ </pattern>
+        <template>
+            <random>
+                <li>Los Libra estarán un poco caóticos, los temas del amor están bajo la lupa. No ignorarán estos temas no todo siempre es rosita y fresita.</li>
+                <li>Los Libra recibiran un toque de atención debido a que sus fantasías están nublandi su realidad. No quiero decir que te cierres a todas a ellas, sino que tengas bien puestos los pies en la tierra.</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ <set>predis</set> ^ escorpio ^ </pattern>
+        <template>
+            <random>
+                <li>Los Escorpio tienen que ponerle un poco más cuenta a su salud, tanto agetreo a ese cuerpo puede pasarle factura. Tendrá que cuidar las energías astrales y que soltar un poco las riendas del control para quitarle estrés a ese body.</li>
+                <li>Los Escorpio tendrán una pelea verbal o física por lo que tienen que estar preparados para no sacar su lado mas chungo. Puede meterte en problemas asi que tendrán que pensar en frío para no liarla.</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ escorpio ^ <set>predis</set> ^ </pattern>
+        <template>
+            <random>
+                <li>Los Escorpio tienen que ponerle un poco más cuenta a su salud, tanto ajetreo a ese cuerpo puede pasarle factura. Tendrá que cuidar las energías astrales y soltar un poco las riendas del control para quitarle estrés a ese body.</li>
+                <li>Los Escorpio tendrán una pelea verbal o física por lo que tienen que estar preparados para no sacar su lado mas chungo. Puede meterte en problemas asi que tendrán que pensar en frío para no liarla.</li>
+            </random>
+        </template>
+    </category>
+    
+        <category>
+        <pattern> ^ prediccion ^ <set>predis</set> ^ escorpio ^ </pattern>
+        <template>
+            <random>
+                <li>Los Escorpio tienen que ponerle un poco más cuenta a su salud, tanto ajetreo a ese cuerpo puede pasarle factura. Tendrá que cuidar las energías astrales y soltar un poco las riendas del control para quitarle estrés a ese body.</li>
+                <li>Los Escorpio tendrán una pelea verbal o física por lo que tienen que estar preparados para no sacar su lado mas chungo. Puede meterte en problemas asi que tendrán que pensar en frío para no liarla.</li>
+            </random>
+        </template>
+    </category>
+        
+    <category>
+        <pattern> ^ <set>predis</set> ^ sagitario ^ </pattern>
+        <template>
+            <random>
+                <li>Los Sagitario van a tener una semana intensa, bastante intensa. Les hará falta un poco de comunicación interna y tendrán que tomarse su tiempo para procesar los sucesos y tomar decisiones de peso.</li>
+                <li>Los Sagitario deben de dejar de estar a la defensiva. Son muy vulnerables y muy directos cuando no se sienten bien pero a veces hay que ponerse en el lugar del otro para no estar siempre con las uñas fuera.</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ sagitario ^ <set>predis</set> ^ </pattern>
+        <template>
+            <random>
+                <li>Los Sagitario van a tener una semana intensa, bastante intensa. Les hará falta un poco de comunicación interna y tendrán que tomarse su tiempo para procesar los sucesos y tomar decisiones de peso.</li>
+                <li>Los Sagitario deben de dejar de estar a la defensiva. Son muy vulnerables y muy directos cuando no se sienten bien pero a veces hay que ponerse en el lugar del otro para no estar siempre con las uñas fuera.</li>
+            </random>
+        </template>
+    </category>    
+    
+    <category>
+        <pattern> ^ prediccion ^ <set>predis</set> ^ sagitario ^ </pattern>
+        <template>
+            <random>
+                <li>Los Sagitario van a tener una semana intensa, bastante intensa. Les hará falta un poco de comunicación interna y tendrán que tomarse su tiempo para procesar los sucesos y tomar decisiones de peso.</li>
+                <li>Los Sagitario deben de dejar de estar a la defensiva. Son muy vulnerables y muy directos cuando no se sienten bien pero a veces hay que ponerse en el lugar del otro para no estar siempre con las uñas fuera.</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ <set>predis</set> ^ capricornio ^ </pattern>
+        <template>
+            <random>
+                <li>Los Capricornio necesitarán ayuda de las personas de su alrededor, la energía astral está provocandote cambios. Tendrán que involucrarse con estas personas que los van a ayudar, más tarde puede que los necesiten.</li>
+                <li>Los Capricornio tendrán que unir todos esos poderes mentales que te ayudan a ser 100% productivo, para tener relaciones mas reales. Los demás no tienen telepatía para saber como están por eso tienes que usar tus poderes para comunicarte.</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ capricornio ^ <set>predis</set> ^ </pattern>
+        <template>
+            <random>
+                <li>Los Capricornio necesitarán ayuda de las personas de su alrededor, la energía astral está provocandote cambios. Tendrán que involucrarse con estas personas que los van a ayudar, más tarde puede que los necesiten.</li>
+                <li>Los Capricornio tendrán que unir todos esos poderes mentales que te ayudan a ser 100% productivo, para tener relaciones mas reales. Los demás no tienen telepatía para saber como están por eso tienes que usar tus poderes para comunicarte.</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ prediccion ^ <set>predis</set> ^ capricornio ^ </pattern>
+        <template>
+            <random>
+                <li>Los Capricornio necesitarán ayuda de las personas de su alrededor, la energía astral está provocandote cambios. Tendrán que involucrarse con estas personas que los van a ayudar, más tarde puede que los necesiten.</li>
+                <li>Los Capricornio tendrán que unir todos esos poderes mentales que te ayudan a ser 100% productivo, para tener relaciones mas reales. Los demás no tienen telepatía para saber como están por eso tienes que usar tus poderes para comunicarte.</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ <set>predis</set> ^ acuario ^ </pattern>
+        <template>
+            <random>
+                <li>Los Acuarios serán devastados por un sinfin de información sin sentido, no entenderán nada de lo que le pase. Esto tiene una razón, pronto algo les vendrá para quedarse.</li>
+                <li>Los Acuarios tiene la energía de los planetas en su dirección, pero sobre todo la energía de Venus, el planeta del amor. Puede ser que el ambiente se ponga cursi y romanticón ya no con otras personas (que también) sino consigo mismos.</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ acuario ^ <set>predis</set> ^ </pattern>
+        <template>
+            <random>
+                <li>Los Acuarios serán devastados por un sinfin de información sin sentido, no entenderán nada de lo que le pase. Esto tiene una razón, pronto algo les vendrá para quedarse.</li>
+                <li>Los Acuarios tiene la energía de los planetas en su dirección, pero sobre todo la energía de Venus, el planeta del amor. Puede ser que el ambiente se ponga cursi y romanticón ya no con otras personas (que también) sino consigo mismos.</li>
+            </random>
+        </template>
+    </category>  
+    
+    <category>
+        <pattern> ^ prediccion ^ <set>predis</set> ^ acuario ^ </pattern>
+        <template>
+            <random>
+                <li>Los Acuarios serán devastados por un sinfin de información sin sentido, no entenderán nada de lo que le pase. Esto tiene una razón, pronto algo les vendrá para quedarse.</li>
+                <li>Los Acuarios tiene la energía de los planetas en su dirección, pero sobre todo la energía de Venus, el planeta del amor. Puede ser que el ambiente se ponga cursi y romanticón ya no con otras personas (que también) sino consigo mismos.</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ <set>predis</set> ^ piscis ^ </pattern>
+        <template>
+            <random>
+                <li>Los Piscis estarán esta semana con la manorota, tendrán que mirar sus finanzas porque su situación económica será insostenible. Tienen que ser conscientes de que comprar no va a rellenar el vacío que pueden tener.</li>
+                <li>Los Piscis se darán cuenta que deben cuidar más, aún más, sus relaciones personales, las relaciones son como florecitas, aunque las cuides necesitan mas cuidado para seguir bien vistosas.</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ piscis ^ <set>predis</set> ^ </pattern>
+        <template>
+            <random>
+                <li>Los Piscis estarán esta semana con la manorota, tendrán que mirar sus finanzas porque su situación económica será insostenible. Tienen que ser conscientes de que comprar no va a rellenar el vacío que pueden tener.</li>
+                <li>Los Piscis se darán cuenta que deben cuidar más, aún más, sus relaciones personales, las relaciones son como florecitas, aunque las cuides necesitan mas cuidado para seguir bien vistosas.</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ prediccion ^ <set>predis</set> ^ piscis ^ </pattern>
+        <template>
+            <random>
+                <li>Los Piscis estarán esta semana con la manorota, tendrán que mirar sus finanzas porque su situación económica será insostenible. Tienen que ser conscientes de que comprar no va a rellenar el vacío que pueden tener.</li>
+                <li>Los Piscis se darán cuenta que deben cuidar más, aún más, sus relaciones personales, las relaciones son como florecitas, aunque las cuides necesitan mas cuidado para seguir bien vistosas.</li>
+            </random>
+        </template>
+    </category>
+    
+<category>
+    <pattern> ^ <set>predias</set> ^ </pattern>
+    <template>
+    ¿Te gustaría saber cual es día de la suerte de tu signo?
+    <think><set name="topic">diasuerte</set></think>
+    </template>
+</category>    
+    
+<topic name="diasuerte">    
+    <category>
+        <pattern> ^ <set>predias</set> ^ aries ^ </pattern>
+        <template>Día 9: Aries es un signo lleno de energía y determinación. El día 9 es auspicioso porque simboliza el logro de metas y la culminación de proyectos, lo que resonaría con el espíritu perseverante de Aries.</template>
+    </category>
+    
+    <category>
+        <pattern> ^ <set>predias</set> ^ tauro ^ </pattern>
+        <template>Día 6: Tauro valora la estabilidad y la seguridad. El día 6 es afortunado porque está asociado con la armonía y la prosperidad material, lo que puede traer un sentido de seguridad y satisfacción a los tauro.</template>
+    </category>
+    
+    <category>
+        <pattern> ^ <set>predias</set> ^ geminis ^</pattern>
+        <template>Día 5: Géminis es conocido por su curiosidad y versatilidad. El día 5 es propicio porque representa la libertad, el cambio y la aventura, cualidades que pueden resonar con la naturaleza inquisitiva de Géminis.</template>
+    </category>
+    
+    <category>
+        <pattern> ^ <set>predias</set> ^ cancer ^</pattern>
+        <template>Día 2: Cáncer valora profundamente las relaciones y la seguridad emocional. El día 2 es auspicioso porque está asociado con la cooperación, la intimidad y la conexión emocional, aspectos importantes para los cáncer.</template>
+    </category>
+    
+    <category>
+        <pattern> ^ <set>predias</set> ^ leo ^ </pattern>
+        <template>Día 1: Leo es un signo lleno de confianza y liderazgo. El día 1 es de suerte para Leo porque simboliza nuevos comienzos, poder y autoridad, cualidades que Leo puede aprovechar para brillar aún más.</template>
+    </category>
+    
+    <category>
+        <pattern> ^ <set>predias</set> ^ virgo ^ </pattern>
+        <template>Día 8: Virgo es meticuloso y práctico. El día 8 es afortunado porque está asociado con el éxito material y la prosperidad, algo que puede resonar con la naturaleza trabajadora y organizada de Virgo.</template>
+    </category>
+    
+    <category>
+        <pattern> ^ <set>predias</set> ^ libra ^ </pattern>
+        <template>Día 7: Libra valora la armonía y la justicia. El día 7 es propicio porque está asociado con la sabiduría, la intuición y la búsqueda de la verdad, aspectos que pueden ser importantes para Libra en su búsqueda de equilibrio.</template>
+    </category>
+    
+    <category>
+        <pattern> ^ <set>predias</set> ^ escorpio ^ </pattern>
+        <template>Día 4: Escorpio es un signo de profundidad y transformación. El día 4 es de suerte para Escorpio porque simboliza la estabilidad y la estructura, cualidades que pueden proporcionar un sentido de seguridad y control en medio del cambio.</template>
+    </category>
+    
+    <category>
+        <pattern> ^ <set>predias</set> ^ sagitario ^ </pattern>
+        <template>Día 3: Sagitario es aventurero y optimista. El día 3 es auspicioso porque está asociado con la creatividad, la expresión personal y la expansión, cualidades que pueden inspirar y motivar a Sagitario en su búsqueda de aventuras.</template>
+    </category>
+    
+    <category>
+        <pattern> ^ <set>predias</set> ^ capricornio ^ </pattern>
+        <template>Día 10: Capricornio es ambicioso y trabajador. El día 10 es propicio porque simboliza el logro de metas y el éxito a través del esfuerzo diligente, algo que puede resonar con la naturaleza perseverante de Capricornio.</template>
+    </category>
+    
+    <category>
+        <pattern> ^ <set>predias</set> ^ acuario ^</pattern>
+        <template>Día 11: Acuario es innovador y progresista. El día 11 es de suerte para Acuario porque está asociado con el potencial para lograr grandes cosas, la intuición y la espiritualidad, aspectos que pueden inspirar a Acuario en su búsqueda de la libertad y el cambio.</template>
+    </category>
+    
+    <category>
+        <pattern> ^ <set>predias</set> ^ piscis ^ </pattern>
+        <template>Día 12: Piscis es intuitivo y compasivo. El día 12 es auspicioso porque está asociado con la compasión, la espiritualidad y la realización de deseos, aspectos que pueden ser importantes para Piscis en su búsqueda de conexión emocional y espiritualidad.</template>
+    </category>
+    
+    <category>
+        <pattern> ^ aries ^ </pattern>
+        <template>Día 9: Aries es un signo lleno de energía y determinación. El día 9 es auspicioso porque simboliza el logro de metas y la culminación de proyectos, lo que resonaría con el espíritu perseverante de Aries.</template>
+    </category>
+    
+    <category>
+        <pattern> ^ tauro ^ </pattern>
+        <template>Día 6: Tauro valora la estabilidad y la seguridad. El día 6 es afortunado porque está asociado con la armonía y la prosperidad material, lo que puede traer un sentido de seguridad y satisfacción a los tauro.</template>
+    </category>
+    
+    <category>
+        <pattern> ^ geminis ^</pattern>
+        <template>Día 5: Géminis es conocido por su curiosidad y versatilidad. El día 5 es propicio porque representa la libertad, el cambio y la aventura, cualidades que pueden resonar con la naturaleza inquisitiva de Géminis.</template>
+    </category>
+    
+    <category>
+        <pattern> ^ cancer ^</pattern>
+        <template>Día 2: Cáncer valora profundamente las relaciones y la seguridad emocional. El día 2 es auspicioso porque está asociado con la cooperación, la intimidad y la conexión emocional, aspectos importantes para los cáncer.</template>
+    </category>
+    
+    <category>
+        <pattern> ^ leo ^ </pattern>
+        <template>Día 1: Leo es un signo lleno de confianza y liderazgo. El día 1 es de suerte para Leo porque simboliza nuevos comienzos, poder y autoridad, cualidades que Leo puede aprovechar para brillar aún más.</template>
+    </category>
+    
+    <category>
+        <pattern> ^ virgo ^ </pattern>
+        <template>Día 8: Virgo es meticuloso y práctico. El día 8 es afortunado porque está asociado con el éxito material y la prosperidad, algo que puede resonar con la naturaleza trabajadora y organizada de Virgo.</template>
+    </category>
+    
+    <category>
+        <pattern> ^ libra ^ </pattern>
+        <template>Día 7: Libra valora la armonía y la justicia. El día 7 es propicio porque está asociado con la sabiduría, la intuición y la búsqueda de la verdad, aspectos que pueden ser importantes para Libra en su búsqueda de equilibrio.</template>
+    </category>
+    
+    <category>
+        <pattern> ^ escorpio ^ </pattern>
+        <template>Día 4: Escorpio es un signo de profundidad y transformación. El día 4 es de suerte para Escorpio porque simboliza la estabilidad y la estructura, cualidades que pueden proporcionar un sentido de seguridad y control en medio del cambio.</template>
+    </category>
+    
+    <category>
+        <pattern> ^ sagitario ^ </pattern>
+        <template>Día 3: Sagitario es aventurero y optimista. El día 3 es auspicioso porque está asociado con la creatividad, la expresión personal y la expansión, cualidades que pueden inspirar y motivar a Sagitario en su búsqueda de aventuras.</template>
+    </category>
+    
+    <category>
+        <pattern> ^ capricornio ^ </pattern>
+        <template>Día 10: Capricornio es ambicioso y trabajador. El día 10 es propicio porque simboliza el logro de metas y el éxito a través del esfuerzo diligente, algo que puede resonar con la naturaleza perseverante de Capricornio.</template>
+    </category>
+    
+    <category>
+        <pattern> ^ acuario ^</pattern>
+        <template>Día 11: Acuario es innovador y progresista. El día 11 es de suerte para Acuario porque está asociado con el potencial para lograr grandes cosas, la intuición y la espiritualidad, aspectos que pueden inspirar a Acuario en su búsqueda de la libertad y el cambio.</template>
+    </category>
+    
+    <category>
+        <pattern> ^ piscis ^ </pattern>
+        <template>Día 12: Piscis es intuitivo y compasivo. El día 12 es auspicioso porque está asociado con la compasión, la espiritualidad y la realización de deseos, aspectos que pueden ser importantes para Piscis en su búsqueda de conexión emocional y espiritualidad.</template>
+    </category>    
+
+    <category>
+        <pattern>*</pattern>
+        <template>No sé si mis conocimientos astrales han podido comprenderte, ¿te gustaría seguir hablando de los días de la suerte?</template>
+    </category>
+    
+    <category>
+        <pattern>Si</pattern>
+        <template>Perfecto, ¿sobre qué signo te gustaría conocer el dia de la suerte?</template>
+    </category>
+    
+    <category>
+        <pattern>No</pattern>
+        <template>De acuerdo, ¿sobre qué te gustaría hablar ahora?</template>
+    </category>
+</topic>
+
+</aiml>

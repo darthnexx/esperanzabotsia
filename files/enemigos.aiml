@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern> ^ <set>enemigos</set> ^ ARIES ^ </pattern>
+    <template>Sin duda, Escorpio. Por un lado, Escorpio es un signo muy rencoroso y vengativo, y a su vez, Aries es un signo directo que no tendrá problema en encararse con el escorpión. De este modo, se odiarán más que la Pantoja y sus hijos.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>enemigos</set> ^ TAURO ^ </pattern>
+    <template> El toro se lleva fatal con Géminis ya que odia su doble cara. Tauro ama la estabilidad y tranquilidad, por lo que tener a un impredecible géminis a su lado hará que se sienta constantemente a prueba e inseguro.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>enemigos</set> ^ GEMINIS ^ </pattern>
+    <template>Géminis es como una cacatúa… no se calla NUNCA y ama dar su opinión en todo.  De este modo, tener a un Capricornio sabelotodo que va dando lecciones morales sin opción a intervenciones ajenas, les hará estallar de rabia.</template>
+</category>
+ 
+<category>   
+    <pattern> ^ <set>enemigos</set> ^ CANCER ^</pattern>
+    <template>Obviamente, Sagitario. La tremenda sensibilidad del cangrejo le hace odiar lo directo que es Sagitario. Además, la obsesión de Cáncer con la estabilidad y la vida familiar choca con la aventurera visión de la vida de Sagi, quien huye del compromiso a toda costa y busca una completa independencia.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>enemigos</set> ^ LEO ^</pattern>
+    <template>El mayor enemigo del león es Virgo. Ambos están obsesionados con el poder, anhelando llegar a lo más alto. Además, están obsesionados con la perfección y son muy exigentes. De este modo, crearán una relación de competencia mutua que les hará tirarse de los pelos.</template>
+</category> 
+
+<category>
+    <pattern> ^ <set>enemigos</set> ^ VIRGO ^</pattern>
+    <template>Evidentemente, Cáncer. Virgo odia lo impredecible que puede llegar a ser el cangrejo, ¿por qué se irrita de repente? ¿por qué siempre tiene los sentimientos a flor de piel? Pf, demasiada intensidad.</template>
+</category> 
+
+<category>
+    <pattern> ^ <set>enemigos</set> ^ LIBRA ^</pattern>
+    <template>No hay que ser Einstein para saber que es Acuario. Libra quiere que le regalen los oídos constantemente, por tanto, Acuario, quien dice lo que quieres oír, sino lo que deben, es tu mayor enemigo. Pero, al fin y al cabo, es culpa de Acuario por no valorarte y darte los halagos que te mereces.</template>
+</category> 
+
+<category>
+    <pattern> ^ <set>enemigos</set> ^ SAGITARIO  ^</pattern>
+    <template>Es evidente que Tauro. El aventurero Sagitario no puede soportar a un ser tan vago y aburrido. Tarde o temprano, acabará abandonando al toro y lo que más le quema a Sagi es que a Tauro le dará completamente igual. ¡No tienen sangre ninguna!</template>
+</category>   
+
+<category>
+    <pattern> ^ <set>enemigos</set> ^ ESCORPIO ^</pattern>
+    <template>Por supuesto, Libra. Escorpio siempre se siente como Sherlock Holmes con ellos, oliendo un misterio detrás de esa “perfecta” sonrisa. Para el escorpión, es evidente que les espera una traición por parte de este signo, y como es mejor prevenir que curar, los evitan a toda costa.</template>
+</category> 
+
+<category>
+    <pattern> ^ <set>enemigos</set> ^ CAPRICORNIO ^</pattern>
+    <template>La cabra odia al pececillo en el ámbito amistoso. Piscis es un soñador nato que navega por las aguas de sus emociones, mientras que Capri es más ambicioso y práctico, lo que le hará pensar que Piscis tiene demasiados pajaritos en la cabeza.</template>
+</category>
+
+<category>  
+    <pattern> ^ <set>enemigos</set> ^ ACUARIO ^</pattern>
+    <template>Acuario odia a Leo ya que siempre quiere ser el niño en el bautizo, la novia en la boda y el muerto en el entierro, ¿por qué tanto afán de protagonismo y liderazgo? Acuario quiere amistades que no traten de destacar y competir con los demás todo el rato.</template>
+</category> 
+
+<category>
+    <pattern> ^ <set>enemigos</set> ^ PISCIS ^</pattern>
+    <template>El mayor enemigo de mi querido pececillo es sin duda, Aries. Este signo es muy agresivo y explosivo, lo que hará que el emocional Piscis no salga ileso, pues se encarará con este dictador que se ha colado en su vida.</template>
+</category>
+
+<!--PARA BOTONES-->
+
+<category>
+    <pattern>BOTON ENEMIGO ARIES</pattern>
+    <template>Sin duda, Escorpio. Por un lado, Escorpio es un signo muy rencoroso y vengativo, y a su vez, Aries es un signo directo que no tendrá problema en encararse con el escorpión. De este modo, se odiarán más que la Pantoja y sus hijos.</template>
+</category>
+
+<category>
+    <pattern>BOTON ENEMIGO TAURO</pattern>
+    <template> El toro se lleva fatal con Géminis ya que odia su doble cara. Tauro ama la estabilidad y tranquilidad, por lo que tener a un impredecible géminis a su lado hará que se sienta constantemente a prueba e inseguro.</template>
+</category>
+
+<category>
+    <pattern>BOTON ENEMIGO GEMINIS</pattern>
+    <template>Géminis es como una cacatúa… no se calla NUNCA y ama dar su opinión en todo.  De este modo, tener a un Capricornio sabelotodo que va dando lecciones morales sin opción a intervenciones ajenas, les hará estallar de rabia.</template>
+</category>
+ 
+<category>   
+    <pattern>BOTON ENEMIGO CANCER</pattern>
+    <template>Obviamente, Sagitario. La tremenda sensibilidad del cangrejo le hace odiar lo directo que es Sagitario. Además, la obsesión de Cáncer con la estabilidad y la vida familiar choca con la aventurera visión de la vida de Sagi, quien huye del compromiso a toda costa y busca una completa independencia.</template>
+</category>
+
+<category>
+    <pattern>BOTON ENEMIGO LEO</pattern>
+    <template>El mayor enemigo del león es Virgo. Ambos están obsesionados con el poder, anhelando llegar a lo más alto. Además, están obsesionados con la perfección y son muy exigentes. De este modo, crearán una relación de competencia mutua que les hará tirarse de los pelos.</template>
+</category> 
+
+<category>
+    <pattern>BOTON ENEMIGO VIRGO</pattern>
+    <template>Evidentemente, Cáncer. Virgo odia lo impredecible que puede llegar a ser el cangrejo, ¿por qué se irrita de repente? ¿por qué siempre tiene los sentimientos a flor de piel? Pf, demasiada intensidad.</template>
+</category> 
+
+<category>
+    <pattern>BOTON ENEMIGO LIBRA</pattern>
+    <template>No hay que ser Einstein para saber que es Acuario. Libra quiere que le regalen los oídos constantemente, por tanto, Acuario, quien dice lo que quieres oír, sino lo que deben, es tu mayor enemigo. Pero, al fin y al cabo, es culpa de Acuario por no valorarte y darte los halagos que te mereces.</template>
+</category> 
+
+<category>
+    <pattern>BOTON ENEMIGO SAGITARIO</pattern>
+    <template>Es evidente que Tauro. El aventurero Sagitario no puede soportar a un ser tan vago y aburrido. Tarde o temprano, acabará abandonando al toro y lo que más le quema a Sagi es que a Tauro le dará completamente igual. ¡No tienen sangre ninguna!</template>
+</category>   
+
+<category>
+    <pattern>BOTON ENEMIGO ESCORPIO</pattern>
+    <template>Por supuesto, Libra. Escorpio siempre se siente como Sherlock Holmes con ellos, oliendo un misterio detrás de esa “perfecta” sonrisa. Para el escorpión, es evidente que les espera una traición por parte de este signo, y como es mejor prevenir que curar, los evitan a toda costa.</template>
+</category> 
+
+<category>
+    <pattern>BOTON ENEMIGO CAPRICORNIO</pattern>
+    <template>La cabra odia al pececillo en el ámbito amistoso. Piscis es un soñador nato que navega por las aguas de sus emociones, mientras que Capri es más ambicioso y práctico, lo que le hará pensar que Piscis tiene demasiados pajaritos en la cabeza.</template>
+</category>
+
+<category>  
+    <pattern>BOTON ENEMIGO ACUARIO</pattern>
+    <template>Acuario odia a Leo ya que siempre quiere ser el niño en el bautizo, la novia en la boda y el muerto en el entierro, ¿por qué tanto afán de protagonismo y liderazgo? Acuario quiere amistades que no traten de destacar y competir con los demás todo el rato.</template>
+</category> 
+
+<category>
+    <pattern>BOTON ENEMIGO PISCIS</pattern>
+    <template>El mayor enemigo de mi querido pececillo es sin duda, Aries. Este signo es muy agresivo y explosivo, lo que hará que el emocional Piscis no salga ileso, pues se encarará con este dictador que se ha colado en su vida.</template>
+</category>
+</aiml>

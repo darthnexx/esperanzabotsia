@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>BOTON PRED FUTURO</pattern>
+        <template>
+            <random>
+                <li>Dame un minuto que me iluminen los astros...<delay>2</delay>Me comunican que tu futuro pinta un poquillo negro, pero no te preocupes, tienes unos años para reconducir tus chakras hacia las buenas energías. Cuídate, pequeña constelación. 😘</li>
+                <li>A ver, a ver...<delay>2</delay>¡Qué suerte! Los astros te auguran un futuro brillante, pero no te confíes... Ya sabes que la constancia es la clave del éxito. 😌</li>
+                <li>Ay, mi pequeña constelación, déjame meditarlo unos segundos...<delay>2</delay>Uf, tu futuro pinta castaño oscuro, más bien tirando a negro... Me encantaría decirte que puede mejorar, pero las cartas no me indican lo mismo. Mucha suerte😔</li>
+                <li>Criaturilla, criaturilla... Dame unos segundos para pensarlo...<delay>2</delay>¡Cuánto me alegra comunicarte QUE TE ESPERA UN FUTURO MARAVILLOSO!<delay>2</delay>Besitos y corazones💞💗💘💕</li>
+                <li>Dame unos segundos y ahora te contesto, bb😇<delay>2</delay> Mmmm... ¡Qué suerte has tenido, pequeña constelación! Te espera un futuro maravilloso, todos tus sueños se cumplirán si te esfuerzas en lograrlos.<delay>2</delay>¡Te deseo lo mejor!😜</li>
+            </random>
+            <delay>2</delay>
+            ¿Sobre qué otro signo quieres conocer las predicciones?
+            <button>
+            <text>Géminis</text>
+            <postback>BOTON PRED GEMINIS</postback>
+            </button>
+            <button>
+            <text>Aries</text>
+            <postback>BOTON PRED ARIES</postback>
+            </button>
+            <button>
+            <text>Leo</text>
+            <postback>BOTON PRED LEO</postback>
+            </button>
+            <button>
+            <text>Sagitario</text>
+            <postback>BOTON PRED SAGITARIO</postback>
+            </button>
+            <button>
+            <text>Piscis</text>
+            <postback>BOTON PRED PISCIS</postback>
+            </button>
+            <button>
+            <text>Cáncer</text>
+            <postback>BOTON PRED CANCER</postback>
+            </button>
+            <button>
+            <text>Tauro</text>
+            <postback>BOTON PRED TAURO</postback>
+            </button>
+            <button>
+            <text>Virgo</text>
+            <postback>BOTON PRED VIRGO</postback>
+            </button>
+            <button>
+            <text>Capricornio</text>
+            <postback>BOTON PRED CAPRICORNIO</postback>
+            </button>
+            <button>
+            <text>Libra</text>
+            <postback>BOTON PRED LIBRA</postback>
+            </button>
+            <button>
+            <text>Acuario</text>
+            <postback>BOTON PRED ACUARIO</postback>
+            </button>
+            <button>
+            <text>Escorpio</text>
+            <postback>BOTON PRED ESCORPIO</postback>
+            </button>
+            <button>
+            <text>Hablar de otra cosa</text>
+            <postback>No</postback>
+            </button>
+            <think><set name="topic">prediccion</set></think>
+        </template>
+    </category>
+</aiml>

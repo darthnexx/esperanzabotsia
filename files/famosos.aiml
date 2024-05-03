@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<category>
+   <pattern>BOTON FAM1</pattern>
+   <template>¡Buena elección! Ahora dime tu signo y te diré un famoso con el mismo :)
+   <think><set name="topic">famoso</set></think>
+   </template>
+</category>
+
+<category>
+    <pattern> ^ famoso ^ </pattern>
+    <template>
+    ¿Quieres hablar sobre famosos, criaturilla?
+    <think><set name="topic">famoso</set></think>
+    </template>
+</category> 
+
+    <category>
+        <pattern> ^ famoso ^ aries ^ </pattern>
+        <template>Pues
+        <random>
+        <li> Aaron Piper es uno de ellos. Nació el 29 de marzo de 1997 y es un famoso actor de padre alemán y madre española.</li>
+        <li> Celine Dion es uno de ellos. Nació el 30 de marzo de 1968 y es una famosa cantante canadiense.</li>
+        <li> Emma Watson es uno de ellos. Nació el 15 de abril de 1990 y es una famosa actriz nacida en París.</li>
+        <li> Lady Gaga es uno de ellos. Nació el 28 de marzo de 1986 y es una famosa cantante estadounidense.</li>
+        </random>
+        <delay>2</delay>
+        ¿De qué otro signo quieres saber famosos?
+        <button>
+        <text>Géminis</text>
+        <postback> ^ famoso ^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback> ^ famoso ^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback> ^ famoso ^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback> ^ famoso ^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback> ^ famoso ^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback> ^ famoso ^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback> ^ famoso ^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback> ^ famoso ^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback> ^ famoso ^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback> ^ famoso ^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback> ^ famoso ^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback> ^ famoso ^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">famoso</set></think>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ famoso ^ tauro ^ </pattern>
+        <template>Pues
+        <random>
+        <li> Adele es uno de ellos. Nació el 5 de mayo de 1988 y es una famosa cantante británica.</li>
+        <li> Penélope Cruz es uno de ellos. Nació el 28 de abril de 1974 y es una famosa actriz española.</li>
+        <li> J Balvin es uno de ellos. Nació el 7 de mayo de 1985 y es un famoso cantante colombiano.</li>
+        <li> Miguel Herrán es uno de ellos. Nació el 25 de abril de 1996 y es un famoso actor español.</li>
+        </random>
+         <delay>2</delay>
+        ¿De qué otro signo quieres saber famosos?
+        <button>
+        <text>Géminis</text>
+        <postback> ^ famoso ^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback> ^ famoso ^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback> ^ famoso ^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback> ^ famoso ^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback> ^ famoso ^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback> ^ famoso ^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback> ^ famoso ^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback> ^ famoso ^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback> ^ famoso ^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback> ^ famoso ^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback> ^ famoso ^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback> ^ famoso ^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">famoso</set></think>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ famoso ^ geminis ^ </pattern>
+        <template>Pues
+        <random>
+        <li> Angelina Jolie es uno de ellos. Nació el 4 de Junio de 1975 y es una famosa actriz estadounidense.</li>
+        <li> Mónica Naranjo es uno de ellos. Nació el 23 de mayo de 1974 y es una famosa cantante española.</li>
+        <li> Rafael Nadal es uno de ellos. Nació el 3 de junio de 1986 y es un famoso tenista español.</li>
+        <li> Mario Casas es uno de ellos. Nació el 12 de junio de 1986 y es una famoso actor español.</li>
+        </random>
+         <delay>2</delay>
+        ¿De qué otro signo quieres saber famosos?
+        <button>
+        <text>Géminis</text>
+        <postback> ^ famoso ^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback> ^ famoso ^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback> ^ famoso ^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback> ^ famoso ^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback> ^ famoso ^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback> ^ famoso ^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback> ^ famoso ^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback> ^ famoso ^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback> ^ famoso ^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback> ^ famoso ^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback> ^ famoso ^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback> ^ famoso ^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">famoso</set></think>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ famoso ^ cancer ^ </pattern>
+        <template>Pues
+        <random>
+        <li> Aitana es uno de ellos. Nació el 27 de junio de 1999 y es una famosa cantante española.</li>
+        <li> Miguel Ángel Muñoz es uno de ellos. Nació el 4 de julio de 1983 y es un famoso actor español.</li>
+        <li> Elsa Pataky es uno de ellos. Nació el 18 de julio de 1976 y es una famosa actriz española.</li>
+        <li> Chenoa es uno de ellos. Nació el 25 de junio de 1975 y es una famosa cantante española.</li>
+        </random>
+         <delay>2</delay>
+        ¿De qué otro signo quieres saber famosos?
+        <button>
+        <text>Géminis</text>
+        <postback> ^ famoso ^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback> ^ famoso ^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback> ^ famoso ^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback> ^ famoso ^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback> ^ famoso ^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback> ^ famoso ^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback> ^ famoso ^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback> ^ famoso ^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback> ^ famoso ^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback> ^ famoso ^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback> ^ famoso ^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback> ^ famoso ^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">famoso</set></think>
+        </template>
+    </category>
+    
+    <category>
+    <pattern> ^ famoso ^ leo ^ </pattern>
+        <template>Pues
+        <random>
+        <li> Jorge Javier Vázquez es uno de ellos. Nació el 25 de julio de 1970 y es un famoso presentador español.</li>
+        <li> Isabel Pantoja es uno de ellos. Nació el 2 de agosto de 1956 y es una famosa cantante española.</li>
+        <li> Antonio Banderas es uno de ellos. Nació el 10 de agosto de 1960 y es una famoso actor español.</li>
+        <li> Carlos Sobera es uno de ellos. Anció el 11 de agosto de 1960 y es un famoso presentador español.</li>
+        </random>
+         <delay>2</delay>
+        ¿De qué otro signo quieres saber famosos?
+        <button>
+        <text>Géminis</text>
+        <postback> ^ famoso ^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback> ^ famoso ^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback> ^ famoso ^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback> ^ famoso ^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback> ^ famoso ^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback> ^ famoso ^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback> ^ famoso ^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback> ^ famoso ^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback> ^ famoso ^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback> ^ famoso ^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback> ^ famoso ^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback> ^ famoso ^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">famoso</set></think>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ famoso ^ virgo ^ </pattern>
+        <template>Pues
+        <random>
+        <li> Amaia Montero es uno de ellos. Nació el 26 de agosto de 1976 y es una famosa cantante española.</li>
+        <li> Terelu Campos es uno de ellos. Nació el 31 de agosto de 1965 y es una famosa presentadora y personalidad mediática española.</li>
+        <li> Carmen Maura es uno de ellos. Nació el 15 de septiembre de 1945 y es una famosa actriz española.</li>
+        <li> Karlos Arquiñano es uno de ellos. Nació el 6 de septiembre de 1948 y es una famoso cocinero y presentador español.</li>
+        </random>
+         <delay>2</delay>
+        ¿De qué otro signo quieres saber famosos?
+        <button>
+        <text>Géminis</text>
+        <postback> ^ famoso ^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback> ^ famoso ^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback> ^ famoso ^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback> ^ famoso ^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback> ^ famoso ^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback> ^ famoso ^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback> ^ famoso ^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback> ^ famoso ^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback> ^ famoso ^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback> ^ famoso ^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback> ^ famoso ^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback> ^ famoso ^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">famoso</set></think>
+        </template>
+    </category>     
+    
+    <category>
+        <pattern> ^ famoso ^ libra ^ </pattern>
+        <template>Pues
+        <random>
+        <li> India Martínez es uno de ellos. Nació el 13 de octubre de 1985 y es una famosa cantante española.</li>
+        <li> Paco León es uno de ellos. Nació el 4 de octubre de 1974 y es un famoso actor español.</li>
+        <li> Rosalía es uno de ellos. Nació el 25 de septiembre de 1992 y es una famosa cantante española.</li>
+        <li> Carmen Sevilla es uno de ellos. Nació el 16 de octubre de 1930 y es una cantante y actriz española.</li>
+        </random>
+         <delay>2</delay>
+        ¿De qué otro signo quieres saber famosos?
+        <button>
+        <text>Géminis</text>
+        <postback> ^ famoso ^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback> ^ famoso ^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback> ^ famoso ^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback> ^ famoso ^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback> ^ famoso ^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback> ^ famoso ^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback> ^ famoso ^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback> ^ famoso ^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback> ^ famoso ^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback> ^ famoso ^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback> ^ famoso ^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback> ^ famoso ^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">famoso</set></think>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ famoso ^ escorpio ^ </pattern>
+        <template>Pues
+        <random>
+        <li> Dani Rovira es uno de ellos. Nació el 1 de noviembre de 1980 y es un famoso actor español.</li>
+        <li> Alba Flores es uno de ellos. Nació el 27 de octubre de 1986 y es una famosa actriz española.</li>
+        <li> Ana Milán es uno de ellos.Nació el 3 de noviembre de 1973 y es una famosa actriz española.</li>
+        <li> Rosario Flores es uno de ellos.Nació el 4 de noviembre de 1963 y es una famosa cantante española.</li>
+        </random>
+         <delay>2</delay>
+        ¿De qué otro signo quieres saber famosos?
+        <button>
+        <text>Géminis</text>
+        <postback> ^ famoso ^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback> ^ famoso ^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback> ^ famoso ^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback> ^ famoso ^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback> ^ famoso ^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback> ^ famoso ^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback> ^ famoso ^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback> ^ famoso ^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback> ^ famoso ^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback> ^ famoso ^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback> ^ famoso ^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback> ^ famoso ^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">famoso</set></think>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ famoso ^ sagitario ^ </pattern>
+        <template>Pues
+        <random>
+        <li> Risto Mejide es uno de ellos. Nació el 29 de noviembre de 1974 y es un famoso presentador y personalidad mediática español.</li>
+        <li> Antonio Orozco es uno de ellos. Nació el 23 de noviembre de 1972 y es un famoso cantante español.</li>
+        <li> Concha Velasco es uno de ellos. Nació el 29 de noviembre de 1939 y es una actriz, cantante y bailarina española.</li>
+        <li> Miguel Bernardeau es uno de ellos. Nació el 12 de diciembre de 1996 y es un famoso actor español.</li>
+        </random>
+         <delay>2</delay>
+        ¿De qué otro signo quieres saber famosos?
+        <button>
+        <text>Géminis</text>
+        <postback> ^ famoso ^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback> ^ famoso ^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback> ^ famoso ^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback> ^ famoso ^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback> ^ famoso ^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback> ^ famoso ^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback> ^ famoso ^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback> ^ famoso ^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback> ^ famoso ^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback> ^ famoso ^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback> ^ famoso ^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback> ^ famoso ^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">famoso</set></think>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ famoso ^ capricornio ^ </pattern>
+        <template>Pues
+        <random>
+        <li> Edurne es uno de ellos. Nació el 22 de diciembre de 1985 y es una famosa cantante española.</li>
+        <li> Melendi es uno de ellos. Nació el 21 de enero de 1979 y es un famoso cantante español.</li>
+        <li> Joan Manuel Serrat es uno de ellos. Nació el 27 de diciembre de 1943 y es un famoso cantautor español.</li>
+        <li> Ricky Martin es uno de ellos. Nació el 24 de diciembre de 1971 y es un famoso cantante puertorriqueño.</li>
+        </random>
+         <delay>2</delay>
+        ¿De qué otro signo quieres saber famosos?
+        <button>
+        <text>Géminis</text>
+        <postback> ^ famoso ^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback> ^ famoso ^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback> ^ famoso ^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback> ^ famoso ^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback> ^ famoso ^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback> ^ famoso ^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback> ^ famoso ^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback> ^ famoso ^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback> ^ famoso ^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback> ^ famoso ^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback> ^ famoso ^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback> ^ famoso ^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">famoso</set></think>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ famoso ^ acuario ^ </pattern>
+        <template>Pues
+        <random>
+        <li> Shakira es uno de ellos. Nació el 2 de febrero de 1977 y es una famosa cantante colombiana.</li>
+        <li> Karol G es uno de ellos. Nació el 14 de febrero de 1991 y es una famosa cantante colombiana.</li>
+        <li> Joaquín Sabina es uno de ellos. Nació el 12 de febrero de 1949 y es un famoso cantautor español.</li>
+        <li> Bárbara Rey es uno de ellos. Nació el 2 de febrero de 1950 y es una famosa actriz, vedette y personalidad mediática española.</li>
+        </random>
+         <delay>2</delay>
+        ¿De qué otro signo quieres saber famosos?
+        <button>
+        <text>Géminis</text>
+        <postback> ^ famoso ^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback> ^ famoso ^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback> ^ famoso ^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback> ^ famoso ^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback> ^ famoso ^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback> ^ famoso ^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback> ^ famoso ^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback> ^ famoso ^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback> ^ famoso ^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback> ^ famoso ^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback> ^ famoso ^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback> ^ famoso ^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">famoso</set></think>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ famoso ^ piscis ^ </pattern>
+        <template>Pues
+        <random>
+        <li> Ana Mena es uno de ellos. Nació el 25 de febrero de 1997 y es una famosa cantante española.</li>
+        <li> Javier Bardem es uno de ellos. Nació el 1 de marzo de 1969 y es un famoso actor español.</li>
+        <li> Fernando Tejero es uno de ellos. Nació el 24 de febrero de 1967 y es un famoso actor español.</li>
+        <li> Pilar Rubio es uno de ellos. Nació el 17 de marzo de 1978 y es una famosa presentadora, actriz y modelo española.</li>
+        </random>
+         <delay>2</delay>
+        ¿De qué otro signo quieres saber famosos?
+        <button>
+        <text>Géminis</text>
+        <postback> ^ famoso ^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback> ^ famoso ^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback> ^ famoso ^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback> ^ famoso ^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback> ^ famoso ^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback> ^ famoso ^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback> ^ famoso ^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback> ^ famoso ^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback> ^ famoso ^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback> ^ famoso ^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback> ^ famoso ^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback> ^ famoso ^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">famoso</set></think>
+        </template>
+    </category>
+
+<topic name="famoso">
+    <category>
+        <pattern> ^ aries ^ </pattern>
+        <template><srai> ^ famoso ^ aries ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ tauro ^ </pattern>
+        <template><srai> ^ famoso ^ tauro ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ geminis ^ </pattern>
+        <template><srai> ^ famoso ^ geminis ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ cancer ^ </pattern>
+        <template><srai> ^ famoso ^ cancer ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ leo ^ </pattern>
+       <template><srai> ^ famoso ^ leo ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ virgo ^ </pattern>
+        <template><srai> ^ famoso ^ virgo ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ libra ^ </pattern>
+        <template><srai> ^ famoso ^ libra ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ escorpio ^ </pattern>
+        <template><srai> ^ famoso ^ escorpio ^ </srai></template>
+    </category>
+    
+    <category>
+    <pattern> ^ sagitario ^ </pattern>
+        <template><srai> ^ famoso ^ sagitario ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ capricornio ^ </pattern>
+       <template><srai> ^ famoso ^ capricornio ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ acuario ^ </pattern>
+        <template><srai> ^ famoso ^ acuario ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ piscis ^ </pattern>
+       <template><srai> ^ famoso ^ piscis ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ famoso ^ mismo signo ^ </pattern>
+        <template> ¿Me podrías decir que signo eres, criaturita mía? </template>
+    </category>
+    
+    <category>
+        <pattern>*</pattern>
+        <template>No se si mis conocimientos astrales han podido comprenderte, ¿te gustaría seguir hablando de famosos?</template>
+    </category>
+    
+    <category>
+        <pattern>Si</pattern>
+        <template>Perfecto, ¿sobre qué signo zodiacal te gustaría conocer información acerca de algunos famosos?</template>
+    </category>
+    
+    <category>
+        <pattern>No</pattern>
+        <template>De acuerdo, ¿sobre qué te gustaría hablar ahora?</template>
+    </category>
+
+    <category>
+        <pattern> ^ <set>famcapricornio</set> ^ </pattern>
+        <template> <star index="2"/> es Capricornio. </template>
+    </category>
+
+
+<category>
+        <pattern> ^ <set>famacuario</set> ^ </pattern>
+        <template> <star index="2"/> es Acuario. </template>
+    </category>
+
+
+<category>
+        <pattern> ^ <set>fampiscis</set> ^ </pattern>
+        <template> <star index="2"/> es Piscis. </template>
+    </category>
+
+
+<category>
+        <pattern> ^ <set>famaries</set> ^ </pattern>
+        <template> <star index="2"/> es Aries. </template>
+    </category>
+
+
+<category>
+        <pattern> ^ <set>famtauro</set> ^ </pattern>
+        <template> <star index="2"/> es Tauro. </template>
+    </category>
+
+
+<category>
+        <pattern> ^ <set>famgeminis</set> ^ </pattern>
+        <template> <star index="2"/> es Géminis. </template>
+    </category>
+    
+<category>
+        <pattern> ^ <set>famcancer</set> ^ </pattern>
+        <template> <star index="2"/> es Cáncer. </template>
+    </category>
+
+<category>
+        <pattern> ^ <set>famleo</set> ^ </pattern>
+        <template> <star index="2"/> es Leo. </template>
+    </category>
+
+<category>
+        <pattern> ^ <set>famvirgo</set> ^ </pattern>
+        <template> <star index="2"/> es Virgo. </template>
+    </category>
+
+<category>
+        <pattern> ^ <set>famlibra</set> ^ </pattern>
+        <template> <star index="2"/> es Libra. </template>
+    </category>
+
+<category>
+        <pattern> ^ <set>famescorpio</set> ^ </pattern>
+        <template> <star index="2"/> es Escorpio. </template>
+    </category>
+
+<category>
+        <pattern> ^ <set>famsagitario</set> ^ </pattern>
+        <template> <star index="2"/> es Sagitario. </template>
+    </category>
+    
+</topic>
+
+</aiml>

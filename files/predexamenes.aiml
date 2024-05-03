@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern>BOTON PRED EXAMEN</pattern>
+    <template>
+        <random>
+            <li>te va a ir genial cari, ni lo dudes!!!</li>
+            <li>tienes que ponerte las pilas o vas a darles a tus padres un disgusto</li>
+            <li>eres mi orgullo, vas a dejar a los profe con la boca abierta</li>
+            <li>mal vamos...</li>
+            <li>MATRICULA DE HONOR!!!!!</li>
+            <li>pfff que tal te suena segunda convocatoria???</li>
+        </random>
+        <delay>2</delay>
+            ¿Sobre qué otro signo quieres conocer las predicciones?
+            <button>
+            <text>Géminis</text>
+            <postback>BOTON PRED GEMINIS</postback>
+            </button>
+            <button>
+            <text>Aries</text>
+            <postback>BOTON PRED ARIES</postback>
+            </button>
+            <button>
+            <text>Leo</text>
+            <postback>BOTON PRED LEO</postback>
+            </button>
+            <button>
+            <text>Sagitario</text>
+            <postback>BOTON PRED SAGITARIO</postback>
+            </button>
+            <button>
+            <text>Piscis</text>
+            <postback>BOTON PRED PISCIS</postback>
+            </button>
+            <button>
+            <text>Cáncer</text>
+            <postback>BOTON PRED CANCER</postback>
+            </button>
+            <button>
+            <text>Tauro</text>
+            <postback>BOTON PRED TAURO</postback>
+            </button>
+            <button>
+            <text>Virgo</text>
+            <postback>BOTON PRED VIRGO</postback>
+            </button>
+            <button>
+            <text>Capricornio</text>
+            <postback>BOTON PRED CAPRICORNIO</postback>
+            </button>
+            <button>
+            <text>Libra</text>
+            <postback>BOTON PRED LIBRA</postback>
+            </button>
+            <button>
+            <text>Acuario</text>
+            <postback>BOTON PRED ACUARIO</postback>
+            </button>
+            <button>
+            <text>Escorpio</text>
+            <postback>BOTON PRED ESCORPIO</postback>
+            </button>
+            <button>
+            <text>Hablar de otra cosa</text>
+            <postback>No</postback>
+            </button>
+            <think><set name="topic">prediccion</set></think>
+    </template>
+</category>
+
+</aiml>

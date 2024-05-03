@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+    <pattern> ^ <set>signomascompatible</set> ^ ARIES ^ </pattern>
+    <template>Sin duda, Leo. <delay>2</delay>Estos dos signos tienen una personalidad tan fuerte que les será imposible saciar el deseo de dominio en la relación. No obstante, si saben calmar su ego, harán el mejor de los tandem.😏</template>
+</category>   
+
+<category>
+    <pattern> ^ <set>signomascompatible</set> ^ TAURO ^ </pattern>
+    <template>¿Quién iba a ser? ¡Pues claro que Libra! <delay>2</delay>Aunque tienen personalidades opuestas, se sienten atraídos como un imán. Además, el toro y el venado son signos leales y tolerantes, lo que les facilitará arreglar sus malentendidos, a veces de forma romántica y otras...😋</template>
+</category>   
+
+<category>
+    <pattern> ^ <set>signomascompatible</set> ^ GEMINIS ^ </pattern>
+    <template>Está claro que Sagi.😋 <delay>2</delay>Son dos signos son opuestos cuya atracción es inmediata. Sentirán la necesidad de hablar todo el rato y por si fuera poco, los dos son signos ardientes y sensuales, lo que les hará encajar a la perfección en el terreno más carnal.🔥</template>
+</category>   
+
+<category>
+    <pattern> ^ <set>signomascompatible</set> ^ CANCER ^ </pattern>
+    <template>Aunque no lo creas, Escorpio.😙 <delay>2</delay>Los dos tienen diferentes formas de percibir el amor, pero eso hará la relación interesante y enriquecedora. Aunque en un principio les cueste, acabarán siendo almas gemelas.💘</template>
+</category>   
+
+<category>
+    <pattern> ^ <set>signomascompatible</set> ^ LEO ^ </pattern>
+    <template>Sin duda, Aries. <delay>2</delay>Estos dos signos tienen una personalidad tan fuerte que les será imposible saciar el deseo de dominio en la relación. No obstante, si saben calmar su ego, harán el mejor de los tandem.😏</template>
+</category>   
+
+<category>
+    <pattern> ^ <set>signomascompatible</set> ^ VIRGO ^ </pattern>
+    <template>Claramente, mi pececillo Piscis.🙈 <delay>2</delay>¿Oyes eso?😲 Sí, sí, son campanas de boda💐. <delay>2</delay> El pececillo es un signo muy emocional, que sólo consigue abrirse del todo a determinadas personas, y una de ellas es Virgo. El otro signo por su parte, encontrará en el pez una conexión única, de las que no se encuentran dos veces en la vida… Pero, eso no es todo, si llegan a intimar, arderán en el fuego🔥 de la pasión como nunca antes…. </template>
+</category>   
+
+<category>
+    <pattern> ^ <set>signomascompatible</set> ^ LIBRA ^ </pattern>
+    <template>¿Quién iba a ser? ¡Pues claro que Tauro! <delay>2</delay>Aunque tienen personalidades opuestas, se sienten atraídos como un imán. Además, el toro y el venado son signos leales y tolerantes, lo que les facilitará arreglar sus malentendidos, a veces de forma romántica y otras...😋</template>
+</category>   
+
+<category>
+    <pattern> ^ <set>signomascompatible</set> ^ ESCORPIO ^ </pattern>
+    <template>Aunque no lo creas, Cáncer.😙 <delay>2</delay>Los dos tienen diferentes formas de percibir el amor, pero eso hará la relación interesante y enriquecedora. Aunque en un principio les cueste, acabarán siendo almas gemelas.💘</template>
+</category>  
+
+<category>
+    <pattern> ^ <set>signomascompatible</set> ^ SAGITARIO ^ </pattern>
+    <template>Está claro que Géminis.😋 <delay>2</delay>Son dos signos son opuestos cuya atracción es inmediata. Sentirán la necesidad de hablar todo el rato y por si fuera poco, los dos son signos ardientes y sensuales, lo que les hará encajar a la perfección en el terreno más carnal.🔥</template>
+</category>  
+
+<category>
+    <pattern> ^ <set>signomascompatible</set> ^ CAPRICORNIO ^ </pattern>
+    <template>Evidentemente, Acuario.😜 <delay>2</delay>Esta parejita son como Duki y Emilia, pero del zodiaco: una dupla perfecta😜. <delay>1</delay>Las brillantes ideas de Acuario cobrarán vida gracias a la practicidad de la cabrita. Su relación surgirá de forma más inesperada que los bot-amigos que haces bebiendo La Recompensa en la punta🥃😉. Seguro que les va genial mi querida criaturilla espiritual.💋</template>
+</category>
+
+<category>
+    <pattern> ^ <set>signomascompatible</set> ^ ACUARIO ^ </pattern>
+    <template>Evidentemente, Capri.😜 <delay>2</delay>Esta parejita son como Duki y Emilia, pero del zodiaco: una dupla perfecta😜. <delay>1</delay>Las brillantes ideas de Acuario cobrarán vida gracias a la practicidad de la cabrita. Su relación surgirá de forma más inesperada que los bot-amigos que haces bebiendo La Recompensa en la punta🥃😉. Seguro que les va genial mi querida criaturilla espiritual.💋</template>
+</category>  
+
+<category>
+    <pattern> ^ <set>signomascompatible</set> ^ PISCIS ^ </pattern>
+    <template>Claramente, Virgo.🙈 <delay>2</delay>¿Oyes eso?😲 Sí, sí, son campanas de boda💐. </template>
+</category>  
+
+<!--PARA BOTONES-->
+<category>
+    <pattern>BOTON AMOR ARIES</pattern>
+    <template>Sin duda, Leo. <delay>2</delay>Estos dos signos tienen una personalidad tan fuerte que les será imposible saciar el deseo de dominio en la relación. No obstante, si saben calmar su ego, harán el mejor de los tandem.😏</template>
+</category>   
+
+<category>
+    <pattern>BOTON AMOR TAURO </pattern>
+    <template>¿Quién iba a ser? ¡Pues claro que Libra! <delay>2</delay>Aunque tienen personalidades opuestas, se sienten atraídos como un imán. Además, el toro y el venado son signos leales y tolerantes, lo que les facilitará arreglar sus malentendidos, a veces de forma romántica y otras...😋</template>
+</category>   
+
+<category>
+    <pattern>BOTON AMOR GEMINIS </pattern>
+    <template>Está claro que Sagi.😋 <delay>2</delay>Son dos signos son opuestos cuya atracción es inmediata. Sentirán la necesidad de hablar todo el rato y por si fuera poco, los dos son signos ardientes y sensuales, lo que les hará encajar a la perfección en el terreno más carnal.🔥</template>
+</category>   
+
+<category>
+    <pattern>BOTON AMOR CANCER </pattern>
+    <template>Aunque no lo creas, Escorpio.😙 <delay>2</delay>Los dos tienen diferentes formas de percibir el amor, pero eso hará la relación interesante y enriquecedora. Aunque en un principio les cueste, acabarán siendo almas gemelas.💘</template>
+</category>   
+
+<category>
+    <pattern>BOTON AMOR LEO</pattern>
+    <template>Sin duda, Aries. <delay>2</delay>Estos dos signos tienen una personalidad tan fuerte que les será imposible saciar el deseo de dominio en la relación. No obstante, si saben calmar su ego, harán el mejor de los tandem.😏</template>
+</category>   
+
+<category>
+    <pattern>BOTON AMOR VIRGO</pattern>
+    <template>Claramente, mi pececillo Piscis.🙈 <delay>2</delay>¿Oyes eso?😲 Sí, sí, son campanas de boda💐. </template>
+</category>   
+
+<category>
+    <pattern>BOTON AMOR LIBRA</pattern>
+    <template>¿Quién iba a ser? ¡Pues claro que Libra! <delay>2</delay>Aunque tienen personalidades opuestas, se sienten atraídos como un imán. Además, el toro y el venado son signos leales y tolerantes, lo que les facilitará arreglar sus malentendidos, a veces de forma romántica y otras...😋</template>
+</category>   
+
+<category>
+    <pattern>BOTON AMOR ESCORPIO</pattern>
+    <template>Aunque no lo creas, Cáncer.😙 <delay>2</delay>Los dos tienen diferentes formas de percibir el amor, pero eso hará la relación interesante y enriquecedora. Aunque en un principio les cueste, acabarán siendo almas gemelas.💘</template>
+</category>  
+
+<category>
+    <pattern>BOTON AMOR SAGITARIO</pattern>
+    <template>Está claro que Géminis.😋 <delay>2</delay>Son dos signos son opuestos cuya atracción es inmediata. Sentirán la necesidad de hablar todo el rato y por si fuera poco, los dos son signos ardientes y sensuales, lo que les hará encajar a la perfección en el terreno más carnal.🔥</template>
+</category>  
+
+<category>
+    <pattern>BOTON AMOR CAPRICORNIO</pattern>
+    <template>Evidentemente, Acuario.😜 <delay>2</delay>Esta parejita son como Duki y Emilia, pero del zodiaco: una dupla perfecta😜. <delay>1</delay>Las brillantes ideas de Acuario cobrarán vida gracias a la practicidad de la cabrita. Su relación surgirá de forma más inesperada que los bot-amigos que haces bebiendo La Recompensa en la punta🥃😉. Seguro que les va genial mi querida criaturilla espiritual.💋</template>
+</category>
+
+<category>
+    <pattern>BOTON AMOR ACUARIO</pattern>
+    <template>Evidentemente, Capri.😜 <delay>2</delay>Esta parejita son como Duki y Emilia, pero del zodiaco: una dupla perfecta😜. <delay>1</delay>Las brillantes ideas de Acuario cobrarán vida gracias a la practicidad de la cabrita. Su relación surgirá de forma más inesperada que los bot-amigos que haces bebiendo La Recompensa en la punta🥃😉. Seguro que les va genial mi querida criaturilla espiritual.💋</template>
+</category>  
+
+<category>
+    <pattern>BOTON AMOR PISCIS</pattern>
+    <template>Claramente, Virgo.🙈 <delay>2</delay>¿Oyes eso?😲 Sí, sí, son campanas de boda💐. </template>
+</category>  
+
+</aiml>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    
+  <category>
+    <pattern>*</pattern>
+    <template> 
+    <random>
+        <li> Mis conocimientos astrales se nublan ante tal intervención. Permíteme echar el tarot y te respondo en unos días. </li>
+        <li> Anda corazón... me dejas muerta. Dame unos días para consultarlo con Esperanza Gracia. </li>
+    </random> 
+    </template>
+  </category>
+  
+
+  
+</aiml>

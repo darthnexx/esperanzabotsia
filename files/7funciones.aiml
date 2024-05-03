@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+<category>
+   <pattern>BOTON FUN</pattern>
+   <template>Perfecto ¡Dime tu signo y te dire que función eres!
+   <think><set name="topic">funcion</set></think>
+   </template>
+</category>
+
+<category>
+    <pattern> ^ funcion ^ </pattern>
+    <template>
+    <delay>2</delay>¡Genial! Dime tu signo entonces, criaturilla.
+    <think><set name="topic">funcion</set></think>
+    </template>
+</category> 
+    
+    <category>
+        <pattern> ^ FUNCION ^ ARIES ^ </pattern>
+        <template>Hmmm déjame pensar...<delay>2</delay>¡Lo tengo!<delay>2</delay>Creo que podrías ser la función print(), la cual es una función integrada en Python que se utiliza para imprimir información en la consola.<delay>2</delay>Aries es conocido por su naturaleza enérgica y directa, por lo que print() es la función perfecta para ti, ya que nos muestra la información de manera clara y directa.
+        <think><set name="topic">funcion</set></think>
+        <delay>2</delay>
+        ¿De qué otro signo te gustaría conocer la función de Python?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">funcion</set></think>
+        </template>
+    </category> 
+    
+    <category>
+        <pattern> ^ FUNCION ^ TAURO ^ </pattern>
+        <template>¡Silencio! Voy a pensar...<delay>2</delay>¡Ya lo sé!<delay>2</delay>Serías la función round(), la cual es una función que se utiliza para redondear números.<delay>2</delay>Tauro es un signo asociado a la estabilidad y la solidez, es por eso que la función round() representa perfectamente esa idea de estabilidad, pues su cometido principal es redondear números a valores más simples y estables.
+        <think><set name="topic">funcion</set></think>
+        <delay>2</delay>
+        ¿De qué otro signo te gustaría conocer la función de Python?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">funcion</set></think>
+        </template>
+    </category>
+    <category>
+        <pattern> ^ FUNCION ^ GEMINIS ^ </pattern>
+        <template>Un momento...<delay>2</delay>¡Claro, ya sé!<delay>2</delay>Creo que podrías ser la función len(), que es una función que se utiliza para obtener la longitud (cantidad de elementos) de un objeto, como una lista o una cadena de texto.<delay>2</delay>Géminis se relaciona con una naturaleza dual y curiosa, es por ello que la función len() te viene como anillo al dedo, pues te permite explorar la longitud o cantidad de elementos dentro de un tipo de dato.
+        <think><set name="topic">funcion</set></think>
+        <delay>2</delay>
+        ¿De qué otro signo te gustaría conocer la función de Python?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">funcion</set></think>
+        </template>
+    </category>
+    <category>
+        <pattern> ^ FUNCION ^ CANCER ^ </pattern>
+        <template>Espera un momento, no te muevas de donde estés...<delay>2</delay>¡Ya lo tengo!<delay>2</delay>Podrías ser la función float(), que convierte una cadena de texto o un número en un número de punto flotante.<delay>2</delay>Cáncer es conocido por su sensibilidad y profundidad emocional, lo que se relaciona con la función float() ya que refleja la capacidad de Cáncer para sumergirse en las aguas emocionales y flotar en ellas.
+        <think><set name="topic">funcion</set></think>
+        <delay>2</delay>
+        ¿De qué otro signo te gustaría conocer la función de Python?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">funcion</set></think>
+        </template>
+    </category>
+    <category>
+        <pattern> ^ FUNCION ^ LEO ^ </pattern>
+        <template>Un momento, criatura...<delay>2</delay>¡Claro, ya lo tengo!<delay>2</delay>Creo que podrías ser la función abs(), que devuelve el valor absoluto de un número, es decir, su distancia a cero en la recta numérica.<delay>2</delay>Leo es conocido por su carisma y confianza en sí mismo, lo que se refleja en la función abs() ya que representa la seguridad y la fuerza de Leo al enfrentar desafíos.
+        <think><set name="topic">funcion</set></think>
+        <delay>2</delay>
+        ¿De qué otro signo te gustaría conocer la función de Python?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">funcion</set></think>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ FUNCION ^ VIRGO ^ </pattern>
+        <template>Deja que alinee mis chakras...<delay>2</delay>¡Lo tengo!<delay>2</delay>Creo que podrías ser la función chr(), que devuelve el carácter representado por el número entero Unicode especificado.<delay>2</delay>Virgo es conocido por su atención a los detalles y su capacidad de análisis, lo que se refleja en la función chr() ya que representa la idea de traducir números en caracteres detallados y significativos.
+        <think><set name="topic">funcion</set></think>
+        <delay>2</delay>
+        ¿De qué otro signo te gustaría conocer la función de Python?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">funcion</set></think>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ FUNCION ^ LIBRA ^ </pattern>
+        <template>Voy a meditar un momento, ahora vuelvo...<delay>2</delay>¡Claro, ya lo tengo!<delay>2</delay>Podrías ser la función int(), que convierte una cadena de texto o un número en un número entero.<delay>2</delay>Libra se relaciona con el equilibrio y la armonía, lo que se refleja en la función int() ya que representa la idea de buscar un valor entero y sólido en medio de la diversidad y la variedad.
+        <think><set name="topic">funcion</set></think>
+        <delay>2</delay>
+        ¿De qué otro signo te gustaría conocer la función de Python?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">funcion</set></think>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> ^ FUNCION ^ ESCORPIO ^ </pattern>
+        <template>Voy a contactar con los dioses astrales, dame un par de segundos...<delay>2</delay>¡Ya lo sé!<delay>2</delay>Serías la función pow(), que devuelve el valor de un número elevado a una potencia específica.<delay>2</delay>Escorpio se relaciona con la intensidad y la transformación, lo que se refleja en la función pow() ya que representa la idea de elevarse por encima de los desafíos y transformar la energía en poder.
+        <think><set name="topic">funcion</set></think>
+        <delay>2</delay>
+        ¿De qué otro signo te gustaría conocer la función de Python?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">funcion</set></think>
+        </template>
+    </category>
+    <category>
+        <pattern> ^ FUNCION ^ SAGITARIO ^ </pattern>
+        <template>Mis contactos del plano astral me susurran...<delay>2</delay>¡Lo tengo!<delay>2</delay>Creo que podrías ser la función max(), que devuelve el valor máximo entre dos o más números.<delay>2</delay>Sagitario es conocido por su espíritu aventurero y su búsqueda de la grandeza, lo que se refleja en la función max() ya que representa la idea de alcanzar lo más alto y superar los límites.
+        <think><set name="topic">funcion</set></think>
+        <delay>2</delay>
+        ¿De qué otro signo te gustaría conocer la función de Python?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">funcion</set></think>
+        </template>
+    </category>
+    <category>
+        <pattern> ^ FUNCION ^ CAPRICORNIO ^ </pattern>
+        <template>Deja que lo consulte con mi bola de cristal astral...<delay>2</delay>¡Ya lo sé!<delay>2</delay>Serías la función round(), que redondea un número al entero más cercano.<delay>2</delay>Capricornio se relaciona con la disciplina y el enfoque en los objetivos, lo que se refleja en la función round() ya que representa la idea de enfocarse en lo esencial y redondear las esquinas para lograr la perfección.
+        <think><set name="topic">funcion</set></think>
+        <delay>2</delay>
+        ¿De qué otro signo te gustaría conocer la función de Python?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">funcion</set></think>
+        </template>
+    </category>
+    <category>
+        <pattern> ^ FUNCION ^ ACUARIO ^ </pattern>
+        <template>A ver que me dicen los astros...<delay>2</delay>¡Lo tengo!<delay>2</delay>Creo que podrías ser la función sum(), que devuelve la suma de todos los elementos en una lista o iterable.<delay>2</delay>Acuario se relaciona con la innovación y el pensamiento progresivo, lo que se refleja en la función sum() ya que representa la idea de agregar y combinar elementos para crear algo nuevo y significativo.
+        <think><set name="topic">funcion</set></think>
+        <delay>2</delay>
+        ¿De qué otro signo te gustaría conocer la función de Python?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">funcion</set></think>
+        </template>
+    </category>
+    <category>
+        <pattern> ^ FUNCION ^ PISCIS ^ </pattern>
+        <template>Noto vibraciones astrales en mis adentros...<delay>2</delay>¡Ya lo sé!<delay>2</delay>Serías la función len(), que devuelve la longitud (cantidad de elementos) de un objeto, como una lista o una cadena de texto.<delay>2</delay>Piscis se relaciona con la compasión y la conexión emocional, lo que se refleja en la función len() ya que representa la idea de medir y comprender la profundidad de las relaciones y emociones.
+        <think><set name="topic">funcion</set></think>
+        <delay>2</delay>
+        ¿De qué otro signo te gustaría conocer la función de Python?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">funcion</set></think>
+        </template>
+    </category>  
+    
+<topic name="funcion">
+    <category>
+        <pattern> ^ ARIES ^ </pattern>
+        <template><srai> ^ FUNCION ^ ARIES ^ </srai></template>
+    </category>  
+    
+    <category>
+        <pattern> ^ TAURO ^ </pattern>
+        <template><srai> ^ FUNCION ^ TAURO ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ GEMINIS ^ </pattern>
+        <template><srai> ^ FUNCION ^ GEMINIS ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ CANCER ^ </pattern>
+        <template><srai> ^ FUNCION ^ CANCER ^ </srai></template>
+    </category>
+
+    <category>
+        <pattern> ^ LEO ^ </pattern>
+        <template><srai> ^ FUNCION ^ LEO ^ </srai></template>
+    </category> 
+    
+    <category>
+        <pattern> ^ VIRGO ^ </pattern>
+        <template><srai> ^ FUNCION ^ VIRGO ^ </srai></template>
+    </category> 
+    
+    <category>
+        <pattern> ^ LIBRA ^ </pattern>
+        <template><srai> ^ FUNCION ^ LIBRA ^ </srai></template>    
+    </category> 
+    
+    <category>
+        <pattern> ^ ESCORPIO ^ </pattern>
+        <template><srai> ^ FUNCION ^ ESCORPIO ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ SAGITARIO ^ </pattern>
+        <template><srai> ^ FUNCION ^ SAGITARIO ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ CAPRICORNIO ^ </pattern>
+        <template><srai> ^ FUNCION ^ CAPRICORNIO ^ </srai></template>
+    </category>
+
+    <category>
+        <pattern> ^ ACUARIO ^ </pattern>
+        <template><srai> ^ FUNCION ^ ACUARIO ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ PISCIS ^ </pattern>
+        <template><srai> ^ FUNCION ^ PISCIS ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern>*</pattern>
+        <template>No se si mis conocimientos astrales han podido comprenderte, ¿te gustaría seguir hablando de funciones de Python?</template>
+    </category>
+        
+    <category>
+        <pattern>Si</pattern>
+        <template>Perfecto, ¿de qué signo te gustaría saber la función de Python ?</template>
+    </category>
+        
+    <category>
+        <pattern>No</pattern>
+        <template>De acuerdo, ¿sobre qué te gustaría hablar ahora?</template>
+    </category>
+</topic>
+</aiml>   
+
+
+    

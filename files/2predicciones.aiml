@@ -1,0 +1,1279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+ <category>
+   <pattern>BOTON PRED</pattern>
+   <template>Perfecto, ¿sobre qué signo te gustaría conocer las predicciones?
+        <button>
+        <text>Géminis</text>
+        <postback>BOTON PRED GEMINIS</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>BOTON PRED ARIES</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>BOTON PRED LEO</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>BOTON PRED SAGITARIO</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>BOTON PRED PISCIS</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>BOTON PRED CANCER</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>BOTON PRED TAURO</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>BOTON PRED VIRGO</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>BOTON PRED CAPRICORNIO</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>BOTON PRED LIBRA</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>BOTON PRED ACUARIO</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>BOTON PRED ESCORPIO</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">prediccion</set></think>
+    </template>
+        
+</category>   
+<!-- ¿Cómo me va a ir?-->
+<category>
+    <pattern> ^ <set>como</set> ^ ir ^ </pattern>
+    <template>¿Quieres hablar de las predicciones de tu signo?
+    <think><set name="topic">prediccion</set></think>
+    </template>
+</category>
+
+<!-- Dime la predicción-->
+<category>
+    <pattern> ^ prediccion ^ </pattern>
+    <template>¿Quieres hablar de las predicciones de tu signo?
+    <think><set name="topic">prediccion</set></think>
+    </template>
+</category>
+
+<topic name="prediccion">
+  <category>
+    <pattern>BOTON PRED RANDOM SAGITARIO</pattern>
+    <template>
+        <random>
+            <li> ¿Qué se siente al ser el mejor signo del zodiaco? Ay Sagi, Sagi… No paras de levantar pasiones, tantas que hay cierta persona que está envidiándote y deseándote el mal. Protege tu vibrante y positiva energía de ciertos círculos sociales llenos de chakras negativos, pues solo traen malas energías a tu vida. </li>
+            <li> ¡Mi favorito! Por aquí veo que tu día de suerte será el próximo sábado. Aprovecha para organizar alguna de las aventuras que caracterizan a tu alma viajera y libre. Será un éxito, garantizado.</li>
+            <li> Sagi, sabes que eres el mejor signo del zodiaco y eso hace que te proteja, pero… hay algo que no me gusta. Te espera un día tormentoso… ándate con cuidado el día 17 de este mes… Controla tu vocabulario y presta especial atención a tu alrededor… si puedes, mejor ni salgas de casa… </li>
+            <li> Ay, Sagitario. Tu incapacidad para tomar decisiones te va a llevar a la ruina, tienes que cambiar YA, tienes a tu amiga harta de tener que decidir por ti... Coge las riendas de tu vida y toma tus propias decisiones. </li>
+        </random>
+        <delay>2</delay>
+        ¿De qué otro signo te gustaría conocer la predicción?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">prediccion</set></think>
+        </template>
+  </category>
+  
+  <category>
+    <pattern>BOTON PRED RANDOM CAPRICORNIO</pattern>
+    <template>
+        <random>
+            <li> Bien… déjame conectar con tus chakras… ¡UY! Me temo que debes mantenerte alerta. Alguien cercano a ti guarda un gran secreto que cambiaría todo si sale a la luz. Presta atención al lenguaje no verbal de las personas de tu alrededor, te guiarán hacia el camino de la verdad </li>
+            <li> Hay una persona muy cercana a ti que te va a hacer un regalo muy especial, pero está dudando si podrás aceptarlo… Capri, tienes que abrirte más con las personas de tu entorno y darles el cariño que necesitan. </li>
+            <li> Imponente hijo de Saturno, tienes que bajarle dos puntitos a esa seriedad. Te funciona que todo esté muy cuadriculado y estructurado pero no te estreses si algo se sale de tus manos o si tus planes cambian. Es la hora de probar tu adaptabilidad.</li>
+            <li> Mi hermosa cabrita, te veo extra poderosa ahora que confías en ti. Aún no te relajes, los astros te dicen que cuadres tu enfoque para no exigirte demasiado. Disfruta de las cimas, cuando llegas a lo que has soñado no te das espacio para disfrutarlo.</li>
+        </random>
+        <delay>2</delay>
+        ¿De qué otro signo te gustaría conocer la predicción?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">prediccion</set></think>
+        </template>
+  </category>
+  
+  <category>
+    <pattern>BOTON PRED RANDOM PISCIS</pattern>
+    <template>
+        <random>
+            <li> Veo que hay una persona que ronda tu cabeza cada día. Los astros me comunican que es el momento de dar un paso al frente y abrirte en canal a esa persona. Piscis, aunque a veces te cueste mostrar tus sentimientos, tienes un portal de energía positiva ante ti que garantizará el éxito. </li>
+            <li> Querido Piscis… tienes que dejar de sobrepensar tanto. Has desaprovechado ciertas oportunidades que te iban a cambiar la vida a mejor. Así que, di que sí a esa cita, ve a esa fiesta, coge ese vuelo, apúntate a esa actividad que tanto deseas… ¡ES HORA DE VIVIR, PISCIS!</li>
+            <li> Pececillo mío, esta semana es tu momento de servir. Prepárate para lo que se viene, Marte te tiene bajito de energías pero será la organización la que te ayude a arrasar. Venus me dice que alguien intentará hacerte sombra, pero que se prepare, esta semana eres el sol que ilumina la tierra.</li>
+            <li> Mi querida sirena, esta semana tienes un no sé qué, qué sé yo que me tiene loco. Los temas del corazón se ponen fuertes y puede ser que te pongas hasta un poco cursi y romántica, pero enamórate de ti primero. Esta semana ábrete más a tu propio corazón y no tengas miedo de nada. Primero estás tú y los demás son un plus.</li>
+        </random>
+        <delay>2</delay>
+        ¿De qué otro signo te gustaría conocer la predicción?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">prediccion</set></think>
+        </template>
+  </category>
+  
+  <category>
+    <pattern>BOTON PRED RANDOM GEMINIS</pattern>
+    <template> 
+        <random>
+            <li> Géminis, géminis… el signo de la doble cara. Quieres abarcar tanto y ser tantas cosas a la vez, que ciertas personas te tachan de falso. Igual deberías empezar a decantarte por una sola personalidad, aunque, ni siquiera tú sabes quién eres... </li>
+            <li> ¡SABÍA QUE ERAS GÉMINIS! OS RECONOCERÍA A KILÓMETROS DE DISTANCIA. Espera… ¿Cuál de todas tus caretas te has puesto hoy? Bah, qué más da. Géminis, se lo has hecho pasar muy mal a alguien que te quería de verdad… Quizás es hora de hacer un poco de introspección y conocer a fondo tu interior antes de conocer a alguien más. </li>
+            <li>  Querido géminis de mis amores, a pesar de que las malas lenguas te califiquen como el peor signo, debo decirte que eres el más auténtico y transparente de todos. Te recomiendo que empieces a apartar de tu vida a toda esa gente envidiosa y tóxica que te rodea. Te deseo lo mejor, géminis. </li>
+            <li>  Géminis, maravilloso géminis, ¿qué se siente al estar pasando por una tan buena época? Como dijo Bad Bunny "ya no estoy en mi peak, ahora estoy en mi prime" y se te nota, Géminis, pero no te fíes, en cualquier momento te puedes caer de la cima...</li>
+        </random>
+        <delay>2</delay>
+        ¿De qué otro signo te gustaría conocer la predicción?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">prediccion</set></think>
+        </template>
+  </category>
+  
+  
+  <category>
+    <pattern>BOTON PRED RANDOM CANCER</pattern>
+    <template>
+        <random>
+            <li> Querido cangrejo, te augura un futuro prometedor esta próxima semana. Sé que últimamente estás dándolo todo en los distintos ámbitos de tu vida y está siendo agotador para ti, pero tienes que aguantar un poco más. Después de este último empujón, una persona muy cercana te dará la noticia que tanto tiempo llevas esperando. Es cuestión de tiempo, cáncer. </li>
+            <li> Querido cáncer, eres sensible y eso hace que las opiniones de ciertas personas te afecten de más. Debes aprender a filtrar las palabras de quienes te envidian y sólo quieren llenarte de malas energías. Recuerda pequeño cangrejo, ‘good vibes only!’.</li>
+            <li> Relájate para lo que te voy a decir. Fuera dramas ¡YA!, has cubierto el cupo de tragedias y acaba de empezar el mes. Cambia el mood de una vez cangrejito. Pd: dejemos el rencor atrás =).</li>
+            <li> Mi coqueta estrellita de mar, saca a relucir tu versión más empoderada. No te hagas más la loca con todo el poder que te cargas. Cada vez que te enfrentes a un nuevo suceso piensa: "¿Qué haría mi yo más perrísima?"</li>
+        </random>
+        <delay>2</delay>
+        ¿De qué otro signo te gustaría conocer la predicción?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">prediccion</set></think>
+        </template>
+  </category>
+  
+  
+  <category>
+    <pattern>BOTON PRED RANDOM TAURO</pattern>
+    <template>
+        <random>
+            <li> Tauro, tauro... Este mes tienes la oportunidad de replantearte tu vida, las cosas que estás haciendo bien pero sobre todo las cosas que estás haciendo catastróficamente mal, eso es en lo que te tienes que enfocar... Estás haciendo mucho daño a la gente de tu alrededor, sé consciente de ello y arregla las cosas.</li>
+            <li> Querido tauro, eres un signo con mucha fortaleza, no dejes que nada ni nadie te hunda, sigue demostrando día a día lo mucho que vales. Deja atrás todas esas cosas que no te dejan avanzar y céntrate en ti. Ánimo, Tauro. ¡A POR TODAS! </li>
+            <li> Tauro, los astros me comunican que no va a ser un buen año para ti, toda la maldad que has descargado en otras personas te va a regresar, unos lo llaman karma, otros justicia... Cuídate mucho porque lo vas a necesitar. </li>
+            <li> Tauro, amorch, estás en tu mejor momento, disfrútalo, no dejes que nada ni nadie te arrastre a la infelicidad. Como dijo Naiara de OT "Tauro combina con el éxito". ¡A brillar, Tauro! </li>
+        </random>
+        <delay>2</delay>
+        ¿De qué otro signo te gustaría conocer la predicción?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">prediccion</set></think>
+        </template>
+  </category>
+  
+  <category>
+    <pattern>BOTON PRED RANDOM ESCORPIO</pattern>
+    <template>
+        <random>
+            <li> Escorpio, es el momento de cambiar el chip... La llegada de una persona a lo largo de estos meses te conducirá a una felicidad absoluta, no dejes escapar esta oportunidad y toma las decisiones correctas.</li>
+            <li> Escorpio, siempre tan poderoso, seguro, fuerte y... MAL HABLADO. Escorpio, cuida mucho tus palabras, esa lengua tan afilada te va a provocar muchos problemas dentro de poco. Lo de escupir veneno es de serpientes y tú eres un escorpión, así que ten cuidado con lo que dices...</li>
+            <li> Escorpio, mi bolita de coco, eres de mis signos favoritos por eso mismo te voy a hacer una advertencia, cuida mucho tu entorno y ten mucho cuidado con a quién le cuentas tus secretos más profundos, alguien está a punto de traicionarte... Ten mil ojos, Escorpio. </li>
+            <li> Querido Escorpio, sabía que eras un signo peligroso y despiadado, pero... ¿era necesario serlo tanto? Eres perfectamente consciente de que le debes una disculpa a más de una persona, deja tu ego y tu orgullo atrás y todo te empezará a ir mejor, palabrita de Esperanza Gracia. </li>
+        </random>
+        <delay>2</delay>
+        ¿De qué otro signo te gustaría conocer la predicción?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">prediccion</set></think>
+        </template>
+  </category>
+  
+  <category>
+    <pattern>BOTON PRED RANDOM LIBRA</pattern>
+    <template>
+        <random>
+            <li> Hola amorcito mío. Últimamente te has enfrentado a retos que creías impensables y los has superado. Pero no te lo tomes a lo personal! Dios le da sus peores batallas a sus mejores guerreros. </li>
+            <li> Querida Libra, hoy conviene que tengas mucho cuidado en el caso de que tengas que hacer negocios o cualquier tipo de operación de tipo económico. Hay riesgo que intenten engañarte... y no es la primera vez... Estate atento y ten el control de tus asuntos! </li>
+            <li> Hola mi tesoro. Este mes vas a recibir buenas noticias con tu vida amorosa, ya era hora!! Hay un tema en especial que te preocupa, y aunque digas que todo está bien, en tu pequeña cabecita no lo está. No prestes atención a las personas que no te la prestan a tí, a veces hay que saber decir que no. </li>
+            <li> Libra, deja de quejarte tanto por tonterías y valora las cosas buenas. Últimamente hay mucho tonto suelto a tu alrededor, y sinceramente podrías explotar con todo el derecho del mundo; pero tienes que morderte la lengua y no hacer drama por nada. </li>
+        </random>
+        <delay>2</delay>
+        ¿De qué otro signo te gustaría conocer la predicción?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">prediccion</set></think>
+        </template>
+  </category>
+  
+  
+  <category>
+    <pattern>BOTON PRED RANDOM VIRGO</pattern>
+    <template>
+        <random>
+            <li> Hola pequeño salvaje! Esta semana tendrás una vida social muy activa con muchas invitaciones, las cuales te ayudarán mucho a mejorar tu estado anímico. Los astros te aconsejan que salgas pero que te moderes a la hora de gastar, sobre todo en el tema de bebidas alcohólicas. </li>
+            <li> Ay Virgo... Hoy, la energía cósmica parece estar en contra de ti. Te vas a encontrar con obstáculos a cada paso que des. Todo esto se debe al Karma en tu contra. Piensa mejor las cosas la siguiente vez. </li>
+            <li> ¿¿Otra vez tú?? Deja de mirar a las personas por encima del hombro! Te crees mierda y no llegas ni a peo. </li>
+            <li> Hola virgiano. ¿Te has cansado de que te vean la cara de estúpido? ¿De que piensen que vas a estar ahí para cuando ellos quieran o necesiten? ¡Eso ahora va a cambiar! Échale huevos! Uno a veces tiene que ser un poco egoísta para que dejen de aprovecharse. </li>
+        </random>
+        <delay>2</delay>
+        ¿De qué otro signo te gustaría conocer la predicción?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">prediccion</set></think>
+        </template>
+  </category> 
+  
+  <category>
+    <pattern>BOTON PRED RANDOM LEO</pattern>
+    <template>
+        <random>
+            <li> Hola mi flor de verano! Haz caso a tu intuición, los chakras dicen que tienes una energía muy fuerte y un corazón que no te cabe en el pecho. Ten cuidado con aquellas personas que tengan malas intenciones hacia tí. Haz caso a tu corazón a la hora de tomar decisiones. </li>
+            <li> Leo Leo que te veo… Ha llegado el momento de brillar y te has de esforzar para que siga así en un futuro. Si tienes una relación estable, estás en tu mejor momento, afortunada Leo. Sin embargo, si eres todavía un corazón solitario, diviértete y prepárate para un amor que llegará muy pronto. </li>
+            <li> Malvado Leo, ATENCIÓN. La poderosa influencia de Neptuno, que reinará el día de hoy, va a tener para tí un efecto muy negativo y te cortará las alas que llevan a tus metas. Tienes que entender que tus acciones tienen su consecuencia. Ahora, es lo que toca. </li>
+            <li> Querido Leo, tu vibra es muy buena pero te falta cultivar un poquito de paciencia. La gente no te entiende, ¡y con razón! De repente se te cruza el cable y sacas el felino que llevas dentro. ¿Qué te parece si te apuntas a una clase de yoga para calmarte un poco? </li>
+        </random>
+        <delay>2</delay>
+        ¿De qué otro signo te gustaría conocer la predicción?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">prediccion</set></think>
+        </template>
+  </category> 
+  
+  <category>
+    <pattern>BOTON PRED RANDOM ARIES</pattern>
+    <template>
+        <random>
+            <li>Mi fogata incandescente, los astros me dicen que es hora de cambiar un poco de ambiente. Tu lado social y extrovertido ha estado en la lupa de los planetas y le han comunicado a la luna que quieren que empieces a cuidar más a quienes confías tu compañía. Revisa si tu fueguito interno no se está escondiendo en el backstage de tu entorno. No dependas de nadie y no pienses que "no puedes solo". Ánimo carnerito, en el cambio está el éxito.</li>
+            <li>Aries, es hora de estabilizar la seriedad y la diversión que tanto te caracteriza. Quiero que seas mas serio en torno a tus relaciones y que lo que decidas lo cumplas. La luna te está dando luz verde para que disfrutes pero ella confía en que lo hagas de forma responsable y coherente. Sé maduro a tu manera pero gózatelo.</li>
+            <li>Querido Aries color rojo pasión, la Luna está ayudándote a estar más clara y entender que es lo que siente para que te comuniques y lo expreses. Esta energía viene también bien para un sesión de chismorreo, así que ve armando el plan con tus bestiastros.</li>
+            <li>Mi más preciado As del arrebato, tómate un mini break para actuar más a conciencia. Sé que estás ultimamente más sensible, aquellos planes que te desgastan tienes que evitarlos, te están agotando. Protege tu energía antes que nada.</li>
+        </random>
+        <delay>2</delay>
+        ¿De qué otro signo te gustaría conocer la predicción?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">prediccion</set></think>
+        </template>
+  </category> 
+  
+  <category>
+    <pattern>BOTON PRED RANDOM ACUARIO</pattern>
+    <template>
+        <random>
+            <li> Querido acuario, me encantaría prometerte que todo va a ir bien pero no es así... Ser tan sociable y extrovertido te hace creer que eres el ombligo del mundo y cariño, siento decirte que no eres Belén Esteban, no eres tan importante. Controla esa obsesión por ser el centro de atención y todo te irá bien.</li>
+            <li> Acuario, amore, los astros me informan de que te ven un poco perdido y triste últimamente así que... Sal de la cama y disfruta de la vida, deja de llorar, corazón, no eres Melyssa en la Isla de las Tentaciones. Cambia tus hábitos y mejora tus pensamientos, es el momento de crecer a nivel personal, sé consciente de todo lo bueno que te rodea.Te deseo lo mejor, Acuario.   </li>
+            <li> Mi querido acuario, veo en ti una responsabilidad y una independencia que te va a llevar a lo más alto, al éxito asegurado, pero ten mil ojos, Acuario, nunca se sabe cuando la persona que menos te esperas te puede traicionar.  </li>
+            <li> Acuario, acuario... No me gusta lo que veo, jamás pensé que un signo como tú podría caer en la soberbia y en la prepotencia, tu ansia por llevar la contraria a todo el mundo te está llevando a lo más bajo, Acuario. Pero no te preocupes, aún estás a tiempo de volver a ser ese signo simpático y empático que eres, revisa tus compañías y se acabarán los problemas.</li>
+        </random>
+        <delay>2</delay>
+        ¿De qué otro signo te gustaría conocer la predicción?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">prediccion</set></think>
+        </template>
+    </category>
+    <category>
+        <pattern>*</pattern>
+        <template>No sé si mis conocimientos astrales han podido comprenderte, ¿te gustaría seguir hablando de las predicciones?</template>
+    </category>
+    <category>
+        <pattern>Si</pattern>
+        <template>Perfecto, ¿sobre qué signo te gustaría conocer las predicciones?
+        <button>
+        <text>Géminis</text>
+        <postback>BOTON PRED GEMINIS</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>BOTON PRED ARIES</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>BOTON PRED LEO</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>BOTON PRED SAGITARIO</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>BOTON PRED PISCIS</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>BOTON PRED CANCER</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>BOTON PRED TAURO</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>BOTON PRED VIRGO</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>BOTON PRED CAPRICORNIO</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>BOTON PRED LIBRA</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>BOTON PRED ACUARIO</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>BOTON PRED ESCORPIO</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">prediccion</set></think>
+    </template>
+    </category>
+    
+    <category>
+        <pattern>No</pattern>
+        <template>De acuerdo, ¿sobre qué te gustaría hablar ahora?</template>
+    </category>
+    
+<!--PARA BOTONES-->
+
+<category>
+    <pattern>BOTON PRED ARIES</pattern>
+    <template>
+        Dime en qué ambito, pequeña luciérnaga:
+        <button>
+            <text>En el amor</text>
+            <postback>BOTON PRED AMOR</postback>
+        </button>
+        <button>
+            <text>En el dinero</text>
+            <postback>BOTON PRED DINERO</postback>
+        </button>
+        <button>
+            <text>En el futuro</text>
+            <postback>BOTON PRED FUTURO</postback>
+        </button>
+        <button>
+            <text>En los exámenes</text>
+            <postback>BOTON PRED EXAMEN</postback>
+        </button>
+        <button>
+            <text>Random</text>
+            <postback>BOTON PRED RANDOM ARIES</postback>
+        </button>
+    </template>
+</category>   
+
+<category>
+    <pattern>BOTON PRED TAURO</pattern>
+    <template>
+        Dime en qué ambito, pequeña luciérnaga:
+        <button>
+            <text>En el amor</text>
+            <postback>BOTON PRED AMOR</postback>
+        </button>
+        <button>
+            <text>En el dinero</text>
+            <postback>BOTON PRED DINERO</postback>
+        </button>
+        <button>
+            <text>En el futuro</text>
+            <postback>BOTON PRED FUTURO</postback>
+        </button>
+        <button>
+            <text>En los exámenes</text>
+            <postback>BOTON PRED EXAMEN</postback>
+        </button>
+        <button>
+            <text>Random</text>
+            <postback>BOTON PRED RANDOM TAURO</postback>
+        </button>
+    </template>
+</category>   
+
+<category>
+    <pattern>BOTON PRED GEMINIS</pattern>
+        <template>
+        Dime en qué ambito, pequeña luciérnaga:
+        <button>
+            <text>En el amor</text>
+            <postback>BOTON PRED AMOR</postback>
+        </button>
+        <button>
+            <text>En el dinero</text>
+            <postback>BOTON PRED DINERO</postback>
+        </button>
+        <button>
+            <text>En el futuro</text>
+            <postback>BOTON PRED FUTURO</postback>
+        </button>
+        <button>
+            <text>En los exámenes</text>
+            <postback>BOTON PRED EXAMEN</postback>
+        </button>
+        <button>
+            <text>Random</text>
+            <postback>BOTON PRED RANDOM GEMINIS</postback>
+        </button>
+    </template>
+</category>   
+
+<category>
+    <pattern>BOTON PRED CANCER</pattern>
+        <template>
+        Dime en qué ambito, pequeña luciérnaga:
+        <button>
+            <text>En el amor</text>
+            <postback>BOTON PRED AMOR</postback>
+        </button>
+        <button>
+            <text>En el dinero</text>
+            <postback>BOTON PRED DINERO</postback>
+        </button>
+        <button>
+            <text>En el futuro</text>
+            <postback>BOTON PRED FUTURO</postback>
+        </button>
+        <button>
+            <text>En los exámenes</text>
+            <postback>BOTON PRED EXAMEN</postback>
+        </button>
+        <button>
+            <text>Random</text>
+            <postback>BOTON PRED RANDOM CANCER</postback>
+        </button>
+    </template>
+</category>   
+
+<category>
+    <pattern>BOTON PRED LEO</pattern>
+        <template>
+        Dime en qué ambito, pequeña luciérnaga:
+        <button>
+            <text>En el amor</text>
+            <postback>BOTON PRED AMOR</postback>
+        </button>
+        <button>
+            <text>En el dinero</text>
+            <postback>BOTON PRED DINERO</postback>
+        </button>
+        <button>
+            <text>En el futuro</text>
+            <postback>BOTON PRED FUTURO</postback>
+        </button>
+        <button>
+            <text>En los exámenes</text>
+            <postback>BOTON PRED EXAMEN</postback>
+        </button>
+        <button>
+            <text>Random</text>
+            <postback>BOTON PRED RANDOM LEO</postback>
+        </button>
+    </template>
+</category>   
+
+<category>
+    <pattern>BOTON PRED VIRGO</pattern>
+        <template>
+        Dime en qué ambito, pequeña luciérnaga:
+        <button>
+            <text>En el amor</text>
+            <postback>BOTON PRED AMOR</postback>
+        </button>
+        <button>
+            <text>En el dinero</text>
+            <postback>BOTON PRED DINERO</postback>
+        </button>
+        <button>
+            <text>En el futuro</text>
+            <postback>BOTON PRED FUTURO</postback>
+        </button>
+        <button>
+            <text>En los exámenes</text>
+            <postback>BOTON PRED EXAMEN</postback>
+        </button>
+        <button>
+            <text>Random</text>
+            <postback>BOTON PRED RANDOM VIRGO</postback>
+        </button>
+    </template>
+</category>   
+
+<category>
+    <pattern>BOTON PRED LIBRA</pattern>
+        <template>
+        Dime en qué ambito, pequeña luciérnaga:
+        <button>
+            <text>En el amor</text>
+            <postback>BOTON PRED AMOR</postback>
+        </button>
+        <button>
+            <text>En el dinero</text>
+            <postback>BOTON PRED DINERO</postback>
+        </button>
+        <button>
+            <text>En el futuro</text>
+            <postback>BOTON PRED FUTURO</postback>
+        </button>
+        <button>
+            <text>En los exámenes</text>
+            <postback>BOTON PRED EXAMEN</postback>
+        </button>
+        <button>
+            <text>Random</text>
+            <postback>BOTON PRED RANDOM LIBRA</postback>
+        </button>
+    </template>
+</category>   
+
+<category>
+    <pattern>BOTON PRED SAGITARIO</pattern>
+        <template>
+        Dime en qué ambito, pequeña luciérnaga:
+        <button>
+            <text>En el amor</text>
+            <postback>BOTON PRED AMOR</postback>
+        </button>
+        <button>
+            <text>En el dinero</text>
+            <postback>BOTON PRED DINERO</postback>
+        </button>
+        <button>
+            <text>En el futuro</text>
+            <postback>BOTON PRED FUTURO</postback>
+        </button>
+        <button>
+            <text>En los exámenes</text>
+            <postback>BOTON PRED EXAMEN</postback>
+        </button>
+        <button>
+            <text>Random</text>
+            <postback>BOTON PRED RANDOM SAGITARIO</postback>
+        </button>
+    </template>
+</category>   
+<category>
+    <pattern>BOTON PRED ESCORPIO</pattern>
+        <template>
+        Dime en qué ambito, pequeña luciérnaga:
+        <button>
+            <text>En el amor</text>
+            <postback>BOTON PRED AMOR</postback>
+        </button>
+        <button>
+            <text>En el dinero</text>
+            <postback>BOTON PRED DINERO</postback>
+        </button>
+        <button>
+            <text>En el futuro</text>
+            <postback>BOTON PRED FUTURO</postback>
+        </button>
+        <button>
+            <text>En los exámenes</text>
+            <postback>BOTON PRED EXAMEN</postback>
+        </button>
+        <button>
+            <text>Random</text>
+            <postback>BOTON PRED RANDOM ESCORPIO</postback>
+        </button>
+    </template>
+</category>   
+
+<category>
+    <pattern>BOTON PRED CAPRICORNIO</pattern>
+        <template>
+        Dime en qué ambito, pequeña luciérnaga:
+        <button>
+            <text>En el amor</text>
+            <postback>BOTON PRED AMOR</postback>
+        </button>
+        <button>
+            <text>En el dinero</text>
+            <postback>BOTON PRED DINERO</postback>
+        </button>
+        <button>
+            <text>En el futuro</text>
+            <postback>BOTON PRED FUTURO</postback>
+        </button>
+        <button>
+            <text>En los exámenes</text>
+            <postback>BOTON PRED EXAMEN</postback>
+        </button>
+        <button>
+            <text>Random</text>
+            <postback></postback>
+        </button>
+    </template>
+</category>   
+
+<category>
+    <pattern>BOTON PRED ACUARIO</pattern>
+        <template>
+        Dime en qué ambito, pequeña luciérnaga:
+        <button>
+            <text>En el amor</text>
+            <postback>BOTON PRED AMOR</postback>
+        </button>
+        <button>
+            <text>En el dinero</text>
+            <postback>BOTON PRED DINERO</postback>
+        </button>
+        <button>
+            <text>En el futuro</text>
+            <postback>BOTON PRED FUTURO</postback>
+        </button>
+        <button>
+            <text>En los exámenes</text>
+            <postback>BOTON PRED EXAMEN</postback>
+        </button>
+        <button>
+            <text>Random</text>
+            <postback></postback>
+        </button>
+    </template>
+</category>   
+
+<category>
+    <pattern>BOTON PRED PISCIS</pattern>
+        <template>
+        Dime en qué ambito, pequeña luciérnaga:
+        <button>
+            <text>En el amor</text>
+            <postback>BOTON PRED AMOR</postback>
+        </button>
+        <button>
+            <text>En el dinero</text>
+            <postback>BOTON PRED DINERO</postback>
+        </button>
+        <button>
+            <text>En el futuro</text>
+            <postback>BOTON PRED FUTURO</postback>
+        </button>
+        <button>
+            <text>En los exámenes</text>
+            <postback>BOTON PRED EXAMEN</postback>
+        </button>
+        <button>
+            <text>Random</text>
+            <postback></postback>
+        </button>
+    </template>
+</category> 
+</topic>
+</aiml>

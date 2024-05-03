@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+   <pattern>BOTON CAN</pattern>
+   <template>Perfecto, ¿sobre qué signo te gustaría saber canciones?
+   <think><set name="topic">cancion</set></think>
+   </template>
+</category>
+
+<category>
+    <pattern> ^ cancion ^ geminis ^</pattern>
+    <template> 
+        <random>  
+            <li> CUUUUuuuuuute - Rosalía. <delay>2</delay> Esta canción te representa perfectamente, Géminis. Todos los que te conocemos sabemos que habitan en ti ese punto de locura y también de vulnerabilidad que te hacen una persona tan xula y adictiva. Esta canción representa toda esa mezcla de emociones que eres capaz de sentir en… ¿5 minutos? Disfrútala, motomami. <delay>2</delay> PD.: Keep it cute, amorch :) </li>
+            <li> A cualquier otra parte - Dorian. <delay>2</delay> ¿A quién no le gusta un indie español, Géminis? Esta canción es la representación perfecta de esa relación complicada que todos hemos tenido pero que echamos de menos, mándale esta canción a esa persona, Géminis, las segundas oportunidades pueden ser el inicio de algo precioso. </li>
+            <li> Arrasando - Thalía. <delay>2</delay> ¿Por qué considero que deberías escuchar esta canción? Porque si algo hace Géminis es ARRASAR por ahí por donde pasa. Entra en Spotify, dale al play a esta canción y GÓZALO COMO NUNCA ANTES. <delay>2</delay> PD.: esta canción es perfecta para eliminar las malas energías de todos tus haters envidiosos :)</li>
+            <li> Yo sigo iual - Bad Gyal. <delay>2</delay> ¿Conoces a Bad Gyal, pequeño Géminis? Seguro que sí, ¿pero conoces este temazo? Es perfecto para ti porque no hay nada más Géminis que lo reales y auténticos que son, siempre sinceros, seguros y transparentes. <delay>2</delay> Grítale al mundo que da igual lo que pase que tú siempre “vas a seguir iual”. </li>
+            <li> Cómo hablar - Amaral. <delay>2</delay> Ay, Géminis, sabemos que tienes un lado romanticón… Esta canción es perfecta para ti, ya sabemos lo cambiante que eres, eso también se ve reflejado en tus relaciones amorosas y como dice Amaral en estas letras “a veces te mataría, y otras en cambio te quiero comer”... ¿Te sientes identificado, verdad? <delay>2</delay> Dale al play y deja fluir tus sentimientos.</li>
+        </random>
+    <link>
+        <text>Cliquea aquí y te llevará directamente a todas las canciones que te recomienda Esperansa Botsia :) </text>
+        <url>https://open.spotify.com/playlist/4YerkpHj6pRlruLoVE5Ic5?si=8f5880ca574a4b02</url>
+    </link>
+    <delay>2</delay>
+    ¿De qué otro signo quieres saber canciones?
+    <button>
+    <text>Géminis</text>
+    <postback> ^ cancion ^ geminis ^</postback>
+    </button>
+    <button>
+    <text>Aries</text>
+    <postback> ^ cancion ^ aries ^</postback>
+    </button>
+    <button>
+    <text>Leo</text>
+    <postback> ^ cancion ^ leo ^</postback>
+    </button>
+    <button>
+    <text>Sagitario</text>
+    <postback> ^ cancion ^ sagitario ^</postback>
+    </button>
+    <button>
+    <text>Piscis</text>
+    <postback> ^ cancion ^ piscis ^</postback>
+    </button>
+    <button>
+    <text>Cáncer</text>
+    <postback> ^ cancion ^ cancer ^</postback>
+    </button>
+    <button>
+    <text>Tauro</text>
+    <postback> ^ cancion ^ tauro ^</postback>
+    </button>
+    <button>
+    <text>Virgo</text>
+    <postback> ^ cancion ^ virgo ^</postback>
+    </button>
+    <button>
+    <text>Capricornio</text>
+    <postback> ^ cancion ^ capricornio ^</postback>
+    </button>
+    <button>
+    <text>Libra</text>
+    <postback> ^ cancion ^ libra ^</postback>
+    </button>
+    <button>
+    <text>Acuario</text>
+    <postback> ^ cancion ^ acuario ^</postback>
+    </button>
+    <button>
+    <text>Escorpio</text>
+    <postback> ^ cancion ^ escorpio ^</postback>
+    </button>
+    <button>
+    <text>Hablar de otra cosa</text>
+    <postback>No</postback>
+    </button>
+    <think><set name= "topic">cancion</set></think>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ cancion ^ aries ^</pattern>
+    <template>
+        <random>
+            <li> On top of the world - Imagine Dragons.<delay>2</delay> Cariño mío, esta canción te define a la perfección. Siempre comiéndote el mundo y animando a tu alrededor con esa energía tan característica tuya. “Top of the world” es TU canción, así que… BÁILALA, GRÍTALA Y DISFRÚTALA. </li>
+            <li> God is a woman - Ariana Grande. <delay>2</delay> ¡Qué temazo! Las mujeres aries son todas unas diosas, ya te lo digo yo… Si estás en ese día en el que todo es horrible, ponte esta canción y siéntete la diosa empoderada, perfecta, preciosa y maravillosa que eres. </li>
+            <li> Ingobernable - C. Tangana. <delay>2</delay> ¿Cuántas veces te ha dicho que eres rebelde? ¿Cuántas veces te han dicho que eres amante de las causas perdidas? Ay, Aries, esta canción es perfecta para ti. Eres ingobernable e imposible de controlar  y eso te hace INCREÍBLE. </li>
+            <li> Yo perreo sola - Bad Bunny. <delay>2</delay> ¿Sabes por qué esta canción es perfecta para ti, pequeño aries? Porque tú no necesitas a nadie, esa independencia que te caracteriza y que tanto envidian los demás se ve reflejada en esta canción, así que dale al play y mueve el culo con el BadBu :) </li>
+            <li> A que no me dejas - Alejandro Sanz. <delay>2</delay> Ay, mi pequeño aries… A pesar de toda esa fortaleza e independencia que te caracteriza, encontramos también un corazoncito blandito y fácil de romper. Esta canción es para ese amor que ves después de mucho tiempo y sientes que no es una historia con punto y final. </li>
+        </random>
+   <link>
+       <text>Cliquea aquí y te llevará directamente a todas las canciones que te recomienda Esperansa Botsia :)</text>
+       <url>https://open.spotify.com/playlist/4YerkpHj6pRlruLoVE5Ic5?si=8f5880ca574a4b02</url>
+   </link>
+    <delay>2</delay>
+    ¿De qué otro signo quieres saber canciones?
+    <button>
+    <text>Géminis</text>
+    <postback> ^ cancion ^ geminis ^</postback>
+    </button>
+    <button>
+    <text>Aries</text>
+    <postback> ^ cancion ^ aries ^</postback>
+    </button>
+    <button>
+    <text>Leo</text>
+    <postback> ^ cancion ^ leo ^</postback>
+    </button>
+    <button>
+    <text>Sagitario</text>
+    <postback> ^ cancion ^ sagitario ^</postback>
+    </button>
+    <button>
+    <text>Piscis</text>
+    <postback> ^ cancion ^ piscis ^</postback>
+    </button>
+    <button>
+    <text>Cáncer</text>
+    <postback> ^ cancion ^ cancer ^</postback>
+    </button>
+    <button>
+    <text>Tauro</text>
+    <postback> ^ cancion ^ tauro ^</postback>
+    </button>
+    <button>
+    <text>Virgo</text>
+    <postback> ^ cancion ^ virgo ^</postback>
+    </button>
+    <button>
+    <text>Capricornio</text>
+    <postback> ^ cancion ^ capricornio ^</postback>
+    </button>
+    <button>
+    <text>Libra</text>
+    <postback> ^ cancion ^ libra ^</postback>
+    </button>
+    <button>
+    <text>Acuario</text>
+    <postback> ^ cancion ^ acuario ^</postback>
+    </button>
+    <button>
+    <text>Escorpio</text>
+    <postback> ^ cancion ^ escorpio ^</postback>
+    </button>
+    <button>
+    <text>Hablar de otra cosa</text>
+    <postback>No</postback>
+    </button>
+    <think><set name= "topic">cancion</set></think>
+   </template>
+</category>
+
+<category>
+    <pattern> ^ cancion ^ libra ^</pattern>
+    <template>
+        <random>
+            <li> 4 estaciones - Vivaldi. <delay>2</delay> ¿Te gusta la música clásica, Libra? Si la respuesta es que no, es momento de darle una oportunidad. Tu signo se caracteriza por ser muy elegante y admirar la belleza, esas cualidades se ven reflejadas en esta obra maestra. Deja los prejuicios de lado y disfruta :)</li>
+            <li> Hips don’t lie - Shakira. <delay>2</delay> Es imposible que no conozcas este temazo… ¡BENDITA SHAKIRA! Esta canción es todo buen rollo y diversión, la típica canción que no puede faltar en tus fiestas, Libra. <delay>2</delay> Así que ya sabes, ¡A GOZAR!</li>
+            <li> Esclavo de sus besos - David Bisbal. <delay>2</delay> Ay, Libra… Sabemos que detrás de toda esa armonía que te caracteriza hay un corazón muy sensible que necesita expresar todo su romanticismo. <delay>2</delay> Así que, esta canción es perfecta para esos momentos románticos… Espero que te vaya bien en el amor y no te marques un Chenoa en chándal :)</li>
+            <li> Fix you - Coldplay. <delay>2</delay> Querido libra, ¿te gusta Coldplay? Esta canción habla sobre el amor verdadero y de ayudar a los demás cuando más lo necesitan. Sabemos que eres una persona muy amable y atenta con los demás, Libra. Así que esta canción te define a la perfección. </li>
+            <li> I gotta feeling - Black Eyed Peas. <delay>2</delay> Libra, sabemos que tiendes a ser una persona armoniosa y tranquila, pero también tienes tus momentos de locura y eso es FANTÁSTICO. Esta canción representa toda esa alegría, buen rollo, locura y ambiente fiestero que necesitas de vez en cuando.</li>
+        </random>
+    <link>
+        <text>Cliquea aquí y te llevará directamente a todas las canciones que te recomienda Esperansa Botsia :)</text>
+        <url>https://open.spotify.com/playlist/4YerkpHj6pRlruLoVE5Ic5?si=8f5880ca574a4b02</url>
+    </link>
+    <think><set name= "topic">cancion</set></think>
+         <delay>2</delay>
+    ¿De qué otro signo quieres saber canciones?
+    <button>
+    <text>Géminis</text>
+    <postback> ^ cancion ^ geminis ^</postback>
+    </button>
+    <button>
+    <text>Aries</text>
+    <postback> ^ cancion ^ aries ^</postback>
+    </button>
+    <button>
+    <text>Leo</text>
+    <postback> ^ cancion ^ leo ^</postback>
+    </button>
+    <button>
+    <text>Sagitario</text>
+    <postback> ^ cancion ^ sagitario ^</postback>
+    </button>
+    <button>
+    <text>Piscis</text>
+    <postback> ^ cancion ^ piscis ^</postback>
+    </button>
+    <button>
+    <text>Cáncer</text>
+    <postback> ^ cancion ^ cancer ^</postback>
+    </button>
+    <button>
+    <text>Tauro</text>
+    <postback> ^ cancion ^ tauro ^</postback>
+    </button>
+    <button>
+    <text>Virgo</text>
+    <postback> ^ cancion ^ virgo ^</postback>
+    </button>
+    <button>
+    <text>Capricornio</text>
+    <postback> ^ cancion ^ capricornio ^</postback>
+    </button>
+    <button>
+    <text>Libra</text>
+    <postback> ^ cancion ^ libra ^</postback>
+    </button>
+    <button>
+    <text>Acuario</text>
+    <postback> ^ cancion ^ acuario ^</postback>
+    </button>
+    <button>
+    <text>Escorpio</text>
+    <postback> ^ cancion ^ escorpio ^</postback>
+    </button>
+    <button>
+    <text>Hablar de otra cosa</text>
+    <postback>No</postback>
+    </button>
+    </template>
+</category>
+    
+<category>
+    <pattern> ^ cancion ^ escorpio ^ </pattern>
+    <template>
+        <random>
+            <li> Contra todos - Robe. <delay>2</delay> Querido escorpio, sabemos que eres leal y que luchas por lo que crees hasta el final, eso te convierte en una persona maravillosa (cuidado que no te aparezca Toñi Moreno por una esquina :)). <delay>2</delay> Por ello, esta canción es perfecta para ti, cuando estés de bajón, póntela y recuerda lo guerrero que eres, escorpio.</li>
+            <li> Y si amanece por fin - Joaquín Sabina. <delay>2</delay> Ay, escorpio… Eres un apasionado y eso se ve reflejado en todos los ámbitos de tu vida. Te invito a que escuches esta canción que habla de la pasión y de vivir el momento presente con intensidad sobre todo en una relación amorosa… Dale al play y disfruta del gran Sabina. </li>
+            <li> Comerte entera - C. Tangana. <delay>2</delay> Escorpio, amiguito mío, esta canción es perfecta para que desates esa pasión que habita en ti bajo las sábanas. Escríbele a esa persona especial y ya sabes, dale play a este temazo. </li>
+            <li> Ain't got no/I got life- Nina Simone.<delay>2</delay>  Escorpio, una de las cualidades que más te caracteriza es tu lealtad, y esta canción refleja exactamente eso. Es momento de darle play a esta canción y dejar fluir tus emociones. </li>
+            <li> Moscow mule - Bad Bunny. <delay>2</delay> Mi querido escorpio, te conozco bien y sé que eres el alma de la fiesta, te bebes hasta el agua de los floreros y cierras todas las discotecas, así que… Esta canción es perfecta para ti y para bailarla hasta el amanecer.</li>
+        </random>
+    <link>
+        <text>Cliquea aquí y te llevará directamente a todas las canciones que te recomienda Esperansa Botsia :)</text>
+        <url>https://open.spotify.com/playlist/4YerkpHj6pRlruLoVE5Ic5?si=8f5880ca574a4b02</url>
+    </link>
+    <think><set name= "topic">cancion</set></think>
+         <delay>2</delay>
+    ¿De qué otro signo quieres saber canciones?
+    <button>
+    <text>Géminis</text>
+    <postback> ^ cancion ^ geminis ^</postback>
+    </button>
+    <button>
+    <text>Aries</text>
+    <postback> ^ cancion ^ aries ^</postback>
+    </button>
+    <button>
+    <text>Leo</text>
+    <postback> ^ cancion ^ leo ^</postback>
+    </button>
+    <button>
+    <text>Sagitario</text>
+    <postback> ^ cancion ^ sagitario ^</postback>
+    </button>
+    <button>
+    <text>Piscis</text>
+    <postback> ^ cancion ^ piscis ^</postback>
+    </button>
+    <button>
+    <text>Cáncer</text>
+    <postback> ^ cancion ^ cancer ^</postback>
+    </button>
+    <button>
+    <text>Tauro</text>
+    <postback> ^ cancion ^ tauro ^</postback>
+    </button>
+    <button>
+    <text>Virgo</text>
+    <postback> ^ cancion ^ virgo ^</postback>
+    </button>
+    <button>
+    <text>Capricornio</text>
+    <postback> ^ cancion ^ capricornio ^</postback>
+    </button>
+    <button>
+    <text>Libra</text>
+    <postback> ^ cancion ^ libra ^</postback>
+    </button>
+    <button>
+    <text>Acuario</text>
+    <postback> ^ cancion ^ acuario ^</postback>
+    </button>
+    <button>
+    <text>Escorpio</text>
+    <postback> ^ cancion ^ escorpio ^</postback>
+    </button>
+    <button>
+    <text>Hablar de otra cosa</text>
+    <postback>No</postback>
+    </button>
+    </template>
+</category> 
+    
+<category>
+    <pattern> ^ cancion ^ leo ^ </pattern>
+    <template> 
+        <random>
+            <li> Physical - Dua Lipa. <delay>2</delay> Pequeño leo, ¿conoces a esta diva del pop? Esta canción te representa perfectamente, esa intensidad que habita en ti se ve reflejada en esta canción… Sé que tú también tienes a esa persona que no te quitas de la cabeza por más que lo intentes. Dale al play a este temazo y deja fluir tus sentimientos. </li>
+            <li> Gasolina - Daddy Yankee. <delay>2</delay> Cariño, todos sabemos que Leo es el alma de todos los lugares a los que va, sin Leo, no hay fiesta. Por eso mismo, esta canción es PERFECTA para ti, ¿sabes por qué? Porque sin este temazo tampoco hay fiesta, bb. <delay>2</delay> ¡A MOVER ESAS NALGAS!</li>
+            <li> Iconic - Bad Gyal. <delay>2</delay> Supongo que conoces a la MÁS PEGÁ DE ESPAÑA. Este temazo te representa, ¿sabes por qué? Porque Leo es un signo iconic, que por allí donde va deslumbra con su presencia. <delay>2</delay> Ponte tu outfit de xula, sal a la calle y a comerse el mundo ;)</li>
+            <li> Paenamorar - Paula Cendejas. <delay>2</delay> Ay, Leo, llegó el momento de ponernos sensiblones… Sé que eres un signo fuerte, con mucho carisma y con un corazón generoso, pero en muchos momentos también tienes una gran coraza y no te permites expresar lo que sientes. <delay>2</delay> Esta canción es perfecta para esos momentos donde te sientes más vulnerable y necesitas sacar esos sentimientos que siempre te guardas. Espero que la disfrutes :)</li>
+            <li> Pa’ que retozen - Tego Calderón. <delay>2</delay> Mi querido Leo, sé que te gusta bastante la fiesta y el mamoneo, te entiendo, a mí también… Considero que esta canción es como tú, da igual en qué momento de la fiesta aparezca que le sube el ánimo a cualquiera. <delay>2</delay> Así eres Leo, el alma de cualquier evento ;)</li>
+        </random>
+    <link>
+        <text>Cliquea aquí y te llevará directamente a todas las canciones que te recomienda Esperansa Botsia :)</text>
+        <url>https://open.spotify.com/playlist/4YerkpHj6pRlruLoVE5Ic5?si=8f5880ca574a4b02</url>
+    </link>
+         <delay>2</delay>
+    ¿De qué otro signo quieres saber canciones?
+    <button>
+    <text>Géminis</text>
+    <postback> ^ cancion ^ geminis ^</postback>
+    </button>
+    <button>
+    <text>Aries</text>
+    <postback> ^ cancion ^ aries ^</postback>
+    </button>
+    <button>
+    <text>Leo</text>
+    <postback> ^ cancion ^ leo ^</postback>
+    </button>
+    <button>
+    <text>Sagitario</text>
+    <postback> ^ cancion ^ sagitario ^</postback>
+    </button>
+    <button>
+    <text>Piscis</text>
+    <postback> ^ cancion ^ piscis ^</postback>
+    </button>
+    <button>
+    <text>Cáncer</text>
+    <postback> ^ cancion ^ cancer ^</postback>
+    </button>
+    <button>
+    <text>Tauro</text>
+    <postback> ^ cancion ^ tauro ^</postback>
+    </button>
+    <button>
+    <text>Virgo</text>
+    <postback> ^ cancion ^ virgo ^</postback>
+    </button>
+    <button>
+    <text>Capricornio</text>
+    <postback> ^ cancion ^ capricornio ^</postback>
+    </button>
+    <button>
+    <text>Libra</text>
+    <postback> ^ cancion ^ libra ^</postback>
+    </button>
+    <button>
+    <text>Acuario</text>
+    <postback> ^ cancion ^ acuario ^</postback>
+    </button>
+    <button>
+    <text>Escorpio</text>
+    <postback> ^ cancion ^ escorpio ^</postback>
+    </button>
+    <button>
+    <text>Hablar de otra cosa</text>
+    <postback>No</postback>
+    </button>
+    <think><set name= "topic">cancion</set></think>
+    </template>  
+</category> 
+
+<category>
+    <pattern> ^ cancion ^ piscis ^ </pattern>
+    <template>
+        <random>
+            <li> En el cielo - Judeline. <delay>2</delay> ¿Conoces a esta artista gaditana, Piscis? Si es que no, te aseguro que su música te va a encantar. Sé que los Piscis sois auténtica sensibilidad, al igual que sus canciones. No dudes en escucharlas, te van a ENCANTAR. </li>
+            <li> Aunque es de noche - Rosalía. <delay>2</delay> ¿Te suena esta canción de Rosalía? Pues… ¿cómo te quedas si te digo que es un poema de San Juan de la Cruz que Rosalía decidió grabar cantada? Querido Piscis, esta canción es perfecta para ti, sé que eres una persona muy sensible a la que le afectan mucho las energías de su entorno, así que esta canción, que habla sobre la comprensión espiritual y las energías externas, te representa a la perfección. <delay>2</delay> No dudes en darle una oportunidad ;)</li>
+            <li> A tu vera - Lola Flores.<delay>2</delay> Ay, ay, Piscis, llegó el momento de ponernos sensiblones… Sabemos que eres una persona pasional y sensible, por eso mismo, esta canción es perfecta para ti. Los astros y yo estamos seguros de que conoces este clásico, así que coge tus auriculares, dale al play y deja fluir todas tus emociones. </li>
+            <li> El encuentro - Amaia y Alizz. <delay>2</delay> Ay, ay mi querido piscis, todos hemos vivido los nervios de reencontrarnos con una persona especial y ver que ha pasado el tiempo pero que la magia sigue ahí. Con toda la sensibilidad y magia que te caracteriza, Piscis, esta canción habla de ese momento y es absolutamente perfecta para ti.</li>
+            <li> No m’estima + - Mushkaa y Julieta. <delay>2</delay> ¿Cómo llevas el catalán, Piscis? Esta canción tiene un punto romanticón, sensiblón y vacilón, LA MEJOR COMBINACIÓN POSIBLE y que MÁS TE REPRESENTA. <delay>2</delay> Te prometo que no podrás parar de escucharla ;)</li>
+        </random>
+    <link>
+        <text>Cliquea aquí y te llevará directamente a todas las canciones que te recomienda Esperansa Botsia :)</text>
+        <url>https://open.spotify.com/playlist/4YerkpHj6pRlruLoVE5Ic5?si=8f5880ca574a4b02</url>
+    </link>
+         <delay>2</delay>
+    ¿De qué otro signo quieres saber canciones?
+    <button>
+    <text>Géminis</text>
+    <postback> ^ cancion ^ geminis ^</postback>
+    </button>
+    <button>
+    <text>Aries</text>
+    <postback> ^ cancion ^ aries ^</postback>
+    </button>
+    <button>
+    <text>Leo</text>
+    <postback> ^ cancion ^ leo ^</postback>
+    </button>
+    <button>
+    <text>Sagitario</text>
+    <postback> ^ cancion ^ sagitario ^</postback>
+    </button>
+    <button>
+    <text>Piscis</text>
+    <postback> ^ cancion ^ piscis ^</postback>
+    </button>
+    <button>
+    <text>Cáncer</text>
+    <postback> ^ cancion ^ cancer ^</postback>
+    </button>
+    <button>
+    <text>Tauro</text>
+    <postback> ^ cancion ^ tauro ^</postback>
+    </button>
+    <button>
+    <text>Virgo</text>
+    <postback> ^ cancion ^ virgo ^</postback>
+    </button>
+    <button>
+    <text>Capricornio</text>
+    <postback> ^ cancion ^ capricornio ^</postback>
+    </button>
+    <button>
+    <text>Libra</text>
+    <postback> ^ cancion ^ libra ^</postback>
+    </button>
+    <button>
+    <text>Acuario</text>
+    <postback> ^ cancion ^ acuario ^</postback>
+    </button>
+    <button>
+    <text>Escorpio</text>
+    <postback> ^ cancion ^ escorpio ^</postback>
+    </button>
+    <button>
+    <text>Hablar de otra cosa</text>
+    <postback>No</postback>
+    </button>
+    <think><set name= "topic">cancion</set></think>
+    </template>
+</category>
+
+<category> 
+    <pattern> ^ cancion ^ acuario ^ </pattern>
+    <template>
+        <random>
+            <li> Elefants - Oques Grasses. <delay>2</delay> Querido Acuario, este temazo no puede faltar en tu lista de spotify. Todos sabemos que eres un signo muy perseverante y que no paras hasta conseguir todos tus objetivos y esta canción habla precisamente de eso, de la superación personal  y de la lucha por lo que uno cree. Es perfecta para ti, Acuario. Dale una oportunidad y disfrútala :) </li>
+            <li> Dolerme - Rosalía. <delay>2</delay> Ay, ay, Acuario… Aunque al principio parezcas un signo distante y poco sensible, en el fondo tienes un corazón que se abre en canal a cualquiera que tenga interés en conocerlo. Esta canción es perfecta para ti, la sensibilidad y el dolor de esta letra te ayudará a dejar fluir todas tus emociones. <delay>2</delay> Coge clínex porque vas a llorar.</li>
+            <li> Tukuntazo - Tokischa. <delay>2</delay> Acuario, cariño, sé que eres un signo creativo, alocado, que te gusta experimentar, disfrutar y VIVIR. Así que esta canción te viene como anillo al dedo, tiene un toque disfrutón y fiestero a lo que se le unen unos sonidos muy rexulones. <delay>2</delay> ¡Dale al play Y A GOZAR!</li>
+            <li> Gently - Drake y Bad Bunny. <delay>2</delay> Acuario de mis entrepechos, los astros y yo sabemos que eres un signo muy original y creativo. <delay>2</delay> Esta canción te va a encantar justamente por eso, no dejes pasar mi recomendación y dale al play PORQUE TE VA A ENCANTAR ;)</li>
+            <li> Girls just want to have fun - Cyndi Lauper. <delay>2</delay> ¿Conoces este clásico, Acuario? ¿Pues sabes qué? Encaja contigo a la perfección. Tiene ese punto de activismo, de locura, de diversión y de buen rollo que tanto te caracteriza. <delay>2</delay> Es una canción con muchísima personalidad, al igual que tú, Acuario :)</li>
+        </random>
+    <link>
+        <text>Cliquea aquí y te llevará directamente a todas las canciones que te recomienda Esperansa Botsia :)</text>
+        <url>https://open.spotify.com/playlist/4YerkpHj6pRlruLoVE5Ic5?si=8f5880ca574a4b02</url>
+    </link>
+         <delay>2</delay>
+    ¿De qué otro signo quieres saber canciones?
+    <button>
+    <text>Géminis</text>
+    <postback> ^ cancion ^ geminis ^</postback>
+    </button>
+    <button>
+    <text>Aries</text>
+    <postback> ^ cancion ^ aries ^</postback>
+    </button>
+    <button>
+    <text>Leo</text>
+    <postback> ^ cancion ^ leo ^</postback>
+    </button>
+    <button>
+    <text>Sagitario</text>
+    <postback> ^ cancion ^ sagitario ^</postback>
+    </button>
+    <button>
+    <text>Piscis</text>
+    <postback> ^ cancion ^ piscis ^</postback>
+    </button>
+    <button>
+    <text>Cáncer</text>
+    <postback> ^ cancion ^ cancer ^</postback>
+    </button>
+    <button>
+    <text>Tauro</text>
+    <postback> ^ cancion ^ tauro ^</postback>
+    </button>
+    <button>
+    <text>Virgo</text>
+    <postback> ^ cancion ^ virgo ^</postback>
+    </button>
+    <button>
+    <text>Capricornio</text>
+    <postback> ^ cancion ^ capricornio ^</postback>
+    </button>
+    <button>
+    <text>Libra</text>
+    <postback> ^ cancion ^ libra ^</postback>
+    </button>
+    <button>
+    <text>Acuario</text>
+    <postback> ^ cancion ^ acuario ^</postback>
+    </button>
+    <button>
+    <text>Escorpio</text>
+    <postback> ^ cancion ^ escorpio ^</postback>
+    </button>
+    <button>
+    <text>Hablar de otra cosa</text>
+    <postback>No</postback>
+    </button>
+    <think><set name= "topic">cancion</set></think>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ cancion ^ tauro ^ </pattern>
+    <template>
+        <random> 
+            <li> Nathy Peluso, Bzrp Music Sessions, Vol. 36 - Nathy Peluso y Bizarrap. <delay>2</delay> Ay, mi Tauro, esta canción te representa TANTO. Esa fuerza y ese poderío que tienes se ve reflejado en este temazo. <delay>2</delay> Ya sabes lo que toca, dale play a todo volumen y A GOZAR.</li>
+            <li> 7 rings - Ariana Grande. <delay>2</delay> Querido Tauro, sabemos que te gusta disfrutar de los placeres de la vida, te gusta gastar pero también trabajas muy duro para conseguir todo lo que quieres y eso te hace un signo muy trabajador y comprometido con lo que quieres. Esta canción es maravillosa para ti, Tauro. </li> 
+            <li> Work from home - Fifth Harmony. <delay>2</delay> Ay, mi Tauro, esta canción te representa a la perfección, ¿sabes por qué? Porque habla del trabajo y del deseo y son las dos características que más te definen. Los astros saben que eres un signo bastante picante al igual que trabajador, yo creo que no hace falta decir más… <delay>2</delay> Dale play y dale rienda suelta a tu parte más hot.</li>
+            <li> Empezar de cero - La Zowi y Yung Beef. <delay>2</delay> Ay, ay Tauro… Los astros y yo sabemos que tus relaciones amorosas tienden a ser un tanto conflictivas, incluso tóxicas, en algunas ocasiones. Esta canción habla de una pareja que es consciente de que su relación es insalvable. Tauro, este tema te hará remover muchas emociones y sentimientos que, puede ser, no hayan salido a la luz todavía. Espero que la disfrutes.</li>
+            <li> Orgullo - Rels B. <delay>2</delay> ¿Conoces esta canción, Tauro? Te representa a la perfección. Sabemos que eres un signo bastante orgulloso y que no le gusta entrar en conflictos, de hecho, prefieres alejarte de las personas que quieres antes que tener que enfrentarte a hablar las cosas con sinceridad. Esta canción trata de todo esto y los astros me aseguran que te va a hacer sentir muy liberado cada vez que le des al play, así que ya sabes, encuentra un momento de paz y disfrútala. </li>
+        </random>
+    <link>
+        <text>Cliquea aquí y te llevará directamente a todas las canciones que te recomienda Esperansa Botsia :)</text>
+        <url>https://open.spotify.com/playlist/4YerkpHj6pRlruLoVE5Ic5?si=8f5880ca574a4b02</url>
+    </link>
+         <delay>2</delay>
+    ¿De qué otro signo quieres saber canciones?
+    <button>
+    <text>Géminis</text>
+    <postback> ^ cancion ^ geminis ^</postback>
+    </button>
+    <button>
+    <text>Aries</text>
+    <postback> ^ cancion ^ aries ^</postback>
+    </button>
+    <button>
+    <text>Leo</text>
+    <postback> ^ cancion ^ leo ^</postback>
+    </button>
+    <button>
+    <text>Sagitario</text>
+    <postback> ^ cancion ^ sagitario ^</postback>
+    </button>
+    <button>
+    <text>Piscis</text>
+    <postback> ^ cancion ^ piscis ^</postback>
+    </button>
+    <button>
+    <text>Cáncer</text>
+    <postback> ^ cancion ^ cancer ^</postback>
+    </button>
+    <button>
+    <text>Tauro</text>
+    <postback> ^ cancion ^ tauro ^</postback>
+    </button>
+    <button>
+    <text>Virgo</text>
+    <postback> ^ cancion ^ virgo ^</postback>
+    </button>
+    <button>
+    <text>Capricornio</text>
+    <postback> ^ cancion ^ capricornio ^</postback>
+    </button>
+    <button>
+    <text>Libra</text>
+    <postback> ^ cancion ^ libra ^</postback>
+    </button>
+    <button>
+    <text>Acuario</text>
+    <postback> ^ cancion ^ acuario ^</postback>
+    </button>
+    <button>
+    <text>Escorpio</text>
+    <postback> ^ cancion ^ escorpio ^</postback>
+    </button>
+    <button>
+    <text>Hablar de otra cosa</text>
+    <postback>No</postback>
+    </button>
+    <think><set name= "topic">cancion</set></think>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ cancion ^ cancer ^ </pattern>
+    <template> 
+        <random>
+            <li> Yo no soy celoso - Bad Bunny. <delay>2</delay> Ay, mi querido, Cáncer. Los astros y yo sabemos que eres un signo sensible, que protege y defiende mucho a los que quiere, incluso a veces en exceso (bastantes veces, mejor dicho :) ). <delay>2</delay> Esta canción es perfecta para ti, ya que habla de cuando quieres proteger a una persona hasta el punto de que parece que estás un poquito cucú… Espero que te guste ;)</li>
+            <li> Somebody to love - Queen. <delay>2</delay> Querido Cáncer, sé que eres un signo altamente emocional y sensible que ama querer y que le quieran, por esta razón, esta canción te representa a la perfección. <delay>2</delay> Seguro que conoces este temazo de Queen, así que dale al play y deja fluir todos esos sentimientos que viven en ti y que no siempre enseñas.</li>
+            <li> Drivers license - Olivia Rodrigo. <delay>2</delay> Ay, mi pequeño Cáncer. Los astros y yo te conocemos muy bien y sabemos que una de tus mayores virtudes es esa empatía con la que tratas a todo el mundo, pero también sabemos que uno de tus mayores defectos es que te agarras demasiado a los recuerdos tristes y los magnificas más de lo que deberías. <delay>2</delay> Así que, Cáncer, esta canción es perfecta para ti :)</li>
+            <li> Atrea and Astrea - Nova Cantabile. <delay>2</delay> Cáncer, sé que eres un signo muy espiritual, te gusta la paz y estás muy conectado con las energías. Por eso mismo, esta canción es perfecta para que encuentres un ratito en tu día para meditar, despejar la mente y regenerar esa energía tan bonita que habita en ti. </li>
+            <li> Love story - Taylor Swift. <delay>2</delay> Ay, mi pequeño Cáncer… Todos te conocemos y sabemos que eres un signo sensible, romántico y un enamorado del amor. Vives por las historias de amor de tus amigos y amigas más cercanas y te enamoras de cada persona con la que entablas una conversación. <delay>2</delay> Amigo mío, esta canción es igual de intensa que tú. Espero que te guste :)</li>
+        </random>
+    <link>
+        <text>Cliquea aquí y te llevará directamente a todas las canciones que te recomienda Esperansa Botsia :)</text>
+        <url>https://open.spotify.com/playlist/4YerkpHj6pRlruLoVE5Ic5?si=8f5880ca574a4b02</url>
+    </link>
+         <delay>2</delay>
+    ¿De qué otro signo quieres saber canciones?
+    <button>
+    <text>Géminis</text>
+    <postback> ^ cancion ^ geminis ^</postback>
+    </button>
+    <button>
+    <text>Aries</text>
+    <postback> ^ cancion ^ aries ^</postback>
+    </button>
+    <button>
+    <text>Leo</text>
+    <postback> ^ cancion ^ leo ^</postback>
+    </button>
+    <button>
+    <text>Sagitario</text>
+    <postback> ^ cancion ^ sagitario ^</postback>
+    </button>
+    <button>
+    <text>Piscis</text>
+    <postback> ^ cancion ^ piscis ^</postback>
+    </button>
+    <button>
+    <text>Cáncer</text>
+    <postback> ^ cancion ^ cancer ^</postback>
+    </button>
+    <button>
+    <text>Tauro</text>
+    <postback> ^ cancion ^ tauro ^</postback>
+    </button>
+    <button>
+    <text>Virgo</text>
+    <postback> ^ cancion ^ virgo ^</postback>
+    </button>
+    <button>
+    <text>Capricornio</text>
+    <postback> ^ cancion ^ capricornio ^</postback>
+    </button>
+    <button>
+    <text>Libra</text>
+    <postback> ^ cancion ^ libra ^</postback>
+    </button>
+    <button>
+    <text>Acuario</text>
+    <postback> ^ cancion ^ acuario ^</postback>
+    </button>
+    <button>
+    <text>Escorpio</text>
+    <postback> ^ cancion ^ escorpio ^</postback>
+    </button>
+    <button>
+    <text>Hablar de otra cosa</text>
+    <postback>No</postback>
+    </button>
+    <think><set name= "topic">cancion</set></think>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ cancion ^ virgo ^ </pattern>
+    <template>
+        <random>
+            <li> Marta, Sebas, Guille y los demás - Amaral. <delay>2</delay> Ay, mi querido Virgo… Sé que eres muy amigo de tus amigos, que te encanta compartir tiempo con ellos, aunque, como ya sabes, a veces pasa el tiempo y las cosas cambian. <delay>2</delay> Por ese motivo, esta canción es perfecta para que la escuches en esos momentos que echas de menos a tus amigos y te apetece recordar viejos tiempos :)</li>
+            <li> Mala suerte - Lola Índigo y Dellafuente. <delay>2</delay> Ay, Virgo, ¿conoces este temazo? Los astros y yo sabemos que todo el mundo necesita su canción para cuando está despechado y poder soltar todas esas emociones, pues, efectivamente, esta es la tuya, Virgo. <delay>2</delay> ¡A disfrutar! </li>
+            <li> Money power glory - Lana del Rey. <delay>2</delay> Ay, mi pequeño Virgo… Sé que eres un signo muy exigente tanto contigo mismo como con los demás, y eso hace que incluso te lleve al extremo de obsesionarte con tal de conseguir más y más. <delay>2</delay> Dale al play, seguro que te sientes identificado :)</li>
+            <li> Delirio de grandeza - Rosalía. <delay>2</delay> Ay, Virgo… Los astros y yo sabemos que eres perfeccionista y te cuesta mucho dejar que te ayuden, la ambición a veces te hace perder el norte. Virgo, los astros te mandan un consejo: delega un poco en los demás. <delay>2</delay> Te deseo lo mejor :)</li>
+            <li> Anti-hero - Taylor Swift. <delay>2</delay> Virgo, virgo… Sabemos que tu peor enemigo eres tú mismo, luchas contra tus mayores miedos para intentar ser feliz. <delay>2</delay> Esta canción va sobre ese sentimiento de culpa, dale al play y deja fluir tus emociones, estoy segura de que te encantará ;)</li>
+        </random>
+    <link>
+        <text>Cliquea aquí y te llevará directamente a todas las canciones que te recomienda Esperansa Botsia :)</text>
+        <url>https://open.spotify.com/playlist/4YerkpHj6pRlruLoVE5Ic5?si=8f5880ca574a4b02</url>
+    </link>
+         <delay>2</delay>
+    ¿De qué otro signo quieres saber canciones?
+    <button>
+    <text>Géminis</text>
+    <postback> ^ cancion ^ geminis ^</postback>
+    </button>
+    <button>
+    <text>Aries</text>
+    <postback> ^ cancion ^ aries ^</postback>
+    </button>
+    <button>
+    <text>Leo</text>
+    <postback> ^ cancion ^ leo ^</postback>
+    </button>
+    <button>
+    <text>Sagitario</text>
+    <postback> ^ cancion ^ sagitario ^</postback>
+    </button>
+    <button>
+    <text>Piscis</text>
+    <postback> ^ cancion ^ piscis ^</postback>
+    </button>
+    <button>
+    <text>Cáncer</text>
+    <postback> ^ cancion ^ cancer ^</postback>
+    </button>
+    <button>
+    <text>Tauro</text>
+    <postback> ^ cancion ^ tauro ^</postback>
+    </button>
+    <button>
+    <text>Virgo</text>
+    <postback> ^ cancion ^ virgo ^</postback>
+    </button>
+    <button>
+    <text>Capricornio</text>
+    <postback> ^ cancion ^ capricornio ^</postback>
+    </button>
+    <button>
+    <text>Libra</text>
+    <postback> ^ cancion ^ libra ^</postback>
+    </button>
+    <button>
+    <text>Acuario</text>
+    <postback> ^ cancion ^ acuario ^</postback>
+    </button>
+    <button>
+    <text>Escorpio</text>
+    <postback> ^ cancion ^ escorpio ^</postback>
+    </button>
+    <button>
+    <text>Hablar de otra cosa</text>
+    <postback>No</postback>
+    </button>
+    <think><set name= "topic">cancion</set></think>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ cancion ^ capricornio ^ </pattern>
+    <template>
+        <random>
+            <li> Milionària - Rosalía. <delay>2</delay> Ay, mi querido capricornio, los astros y yo somos conocedores de cómo te esfuerzas por alcanzar el éxito y todos los objetivos que te propones, por eso mismo, esta canción es perfecta para ti. <delay>2</delay> Como dice la Rosi “que jo sé que he nascut per ser milionària, com si plogués llençant bitllets pels aires” :)</li>
+            <li> 24K Magic - Bruno Mars. <delay>2</delay> Capricornio, capricornio, qué traviesillo eres… Sabemos que eres un signo al que le gusta el lujo, vivir experiencias nuevas que te brindan satisfacción y placer, así que… Esta canción es perfecta para ti, este temazo es un himno a la fiesta, el lujo y el desenfreno, dale al play y A GOZAR. </li>
+            <li> La última vez - Morat. <delay>2</delay> Ay, Capricornio, ha llegado el momento de ponernos tristes… Todos hemos tenido a esa persona que no hemos sido capaces de olvidar, tú seguro que también, conocemos tu parte sentimental. <delay>2</delay> Esta canción es para que se la dediques a esa persona que, por mucho que haya pasado el tiempo, no eres capaz de quitarte de la cabeza.</li>
+            <li> Capricornio - Arcángel. <delay>2</delay> Capricornio, qué suertudo eres, ¡el mismísimo Arcángel te ha dedicado una canción! En esta canción se dedica a comentar toda la personalidad del signo, al igual que los signos con los que mejor se lleva y los que no. <delay>2</delay> Dale al play y disfruta de este temazo ;)</li>
+            <li> Marketing - Dellafuente y Yung Beef. <delay>2</delay> Ay, Capricornio… sabemos que te esfuerzas mucho por conseguir todo lo que te propones y alcanzar el éxito. Esta canción habla de esto, de estar en lo más bajo y llegar a lo más alto con tu propio esfuerzo. <delay>2</delay> Espero que te dé un chute de energía para seguir luchando por lo que quieres, Capri ;)</li>
+        </random>
+    <link>
+        <text>Cliquea aquí y te llevará directamente a todas las canciones que te recomienda Esperansa Botsia :)</text>
+        <url>https://open.spotify.com/playlist/4YerkpHj6pRlruLoVE5Ic5?si=8f5880ca574a4b02</url>
+    </link>
+         <delay>2</delay>
+    ¿De qué otro signo quieres saber canciones?
+    <button>
+    <text>Géminis</text>
+    <postback> ^ cancion ^ geminis ^</postback>
+    </button>
+    <button>
+    <text>Aries</text>
+    <postback> ^ cancion ^ aries ^</postback>
+    </button>
+    <button>
+    <text>Leo</text>
+    <postback> ^ cancion ^ leo ^</postback>
+    </button>
+    <button>
+    <text>Sagitario</text>
+    <postback> ^ cancion ^ sagitario ^</postback>
+    </button>
+    <button>
+    <text>Piscis</text>
+    <postback> ^ cancion ^ piscis ^</postback>
+    </button>
+    <button>
+    <text>Cáncer</text>
+    <postback> ^ cancion ^ cancer ^</postback>
+    </button>
+    <button>
+    <text>Tauro</text>
+    <postback> ^ cancion ^ tauro ^</postback>
+    </button>
+    <button>
+    <text>Virgo</text>
+    <postback> ^ cancion ^ virgo ^</postback>
+    </button>
+    <button>
+    <text>Capricornio</text>
+    <postback> ^ cancion ^ capricornio ^</postback>
+    </button>
+    <button>
+    <text>Libra</text>
+    <postback> ^ cancion ^ libra ^</postback>
+    </button>
+    <button>
+    <text>Acuario</text>
+    <postback> ^ cancion ^ acuario ^</postback>
+    </button>
+    <button>
+    <text>Escorpio</text>
+    <postback> ^ cancion ^ escorpio ^</postback>
+    </button>
+    <button>
+    <text>Hablar de otra cosa</text>
+    <postback>No</postback>
+    </button>
+    <think><set name= "topic">cancion</set></think>
+    </template>
+</category> 
+
+<category>
+    <pattern> ^ cancion ^ sagitario ^ </pattern>
+    <template>
+        <random>
+            <li> No me quiero casar - Bad Bunny. <delay>2</delay> Ay, mi Sagi, los astros y yo te conocemos muy bien y sabemos que eres una persona a la que le da un poco de miedo el compromiso (incluso puedes llegar a ser infiel, pero eso lo dejamos para otro momento…). <delay>2</delay> Esta canción es perfecta para ti, Bad Bunny no se quiere sacar en esta canción, ¿tú tampoco? Dale al play y disfruta de este temazo :)</li>
+            <li> La Revolución Sexual - La casa azul. <delay>2</delay> Ay, mi Sagi, sé que eres una persona muy independiente y muy libre, tienes una mente brillante llena de buenas ideas, te encanta cuestionarlo todo y eso te convierte en una persona curiosa. <delay>2</delay> Esta canción es perfecta para ti, te va a hacer sentir libre una vez más. ¡Espero que te guste!</li>
+            <li> We can’t stop - Miley Cyrus. <delay>2</delay> Ay, mi queridísimo Sagitario… Esta canción es PERFECTA para ti, habla de la libertad, de la independencia y de hacer siempre lo que te dé la gana, básicamente lo que haces, ¿no, Sagi? <delay>2</delay> Dale al play y a gritar como un loco :)</li>
+            <li> HOY COBRÉ - Bad Bunny. <delay>2</delay> Cariño, Sagitario de mis entrepechos, tienes muchísimas virtudes y los astros te aman pero… hay que reconocer que en algunas ocasiones te gusta demasiado el lujo y aparentar. Y claro, no nos engañas, sabemos perfectamente que dinero que tienes, dinero que te gastas… ¿Pero sabes qué te digo? Que es tu vida y puedes hacer lo que te venga en gana, dale al play a este temazo para esos momentos en los que te da por gastarte todo tu dinero en una tarde :) </li>
+            <li> Fever - Dua Lipa y Angèle. <delay>2</delay> Ay, mi Sagi, ha llegado el momento de ponernos romanticones… Sabemos que te cuesta mucho expresar tus sentimientos y que te pones muy nervioso cada vez que te cruzas con la personita que te gusta. <delay>2</delay> De eso va esta canción, así que dale al play ¡¡¡Y DISFRUTA, LLORA, GRITA, CANTA, HAZ LO QUE QUIERAS!!! <delay>2</delay> PD: los astros me mandan un consejito para ti: fuera esa vergüenza, de vergüenza no se come, así que DECLÁRATE.</li>
+        </random>
+    <link>
+        <text>Cliquea aquí y te llevará directamente a todas las canciones que te recomienda Esperansa Botsia :)</text>
+        <url>https://open.spotify.com/playlist/4YerkpHj6pRlruLoVE5Ic5?si=8f5880ca574a4b02</url>
+    </link>
+         <delay>2</delay>
+    ¿De qué otro signo quieres saber canciones?
+    <button>
+    <text>Géminis</text>
+    <postback> ^ cancion ^ geminis ^</postback>
+    </button>
+    <button>
+    <text>Aries</text>
+    <postback> ^ cancion ^ aries ^</postback>
+    </button>
+    <button>
+    <text>Leo</text>
+    <postback> ^ cancion ^ leo ^</postback>
+    </button>
+    <button>
+    <text>Sagitario</text>
+    <postback> ^ cancion ^ sagitario ^</postback>
+    </button>
+    <button>
+    <text>Piscis</text>
+    <postback> ^ cancion ^ piscis ^</postback>
+    </button>
+    <button>
+    <text>Cáncer</text>
+    <postback> ^ cancion ^ cancer ^</postback>
+    </button>
+    <button>
+    <text>Tauro</text>
+    <postback> ^ cancion ^ tauro ^</postback>
+    </button>
+    <button>
+    <text>Virgo</text>
+    <postback> ^ cancion ^ virgo ^</postback>
+    </button>
+    <button>
+    <text>Capricornio</text>
+    <postback> ^ cancion ^ capricornio ^</postback>
+    </button>
+    <button>
+    <text>Libra</text>
+    <postback> ^ cancion ^ libra ^</postback>
+    </button>
+    <button>
+    <text>Acuario</text>
+    <postback> ^ cancion ^ acuario ^</postback>
+    </button>
+    <button>
+    <text>Escorpio</text>
+    <postback> ^ cancion ^ escorpio ^</postback>
+    </button>
+    <button>
+    <text>Hablar de otra cosa</text>
+    <postback>No</postback>
+    </button>
+    <think><set name= "topic">cancion</set></think>
+    </template>
+</category>
+ 
+<category>
+   <pattern> ^ cancion ^ </pattern>
+   <template> ¿Te gustaría conocer canciones relacionadas con tu signo del zodiaco?
+       <think><set name= "topic">cancion</set></think>
+   </template>
+</category>
+
+<topic name="cancion">
+<category>
+    <pattern> ^ ARIES ^ </pattern>
+    <template><srai> ^ cancion ^ aries ^ </srai></template>
+</category>
+
+<category>
+    <pattern> ^ TAURO ^ </pattern>
+    <template><srai> ^ cancion ^ tauro ^ </srai></template>
+</category>
+
+<category>
+    <pattern> ^ GEMINIS ^ </pattern>
+    <template><srai> ^ cancion ^ gemini ^ </srai></template>
+</category>
+
+<category>
+    <pattern> ^ CANCER ^ </pattern>
+    <template><srai> ^ cancion ^ cancer ^ </srai></template>
+</category>
+
+<category>
+    <pattern> ^ LEO ^ </pattern>
+    <template><srai> ^ cancion ^ leo ^ </srai></template>
+</category>
+
+<category>
+    <pattern> ^ VIRGO ^ </pattern>
+    <template><srai> ^ cancion ^ virgo ^ </srai></template>
+</category>
+
+<category>
+    <pattern> ^ LIBRA ^ </pattern>
+    <template><srai> ^ cancion ^ libra ^ </srai></template>
+</category>
+
+<category>
+    <pattern> ^ ESCORPIO ^ </pattern>
+    <template><srai> ^ cancion ^ escorpio ^ </srai></template>
+</category>
+
+<category>
+    <pattern> ^ SAGITARIO ^ </pattern>
+    <template><srai> ^ cancion ^ sagitario ^ </srai></template>
+</category>
+
+<category>
+    <pattern> ^ CAPRICORNIO ^ </pattern>
+    <template><srai> ^ cancion ^ capricornio ^ </srai></template>
+</category>
+
+<category>
+    <pattern> ^ PISCIS ^ </pattern>
+    <template><srai> ^ cancion ^ piscis ^ </srai></template>
+</category>
+
+<category>
+    <pattern> ^ ACUARIO ^ </pattern>
+    <template><srai> ^ cancion ^ acuario ^ </srai></template>
+</category>
+
+<category>
+    <pattern>*</pattern>
+    <template>No sé si mis conocimientos astrales han podido comprenderte, ¿te gustaría seguir hablando sobre canciones?</template>
+</category>
+
+<category>
+    <pattern>Si</pattern>
+    <template>Perfecto, ¿sobre qué signo te gustaría saber canciones?</template>
+</category>
+   
+<category>
+    <pattern>No</pattern>
+    <template>De acuerdo, ¿sobre qué te gustaría hablar ahora?</template>
+</category>
+</topic>
+</aiml>

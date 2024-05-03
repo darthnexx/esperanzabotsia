@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>BOTON PRED AMOR</pattern>
+        <template>
+            <random>
+                <li>Ta ra raaaaaa, love is in the air😍💘💘 <delay>2</delay> La persona que te gusta se va a declarar muy pronto, tú sigue haciendo todas las manifestaciones que encuentres en TikTok porque están haciendo efecto. </li>
+                <li>¡POR FIN GORDIIIIII!<delay>2</delay>  La persona que te gusta va a estar más receptiva que nunca. Aprovecha para responderle algún story tontorrón…😉</li>
+                <li>Cua cua cua…💔<delay>2</delay>Gordi, no te comes ni un rosco… pero es que no veo en mi bola de cristal que la cosa vaya a mejorar eh. En fin, disfruta de tu soltería porque tiene pinta de que va a ser eterna.</li>
+                <li>Puff… ponedme el chat en blanco y negro porque que tristeza😓<delay>2</delay> Cupido no te mira ni por equivocación gordi, y me temo que la cosa va a seguir así. Te recomiendo buscar por ahí algún sitio donde te hagan un ritual para quitarte el  mal de ojo que tienes encima. 👍</li>
+                <li>🌷 🌺 🌼 🌸LA PRIMAVERA LA SANGRE ALTERA🤭🌷 🌺 🌼 🌸 <delay>2</delay> Los astros me revelan que el pico de una mesa está menos salido que tú. Ay, ay… no te sonrojes pequeño travieso que tengo buenas noticias para ti: tu mejor época sexual está al caer (no olvides usar protección😉😉)</li>
+                <li>Hoy es noche de sexooooooo😋 <delay>2</delay> Bueno, bueno… calienta que sales. Se viene la época más gamberilla de tu vida, así que relájate y disfruta.🔥</li>
+            </random>
+            <delay>2</delay>
+            ¿Sobre qué otro signo quieres conocer las predicciones?
+            <button>
+            <text>Géminis</text>
+            <postback>BOTON PRED GEMINIS</postback>
+            </button>
+            <button>
+            <text>Aries</text>
+            <postback>BOTON PRED ARIES</postback>
+            </button>
+            <button>
+            <text>Leo</text>
+            <postback>BOTON PRED LEO</postback>
+            </button>
+            <button>
+            <text>Sagitario</text>
+            <postback>BOTON PRED SAGITARIO</postback>
+            </button>
+            <button>
+            <text>Piscis</text>
+            <postback>BOTON PRED PISCIS</postback>
+            </button>
+            <button>
+            <text>Cáncer</text>
+            <postback>BOTON PRED CANCER</postback>
+            </button>
+            <button>
+            <text>Tauro</text>
+            <postback>BOTON PRED TAURO</postback>
+            </button>
+            <button>
+            <text>Virgo</text>
+            <postback>BOTON PRED VIRGO</postback>
+            </button>
+            <button>
+            <text>Capricornio</text>
+            <postback>BOTON PRED CAPRICORNIO</postback>
+            </button>
+            <button>
+            <text>Libra</text>
+            <postback>BOTON PRED LIBRA</postback>
+            </button>
+            <button>
+            <text>Acuario</text>
+            <postback>BOTON PRED ACUARIO</postback>
+            </button>
+            <button>
+            <text>Escorpio</text>
+            <postback>BOTON PRED ESCORPIO</postback>
+            </button>
+            <button>
+            <text>Hablar de otra cosa</text>
+            <postback>No</postback>
+            </button>
+            <think><set name="topic">prediccion</set></think>
+        </template>
+    </category>
+</aiml>

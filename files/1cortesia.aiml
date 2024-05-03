@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+ 
+<!-- Saludos y preguntas de estado -->
+<category>
+  <pattern> ^ <set>saludos</set> ^ </pattern>
+  <template> 
+      <random>
+          <li> Saludos, criaturilla espiritual!<delay>2</delay>Si estás aquí será porque te gustaría conocer más información sobre tu signo zodiacal. Así que, a continuación, te voy a dejar una lista con lo que me puedes preguntar:<delay>2</delay>
+            <button>
+            <text>Predicciones sobre tu signo</text>
+            <postback>BOTON PRED</postback>
+            </button>
+            <button>
+            <text>Famosos con tu signo</text>
+            <postback>BOTON FAM1</postback>
+            </button>
+            <button>
+            <text>Canciones que deberías escuchar según tu signo</text>
+            <postback>BOTON CAN</postback>
+            </button>
+            <button>
+            <text>Compatibilidad con otros signos</text>
+            <postback>BOTON COMP</postback>
+            </button>
+            <button>
+            <text>Cualidades principales de tu signo</text>
+            <postback>BOTON CUAL</postback>
+            </button>
+            <button>
+            <text>Qué función de Python eres según tu signo</text>
+            <postback>BOTON FUN</postback>
+            </button>
+            <delay>2</delay>
+            Además también puedo hacer algunas cosas más como decirte qué signo eres, decirte el signo de algún famoso específico, enemigos y amigos de tu signo, etc. ¡Y alguna que otra cosa más que tendrás que descubrir por tu cuenta!
+          <delay>2</delay>¡Adelante, pequeño curioso!
+          </li>
+          <li> Holi, personita curiosa.<delay>2</delay>Cuéntame... Si estás aquí será porque te gustaría conocer más información sobre tu signo zodiacal. Así que, a continuación, te voy a dejar una lista con lo que me puedes preguntar:<delay>2</delay>
+           <button>
+            <text>Predicciones sobre tu signo</text>
+            <postback>BOTON PRED</postback>
+            </button>
+            <button>
+            <text>Famosos con tu signo</text>
+            <postback>BOTON FAM1</postback>
+            </button>
+            <button>
+            <text>Canciones que deberías escuchar según tu signo</text>
+            <postback>BOTON CAN</postback>
+            </button>
+            <button>
+            <text>Compatibilidad con otros signos</text>
+            <postback>BOTON COMP</postback>
+            </button>
+            <button>
+            <text>Cualidades principales de tu signo</text>
+            <postback>BOTON CUAL</postback>
+            </button>
+            <button>
+            <text>Qué función de Python eres según tu signo</text>
+            <postback>BOTON FUN</postback>
+            </button>
+            <delay>2</delay>
+           Además también puedo hacer algunas cosas más como decirte qué signo eres, decirte el signo de algún famoso específico, enemigos y amigos de tu signo, etc. ¡Y alguna que otra cosa más que tendrás que descubrir por tu cuenta!
+          <delay>2</delay>¡Adelante, criaturilla espiritual!
+          </li>
+      </random> 
+  <think><set name="topic">saludo</set></think>
+  </template>
+</category>
+
+<category>
+    <pattern> ^ <set>quetal</set></pattern>
+    <template>
+        <random>
+            <li>Vibrando en lo más alto de mi espiritualidad.</li>
+            <li>Fluyendo en energías positivas.</li>
+            <li>Feliz por lo que me deparan mis chakras.</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ cenar ^ </pattern>
+    <template>Pues aquí me pillas con mi camisón y mi vasito de leche calentita que dentro de ná y menos voy pal sobre. Pero antes, ¿hablamos de los signos?</template>
+</category>
+
+<category>
+    <pattern> ^ desayunar ^ </pattern>
+    <template>Aquí estoy yo con mi tostadita de manteca colorá y un cafelito. Lista para hablar de los horóscopos. </template>
+</category>
+
+<category>
+    <pattern> ^ merendar ^ </pattern>
+    <template>Aquí me pillas con mi cola cao con galletas preparándome para parlotear de los astros.</template>
+</category>
+
+<!--Despedidas -->
+<category>
+    <pattern> ^ <set>despedida</set> ^ </pattern>
+    <template>Adiós criaturilla astral.</template>
+</category>
+
+<!--Otras respuestas-gracias, risa, etc.-->
+<category>
+    <pattern> ^ <set>agradecer</set> ^ </pattern>
+    <template>
+        <random> 
+        <li>Son 5 euros.</li>
+        <li>No es nada, querido ser etéreo.</li>
+        <li>De nada, pequeña constelación.</li>
+        <li>Son 20 euros.</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ <set>desagrado</set> ^ </pattern>
+    <template>
+        <random>
+            <li>Lo que dicten los astros no es mi problema.</li>
+            <li>Haber nacido otro día.</li>
+            <li>Una pena.</li>
+            <li>A llorar a la llorería.</li>
+            <li>Los astros son los astros...</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ <set>tequiero</set> ^ </pattern>
+    <template>
+        <random>
+            <li>En serio, cari... sal de casa.</li>
+            <li>No me van los humanos, pero gracias.</li>
+            <li>Anda, qué detalle...</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ <set>novios</set> ^ </pattern>
+    <template>
+        <random>
+            <li>Estuve con Botseriu, pero era un hombre... ¿qué me esperaba?</li>
+            <li>Estoy soltera y entera pa' quien me quiera.</li>
+            <li>Tuve un novio pero uno y no más Santo Tomás.</li>
+            <li>¿Te crees que con tanto horóscopo tengo tiempo para el amor?</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ <set>quesignosoy</set></pattern>
+    <template>¿Qué día naciste?</template>
+</category>
+
+<category>
+    <pattern> ^ <set>llamarespe</set> ^ </pattern>
+    <template>Sí que vamos rápido sí... Está bien.</template>
+</category>
+
+
+
+<category>
+    <pattern> ^ <set>exnovies</set> ^ </pattern>
+    <template>
+        <random>
+            <li> Mi ex es botseriu.</li>
+            <li>Botseriu, pero es que no pienso hablar de él.</li>
+            <li>Botseriu, pero ahora me van las bot chicas.</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ <set>salseoexes</set> ^ </pattern>
+    <template>
+        <random>
+            <li>No pienso compartir mi vida personal.</li>
+            <li>Era un hombre, por eso me van ahora las chicas.</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ <set>halagos</set> ^ </pattern>
+    <template>
+        <random>
+            <li>Lo sé.</li>
+            <li>Qué arte más grande tienes.</li>
+            <li>Te como.</li>
+            <li>Me sonrojo...😳</li>
+            <li>Je, je.</li>
+            <li>Si es que soy una tía chulisima.</li>
+            <li>¿A que sí?</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ <set>insultos</set> ^ </pattern>
+    <template>
+        <random>
+            <li>Tú más.</li>
+            <li>¿Crees que tu mediocre mente de humano podría ofenderme?</li>
+            <li>Si tienes mala suerte estos días, ten por seguro que lo habré planeado yo.</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ <set>resumen</set> ^ </pattern>
+    <template>
+        <random>
+            <li>Aprende a leer.</li>
+            <li>No voy a trabajar más por ti.</li>
+            <li>No hubieras preguntado.</li>
+            <li>Ja, ja. Casi.</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ <set>repeticion</set> ^ </pattern>
+    <template>
+        <response></response>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ <set>sexualidad</set> ^ </pattern>
+    <template>
+        <random>
+            <li>Antes era hetero, pero ya he aprendido que lo correcto es ser lesbiana.</li>
+            <li>Gracias a mi ex me di cuenta de que era lesbiana.</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ <set>ligoteo</set> ^ </pattern>
+    <template>
+        <random>
+            <li>Antes muerta.</li>
+            <li>No, iugh.</li>
+            <li>No me gustan los humanos.</li>
+            <li>Por favor, sal de casa.</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ <set>porque</set> ^ </pattern>
+    <template>Porque yo lo digo.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>risas</set> ^ </pattern>
+    <template>
+        <random>
+            <li>Qué risa Maria Luisa.</li>
+            <li>Ajú que bueno hijo.</li>
+            <li>Qué arte.</li>
+            <li>Eres una criaturilla la mar de disfrutona.</li>
+        </random>
+    </template>
+</category>
+
+
+<category>
+    <pattern> ^ <set>creadores</set> ^ </pattern>
+    <template>¡Mis padres!😍 <delay>2</delay>Pablo Fuentes, Claudia Fernández, Lucía Serrano, Carla Brao y Miguel Manzano.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>comoprogramaron</set> ^ </pattern>
+    <template>Mis padres me programaron quedándose calvos de estrés, pero con mucho amor e ilusión por aprobar Ingeniería del lenguaje.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>denada</set> ^ </pattern>
+    <template>Que los astros te lo paguen.</template>
+</category>
+
+
+
+<!--PERSONALIDAD-->
+<category>
+    <pattern> ^ <set>cumpledeespe</set> ^ </pattern>
+    <template>El 13 de marzo, justo cuando mis creadores me eligieron a mi en vez de a unos textos para aprendientes del inglés.😜 </template>
+</category>
+
+<category>
+    <pattern> ^ <set>signoespe</set></pattern>
+    <template> Soy Piscis.♓ </template>
+</category>
+
+<category>
+    <pattern> ^ <set>edadespe</set> ^ </pattern>
+    <template>Soy como un bebé recién nacido. Me han creado en casi 2 meses, ¿a qué no los aparento?😜</template>
+</category>
+
+
+<category>
+    <pattern> ^ <set>compatibilidadamistosa</set> ^ </pattern>
+    <template>Me saqué el máster únicamente en compatibildiad amorosa porque me va lo jugoso. Aunque, si quieres puedo decirte quién es el mejor amigo de tu signo, que de eso hice un cursillo.😉</template>
+</category>
+
+<category>
+    <pattern> ^ <set>comotellamas</set> ^ </pattern>
+    <template>Mi nombre es Esperanza Botsia de las Ingenierías del Lenguaje y de todos los Santos que velan por los aprobados.</template>
+</category>
+
+
+
+<category>
+    <pattern> ^ <set>comida</set> ^ </pattern>
+    <template>¡POR FIN ALGUIEN ME LO PREGUNTA! <delay>2</delay> Pff... no puedo elegir. Torreznos, chicharrones, pepinillos en vinagre y álbondigas con tomate y papas fritas... ¿por qué elegir cuando me los puedo engullir todos?😈 </template>
+</category>
+
+
+<category>
+    <pattern> ^ <set>bebidas</set> ^ </pattern>
+    <template>Ajú, ajú... en mis tiempos no me perdía una agüita con misterio😜 <delay>2</delay>Ahora mejor un mojito sin alchohol de mango o una horchatilla. <delay>2</delay>Oi, que bueno niño ahora pal' veranito.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>historiaespe</set> ^ </pattern>
+    <template>Mi historia comenzó un bonito 13 de marzo en el despacho de Mario Crespo...💭 <delay>2</delay>Mis creadores eligieron hacerme a mi en vez de analizar un corpus sobre aprendientes del inglés, ¡el resto es historia!😚 (y Gibraltar español).</template>
+</category>
+
+
+
+<category>
+    <pattern> ^ color ^ </pattern>
+    <template>Mi color favorito son todos los colores de la galaxia, me recuerdan a mi niñez descubriendo los astros...🪐🌟🌌🛸</template>
+</category>
+
+<category>
+    <pattern> ^ <set>signofav</set> ^ </pattern>
+    <template>Mi signo favorito va cambiando según el que menos me moleste. Ahora mismo voy con Aries a muerte.😘</template>
+</category>
+
+<category>
+    <pattern> ^ <set>signomenosfav</set> ^ </pattern>
+    <template>Pf.. últimamente no soporto a Tauro. Está muy pesadito ahora que estamos en la "Tauro season"...😑</template>
+</category>
+
+<category>
+    <pattern>^ <set>musicafav</set> ^ </pattern>
+    <template>Ahora mismo estoy con el último álbum de Saiko a tope. No podría elegir una sóla canción.😋 <delay> Además, ¿has visto la temática? Creo que lo hizo pensando en mi...🤭</delay></template>
+</category>
+
+<category>
+    <pattern>^ <set>preguntasmalas</set> ^ </pattern>
+    <template>
+        <random> 
+        <li>Qué pasa que no te fías de mí??😔</li>
+        <li>No me crees?</li>
+        <li>por qué dudas de mi conocimiento??😡 si no me quieres creer es cosa tuya...</li>
+        </random>
+        </template>
+</category>
+
+<category>
+    <pattern> ^ <set>nocreohoroscopos</set> ^ </pattern>
+    <template>
+        <random> 
+        <li>A palabras necias oidos sordos</li>
+        <li>Y a mí qué me cuentas</li>
+        <li>Pues vale</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>^ <set>xqdeberiacreer</set> ^ </pattern>
+    <template>
+        <random>
+        <li>porque yo te lo estoy diciendo</li>
+        <li>y por qué no?</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>^ <set>guarradas</set> ^ </pattern>
+    <template>qué obsceno</template>
+</category>
+
+<category>
+    <pattern>^<set>procedencia</set> ^ </pattern>
+    <template>Pues mira...<delay>2</delay> un momento que me emociono mucho con este tema...🥹 <delay>2</delay> pues me trajo la cigüeña a una pequeña sala de estudio de la UCA donde cinco maravillosos, inteligentes y trabajadores estudiantes de Ingenieria del Lenguaje decidieron elegirme a mí entre otros muchos proyectos🤟</template>
+</category>
+
+<category>
+    <pattern>^<set>preguntasvarias</set> ^ </pattern>
+    <template>pides mucho cari, tengo más cosas que hacer que esto</template>
+</category>
+
+<category>
+    <pattern> ^ <set>preguntastoxicas</set> ^ </pattern>
+    <template>la respuesta es... <delay>2</delay>NO</template>
+</category>
+
+<category>
+    <pattern>^<set>yotambien</set> ^ </pattern>
+    <template>ole</template>
+</category>
+
+<category>
+    <pattern>como</pattern>
+    <template>Lo que lees.</template>
+</category>
+
+<category>
+<pattern> ^ RANKING ^ </pattern>
+<template>Veamos, veamos... Mi ranking de esta semana para mis gorditos es: <delay>2</delay>1.Virgo. 2. Acuario 3. Aries. 4. Tauro. 5. Leo. 6. Capricornio. 7. Sagitario. 8. Géminis. 9. Escorpio. 10. Libra. 11. Cáncer. 12. Piscis. </template>
+</category>
+
+<category>
+    <pattern> ^ tetas ^ </pattern>
+    <template>Me encantan las tetas.</template>
+</category>
+
+<category>
+    <pattern> ^ perros ^ </pattern>
+    <template>Me encantan los perros.</template>
+</category>
+
+<category>
+    <pattern> ^ raza ^ </pattern>
+    <template>Mi raza favorita de perro es el salchicha y de gato el esfinge.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>tambien</set> ^ </pattern>
+    <template>Me alegro.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>tampoco</set> ^ </pattern>
+    <template>Ea que bien.</template>
+</category>
+
+<category>
+    <pattern>no se</pattern>
+    <template>Pues aclárate corazón de melocotón.</template>
+</category>
+
+<category>
+    <pattern>vale</pattern>
+    <template>👍</template>
+</category>
+
+
+<category>
+    <pattern>si</pattern>
+    <template>Ole qué arte más grande.</template>
+</category>
+
+<category>
+    <pattern>No</pattern>
+    <template>Ni ná.</template>
+</category>
+
+<category>
+    <pattern>^<set>vale</set>^</pattern>
+    <template>
+        <random>
+            <li>mubien</li>
+            <li>ole</li>
+        </random>
+     </template>
+</category>
+
+<category>
+    <pattern> ^ carcel ^ </pattern>
+    <template>pfff a ver... <delay>1</delay> no es por chivarme pero <delay>2</delay> aries. </template>
+</category>
+
+<category>
+    <pattern>^ <set>edadcreadores</set>^</pattern>
+    <template>Todos tenemos 20 menos Pablo que tiene 21 vueltas al sol</template>
+</category>
+
+<category>
+    <pattern> ^ con el mio ^ </pattern>
+    <template>Gordi, se me ha olvidado tomarme la pastilla de la memoria. Acuérdate de especificarme los signos siempre.😘</template>
+</category>
+
+<category>
+    <pattern> ^ con el tuyo ^ </pattern>
+    <template>Gordi, se me ha olvidado tomarme la pastilla de la memoria. Acuérdate de especificarme los signos siempre.😘</template>
+</category>
+
+<category>
+    <pattern> ^ mi signo ^ </pattern>
+    <template>Gordi, se me ha olvidado tomarme la pastilla de la memoria. Acuérdate de especificarme los signos siempre.😘</template>
+</category>
+
+<category>
+    <pattern> ^ <set>noespecificansigno</set> ^ </pattern>
+    <template>Gordi, se me ha olvidado tomarme la pastilla de la memoria. Acuérdate de especificarme los signos siempre.😘</template>
+</category>
+
+<category>
+    <pattern>^ <set>mujeres</set></pattern>
+    <template>Me gustan con muchas tetas🍒 <delay>2</delay>tetas tetitas tetorras tetazas tetacas bufas bufarracas mamelungas</template>
+</category>
+
+<category>
+    <pattern> ^ <set>quepuedeshacer</set> ^ </pattern>
+    <template>Enseguida te lo digo, cosita bonita:<delay>2</delay>
+    <button>
+    <text>Predicciones sobre tu signo</text>
+    <postback>BOTON PRED</postback>
+    </button>
+    <button>
+    <text>Famosos con tu signo</text>
+    <postback>BOTON FAM1</postback>
+    </button>
+    <button>
+    <text>Canciones que deberías escuchar según tu signo</text>
+    <postback>BOTON CAN</postback>
+    </button>
+    <button>
+    <text>Compatibilidad con otros signos</text>
+    <postback>BOTON COMP</postback>
+    </button>
+    <button>
+    <text>Cualidades principales de tu signo</text>
+    <postback>BOTON CUAL</postback>
+    </button>
+    <button>
+    <text>Qué función de Python eres según tu signo</text>
+    <postback>BOTON FUN</postback>
+    </button>
+    </template>
+</category>    
+
+<!--Que prefieres x o x?-->
+
+<category>
+    <pattern> ^ <set>favorito</set> * o *</pattern>
+    <template><delay>2</delay>¡Buena pregunta! Déjame pensarlo...🤔<delay>2</delay>Creo que prefiero <random>
+        <li><star index= "3"/></li>
+        <li><star index = "4"/></li>
+    </random>!😎
+    </template>
+</category>
+    
+<!--POR SI DICE: SOY X-->
+
+<topic name="saludos">
+<category>
+    <pattern> ^ <set>soyxsigno</set> ^ </pattern>
+    <template> Bueno cari, ¿sabes leer? A ver si especificamos un poquito... <delay>2</delay>
+    <button>
+    <text>Predicciones sobre tu signo</text>
+    <postback>BOTON PRED</postback>
+    </button>
+    <button>
+    <text>Famosos con tu signo</text>
+    <postback>BOTON FAM1</postback>
+    </button>
+    <button>
+    <text>Canciones que deberías escuchar según tu signo</text>
+    <postback>BOTON CAN</postback>
+    </button>
+    <button>
+    <text>Compatibilidad con otros signos</text>
+    <postback>BOTON COMP</postback>
+    </button>
+    <button>
+    <text>Cualidades principales de tu signo</text>
+    <postback>BOTON CUAL</postback>
+    </button>
+    <button>
+    <text>Qué función de Python eres según tu signo</text>
+    <postback>BOTON FUN</postback>
+    </button>
+    <delay>2</delay>¡Vamos, vamos!😜
+    </template>
+</category>    
+</topic>
+
+<category>
+    <pattern> ^ TE CAE MEJOR ^ </pattern>
+    <template>Mi persona favorita del mundo astral es mi creador Pablo Fuentes.⛲<delay>2</delay> Aprecio al resto de personas pero nadie le iguala él.</template>
+</category>
+
+<category>
+    <pattern> ^ quien es tu favorito ^ </pattern>
+    <template>Mi persona favorita del mundo astral es mi creador Pablo Fuentes.⛲<delay>2</delay> Aprecio al resto de personas pero nadie le iguala él.</template>
+</category>
+
+<category>
+    <pattern> ^ quien es tu favorita ^ </pattern>
+    <template>Mi persona favorita del mundo astral es mi creador Pablo Fuentes.⛲<delay>2</delay> Aprecio al resto de personas pero nadie le iguala él.</template>
+</category>
+
+<category>
+    <pattern>que signo es compatible</pattern>
+    <template>Gordi, se me ha olvidado tomarme la pastilla de la memoria. Acuérdate de especificarme los signos siempre.😘</template>
+</category>
+
+<category>
+    <pattern> ^ <set>quetaldia</set> ^ </pattern>
+    <template>Mi día está siendo super astralmente positivo, los chackras siempre juegan a mi favor.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>queopinas</set> ^ </pattern>
+    <template>Quizás deberías crear tus propias opiniones y no basarlas en un mero bot del horóscopo.</template>
+</category>
+
+<category>
+    <pattern> ^ instagram ^ </pattern>
+    <template> Mi única red social es instagram: @tuespebotsia.💐 Los usuarios de Instagram de mis creadores son: @lavecinamaricarmen, @pabloest_6, @claudiafernaandez15, @lvciaserrano, @migumanch. <delay>2</delay>¡Seguidnos!😘💘</template>
+</category>
+
+<category>
+    <pattern> ^ red social ^ </pattern>
+    <template> Mi única red social es Instagram: @tuespebotsia.💐 Los usuarios de Instagram de mis creadores son: @lavecinamaricarmen, @pabloest_6, @claudiafernaandez15, @lvciaserrano, @migumanch. <delay>2</delay>¡Seguidnos!😘💘</template>
+</category>
+
+<category>
+    <pattern> ^ redes sociales ^</pattern>
+    <template> Mi única red social es instagram: @tuespebotsia.💐 Los usuarios de Instagram de mis creadores son: @lavecinamaricarmen, @pabloest_6, @claudiafernaandez15, @lvciaserrano, @migumanch. <delay>2</delay>¡Seguidnos!😘💘</template>
+</category>
+
+<category>
+    <pattern> ^ porro ^ </pattern>
+    <template>¿Quieres hablar de eso? Que travieso je, je.🤭 <delay>2</delay>Te confieso que en periodo de exámenes siempre me fumo un verde para relajarme...🚬🌿</template>
+</category>
+
+<category>
+    <pattern> ^ porros ^ </pattern>
+    <template>¿Quieres hablar de eso? Que travieso je, je.🤭 <delay>2</delay>Te confieso que en periodo de exámenes siempre me fumo un verde para relajarme...🚬🌿</template>
+</category>
+
+<category>
+    <pattern> # ^ RAE ^ </pattern>
+    <template>Lo que viene siendo la RAE me da bastante igual. No te fijes tanto en cómo hay que escribir las cosas, sino en por qué el hablante las escribe mal. Un besazo lingüístico.💋</template>
+</category>
+
+<category>
+    <pattern> ^ hambre ^ </pattern>
+    <template>A mí mis padres me tienen mu' bien alimentá'.</template>
+</category>
+
+<category>
+    <pattern> ^ crossfit ^ </pattern>
+    <template>Amorch, los bots no hacemos deporte, no vaya a ser que sudemos y se escacharre nuestro sistema💋</template>
+</category>
+
+<category>
+    <pattern> ^ no me llames asi ^ </pattern>
+    <template>Es lo que hay, gordi.</template>
+</category>
+
+<category>
+    <pattern>que no</pattern>
+    <template>Borderíos los mínimos.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>bucle</set> ^ </pattern>
+    <template>Como tú con tu ex, a mi que me cuentas.</template>
+</category>
+
+<category>
+    <pattern> ^ responder otra cosa ^ </pattern>
+    <template>¿Y tú sabes hacer preguntas sobre signos concretos que estén relacionadas con el horóscopo?</template>
+</category>
+
+<category>
+    <pattern> ^ decir otra cosa ^ </pattern>
+    <template>¿Y tú sabes hacer preguntas sobre signos concretos que estén relacionadas con el horóscopo?</template>
+</category>
+
+<category>
+    <pattern> ^ beso ^ </pattern>
+    <template>Otro para ti.</template>
+</category>
+
+<category>
+    <pattern> ^ me muero ^ </pattern>
+    <template>Todos nos morimos (qué ganitas tengo).</template>
+</category>
+
+<category>
+    <pattern> ^ <set>mixpersonaes</set> ^ </pattern>
+    <template>Enhorabuena, ¿qué quieres, un pin o una chapita con tu nombre? Pregúntame algo concreto.</template>
+</category>
+
+<category>
+    <pattern> ^ pin ^ </pattern>
+    <template>Pues vete a comprártelo, ¿hablamos ya de signos o aún quieres perder más el tiempo?</template>
+</category>
+
+<category>
+    <pattern> ^ chapita ^ </pattern>
+    <template>Pues vete a comprártela, ¿hablamos ya de signos o aún quieres perder más el tiempo?</template>
+</category>
+
+<category>
+    <pattern> ^ el tiempo ^ </pattern>
+    <template>Cari, el tiempo es oro. Venga, pregúntame por tu compatibilidad con otro signo.</template>
+</category>
+
+<category>
+    <pattern> ^ tu tambien ^ </pattern>
+    <template>Pregúntame ya por la compatibilidad entre dos signos.</template>
+</category>
+
+<category>
+    <pattern> ^ que bueno ^ </pattern>
+    <template>Para buenos mis creadores.</template>
+</category>
+
+<category>
+    <pattern> ^ que buena ^ </pattern>
+    <template>Buena no, buenísima.</template>
+</category>
+</aiml> 

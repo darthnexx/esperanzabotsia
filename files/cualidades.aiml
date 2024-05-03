@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+<category>
+   <pattern>BOTON CUAL</pattern>
+   <template>Así que quieres saber las cualidades de tu signo😏 Genial, ¡dime tu signo!
+   <think><set name="topic">cualidad</set></think>
+   </template>
+</category>
+
+<category>
+    <pattern> ^ <set>cualidad</set> ^ </pattern>
+    <template> 
+    ¿Te gustaría conocer información acerca de las cualidades de los signos?😜
+    <think><set name="topic">cualidad</set></think>
+    </template>
+</category>
+
+<topic name="cualidad">
+<category>
+      <pattern> ^ aries ^ </pattern>
+        <template>
+        <random>
+        <li>Cuando conoces a Aries sabes que estás delante de un signo con mucha energía, capaz de mover montañas, capaz de ser un líder increíble, de abrirte camino, de hacer que tengas éxito. Pero es verdad que esa energía arrolladora no es para todo el mundo. Puedes parecer débil, no lo eres, eres más fuerte que una roca! ¡Levanta la cabeza que no se te caiga la corona princesa!💐</li>
+        <li>La única señal del zodiaco que toma riesgos con tanta frecuencia que su lema es "¡Que la suerte esté siempre de mi lado... o no, ya veré qué hago!" Su planificación a largo plazo se reduce a algo así como "¿Qué hacemos hoy? ¿Dominar el mundo? ¡Suena bien, empecemos ahora mismo!"</li>
+        <li>Aries tiene un fuerte espíritu competitivo y una determinación inquebrantable. Les encanta desafiar sus límites y superar obstáculos, y están siempre buscando maneras de demostrar su valía y competencia en todo lo que hacen.</li>
+        </random>
+        <delay>2</delay>
+        ¿Sobre qué otro signo te gustaría conocer las cualidades?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">cualidad</set></think>
+        </template>
+</category>
+
+<category>
+    <pattern> ^ libra ^ </pattern>
+    <template>
+        <random>
+        <li>Tus mayores fortalezas son tu sentido de la justicia y la empatía que te hace conectar a grandes niveles con los demás. Tus defectos son esa indecisión que tanto te caracteriza y el miedo que tienes a cualquier tipo de confrontación.</li>
+        <li>Las personas de signos de aire suelen ser curiosas, con gustos dispersos y muy versátiles. La comunicación es un denominador común entre los signos de este elemento, se les da el conversar y son muy sociales. Se caracterizan por ser estéticas, diplomáticas y románticas. Le huyen al conflicto, buscan relaciones armónicas tanto en lo personal como profesional. </li>
+        <li>Libra tiene un encanto natural y una gracia elegante que los hace extremadamente atractivos para los demás. Son corteses y amables, y tienen la habilidad de hacer que las personas se sientan especiales y apreciadas. Su encanto les permite ganarse el favor de los demás con facilidad.😏</li>
+        </random>
+        <delay>2</delay>
+        ¿Sobre qué otro signo te gustaría conocer las cualidades?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">cualidad</set></think>
+        </template>
+</category>
+
+<category>
+    <pattern> ^ escorpio ^ </pattern>
+    <template>
+        <random>
+        <li>Amado u odiado, con Escorpio no hay punto intermedio. Y, justamente, eso lo vuelve un signo difícil para relacionarse con otras personas que buscan moderación. De todos modos, los escorpianos saben amar con muchísima pasión, son leales y luchan hasta el final por lo que creen correcto.👌</li>
+        <li>Escorpio valora profundamente la lealtad y la confianza en las relaciones personales. Son extremadamente protectores con aquellos a quienes aman y harán cualquier cosa para mantenerlos a salvo. Su lealtad es inquebrantable y están dispuestos a sacrificarse por el bienestar de quienes consideran importantes en sus vidas.</li>
+        <li>Escorpio es conocido por su intensidad emocional y su pasión ardiente. Sea cual sea su objetivo o interés, se entregan por completo, con una determinación feroz y una profundidad emocional que puede ser abrumadora para quienes los rodean.</li>
+        </random>
+        <delay>2</delay>
+        ¿Sobre qué otro signo te gustaría conocer las cualidades?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">cualidad</set></think>
+        </template>
+</category>
+<category>
+    <pattern> ^ tauro ^ </pattern>
+    <template>
+        <random>
+        <li>Lo que más te sorprenderá del Toro es su solidez y resistencia. Es como una barrera extremadamente difícil de atravesar. Tienes que conocerlo muy a fondo para empezar a comprender cómo es realmente porque no sacará su forma de ser con todo el mundo a la primera. En el amor, eres una persona muy precavida y paciente. No te lanzas a los brazos de nadie, y como debe ser! valorate!!💐</li>
+        <li>Tauro es conocido por su increíble capacidad para persistir en la consecución de sus objetivos. Cuando un Tauro se fija en algo, no descansa hasta conseguirlo. Su determinación y resistencia son admirables y les permiten superar los obstáculos con paciencia y perseverancia.</li>
+        <li>Los nativos de Tauro tienen los pies en la tierra y un enfoque muy práctico para la vida. Son realistas y tienen una buena comprensión de sus propias habilidades y limitaciones. Son buenos para tomar decisiones sólidas y racionales, basadas en un análisis cuidadoso de la situación.</li>
+        </random>
+        <delay>2</delay>
+        ¿Sobre qué otro signo te gustaría conocer las cualidades?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">cualidad</set></think>
+        </template>
+</category>
+
+<category>
+    <pattern> ^ leo ^ </pattern>
+    <template>
+        <random>
+        <li>Los leo destacan por ser líderes natos, animal fuerte que reina en la sabana y con un halo majestuoso que le custodia. Las personas Leo suelen ser generosas, tenaces y valientes. Han nacido para ser independientes y fuertes, superan los obstaculos sin temor. Dios le da sus peores batallas a sus mejores guerreros</li>
+        <li>Siempre se notará la entrada en la sala de un Leo, porque su carisma ilumina hasta la parte más oscura del lugar, y su presencia eclipsa a cualquier otro. Cuando un Leo organiza una fiesta, incluso los planetas se alinean para asistir.</li>
+        <li>Leo tiene un corazón generoso y una naturaleza cálida y afectuosa. Son extremadamente leales con sus seres queridos y harán cualquier cosa por ellos. Les gusta cuidar y mimar a quienes aman, y disfrutan compartiendo su éxito y prosperidad con los demás.</li>
+        </random>
+        <delay>2</delay>
+        ¿Sobre qué otro signo te gustaría conocer las cualidades?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">cualidad</set></think>
+        </template>
+</category>
+
+<category>
+    <pattern> ^ sagitario ^ </pattern>
+    <template>
+        <random>
+        <li> Sagitario destaca por ser curiosos y siempre estar buscando nuevas experiencias y conocimientos, pero... la evasión y la falta de compromiso los vuelve seres indomables e infieles en algunos casos…, con los que no cualquiera pueda relacionarse</li>
+        <li> Sagitario es conocido por su espíritu aventurero y su optimismo inquebrantable. Son exploradores innatos, siempre en busca de nuevas experiencias y emociones. Ven la vida como una emocionante aventura y están dispuestos a enfrentar cualquier desafío con entusiasmo y confianza. </li>
+        <li> Los nativos de Sagitario valoran su independencia y libertad por encima de todo. Son individualistas que prefieren seguir su propio camino en lugar de adherirse a las normas establecidas por la sociedad. Tienen una mente abierta y son libres pensadores, dispuestos a cuestionar las creencias convencionales y explorar nuevas ideas y perspectivas.</li>
+        </random>
+        <delay>2</delay>
+        ¿Sobre qué otro signo te gustaría conocer las cualidades?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">cualidad</set></think>
+        </template>
+</category>
+
+<category>
+    <pattern> ^ virgo ^ </pattern>
+    <template>
+        <random>
+        <li> Virgo es muy amigo de sus amigos, son exigentes con las personas que tienen en su vida. Prestan mucha atención a los detalles, y a raíz de ello, son muy duros con ellos mismsos. Deben intentar dejarse fluir, Virgo, suéltate la melena!</li>
+        <li>Virgo tiende a ser reservado y observador en su comportamiento. Prefieren escuchar y observar antes de hablar y tienden a analizar cuidadosamente las situaciones antes de tomar una decisión. Son buenos para leer entre líneas y entender las motivaciones y emociones detrás de las acciones de los demás.</li>
+        <li>A veces, Virgo puede ser crítico consigo mismo y con los demás. Tienen estándares muy altos y tienden a ser perfeccionistas, lo que puede llevarlos a ser demasiado autocríticos o exigentes. También pueden ser críticos con los demás, aunque lo hacen con la intención de ayudar y mejorar la situación.</li>
+        </random>
+        <delay>2</delay>
+        ¿Sobre qué otro signo te gustaría conocer las cualidades?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">cualidad</set></think>
+        </template>
+</category>
+
+<category>
+    <pattern> ^ cancer ^ </pattern>
+    <template>
+        <random>
+        <li>Cáncer representa una fuerte intuición pero en el cangrejo que lo identifica, ese duro caparazón, representa una armadura dificil de penetrar ya que presentan una necesidad de autoprotección. Son espirituales, emocionales y altamente soñadores, lo que hace que se monten películas en su cabeza tendiéndose a refugiar.</li>
+        <li>Cáncer tiene un fuerte instinto protector y un deseo innato de cuidar y nutrir a quienes aman. Son como el caparazón protector de un cangrejo, dispuestos a defender a sus seres queridos de cualquier amenaza o peligro. Harán cualquier cosa por el bienestar de quienes consideran importantes en sus vidas.</li>
+        <li>Cáncer en el gimnasio podría destacarse por su empatía y sensibilidad hacia los demás miembros. Podrían ser aquellos que siempre están dispuestos a ofrecer un hombro en el que apoyarse o palabras de aliento cuando alguien está luchando con su rutina de ejercicios;)</li>
+        </random>
+        <delay>2</delay>
+        ¿Sobre qué otro signo te gustaría conocer las cualidades?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">cualidad</set></think>
+        </template>
+</category>
+
+<category>
+    <pattern> ^ piscis ^ </pattern>
+    <template>
+        <random>
+            <li>Piscis es conocido por su profunda sensibilidad y empatía, lo que suelen llevarlos a ser indecisos y tener dificultades para establecer límites. Piscis regala mucha de su energía a los demás y es posible que é tanto para luego darse cuenta que no merecía toda su atención, elige sabiamente Piscis.  </li>
+            <li>Piscis tiene una naturaleza altruista y compasiva. Son personas que están dispuestas a sacrificar sus propias necesidades y deseos por el bienestar de los demás. Tienen un gran corazón y están siempre dispuestos a ayudar a quienes lo necesitan, sin esperar nada a cambio.</li>
+            <li>Piscis es altamente sensible a su entorno y a las energías que los rodean. Pueden absorber fácilmente las emociones y vibraciones de las personas y lugares, lo que puede afectar profundamente su estado de ánimo y bienestar. Es importante para ellos aprender a protegerse y establecer límites saludables para mantener su equilibrio emocional.</li>
+        </random>
+    <delay>2</delay>
+        ¿Sobre qué otro signo te gustaría conocer las cualidades?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">cualidad</set></think>
+        </template>
+    </category>
+<category>
+    <pattern> ^ geminis ^ </pattern>
+    <template>
+        <random>
+            <li>Eres una mariposa social, siempre estás de aquí para allá, conociendo a gente nueva y es difícil seguirte el ritmo. Tienen mucha energía nerviosa en su interior que los hace sentir inquietos, tambien en cuanto al trabajo, es probable que trabajen en varias cosas a la vez para no sentirse desocupados, son un poco adictos al trabajo pero no solo eso, también conocen un sinfín de datos, y si… me estoy refiriendo a chismes. </li>
+            <li>Géminis es conocido por su naturaleza versátil y adaptable. Son capaces de adaptarse fácilmente a diferentes situaciones y entornos, lo que los hace hábiles en la navegación de diversos contextos sociales y laborales. Su capacidad para cambiar de enfoque rápidamente les permite enfrentar los desafíos con facilidad y flexibilidad.</li>
+            <li>Géminis tiene un sentido del humor juguetón y travieso. Les encanta hacer bromas y jugar con las palabras, y pueden convertir incluso las situaciones más serias en momentos divertidos y alegres. Su humor ligero y alegre puede iluminar el ánimo de quienes los rodean.</li>
+        </random>
+        <delay>2</delay>
+        ¿Sobre qué otro signo te gustaría conocer las cualidades?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">cualidad</set></think>
+        </template>
+</category>
+
+<category>
+    <pattern> ^ capricornio ^ </pattern>
+    <template>
+        <random>
+        <li>Capricornio se esfuerza mucho para tener éxito y llegar a la cima, tiene una idea muy definida de quien quiere ser y de lo que quiere conseguir. Tus debilidades, Capricornio, tienen que ver con que a veces eres demasiado terco y te crees que siempre llevas la razón, cuando en realidad puede que no siempre pueda ser así. </li>
+        <li>Capri valora la comodidad y la estabilidad en todas las áreas de sus vidas. Disfrutan de las cosas buenas de la vida y trabajan duro para mantenerlas. Son aficionados al lujo y disfrutan rodeándose de objetos y experiencias que estimulan sus sentidos y les brindan placer y satisfacción.</li>
+        <li>Capricornio tiende a ser reservado y cauteloso en su comportamiento. No les gusta llamar la atención sobre sí mismos y prefieren trabajar en silencio hacia sus objetivos. Son prudentes en sus decisiones y no toman riesgos innecesarios, prefiriendo seguir un enfoque conservador y seguro en la vida.</li>
+        </random>
+        <delay>2</delay>
+        ¿Sobre qué otro signo te gustaría conocer las cualidades?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">cualidad</set></think>
+        </template>
+</category>
+
+<category>
+    <pattern> ^ acuario ^ </pattern>
+    <template>
+        <random>
+        <li>Los Acuario son muy perseverantes... si quieren conseguir algo, no pararán hasta que así sea. Otra cualidad muy destacada en Acuario son sus ideas claras y su sinceridad, aunque pueda traerles algún que otro problema, no tienen pelos en la lengua!   </li>
+        <li>Acuario es conocido por su originalidad y creatividad. Tienen una mente innovadora y están constantemente pensando en nuevas ideas y soluciones para los problemas. Les gusta desafiar las normas establecidas y explorar nuevas formas de pensar y de hacer las cosas.</li>
+        <li>Aunque son compasivos y amigables, Acuario puede parecer distante o desapegado emocionalmente en ciertas situaciones. Prefieren mantener cierta distancia emocional para poder ver las cosas de manera objetiva y racional. Esto puede hacer que parezcan fríos o indiferentes en ocasiones.</li>
+        </random>
+        <delay>2</delay>
+        ¿Sobre qué otro signo te gustaría conocer las cualidades?
+        <button>
+        <text>Géminis</text>
+        <postback>^ geminis ^</postback>
+        </button>
+        <button>
+        <text>Aries</text>
+        <postback>^ aries ^</postback>
+        </button>
+        <button>
+        <text>Leo</text>
+        <postback>^ leo ^</postback>
+        </button>
+        <button>
+        <text>Sagitario</text>
+        <postback>^ sagitario ^</postback>
+        </button>
+        <button>
+        <text>Piscis</text>
+        <postback>^ piscis ^</postback>
+        </button>
+        <button>
+        <text>Cáncer</text>
+        <postback>^ cancer ^</postback>
+        </button>
+        <button>
+        <text>Tauro</text>
+        <postback>^ tauro ^</postback>
+        </button>
+        <button>
+        <text>Virgo</text>
+        <postback>^ virgo ^</postback>
+        </button>
+        <button>
+        <text>Capricornio</text>
+        <postback>^ capricornio ^</postback>
+        </button>
+        <button>
+        <text>Libra</text>
+        <postback>^ libra ^</postback>
+        </button>
+        <button>
+        <text>Acuario</text>
+        <postback>^ acuario ^</postback>
+        </button>
+        <button>
+        <text>Escorpio</text>
+        <postback>^ escorpio ^</postback>
+        </button>
+        <button>
+        <text>Hablar de otra cosa</text>
+        <postback>No</postback>
+        </button>
+        <think><set name="topic">cualidad</set></think>
+        </template>
+</category>
+
+    <category>
+        <pattern>*</pattern>
+        <template>No sé si mis conocimientos astrales han podido comprenderte, ¿te gustaría seguir hablando de las cualidades?</template>
+    </category>
+    <category>
+        <pattern>Si</pattern>
+        <template>Perfecto, ¿sobre qué signo te gustaría conocer las cualidades?</template>
+    </category>
+    
+    <category>
+        <pattern>No</pattern>
+        <template>De acuerdo, ¿sobre qué te gustaría hablar ahora?</template>
+    </category>
+</topic>
+</aiml>

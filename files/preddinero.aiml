@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>BOTON PRED DINERO</pattern>
+        <template>
+            <random>
+                <li>Vaya vaya…<delay>2</delay>Me parece que una mojama está menos tiesa que tú. Recorta un poquito en Shein porque te veo pronto en la puerta del Mercadona.😂</li>
+                <li>Vaya vaya…<delay>2</delay>Me parece que una mojama está menos tiesa que tú. Recorta un poquito en agüitas con misterio porque te veo pronto en la puerta del Mercadona.😂</li>
+                <li>¡PERO BUENO!<delay>2</delay>Por fin vas a tener unas perrillas, gordi. Las constelaciones me revelan que te vas a encontrar pronto un billete de 50 euros, así que presta atención cuando vayas andando por la calle.💸🤑</li>
+                <li>¡ANDA GORDI!<delay>2</delay>Te veo en mi bola de cristal con un cofre de monedas de oro. Creo que vas a casarte con alguien muy muy famoso… Pronto llegará tu gran salto a la fama.💸🤑</li>
+                <li>Pf… ni fu ni fa<delay>2</delay>  Vas a seguir teniendo la economía que tienes. Siento decirte que la cosa no va a ir a mejor, pero bueno, tampoco a peor.😕</li>
+            </random>
+            <delay>2</delay>
+            ¿Sobre qué otro signo quieres conocer las predicciones?
+            <button>
+            <text>Géminis</text>
+            <postback>BOTON PRED GEMINIS</postback>
+            </button>
+            <button>
+            <text>Aries</text>
+            <postback>BOTON PRED ARIES</postback>
+            </button>
+            <button>
+            <text>Leo</text>
+            <postback>BOTON PRED LEO</postback>
+            </button>
+            <button>
+            <text>Sagitario</text>
+            <postback>BOTON PRED SAGITARIO</postback>
+            </button>
+            <button>
+            <text>Piscis</text>
+            <postback>BOTON PRED PISCIS</postback>
+            </button>
+            <button>
+            <text>Cáncer</text>
+            <postback>BOTON PRED CANCER</postback>
+            </button>
+            <button>
+            <text>Tauro</text>
+            <postback>BOTON PRED TAURO</postback>
+            </button>
+            <button>
+            <text>Virgo</text>
+            <postback>BOTON PRED VIRGO</postback>
+            </button>
+            <button>
+            <text>Capricornio</text>
+            <postback>BOTON PRED CAPRICORNIO</postback>
+            </button>
+            <button>
+            <text>Libra</text>
+            <postback>BOTON PRED LIBRA</postback>
+            </button>
+            <button>
+            <text>Acuario</text>
+            <postback>BOTON PRED ACUARIO</postback>
+            </button>
+            <button>
+            <text>Escorpio</text>
+            <postback>BOTON PRED ESCORPIO</postback>
+            </button>
+            <button>
+            <text>Hablar de otra cosa</text>
+            <postback>No</postback>
+            </button>
+            <think><set name="topic">prediccion</set></think>
+        </template>
+    </category>
+</aiml>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+    <pattern> ^ <set>volverconex</set> ^ </pattern>
+    <template>Recuerda siempre: pasado pisado, criaturilla (y más si es un hombre).</template>
+</category>
+
+<category>
+    <pattern> ^ <set>dejarnovio</set> ^ </pattern>
+    <template>Dejar a tu pareja si es un hombre es siempre un acierto. Si es una tía no.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>cuernos</set> ^ </pattern>
+    <template>Pf.. vaya vaya eh... Pregúntame por las predicciones sobre el amor y vemos que podemos hacer.</template>
+</category>
+
+<category>
+    <pattern><set>expresiones</set></pattern>
+    <template>Fititú.</template>
+</category>
+
+
+</aiml>

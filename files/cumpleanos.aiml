@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+    <pattern> ^ <set>cumpleanoscapricornio2</set> ^ ENERO ^ </pattern>
+    <template>Los astros no fallan, ¡eres Capricornio!<delay>2</delay>Al compás de Saturno, planeta anillado y dios guardián del tiempo, este signo terrenal caracteriza a personas trabajadoras, estructuradas y disciplinadas que aspiran al éxito y en muchos casos cargan con el deber ser. Su romance con el tiempo las hace amantes de la música.<delay>2</delay>Representados por la constelación de la cabra con cola de pez, los capricornios son todoterreno y siempre van por más.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>cumpleanosacuario1</set> ^ ENERO ^ </pattern>
+    <template>¡Acuario!<delay>2</delay>Influenciado por Urano, astro de la deidad del cielo, este signo de aire eleva la intelectualidad. A pesar de su excentricidad, los acuarianos congenian en grupos como nadie.<delay>2</delay>Espejados en las estrellas por una aguatera derramando agua de inmortalidad sobre la Tierra, empatizan con causas mayores y crean comunidad para marchar por cambios trascendentales.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>cumpleanosacuario2</set> ^ FEBRERO ^ </pattern>
+    <template>¡Acuario!<delay>2</delay>Influenciado por Urano, astro de la deidad del cielo, este signo de aire eleva la intelectualidad. A pesar de su excentricidad, los acuarianos congenian en grupos como nadie.<delay>2</delay>Espejados en las estrellas por una aguatera derramando agua de inmortalidad sobre la Tierra, empatizan con causas mayores y crean comunidad para marchar por cambios trascendentales.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>cumpleanospiscis1</set> ^ FEBRERO ^ </pattern>
+    <template>¡Pues eres Piscis!<delay>2</delay>Regido por Neptuno, planeta azul asociado al dios del mar, este signo de agua hace a personas sensibles, intuitivas y altruistas, que diluyen barreras y llevan todo lo que hacen más allá con su extraordinaria imaginación.<delay>2</delay>Los peces nadando en direcciones opuestas en el océano estelar denotan su profundidad, su compasión tras explorar caminos adversos, y su capacidad de fluir.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>cumpleanospiscis2</set> ^ MARZO ^ </pattern>
+    <template>¡Pues eres Piscis!<delay>2</delay>Regido por Neptuno, planeta azul asociado al dios del mar, este signo de agua hace a personas sensibles, intuitivas y altruistas, que diluyen barreras y llevan todo lo que hacen más allá con su extraordinaria imaginación.<delay>2</delay>Los peces nadando en direcciones opuestas en el océano estelar denotan su profundidad, su compasión tras explorar caminos adversos, y su capacidad de fluir.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>cumpleanosaries1</set> ^ MARZO ^ </pattern>
+    <template>¡Eres de Aries!<delay>2</delay>Gobernado por Marte, planeta relacionado con el dios romano de la guerra, este signo de fuego enciende nuevos comienzos.<delay>2</delay>Bautizado a partir del mito griego del Carnero Dorado, Aries se destaca por la audacia. Emprender y abrir paso a un nuevo camino es típico de los pioneros de este signo que vibran alto, inspiran y se dejan llevar por el impulso, la pasión y la intuición.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>cumpleanosaries2</set> ^ ABRIL ^ </pattern>
+    <template>¡Eres de Aries!<delay>2</delay>Gobernado por Marte, planeta relacionado con el dios romano de la guerra, este signo de fuego enciende nuevos comienzos.<delay>2</delay>Bautizado a partir del mito griego del Carnero Dorado, Aries se destaca por la audacia. Emprender y abrir paso a un nuevo camino es típico de los pioneros de este signo que vibran alto, inspiran y se dejan llevar por el impulso, la pasión y la intuición.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>cumpleanostauro1</set> ^ ABRIL ^ </pattern>
+    <template>¡Parece que eres Tauro!<delay>2</delay>Reinadas por Venus, cuerpo celeste asociado a la divinidad del amor y la belleza, las personas de este signo conectado con la tierra, son manifestadoras de belleza y abundancia.<delay>2</delay>En sintonía con su cuerpo y con la naturaleza, los taurinos conocen sus placeres y su valor, ¡y lo hacen valer! Si bien el cambio les incomoda, una vez que comienza a correr el toro en su interior, ¡no hay quién lo detenga!</template>
+</category>
+
+<category>
+    <pattern> ^ <set>cumpleanostauro2</set> ^ MAYO ^ </pattern>
+    <template>¡Parece que eres Tauro!<delay>2</delay>Reinadas por Venus, cuerpo celeste asociado a la divinidad del amor y la belleza, las personas de este signo conectado con la tierra, son manifestadoras de belleza y abundancia.<delay>2</delay>En sintonía con su cuerpo y con la naturaleza, los taurinos conocen sus placeres y su valor, ¡y lo hacen valer! Si bien el cambio les incomoda, una vez que comienza a correr el toro en su interior, ¡no hay quién lo detenga!</template>
+</category>
+
+<category>
+    <pattern> ^ <set>cumpleanosgeminis1</set> ^ MAYO ^ </pattern>
+    <template>¡Géminis!<delay>2</delay>Regido por Mercurio, astro vinculado al mensajero de los dioses, este signo intelectual se distingue por sus dones comunicativos. Como el aire que se amolda a las formas sólidas, los geminianos son sumamente adaptables.<delay>2</delay>Inspirado en la constelación de los gemelos, este signo permite tener una opinión y al día siguiente explorar la contraria sin remordimiento. La creatividad, el humor y la frescura también lo caracterizan.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>cumpleanosgeminis2</set> ^ JUNIO ^ </pattern>
+    <template>¡Géminis!<delay>2</delay>Regido por Mercurio, astro vinculado al mensajero de los dioses, este signo intelectual se distingue por sus dones comunicativos. Como el aire que se amolda a las formas sólidas, los geminianos son sumamente adaptables.<delay>2</delay>Inspirado en la constelación de los gemelos, este signo permite tener una opinión y al día siguiente explorar la contraria sin remordimiento. La creatividad, el humor y la frescura también lo caracterizan.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>cumpleanoscancer1</set> ^ JUNIO ^ </pattern>
+    <template>¡Eres Cáncer!<delay>2</delay>Influenciado por la luna, este signo de agua hace a personas sumamente emocionales que nutren y se nutren del hogar y la familia.<delay>2</delay>Como la constelación del cangrejo, los cancerianos protegen sus sentimientos más profundos con un caparazón. La memoria con un tinte de nostalgia y la intuición también delinean su personalidad.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>cumpleanoscancer2</set> ^ JULIO ^ </pattern>
+    <template>¡Eres Cáncer!<delay>2</delay>Influenciado por la luna, este signo de agua hace a personas sumamente emocionales que nutren y se nutren del hogar y la familia.<delay>2</delay>Como la constelación del cangrejo, los cancerianos protegen sus sentimientos más profundos con un caparazón. La memoria con un tinte de nostalgia y la intuición también delinean su personalidad.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>cumpleanosleo1</set> ^ JULIO ^ </pattern>
+    <template>¡Pues eres Leo!<delay>2</delay>Regido por el astro rey, este signo de fuego hace a los leoninos brillar con su esencia creativa e iluminar al prójimo, inspirándolo a rugir a su lado.<delay>2</delay>Como el león que dibujan las estrellas, las personas de este signo se destacan por su gigantesco corazón que irradia confianza y generosidad.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>cumpleanosleo2</set> ^ AGOSTO ^ </pattern>
+    <template>¡Pues eres Leo!<delay>2</delay>Regido por el astro rey, este signo de fuego hace a los leoninos brillar con su esencia creativa e iluminar al prójimo, inspirándolo a rugir a su lado.<delay>2</delay>Como el león que dibujan las estrellas, las personas de este signo se destacan por su gigantesco corazón que irradia confianza y generosidad.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>cumpleanosvirgo1</set> ^ AGOSTO ^ </pattern>
+    <template>En ese caso...¡Eres Virgo!<delay>2</delay>Reinado por Mercurio, el mismo provee el don de bajar ideas a tierra. No por nada, la agenda y la rutina son mejores amigas de los virginianos, que a pesar de esto, no prescinden de la flexibilidad y son sumamente analíticos.<delay>2</delay>Asociados a la figura de una virgen, buscan la purificación y el perfeccionismo en todos los ámbitos, y por eso tienden a profundizar en rubros como la salud y el bienestar.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>cumpleanosvirgo2</set> ^ SEPTIEMBRE ^ </pattern>
+    <template>En ese caso...¡Eres Virgo!<delay>2</delay>Reinado por Mercurio, el mismo provee el don de bajar ideas a tierra. No por nada, la agenda y la rutina son mejores amigas de los virginianos, que a pesar de esto, no prescinden de la flexibilidad y son sumamente analíticos.<delay>2</delay>Asociados a la figura de una virgen, buscan la purificación y el perfeccionismo en todos los ámbitos, y por eso tienden a profundizar en rubros como la salud y el bienestar.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>cumpleanoslibra1</set> ^ SEPTIEMBRE ^ </pattern>
+    <template>¡Claremente eres Libra!<delay>2</delay>Gobernados por Venus, al igual que Tauro, los librianos son conocidos por entrar en simbiosis con la estética y por formar alianzas y parejas. El intelecto también es representativo de este signo de aire.<delay>2</delay>Inspirado en la balanza estelar, Libra hace a personas equilibradas que buscan mantener la armonía y la diplomacia.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>cumpleanoslibra2</set> ^ OCTUBRE ^ </pattern>
+    <template>¡Claremente eres Libra!<delay>2</delay>Gobernados por Venus, al igual que Tauro, los librianos son conocidos por entrar en simbiosis con la estética y por formar alianzas y parejas. El intelecto también es representativo de este signo de aire.<delay>2</delay>Inspirado en la balanza estelar, Libra hace a personas equilibradas que buscan mantener la armonía y la diplomacia.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>cumpleanosescorpio1</set> ^ OCTUBRE ^ </pattern>
+    <template>¡Escorpio!<delay>2</delay>Regido por Plutón, astro asociado a la deidad del inframundo, este signo de agua hace a personas intuitivas y esotéricas.<delay>2</delay>Debido a sus grandes apegos, el cambio les cuesta, si bien el don de renacer es la particularidad que hace a los escorpianos poderosos. Ellos son magnéticos, seductores y románticos; cuando se enamoran, aspiran a fusionarse. También son muy habilidosos administrando recursos ajenos.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>cumpleanosescorpio2</set> ^ NOVIEMBRE ^ </pattern>
+    <template>¡Escorpio!<delay>2</delay>Regido por Plutón, astro asociado a la deidad del inframundo, este signo de agua hace a personas intuitivas y esotéricas.<delay>2</delay>Debido a sus grandes apegos, el cambio les cuesta, si bien el don de renacer es la particularidad que hace a los escorpianos poderosos. Ellos son magnéticos, seductores y románticos; cuando se enamoran, aspiran a fusionarse. También son muy habilidosos administrando recursos ajenos.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>cumpleanossagitario1</set> ^ NOVIEMBRE ^ </pattern>
+    <template>¡Eres Sagitario!<delay>2</delay>Gobernado por Júpiter, planeta del padre de los dioses, las personas de este signo fogoso son inspiradoras y grandes maestras.<delay>2</delay>En conexión con la constelación del centauro que dispara su flecha hacia arriba, los más optimistas del Zodíaco apuntan a nuevos horizontes. Fanáticos de los viajes y la aventura, todo lo que implique una expansión mental, como la filosofía o la astrología, ilumina a los sagitarianos.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>cumpleanossagitario2</set> ^ DICIEMBRE ^ </pattern>
+    <template>¡Eres Sagitario!<delay>2</delay>Gobernado por Júpiter, planeta del padre de los dioses, las personas de este signo fogoso son inspiradoras y grandes maestras.<delay>2</delay>En conexión con la constelación del centauro que dispara su flecha hacia arriba, los más optimistas del Zodíaco apuntan a nuevos horizontes. Fanáticos de los viajes y la aventura, todo lo que implique una expansión mental, como la filosofía o la astrología, ilumina a los sagitarianos.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>cumpleanoscapricornio1</set> ^ DICIEMBRE ^ </pattern>
+    <template>Los astros no fallan, ¡eres Capricornio!<delay>2</delay>Al compás de Saturno, planeta anillado y dios guardián del tiempo, este signo terrenal caracteriza a personas trabajadoras, estructuradas y disciplinadas que aspiran al éxito y en muchos casos cargan con el deber ser. Su romance con el tiempo las hace amantes de la música.<delay>2</delay>Representados por la constelación de la cabra con cola de pez, los capricornios son todoterreno y siempre van por más.</template>
+</category>
+</aiml>

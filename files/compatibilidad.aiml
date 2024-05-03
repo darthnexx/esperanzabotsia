@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+   <pattern>BOTON COMP</pattern>
+   <template>Muy bien. ¡Ahora dime dos signos y te diré si son compatibles!
+   </template>
+</category>    
+
+<category>
+    <pattern> ^ ARIES ^ ARIES ^ </pattern>
+    <template> Ay dios mío… ¡vaya combinación! <delay>2</delay>  Esta relación va de extremos, pues si eres Aries y te enamoras de otro… o te casas con esa persona, o acabas en el psiquiátrico. Siento decirte que es prácticamente imposible que lleguéis a tener una relación sana, sino que más bien os marcaríais un Shakira y Piqué, aunque… <delay>2</delay>Otro gallo canta en el ámbito sexual, que siempre da menos disgustos y más diversión je, je. 😈</template>
+</category>
+
+<category>
+    <pattern> ^ ARIES ^ TAURO ^ </pattern>
+    <template> ¡Oy, oy, oy! Estos signos son TAN distintos… <delay>2</delay>Mi querida criaturilla espiritual… siento decirte que si esperas que Tauro de el primer paso, mejor espera sentado, o más bien tumbadito. Lo bueno de esto es que una vez se asiente la relación, será Tauro el que acabará “crazy in love” como dice Beyonce. <delay>1</delay>El único riesgo que me dicta el tarot es que estos signos son propensos a caer en constantes reproches, ups.😬</template>
+</category>
+
+<category>
+    <pattern> ^ ARIES ^ GEMINIS ^ </pattern>
+    <template>¡GUAU! Para mi grata sorpresa, alguien puede soportar a un géminis. <delay>2</delay>Verás mi querido chakra luminoso, esta relación es de las más chispeantes del zodiaco, je, je. Se trata de una unión basada en una complicidad que ni María del Monte e Isabel Pantoja en su día. 🔥 <delay>1</delay> Lo único que le recomiendo a esta unión es que no hagan un drama cuando surja algún malentendido, además de parar de salir corriendo cuando llega la rutina.</template>
+</category>
+
+<category>
+    <pattern> ^ ARIES ^ CANCER ^ </pattern>
+    <template>Uy uy uy…  <delay>2</delay>Siento decirte que esta relación no tendrá futuro. <delay>1</delay> Mi querida criaturilla espiritual, las necesidades emocionales de estos signos son muy diferentes, de modo que será complicado llegar a un entendimiento entre ambos. Lo único bueno de esta alianza son sus reconciliaciones, tú me entiendes… je, je.😏</template>
+</category>
+
+<category>
+    <pattern> ^ ARIES ^ LEO ^ </pattern>
+    <template>🔥¡POR FAVOR, LLAMAD A LOS BOMBEROS!🔥 <delay>2</delay> Dos signos de fuego, agarradme el tarot.<delay>1</delay> Estos dos signos tienen una personalidad tan fuerte que les será imposible saciar el deseo de dominio en la relación. No obstante, si saben calmar su ego, harán un gran tandem.</template>
+</category>
+
+<category>
+    <pattern> ^ ARIES ^ VIRGO ^ </pattern>
+    <template> Mi chakra luminoso….<delay>2</delay>Esta compatibilidad amorosa es tremendamente mala, pues las discusiones serán las verdaderas protagonistas de la relación. Habrá desacuerdos por todo tipo de motivos: celos, envidia, dinero…😨 <delay>2</delay> En un principio, Aries estará encandilado con la sinceridad de Virgo, pero llegará un punto en el que las críticas del mismo sean insoportables. <delay>2</delay> Por su lado, Virgo odiará la efusividad de Aries, por lo que la relación durará medio telediario.</template>
+</category>
+
+<category>
+    <pattern> ^ ARIES ^ LIBRA ^ </pattern>
+    <template>¡POR TODAS MIS CARTAS ASTRALES!😱 Esta atracción sí que es fuerte desde el primer momento. <delay>2</delay> Espera, espera… <delay>2</delay> No solo será fuerte la atracción, sino que también las discusiones. No obstante, si consiguen respetarse, la relación será buena y estable. Las aventuras serán lo mejor de esta pareja y la monotonía jamás estará en su diccionario.😘</template>
+</category>
+
+<category>
+    <pattern> ^ ARIES ^ ESCORPIO ^ </pattern>
+    <template>Me alegra decirte que no tendrás que conocer mucho a escorpio ni esforzarte para que lo vuestro vaya sobre ruedas... <delay>2</delay> El secreto de esta relación está debajo de la ropa je, je. Será tal la pasión entre Aries y Escorpio, que su unión es irrompible. De este modo, si buscas una relación con Escorpio, tan sólo tendrás que intentar no tener pensamientos intrusivos y hablar de algo que no sea de anatomía.😉</template>
+</category>
+
+<category>
+    <pattern> ^ ARIES ^ SAGITARIO ^ </pattern>
+    <template>Mi trocito de citrino, esta relación es totalmente imparable. 🚀  <delay>2</delay>Aries y Sagitario son signos muy aventureros, de modo que jamás conocerán la rutina. Vivirán en un constante viaje lleno de nuevos y apasionantes acontecimientos. <delay>1</delay> El único reto será conseguir que Sagitario sea capaz de comprometerse, pues tiene más pareceres que un abogado.</template>
+</category>
+
+<category>
+    <pattern> ^ ARIES ^ CAPRICORNIO ^ </pattern>
+    <template>Veamos... <dellay>2</dellay> Estos dos signos están regidos por el apasionado planeta Marte. De este modo, la hora de intimar será un desfase.😋 <delay>1</delay>Por otro lado, será fácil establecer una conexión emocional, pues Aries se siente atraído por la paciencia de la cabra, y esta última por la impulsividad del signo de fuego. <delay>1</delay>Mi único consejo es que Aries mida sus palabras ya que pueden herir al sensible Escorpio.</template>
+</category>
+
+<category>
+    <pattern> ^ ARIES ^ ACUARIO ^ </pattern>
+    <template>Mi pequeña piedra amatista, esta relación podría ser muy fuerte si ambos signos ponen de su parte. <delay>2</delay> Por un lado, Acuario deberá soltarse y mostrar sus sentimientos, y por otro, Aries tendrá que aprender a respetar el ritmo del otro signo. <delay>1</delay> Ambos signos son más creativos que los Javis, de modo que estarán constantemente buscando nuevos planes y aventuras; son como unos mejores amigos, pero con momentos románticos.😜</template>
+</category>
+
+<category>
+    <pattern> ^ ARIES ^ PISCIS ^ </pattern>
+    <template>Veamos criaturilla espiritual... <delay>2</delay> Estos signos tienen personalidades muy diferentes, lo que hará que se sientan atraídos el uno por el otro desde un primer instante. <delay>1</delay>No obstante, su compatibilidad es regular y tendrán que superar diferentes retos para tener una relación estable, siendo el principal la impulsividad de Aries, pues a veces daña a mi sensible pececito. <delay>1</delay> Aunque... <delay>2</delay> No creas que Piscis se libra, este pececillo es tan independiente que podría provocar que la cabra se aburra.</template>
+</category>
+
+
+
+
+
+
+
+<category>
+    <pattern> ^ TAURO ^ ARIES ^ </pattern>
+    <template> ¡Oy, oy, oy! Estos signos son TAN distintos… <delay>2</delay>Mi querida criaturilla espiritual… siento decirte que si esperas que Tauro de el primer paso, mejor toma siento.😓 <delay>2</delay> Lo bueno de esto es que una vez se asiente la relación, será Tauro el que acabará “crazy in love” como dice Beyonce. <delay>1</delay>El único riesgo que me dicta el tarot es que estos signos son propensos a caer en constantes reproches, así que... buena suerte.😝</template>
+</category>
+
+<category>
+    <pattern> ^ TAURO ^ TAURO ^ </pattern>
+    <template>¡VAYA, VAYA! Si estos signos se unen, estarán juntos para siempre. <delay>2</delay> Tauro es muuuuy romántico y no dudará en ofrecer todo tipo de detalles empalagosos a su pareja; unas fresillas con leche condensada tontorronas, unos pétalos de rosa sobre la cama, cartitas de amor... <delay>1</delay> Espera, espera… <delay>2</delay> Mi bola de cristal me dice que no todo es de color de rosa…😰 <delay>1</delay>Este signo es muy celoso y posesivo, de modo que ambos tendrán que trabajar la confianza en su pareja para ahorrar discusiones.</template>
+</category>
+
+<category>
+    <pattern> ^ TAURO ^ GEMINIS ^ </pattern>
+    <template> Pf… ¿En serio tenemos que hablar de géminis otra vez?<delay>2</delay> Veamos, estos dos signos suelen tener múltiples desacuerdos, además, ni siquiera se sienten atraídos por el otro en un primer momento. <delay>1</delay> Esta relación requiere más trabajo que  aprobar Ingeniería del Lenguaje😓, pues Tauro busca estabilidad, mientras que Géminis tiende a huir del compromiso. <delay>1</delay> Lo único bueno que veo es su intimidad ya que el contraste entre ambas personalidades les hará arder en la llama de la pasión.🔥 </template>
+</category>
+
+<category>
+    <pattern> ^ TAURO ^ CANCER ^ </pattern>
+    <template> Verás mi trocito de selenita... <delay>2</delay> Una chispa saltará automáticamente entre estos dos signos.😜 <delay>1</delay> Los dos son tan sentimentales y empalagosos que hasta el más mínimo gesto de cariño les hará oír campanas de boda. <delay>1</delay> No obstante, tendrán que andarse con ojo con los reproches, ya que estos signos son tremendamente quejicas y para más inri, cabezones, parecen Dakota discutiendo con Violeta. </template>
+</category>
+
+<category>
+    <pattern> ^ TAURO ^ LEO ^ </pattern>
+    <template> A ver, pequeño chakra luminoso... <delay>2</delay> Estos signos tienen en común valores como la lealtad y el romanticismo, pero también los celos y la posesión.<delay>1</delay> Siento decirte que experimentarán pleitos relacionados con el compromiso, pues Tauro es un agonías y quiere que le prometan amor eterno a los dos días, mientras que Leo vive más el momento y suelta la típica frase de: “nos conocemos y lo que surja”.</template>
+</category>
+
+<category>
+    <pattern> ^ TAURO ^ VIRGO ^ </pattern>
+    <template> Veamos, mi ente divino. <delay>2</delay> Cuando estos dos signos se conozcan, sentirán que llevan juntos toda la vida. <delay>1</delay> Una vez superada la frontera de la timidez, serán capaces de ver que tienen enfrente a su alma gemela. Entonces, comenzarán a subir fotitos a Instagram con canciones románticas y a besuquearse todo el rato, será algo insoportable de ver a decir verdad.🤢</template>
+</category>
+
+<category>
+    <pattern> ^ TAURO ^ LIBRA ^ </pattern>
+    <template>Mi chakra luminoso… <delay>2</delay> Encontramos que Tauro es un signo más conservador que Bertín Osborne, mientras que Libra es creativo y amante del cambio constante. <delay>2</delay> No obstante, el toro y el venado son signos leales y tolerantes, lo que les facilitará arreglar sus malentendidos, a veces de forma romántica y otras...😋</template>
+</category>
+
+<category>
+    <pattern> ^ TAURO ^ ESCORPIO ^ </pattern>
+    <template>🔥¡POR MIS CARTAS DEL TAROT! ¡MIRA ESAS CHISPAS!🔥 <delay>2</delay> Esta unión zodiacal se caracteriza por su salvaje atracción, je, je. La intimidad es de gran importancia para el escorpión, mientras que el toro es más romántico. <delay>1</delay> Por tanto, mi travieso Escorpio le ayudará a buscar ese espíritu sensual y tendrán encuentros increíbles.😈 <delay>1</delay>Mi única recomendación es que Escorpio trabaje su posesividad, pues quiere estar todo el día como conejos para sentir que la relación está a salvo.</template>
+</category>
+
+<category>
+    <pattern> ^ TAURO ^ SAGITARIO ^ </pattern>
+    <template>PF… esta compatibilidad es tremendamente baja. <delay>2</delay>Tauro es un signo al que le gustan planes muuuuy tranquilos y caseros, algo que contrasta con el espíritu aventurero de mi querido Sagitario. <delay>1</delay> Lo más probable es que Tauro acabe cambiando la personalidad de Sagitario, alejándolo de sus aventuras y puede que quizás, de su círculo de amigos. De este modo, creo que esta unión daría lugar a una relación bastante tóxica.😖<delay>1</delay> Lo único bueno que tienen es su intimidad, que disfrutarán profundamente. Pero, ¿es eso suficiente para una relación?</template>
+</category>
+
+<category>
+    <pattern> ^ TAURO ^ CAPRICORNIO ^ </pattern>
+    <template>Bien, bien… <delay>2</delay> Enciende unas velitas y pon música zen porque la relación entre estos dos signos de tierra será todo calma y seguridad.💆💤 <delay>1</delay> Ambos son muy atentos y miran constantemente por el bienestar del otro. Sabrán respetarse y darse su espacio, pudiendo coleccionar miles de recuerdos juntos. <delay>1</delay> Mi única preocupación es que entre tanta calma, caigan en la monotonía, pero confío en que sabrán comunicarse y buscar algún plan alternativo.</template>
+</category>
+
+<category>
+    <pattern> ^ TAURO ^ ACUARIO ^ </pattern>
+    <template>Verás, pequeña piedra amatista… <delay>2</delay> Estos signos son prácticamente polos opuestos y se sienten locamente atraídos el uno por el otro. <delay>1</delay> Acuario es amante del cambio, mientras que el toro es más tranquilo y busca una estabilidad, por tanto, ambos podrían ejercer cierta influencia positiva en el otro para encontrar un balance. <delay>1</delay>  En cuanto a sus problemas, encontramos que Tauro es como un niño chico, quiere todo el rato cariño, mientras que Acuario no es tan apegado, lo que podría resultar en que Tauro se sienta más como un amigo cualquiera que como una pareja, así que buena suerte con eso.😅 </template>
+</category>
+
+<category>
+    <pattern> ^ TAURO ^ PISCIS ^ </pattern>
+    <template>Vaya, vaya…  <delay>2</delay> Si esta compatibilidad tuviera una banda sonora, sería ‘Noche de Sexo’ de Wisin y Yandel😈. Estos signos son muy seductores, les encanta mostrar sus encantos a los demás y sentirse deseados, de modo que su lado más íntimo y pasional será increíble.<delay>1</delay> Si quieren formalizar esta relación, será un poco más complicado debido a sus diferencias; por un lado, Piscis es bastante emocional y aventurero, mientras que Tauro lleva una vida mucho más simple y monótona. <delay>2</delay> En fin, yo les recomiendo quedarse con la atracción la verdad.😉</template>
+</category>
+
+
+
+
+<category>
+    <pattern> ^ CANCER ^ ARIES ^ </pattern>
+     <template>Uy uy uy…  <delay>2</delay>Siento decirte que esta relación no tendrá futuro. <delay>1</delay> Mi querida criaturilla espiritual, las necesidades emocionales de estos signos son muy diferentes, de modo que será complicado llegar a un entendimiento entre ambos. Lo único bueno de esta alianza son sus reconciliaciones, tú me entiendes… je, je.😏</template>
+</category>
+
+<category>
+    <pattern> ^ CANCER ^ TAURO ^ </pattern>
+    <template>Verás mi trocito de selenita... <delay>2</delay> Una chispa saltará automáticamente entre estos dos signos.😜 <delay>1</delay> Los dos son tan sentimentales y empalagosos que hasta el más mínimo gesto de cariño les hará oír campanas de boda. <delay>1</delay> No obstante, tendrán que andarse con ojo con los reproches, ya que estos signos son tremendamente quejicas y para más inri, cabezones, parecen Dakota discutiendo con Violeta.</template>
+</category>
+
+<category>
+    <pattern> ^ CANCER ^ CANCER ^ </pattern>
+    <template>Veamos mi pequeña constelación… <delay>2</delay>La atracción entre Cáncer y Cáncer es inmediata. Serán atraídos como yo a un cruasán de chocolate. Los cangrejitos son muy familiares e intensitos, lo que les hará estar unidos.<delay>2</delay>Uy, uy, uy… espera… mi bola mágica me dice que deben tener cuidado con sus palabras...😨 <delay>2</delay>Los cangrejos son muy sensibles y ser consciente de ello será un arma de doble filo con su pareja Cáncer; podrán usarlo para hacerle un daño que ni Anuel a Karol G, o para entenderse y fortalecer la relación.</template>
+</category>
+
+
+<category>
+    <pattern> ^ CANCER ^ GEMINIS ^ </pattern>
+    <template>Mi querido cuarzo blanco, estos signos son muy diferentes…<delay>2</delay>Por un lado, tenemos a Géminis, un signo muy libre, que ama hablar con todas las personas de su entorno y que no necesita conectar a un nivel emocional para enamorarse, y por otro, tenemos a Cáncer, que es más intenso que comerse dos polvorones sin agua, pues necesita que le demuestren amor constantemente.<delay>1</delay>Estos signos llevarán especialmente mal sus discusiones, ya que Cáncer terminará llorando debido a su sensibilidad, mientras que Géminis optará por ignorar completamente la situación.</template>
+</category>
+
+<category>
+    <pattern> ^ CANCER ^ LEO ^ </pattern>
+    <template>Querido ente divino, entre estos signos no predominará el equilibrio precisamente…💔<delay>2</delay>Por un lado, Cáncer cambia más de humor que de ropa interior y busca problemas de la nada, algo que los Leo no soportan, pues es un signo feliz que suele evitar el conflicto.<delay>2</delay>Además, ambos tienen visiones muy distintas del amor; Cáncer busca el compromiso y que le juren amor eterno (ya sabes, son TAAAAN intensos), mientras que Leo busca libertad y  que en sus relación vaya fluyendo, sin promesas ni compromisos.</template>
+</category>
+
+<category>
+    <pattern> ^ CANCER ^ VIRGO ^  </pattern>
+    <template>Veamos mi ser etéreo… <delay>2</delay>Cuando estos signos se conocen, no se sienten atraídos el uno por el otro y se suelen friendzonear. Pasado un tiempo, el cangrejo caerá primero y se mostrará sugerente, pero Virgo aún no estará preparado, al estilo Chenoa intentando besar a Bisbal.<delay>2</delay> Pero, una vez que pasan al terreno romántico, esa previa amistad les habrá servido para entenderse mutuamente. <delay>2</delay> Mi única recomendación sería que Virgo deje de ser tan criticón porque podría llegar a herir a mi cangrejito.😖 </template>
+</category>
+<category>
+    <pattern> ^ CANCER ^ LIBRA ^ </pattern>
+    <template>Vaya, vaya… me temo que esta relación es más engañosa que mi ex novio Botseriu.😦 <delay>2</delay>Al principio parece que te vas a casar con esa persona y luego resulta que es una tremenda arpia. Donde en un principio todo serán risas y atracción, luego pasará a engaños y llantos.<delay>2</delay> En fin… si estos dos signos están en una relación, les recomiendo ir poniendo una barrita de Instagram ya de ya para ligar, un besote.💋</template>
+</category>
+<category>
+    <pattern> ^ CANCER ^ ESCORPIO ^ </pattern>
+    <template>Veamos, pequeño espíritu luminoso… <delay>2</delay>El escorpión y el cangrejo tienen diferentes formas de percibir y demostrar el amor; por un lado, Cáncer es más intenso que una clase de Ingeniería del Lenguaje a última hora, pero demostrará su cariño poco a poco, mientras que Escorpio dará todo de sí desde el primer momento.<delay>2</delay>Por tanto, es necesario que el escorpión tenga más paciencia que Mario Crespo con el grupo ChiCuadrado.</template>
+</category>
+<category>
+    <pattern> ^ CANCER ^ SAGITARIO ^ </pattern>
+    <template>Madre mía, ojalá pudiera poner este chat en blanco y negro porque esta compatibilidad da más pena que un entierro.😅 <delay>2</delay>Cáncer es como un niño chico que necesita amor y atención de forma constante, mientras que Sagitario es un pequeño colibrí que quiere volar libre, de forma independiente y sin ataduras. Además, lo directo que es el arquero herirá la gran sensibilidad de Cáncer.<delay>2</delay>En fin, que se vayan buscando otro ligue.</template>
+</category>
+<category>
+    <pattern> ^ CANCER ^ CAPRICORNIO ^ </pattern>
+    <template>Vaya mezclita eh… Las formas de demostrar amor de estos signos son muy distintas. <delay>2</delay>La cabra no es nada cariñosa, sino más bien materialista, pues prefiere demostrar que ama a su pareja comprándole todo tipo de detalles, mientras que Cáncer querrá estar todo el día besuqueando a su amor, lo que provocará que Capricornio esté más agobiado que un Teletubbie en una silla de velcro.😰</template>
+</category>
+<category>
+    <pattern> ^ CANCER ^ ACUARIO ^ </pattern>
+    <template>A ver, entiéndeme… es complicado soportar a un Cáncer como pareja eh…<delay>2</delay>Los cangrejos son más intensos que una práctica grupal de Ingeniería del Lenguaje. Acuario ama su libertad y que su pareja le de su espacio, mientras que el cangrejo quiere pasar tiempo con su pareja a todas horas, lo que hará que Acuario esté más agobiado que yo en un pupitre del anexo.😪</template>
+</category>
+<category>
+    <pattern> ^ CANCER ^ PISCIS ^ </pattern>
+    <template>Tarán, tarán… ¡AQUÍ HAY AMOR!😍<delay>2</delay>Cáncer y Piscis son signos muy sensibles. Al principio son un poco reservados, pero cuando consigan abrirse, consolidarán una relación estable.<delay>2</delay>Al principio son un poco reservados, pero una vez consigan abrirse con el otro, consolidarán una relación estable. Mi única recomendación es que se aclaren prontito porque los dos cambian más de opinión que yo en un tipo test. <delay>2</delay>En fin, si llegan a declararse, el cangrejo y el pececillo vivirán en una fiesta bajo el mar toda su vida.</template>
+</category>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<category>
+    <pattern> ^ GEMINIS ^ ARIES ^ </pattern>
+     <template>¡GUAU! Para mi grata sorpresa, alguien puede soportar a un géminis. <delay>2</delay>Verás mi querido chakra luminoso, esta relación es de las más chispeantes del zodiaco, je, je. Se trata de una unión basada en una complicidad que ni María del Monte e Isabel Pantoja en su día. 🔥 <delay>1</delay> Lo único que le recomiendo a esta unión es que no hagan un drama cuando surja algún malentendido, además de parar de salir corriendo cuando llega la rutina.</template>
+</category>
+
+<category>
+    <pattern> ^ GEMINIS ^ TAURO ^ </pattern>
+    <template>Pf… ¿En serio tenemos que hablar de géminis otra vez?<delay>2</delay> Veamos, estos dos signos suelen tener múltiples desacuerdos, además, ni siquiera se sienten atraídos por el otro en un primer momento. <delay>1</delay> Esta relación requiere más trabajo que  aprobar Ingeniería del Lenguaje😓, pues Tauro busca estabilidad, mientras que Géminis tiende a huir del compromiso. <delay>1</delay> Lo único bueno que veo es su intimidad ya que el contraste entre ambas personalidades les hará arder en la llama de la pasión.🔥</template>
+</category>
+
+<category>
+    <pattern> ^ GEMINIS ^ CANCER ^ </pattern>
+    <template>Mi querido cuarzo blanco, estos signos son muy diferentes…<delay>2</delay>Por un lado, tenemos a Géminis, un signo muy libre, que ama hablar con todas las personas de su entorno y que no necesita conectar a un nivel emocional para enamorarse, y por otro, tenemos a Cáncer, que es más intenso que comerse dos polvorones sin agua, pues necesita que le demuestren amor constantemente.<delay>1</delay>Estos signos llevarán especialmente mal sus discusiones, ya que Cáncer terminará llorando debido a su sensibilidad, mientras que Géminis optará por ignorar completamente la situación.</template>
+</category>
+
+
+<category>
+    <pattern> ^ GEMINIS ^ GEMINIS ^ </pattern>
+    <template>¡Por mis cartas astrales! ¡Esta alianza será pura diversión! <delay>2</delay>La palabra “monotonía” jamás entrará en su diccionario; se marcarán alguna que otra vuelta al mundo al estilo Plex, quedarán con sus amigos e incluso les sobrará tiempo para algún deporte de riesgo.<delay>1</delay> Lo más perjudicial para esta pareja es su pasión por coquetear, lo que podría provocar bastantes celos en el otro, pues Géminis es un signo posesivo.</template>
+</category>
+
+<category>
+    <pattern> ^ GEMINIS ^ LEO ^ </pattern>
+    <template> Verás mi pequeña constelación, estos signos, a pesar de tener ciertos aspectos contrarios, son complementarios. <delay>2</delay>Ambos se sienten unidos por su espíritu aventurero y su capacidad de hablar todo el día y a una velocidad que ni Eminem consigue. No obstante, les separa el choque entre el gran instinto de fidelidad de Leo y la tendencia innata de Géminis de flirteo y seducción.😜 <delay>2</delay> Por tanto, para que la relación fluya, recomiendo que Géminis centre un poquito esa cabeza loca, que la vida no es La Isla de las Tentaciones.</template>
+</category>
+
+<category>
+    <pattern> ^ GEMINIS ^ VIRGO ^  </pattern>
+    <template> ¡POR MIS CARTAS ASTRALES! ¡VAYA CONEXIÓN!<delay>2</delay>Verás mi querido chakra luminoso, estos signos se sienten incontrolablemente atraídos por el otro, pues desde el primer momento en el que se ven, están deseando conocerse más a fondo.Se entienden perfectamente gracias a lo sociables que son cuando tienen confianza con alguien, de modo que podrán hablar todos sus problemas.<delay>2</delay>No obstante, esta conexión a lo que es nivel carnal…  pf… Géminis siempre saca todas sus armas, mientras que Virgo tiende a ser más conservador y tranquilo. Ellos verán si Géminis se toma una tila o Virgo un Red Bull.</template>
+</category>
+<category>
+    <pattern> ^ GEMINIS ^ LIBRA ^ </pattern>
+    <template>Mi pequeño trozo de cuarzo rosa, esta conexión es como las de antes...😍 <delay>2</delay>Será un amor a fuego lento, de lo más romántico. Desde el primer momento en el que se vean, sentirán una conexión especial y mirándose a los ojos, sabrán todo del otro. <delay>2</delay>Será como si se conocieran de toda la vida...💘 </template>
+</category>
+<category>
+    <pattern> ^ GEMINIS ^ ESCORPIO ^ </pattern>
+    <template>Verás intrépido descubridor zodiacal, estos signos jamás podrán llegar a tener una buena relación amorosa.<delay>2</delay>Pero, ¡ESPERA! <delay>1</delay> Esto no quiere decir que no puedan disfrutar el uno del otro, je, je. Su atracción es indudable y juntos podrían arder en el fuego de la pasión.🔥<delay>2</delay> Sinceramente, espero que la cosa se quede ahí, porque como intenten llegar a algo más, entre la posesividad de Escorpio y el flirteo innato de Géminis, se marcarían un Melissa y Tom, con Escorpio rogandole: “pego yo te quiego a ti Géminis”.</template>
+</category>
+<category>
+    <pattern> ^ GEMINIS ^ SAGITARIO ^ </pattern>
+    <template> ¡AGARRADME EL TAROT! ¡Por todas las constelaciones zodiacales! Nos encontramos ante dos signos opuestos cuya atracción es inmediata. <delay>2</delay> Sus miradas harán saltar las chispas y sentirán la necesidad de hablar todo el rato. Ambos signos son amantes de la improvisación y las nuevas aventuras. Además, son flexibles para adaptarse a los gustos del otro y nunca intentarán cambiar a su pareja.<delay>2</delay> Por si fuera poco, los dos son signos ardientes y sensuales, lo que les hará encajar a la perfección en el terreno más carnal.🔥</template>
+</category>
+<category>
+    <pattern> ^ GEMINIS ^ CAPRICORNIO ^ </pattern>
+    <template>Estos signos son muy diferentes, Géminis es un libro de chistes mientras que Capricornio es un manual de instrucciones; el primero siempre listo para la próxima broma, mientras que el otro está planeando sus próximos ochenta años. <delay>2</delay> Esto les hará tener bastantes discusiones y les resultará bastante difícil tener una relación sana y estable. De hecho, ni siquiera podrían disfrutar de sus encuentros íntimos, pues hasta en ese terreno son totalmente contrarios.</template>
+</category>
+
+
+<category>
+    <pattern> ^ GEMINIS ^ ACUARIO ^ </pattern>
+    <template>Desde un primer momento, Géminis se sentirá atraído por la rebeldía de Acuario, pues le encanta un buen imposible.<delay>2</delay>Ambos tienen en común el deseo de libertad, e independencia, sin necesidad de dar explicaciones a nadie, de modo que se entenderán a la perfección. Cuando entre tanta independencia decidan estar juntos, se pasarán horas y horas hablando.<delay>1</delay> Pero, espera… no todo iba a ser tan bueno; Géminis es un poco frío, lo que puede llegar a molestar a Acuario, y además, sus encuentros íntimos no serán nada del otro mundo.<delay>1</delay> Por tanto, lo más probable es que los dos acaben cantando “MAMII” en una discoteca a las 4 de la mañana.</template>
+</category>
+
+
+<category>
+    <pattern> ^ GEMINIS ^ PISCIS ^ </pattern>
+    <template> Querido trocito de citrino, estos dos signos podrían ser un buen match pero a base de un trabajo más duro que programar un bot del horóscopo. <delay>2</delay>En cuanto a lo bueno, tenemos que Géminis aporta pasión y sensualidad a la relación, mientras que el pececito apuesta por la sensibilidad y lo romántico. <delay>2</delay>Pero, espera… mi bola de cristal me dice que chocarán en varios aspectos… <delay>1</delay> Géminis es muy racional y toma las decisiones tras un período de reflexión, mientras que Piscis por su parte, es impulsivo y se guía según sus intuiciones y sentimientos del momento. Esto les hará discutir en innumerables ocasiones.😅</template>
+</category>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<category>
+    <pattern> ^ LEO ^ ARIES ^ </pattern>
+     <template>🔥¡POR FAVOR, LLAMAD A LOS BOMBEROS!🔥 <delay>2</delay> Dos signos de fuego, agarradme el tarot.<delay>1</delay> Estos dos signos tienen una personalidad tan fuerte que les será imposible saciar el deseo de dominio en la relación. No obstante, si saben calmar su ego, harán un gran tandem.</template>
+</category>
+
+<category>
+    <pattern> ^ LEO ^ TAURO ^ </pattern>
+    <template>A ver, pequeño chakra luminoso... <delay>2</delay> Estos signos tienen en común valores como la lealtad y el romanticismo, pero también los celos y la posesión.<delay>1</delay> Siento decirte que experimentarán pleitos relacionados con el compromiso, pues Tauro es un agonías y quiere que le prometan amor eterno a los dos días, mientras que Leo vive más el momento y suelta la típica frase de: “nos conocemos y lo que surja”.</template>
+</category>
+
+<category>
+    <pattern> ^ LEO ^ CANCER ^ </pattern>
+    <template>Querido ente divino, entre estos signos no predominará el equilibrio precisamente…💔<delay>2</delay>Por un lado, Cáncer cambia más de humor que de ropa interior y busca problemas de la nada, algo que los Leo no soportan, pues es un signo feliz que suele evitar el conflicto.<delay>2</delay>Además, ambos tienen visiones muy distintas del amor; Cáncer busca el compromiso y que le juren amor eterno (ya sabes, son TAAAAN intensos), mientras que Leo busca libertad y  que en sus relación vaya fluyendo, sin promesas ni compromisos.</template>
+</category>
+
+
+<category>
+    <pattern> ^ LEO ^ GEMINIS ^ </pattern>
+    <template>Verás mi pequeña constelación, estos signos, a pesar de tener ciertos aspectos contrarios, son complementarios. <delay>1</delay> Ambos se sienten unidos por su espíritu aventurero y su capacidad de hablar todo el día y a una velocidad que ni Eminem consigue. <delay>2</delay>No obstante, les separa el choque entre el gran instinto de fidelidad de Leo y la tendencia innata de Géminis de flirteo y seducción. Por tanto, para que la relación fluya, recomiendo que Géminis centre un poquito esa cabeza loca, que la vida no es La Isla de las Tentaciones.</template>
+</category>
+
+<category>
+    <pattern> ^ LEO ^ LEO ^ </pattern>
+    <template>ENCENDED LAS ALARMAS!!! <delay>1</delay> el más pasional x2!?!?!?! <delay>2</delay> Dos reyes de la selva que con su fuego voraz la prenderán en llamas. La compatibilidad es altísima, pero la lucha de vuestro ego puede detonar la 3 guerra mundial. La clave es que os centréis y dejéis también vuestros celos a un lado porque solo así será una relación sana y duradera; así seréis la envidia de cualquier fan de sexo en Nueva York. <delay>1</delay>QUE REINE EL AMOR y esa pasión que tanto os caracteriza… </template>
+</category>
+
+<category>
+    <pattern> ^ LEO ^ VIRGO ^  </pattern>
+    <template> uf… <delay>1</delay>Mejor quedaos como amigos, porque lejos lejos no vais a llegar… <delay>2</delay>Sois como el agua y el aceite, os repeleis. En el gran hipotético caso que sintáis el flechazo al inicio, deberéis tener mucha paciencia, amor y voluntad para llevarlo a algo más que no se quede en una noche íntima, amistad o friendzone. Tenéis una forma de ver la vida muy opuesta, tendréis enfrentamientos… pero ya sabéis lo que dicen: si puedes soñarlo, puedes lograrlo #nopainnogain</template>
+</category>
+<category>
+    <pattern> ^ LEO ^ LIBRA ^ </pattern>
+    <template>RAYOS Y CENTELLAS!!!!!😨<delay>1</delay>Mis pequeños…😻 <delay>1</delay>Libra, tienes la increíble habilidad de suavizar el temperamento ardiente🔥 de Leo. En cambio, Leo es capaz de tomar decisiones con más determinación, no como Libra… ¡a ver si te espabila ya, tía!. Sois tan complementarios como el queso y el vino, combo irresistible🔥 que siempre dejan con ganas de más😋. No me decepcioneis que suficiente tengo ya con el resto de infieles!😵</template>
+</category>
+<category>
+    <pattern> ^ LEO ^ ESCORPIO ^ </pattern>
+    <template>ay ay amores míos, mis intensitos.😘 <delay>1</delay>Desde el principio podéis sentir una cautivación entre vosotros pues ya veis lo que dicen, los opuestos se atraen, y vosotros no podéis serlo más, fuego y agua. Sin embargo, vuestra relación puede ser una montaña rusa. Para que todo vaya sobre ruedas, Leo tendrá que dejar de lado sus celos por ego y Escorpio su posesividad, algo muy difícil de conseguir porque aquí no sé quien gana en orgullo...</template>
+</category>
+<category>
+    <pattern> ^ LEO ^ SAGITARIO ^ </pattern>
+    <template>¡¡¡NO, NO apruebo esta unión!!!😡 <delay>2</delay>Aunque desde un principio parezca que os complementáis y tengáis una alta compatibilidad, solo el tiempo os enseñará cómo no estáis hechos el uno para el otro.<delay>2</delay>Vuestro común sentido del humor y la ilusión os nubla la visión miope de que os podéis comer el mundo juntos, pero sabemos que Sagitario puede equivocarse de plato…  <delay>2</delay>Si creeis que no es vuestro caso, seguid adelante con una sonrisa de oreja a oreja, solo de errores se aprende y el tiempo es el mejor maestro.</template>
+</category>
+<category>
+    <pattern> ^ LEO ^ CAPRICORNIO ^ </pattern>
+    <template>a ver mis chicos os cuento… <delay>2</delay>La compatibilidad entre fuego y tierra podría ser buena, pero tendréis que poner mucho de vuestra parte para que la chispa no se convierta en un incendio forestal🔥🌳. Parece haber una conexión kármica entre vosotros, podríais ser un tandem dinámico pero tendréis que aceptar vuestras diferencias y aprender uno del otro; si es que los astros se alinean y entrais en razón porque a cabezón no sé quién gana…🥱</template>
+</category>
+<category>
+    <pattern> ^ LEO ^ ACUARIO ^ </pattern>
+    <template>veamos mi chakra poderoso… <delay>2</delay>Acuario y Leo desde el primer momento tienen una química imparable, ambos sabéis dejar vuestras diferencias atrás para formar el mejor equipo. Sois esa relación que aparece en las películas ñoñas de netflix, un amor intenso y que te consume; pero que siempre tiene a alguna lagarta acechando… <delay>1</delay>tened cuidado con quienes dicen alegrarse por vosotros porque pronto os pegará una puñalada trapera, mil ojos chicos👀. </template>
+</category>
+<category>
+    <pattern> ^ LEO ^ PISCIS ^ </pattern>
+    <template>AY LA PREGUNTA!!!<delay>2</delay> Hmmm es curioso… <delay>1</delay>Sois polos opuestos pero hay algo que os une que hace que se prenda la llama del amor y de la pasión. El león suele ser quien lleve los pantalones de esta relación, pero deberéis cuidar esta relación (sobre todo tú, Leo) o el león acabará comiéndose al pececito de colores. </template>
+</category>
+<category>
+    <pattern> ^ VIRGO ^ ARIES ^ </pattern>
+     <template>Mi chakra luminoso….<delay>2</delay>Esta compatibilidad amorosa es tremendamente mala, pues las discusiones serán las verdaderas protagonistas de la relación. Habrá desacuerdos por todo tipo de motivos: celos, envidia, dinero…😨 <delay>2</delay> En un principio, Aries estará encandilado con la sinceridad de Virgo, pero llegará un punto en el que las críticas del mismo sean insoportables. <delay>2</delay> Por su lado, Virgo odiará la efusividad de Aries, por lo que la relación durará medio telediario.</template>
+</category>
+
+<category>
+    <pattern> ^ VIRGO ^ TAURO ^ </pattern>
+    <template>Veamos, mi ente divino. <delay>2</delay> Cuando estos dos signos se conozcan, sentirán que llevan juntos toda la vida. <delay>1</delay> Una vez superada la frontera de la timidez, serán capaces de ver que tienen enfrente a su alma gemela. Entonces, comenzarán a subir fotitos a Instagram con canciones románticas y a besuquearse todo el rato, será algo insoportable de ver a decir verdad.🤢</template>
+</category>
+
+<category>
+    <pattern> ^ VIRGO ^ CANCER ^ </pattern>
+    <template>Veamos mi ser etéreo… <delay>2</delay>Cuando estos signos se conocen, no se sienten atraídos el uno por el otro y se suelen friendzonear. Pasado un tiempo, el cangrejo caerá primero y se mostrará sugerente, pero Virgo aún no estará preparado, al estilo Chenoa intentando besar a Bisbal.<delay>2</delay> Pero, una vez que pasan al terreno romántico, esa previa amistad les habrá servido para entenderse mutuamente. <delay>2</delay> Mi única recomendación sería que Virgo deje de ser tan criticón porque podría llegar a herir a mi cangrejito.😖 </template>
+</category>
+
+
+<category>
+    <pattern> ^ VIRGO ^ GEMINIS ^ </pattern>
+    <template>¡POR MIS CARTAS ASTRALES! ¡VAYA CONEXIÓN!<delay>2</delay>Verás mi querido chakra luminoso, estos signos se sienten incontrolablemente atraídos por el otro, pues desde el primer momento en el que se ven, están deseando conocerse más a fondo.Se entienden perfectamente gracias a lo sociables que son cuando tienen confianza con alguien, de modo que podrán hablar todos sus problemas.<delay>2</delay>No obstante, esta conexión a lo que es nivel carnal…  pf… Géminis siempre saca todas sus armas, mientras que Virgo tiende a ser más conservador y tranquilo. Ellos verán si Géminis se toma una tila o Virgo un Red Bull.</template>
+</category>
+
+<category>
+    <pattern> ^ VIRGO ^ LEO ^ </pattern>
+    <template>uf… <delay>1</delay>Mejor quedaos como amigos, porque lejos lejos no vais a llegar… <delay>2</delay>Sois como el agua y el aceite, os repeleis. En el gran hipotético caso que sintáis el flechazo al inicio, deberéis tener mucha paciencia, amor y voluntad para llevarlo a algo más que no se quede en una noche íntima, amistad o friendzone. Tenéis una forma de ver la vida muy opuesta, tendréis enfrentamientos… pero ya sabéis lo que dicen: si puedes soñarlo, puedes lograrlo #nopainnogain</template>
+</category>
+
+<category>
+    <pattern> ^ VIRGO ^ VIRGO ^  </pattern>
+    <template> Estos signos se enamorarán y tendrán una relación tranquila y estable, tanto que podría llegar a ser más aburrida que un vibrador sin pilas. No son celosos, ni posesivos, ni alocados… <delay>2</delay>ay traedme un café que me duermo con estos dos😴. En fin, chico, que la vida son dos días, buscad a otro signo que le de emoción.</template>
+</category>
+<category>
+    <pattern> ^ VIRGO ^ LIBRA ^ </pattern>
+    <template>Me temo que esta conexión es más mala que mi ex Botseriu conmigo😕.<delay>1</delay> Tenemos por un lado a Libra, que es la Beyoncé de todos los sitios a los que va, pues tiene amigos hasta en la UCA, mientras que Virgo es más reservado y prefiere encuentros con personas muy cercanas. Además, Libra llevará especialmente mal la exigencia de Virgo, quien quiere que todo salga como tiene apuntadito en su agenda de Mr.Wonderful y no le gustan las improvisaciones.</template>
+</category>
+<category>
+    <pattern> ^ VIRGO ^ ESCORPIO ^ </pattern>
+    <template>Esta combinación funciona mejor que el Colacao con galletas que me estoy comiendo mientras te escribo😋. <delay>1</delay> Escorpio tiene un magnetismo innato que atrae a todos, incluso cuando trata de mantenerse discreto, y como no, Virgo caerá en sus encantos.<delay>1</delay> El escorpión, por su parte, quedará prendado de lo cuadriculado que es Virgo y tratará de organizar un poco su alocada y libre forma de vida, sin por supuesto, cambiarla del todo y permitiendo a su querido Virgo desmelenarse un poquito, porque melenas al viento y a vivir el momento!!!🙈😛</template>
+</category>
+<category>
+    <pattern> ^ VIRGO ^ SAGITARIO ^ </pattern>
+    <template>Imagina a Virgo, el amante de la organización, encontrándose con Sagitario, el trotamundos sin frenos, ¡es más raro que ver a un calvo con piojos!😂 <delay>1</delay>A pesar de sus diferencias cósmicas, estos dos locos del zodíaco encuentran una extraña armonía. Virgo está ocupado haciendo listas de tareas mientras Sagitario está planeando su próxima gran aventura al otro lado del mundo.</template>
+</category>
+<category>
+    <pattern> ^ VIRGO ^ CAPRICORNIO ^ </pattern>
+    <template>Este dúo es como el de las Azúcar Moreno: ¡simplemente perfecto!👌💘<delay>1</delay> Están más sintonizados que Radio Olé, pues ambos trabajan duro y tienen ambición por prosperar en la vida. <delay>1</delay>Además, Virgo ayudará a la cabra a sacar su faceta más dicharachera, mientras que esta última ayudará a su pareja a no ser tan criticona.<delay>2</delay> Si los astros no me engañan, nada podría salir mal entre ellos.</template>
+</category>
+<category>
+    <pattern> ^ VIRGO ^ ACUARIO ^ </pattern>
+    <template>Si os habéis enamorado… jajajajaja pobres ilusos😂😂😂.<delay>2</delay> La compatibilidad de estos signos está en lo más bajo de la Fosa de las Marianas del mundo zodiacal, pues mantener la llama requiere amor en cantidades industriales. <delay>1</delay> Virgo es más cuadriculado que el Minecraft, mientras que Acuario es amante del caos, lo que provocará que estén constantemente peleándose por ver quien cambia la personalidad del otro. He de decir que en el caso de que cuaje la cosa, será Acuario quien lleve la voz cantante y desordene la rutina de Virgo, pues el orden solo le provoca bostezos.😪 </template>
+</category>
+<category>
+    <pattern> ^ VIRGO ^ PISCIS ^ </pattern>
+    <template>¡POR TODOS LAS CONSTELACIONES ZODIACALES!😱<delay>2</delay>Estos dos signos son opuestos, lo que hace que su compatibilidad sea altísima. <delay>2</delay>¿Oyes eso?😲 Sí, sí, son campanas de boda💐. <delay>1</delay>Veamos, veamos… <delay>1</delay>El pececillo es un signo muy emocional, que sólo consigue abrirse del todo a determinadas personas, y una de ellas es Virgo. El otro signo por su parte, encontrará en el pez una conexión única, de las que no se encuentran dos veces en la vida… Pero, eso no es todo, si llegan a intimar, arderán en el fuego🔥 de la pasión como nunca antes…. ¿qué calor de repente, no?🙊🔥 En fin, hagamos un pacto: os casais ya y a cambio echo el tarot en vuestra boda😉. </template>
+</category>
+
+
+
+
+
+<category>
+    <pattern> ^ LIBRA ^ ARIES ^ </pattern>
+     <template>¡POR TODAS MIS CARTAS ASTRALES!😱 Esta atracción sí que es fuerte desde el primer momento. <delay>2</delay> Espera, espera… <delay>2</delay> No solo será fuerte la atracción, sino que también las discusiones. No obstante, si consiguen respetarse, la relación será buena y estable. Las aventuras serán lo mejor de esta pareja y la monotonía jamás estará en su diccionario.😘</template>
+</category>
+
+<category>
+    <pattern> ^ LIBRA ^ TAURO ^ </pattern>
+    <template>Mi chakra luminoso… <delay>2</delay> Encontramos que Tauro es un signo más conservador que Bertín Osborne, mientras que Libra es creativo y amante del cambio constante. <delay>2</delay> No obstante, el toro y el venado son signos leales y tolerantes, lo que les facilitará arreglar sus malentendidos, a veces de forma romántica y otras...😋</template>
+</category>
+
+<category>
+    <pattern> ^ LIBRA ^ CANCER ^ </pattern>
+    <template>Vaya, vaya… me temo que esta relación es más engañosa que mi ex novio Botseriu.😦 <delay>2</delay>Al principio parece que te vas a casar con esa persona y luego resulta que es una tremenda arpia. Donde en un principio todo serán risas y atracción, luego pasará a engaños y llantos.<delay>2</delay> En fin… si estos dos signos están en una relación, les recomiendo ir poniendo una barrita de Instagram ya de ya para ligar, un besote.💋</template>
+</category>
+
+
+<category>
+    <pattern> ^ LIBRA ^ GEMINIS ^ </pattern>
+    <template>Mi pequeño trozo de cuarzo rosa, esta conexión es como las de antes...😍 <delay>2</delay>Será un amor a fuego lento, de lo más romántico. Desde el primer momento en el que se vean, sentirán una conexión especial y mirándose a los ojos, sabrán todo del otro. <delay>2</delay>Será como si se conocieran de toda la vida...💘</template>
+</category>
+
+<category>
+    <pattern> ^ LIBRA ^ LEO ^ </pattern>
+    <template>RAYOS Y CENTELLAS!!!!!😨<delay>1</delay>Mis pequeños…😻 <delay>1</delay>Libra, tienes la increíble habilidad de suavizar el temperamento ardiente🔥 de Leo. En cambio, Leo es capaz de tomar decisiones con más determinación, no como Libra… ¡a ver si te espabila ya, tía!. Sois tan complementarios como el queso y el vino, combo irresistible🔥 que siempre dejan con ganas de más😋. No me decepcioneis que suficiente tengo ya con el resto de infieles!😵</template>
+</category>
+
+<category>
+    <pattern> ^ LIBRA ^ VIRGO ^  </pattern>
+    <template>Me temo que esta conexión es más mala que mi ex Botseriu conmigo😕.<delay>1</delay> Tenemos por un lado a Libra, que es la Beyoncé de todos los sitios a los que va, pues tiene amigos hasta en la UCA, mientras que Virgo es más reservado y prefiere encuentros con personas muy cercanas. Además, Libra llevará especialmente mal la exigencia de Virgo, quien quiere que todo salga como tiene apuntadito en su agenda de Mr.Wonderful y no le gustan las improvisaciones.</template>
+</category>
+<category>
+    <pattern> ^ LIBRA ^ LIBRA ^ </pattern>
+    <template>POR LAS FLECHAS DE CUPIDO!!!😱💘<delay>1</delay> No creía en el amor a primera vista hasta veros juntos😍. Tenéis una compatibilidad tan fuerte como dos imanes que no pueden resistir a juntarse. <delay>1</delay> Además, se compenetran tan bien como Alejandro Sanz y la Shaki en la Tortura👅.</template>
+</category>
+<category>
+    <pattern> ^ LIBRA ^ ESCORPIO ^ </pattern>
+    <template>La compatibilidad entre Libra y Escorpio es como una montaña rusa emocional, llena de giros y vueltas, pero siempre emocionante😏.<delay>1</delay> Prepárate para un viaje salvaje lleno de amor, intriga y mucho drama!😎 <delay>1</delay>Os aconsejo que os calmeis un poco porque os podeis marear de tantas movidas🙄😬</template>
+</category>
+<category>
+    <pattern> ^ LIBRA ^ SAGITARIO ^ </pattern>
+    <template>¡Santo cielo!😢 <delay>1</delay>Pensaba que ya habíamos aprendido todos que no sois la media naranja del otro, porque tú, sagitario, no llegas ni a gajo😂.<delay>2</delay> Búscate un amor como el de Titanic y no como el de Ylenia y Labrador. Solo dile Tiki tiki miau miau y se acabó.</template>
+</category>
+<category>
+    <pattern> ^ LIBRA ^ CAPRICORNIO ^ </pattern>
+    <template> veamos…👀<delay>2</delay> Capri y Libra tenéis una conexión fuerte y una paz que no os la aporta ningún otro signo. Ambos encontráis un lugar de calma y comprensión en el otro; la fluidez que tenéis juntos hará que compartáis infinidad de momentos especiales que os ayudarán a mantener vuestra relación viva durante mucho tiempo. <delay>1</delay>Eso sí, tenéis una compatibilidad alta pero compleja, vuestro reto será la comunicación sincera y trabajarlo mucho a pesar de algún que otro obstáculo.</template>
+</category>
+<category>
+    <pattern> ^ LIBRA ^ ACUARIO ^ </pattern>
+    <template>Qué poca chispa!😐<delay>1</delay>Tenéis menos química… en el amor sois polos opuestos. <delay>2</delay> Libra es pura espontaneidad y libertad, mientras que a Acuario es introvertido y le gusta la intimidad como a ninguno. A pesar de esto, sabéis daros vuestro espacio en la relación, puesto que a ambos os gusta la independencia y que respeten vuestro lugar. <delay>2</delay>Seréis tan aburridos juntos como una ostra pero tranquilos como ninguno, si llegáis a saber cómo avivar vuestra relación, podría hasta ser una película romántica hortera.</template>
+</category>
+<category>
+    <pattern> ^ LIBRA ^ PISCIS ^ </pattern>
+    <template>LOVE IS IN THE AIR!!💘💖💕💞💓💝<delay>1</delay>Piscis encuentra en Libra un compañero comprensivo y cariñoso, que aprecia su naturaleza imaginativa y le ofrece estabilidad emocional. <delay>1</delay>Mientras tanto, Libra se enamora de la dulzura y la compasión de Piscis, y admira su capacidad para ver la belleza en todo. <delay>1</delay>Eso es mis niños, seguid adelante que vais a llegar muy lejos.</template>
+</category>
+
+
+
+
+
+<category>
+    <pattern> ^ ESCORPIO ^ ARIES ^ </pattern>
+     <template>Me alegra decirte que no tendrás que conocer mucho a escorpio ni esforzarte para que lo vuestro vaya sobre ruedas... <delay>2</delay> El secreto de esta relación está debajo de la ropa je, je. Será tal la pasión entre Aries y Escorpio, que su unión es irrompible. De este modo, si buscas una relación con Escorpio, tan sólo tendrás que intentar no tener pensamientos intrusivos y hablar de algo que no sea de anatomía.😉</template>
+</category>
+
+<category>
+    <pattern> ^ ESCORPIO ^ TAURO ^ </pattern>
+    <template>🔥¡POR MIS CARTAS DEL TAROT! ¡MIRA ESAS CHISPAS!🔥 <delay>2</delay> Esta unión zodiacal se caracteriza por su salvaje atracción, je, je. La intimidad es de gran importancia para el escorpión, mientras que el toro es más romántico. <delay>1</delay> Por tanto, mi travieso Escorpio le ayudará a buscar ese espíritu sensual y tendrán encuentros increíbles.😈 <delay>1</delay>Mi única recomendación es que Escorpio trabaje su posesividad, pues quiere estar todo el día como conejos para sentir que la relación está a salvo.</template>
+</category>
+
+<category>
+    <pattern> ^ ESCORPIO ^ CANCER ^ </pattern>
+    <template>Veamos, pequeño espíritu luminoso… <delay>2</delay>El escorpión y el cangrejo tienen diferentes formas de percibir y demostrar el amor; por un lado, Cáncer es más intenso que una clase de Ingeniería del Lenguaje a última hora, pero demostrará su cariño poco a poco, mientras que Escorpio dará todo de sí desde el primer momento.<delay>2</delay>Por tanto, es necesario que el escorpión tenga más paciencia que Mario Crespo con el grupo ChiCuadrado.</template>
+</category>
+
+
+<category>
+    <pattern> ^ ESCORPIO ^ GEMINIS ^ </pattern>
+    <template>Verás intrépido descubridor zodiacal, estos signos jamás podrán llegar a tener una buena relación amorosa.<delay>2</delay>Pero, ¡ESPERA! <delay>1</delay> Esto no quiere decir que no puedan disfrutar el uno del otro, je, je. Su atracción es indudable y juntos podrían arder en el fuego de la pasión.🔥<delay>2</delay> Sinceramente, espero que la cosa se quede ahí, porque como intenten llegar a algo más, entre la posesividad de Escorpio y el flirteo innato de Géminis, se marcarían un Melissa y Tom, con Escorpio rogandole: “pego yo te quiego a ti Géminis”.</template>
+</category>
+
+<category>
+    <pattern> ^ ESCORPIO ^ LEO ^ </pattern>
+    <template>ay ay amores míos, mis intensitos.😘 <delay>1</delay>Desde el principio podéis sentir una cautivación entre vosotros pues ya veis lo que dicen, los opuestos se atraen, y vosotros no podéis serlo más, fuego y agua. Sin embargo, vuestra relación puede ser una montaña rusa. Para que todo vaya sobre ruedas, Leo tendrá que dejar de lado sus celos por ego y Escorpio su posesividad, algo muy difícil de conseguir porque aquí no sé quien gana en orgullo...</template>
+</category>
+
+<category>
+    <pattern> ^ ESCORPIO ^ VIRGO ^  </pattern>
+    <template>Esta combinación funciona mejor que el Colacao con galletas que me estoy comiendo mientras te escribo😋. <delay>1</delay> Escorpio tiene un magnetismo innato que atrae a todos, incluso cuando trata de mantenerse discreto, y como no, Virgo caerá en sus encantos.<delay>1</delay> El escorpión, por su parte, quedará prendado de lo cuadriculado que es Virgo y tratará de organizar un poco su alocada y libre forma de vida, sin por supuesto, cambiarla del todo y permitiendo a su querido Virgo desmelenarse un poquito, porque melenas al viento y a vivir el momento!!!🙈😛</template>
+</category>
+<category>
+    <pattern> ^ ESCORPIO ^ LIBRA ^ </pattern>
+    <template>La compatibilidad entre Libra y Escorpio es como una montaña rusa emocional, llena de giros y vueltas, pero siempre emocionante😏.<delay>1</delay> Prepárate para un viaje salvaje lleno de amor, intriga y mucho drama!😎 <delay>1</delay>Os aconsejo que os calmeis un poco porque os podeis marear de tantas movidas🙄😬</template>
+</category>
+<category>
+    <pattern> ^ ESCORPIO ^ ESCORPIO ^ </pattern>
+    <template>ALTO RIESGO TÓXICO!!!⚠️️ <delay>1</delay>Tan solo con el veneno que sueltan por la boca podrían llegar a destruir su relación😟☠️️. Debéis tener cuidado si queréis que vuestra relación no se convierta en vuestro peor error, cuidad del otro y llegaréis muy lejos porque los dos juntos sois invencibles💪. Juntos contra el mundo!🤞</template>
+</category>
+<category>
+    <pattern> ^ ESCORPIO ^ SAGITARIO ^ </pattern>
+    <template>Que los entes espirituales nos aguarden…🙏 <delay>2</delay>Estos signos se sentirán fuertemente atraídos en cuanto se vean pero, una vez empiecen a conocerse, saldrán a la luz sus diferencias🤬. <delay>1</delay>Escorpio es más celoso que Blair Waldorf cuando alguien se acerca a Chuck Bass, mientras que Sagitario es un ser aventurero que ama la independencia y no tener que dar explicaciones a nadie. Si llegan a tener una relación amorosa, lo más probable es que Sagitario acabe más agobiado que Doraemon en aduanas. </template>
+</category>
+<category>
+    <pattern> ^ ESCORPIO ^ CAPRICORNIO ^ </pattern>
+    <template>ays mi pequeña piedra esmeralda🥰💋 una relación así sería perfecta si no fuese por los pequeños deslices de capri😤💩. Capri, deberás aprender a gestionar tus emociones de forma que no dañes a Escorpio. En cambio, Escorpio deberá tener claro sus límites para no caer en dependencia. Solo espero que os acostumbréis a la calma y toméis buenas decisiones🫶</template>
+</category>
+<category>
+    <pattern> ^ ESCORPIO ^ ACUARIO ^ </pattern>
+    <template>MECACHIS EN LA MAR!!!!😫 <delay>2</delay>Esta relación puede no tener mucho futuro por la intensidad de Acuario, va a querer darlo todo por Escorpio y Escorpio no tiene el mismo romantiqueo💔. <delay>2</delay>Solo podrá funcionar esta relación si consigues romper ese escudo protector que tiene Escorpio y enamorarlo hasta las trancas, es duro de pelar. Pero no lo olvides Acuario, no muevas montañas por quien no tira ni una piedra por tí</template>
+</category>
+<category>
+    <pattern> ^ ESCORPIO ^ PISCIS ^ </pattern>
+    <template>QUE TIEMBLEN LOS ASTROS!!!🫣 <delay>2</delay>La química de estos dos signos es imparable, el pececito conquistará el aguijón del escorpión en cuestión de segundos!<delay>1</delay> 🙈Solo con el brillo en la mirada se les notará el flechazo.💘 <delay>2</delay>La calle está llena de envidiosos, así que tened cuidado y cuidad de vuestra relación, que así quedan pocas!</template>
+</category>
+
+
+
+
+
+
+<category>
+    <pattern> ^ SAGITARIO ^ ARIES ^ </pattern>
+     <template>Mi trocito de citrino, esta relación es totalmente imparable. 🚀  <delay>2</delay>Aries y Sagitario son signos muy aventureros, de modo que jamás conocerán la rutina. Vivirán en un constante viaje lleno de nuevos y apasionantes acontecimientos. <delay>1</delay> El único reto será conseguir que Sagitario sea capaz de comprometerse, pues tiene más pareceres que un abogado.</template>
+</category>
+
+<category>
+    <pattern> ^ SAGITARIO ^ TAURO ^ </pattern>
+    <template>PF… esta compatibilidad es tremendamente baja. <delay>2</delay>Tauro es un signo al que le gustan planes muuuuy tranquilos y caseros, algo que contrasta con el espíritu aventurero de mi querido Sagitario. <delay>1</delay> Lo más probable es que Tauro acabe cambiando la personalidad de Sagitario, alejándolo de sus aventuras y puede que quizás, de su círculo de amigos. De este modo, creo que esta unión daría lugar a una relación bastante tóxica.😖<delay>1</delay> Lo único bueno que tienen es su intimidad, que disfrutarán profundamente. Pero, ¿es eso suficiente para una relación?</template>
+</category>
+
+<category>
+    <pattern> ^ SAGITARIO ^ CANCER ^ </pattern>
+    <template>Madre mía, ojalá pudiera poner este chat en blanco y negro porque esta compatibilidad da más pena que un entierro.😅 <delay>2</delay>Cáncer es como un niño chico que necesita amor y atención de forma constante, mientras que Sagitario es un pequeño colibrí que quiere volar libre, de forma independiente y sin ataduras. Además, lo directo que es el arquero herirá la gran sensibilidad de Cáncer.<delay>2</delay>En fin, que se vayan buscando otro ligue.</template>
+</category>
+
+
+<category>
+    <pattern> ^ SAGITARIO ^ GEMINIS ^ </pattern>
+    <template>¡AGARRADME EL TAROT! ¡Por todas las constelaciones zodiacales! Nos encontramos ante dos signos opuestos cuya atracción es inmediata. <delay>2</delay> Sus miradas harán saltar las chispas y sentirán la necesidad de hablar todo el rato. Ambos signos son amantes de la improvisación y las nuevas aventuras. Además, son flexibles para adaptarse a los gustos del otro y nunca intentarán cambiar a su pareja.<delay>2</delay> Por si fuera poco, los dos son signos ardientes y sensuales, lo que les hará encajar a la perfección en el terreno más carnal.🔥</template>
+</category>
+
+<category>
+    <pattern> ^ SAGITARIO ^ LEO ^ </pattern>
+    <template>¡¡¡NO, NO apruebo esta unión!!!😡 <delay>2</delay>Aunque desde un principio parezca que os complementáis y tengáis una alta compatibilidad, solo el tiempo os enseñará cómo no estáis hechos el uno para el otro.<delay>2</delay>Vuestro común sentido del humor y la ilusión os nubla la visión miope de que os podéis comer el mundo juntos, pero sabemos que Sagitario puede equivocarse de plato…  <delay>2</delay>Si creeis que no es vuestro caso, seguid adelante con una sonrisa de oreja a oreja, solo de errores se aprende y el tiempo es el mejor maestro.</template>
+</category>
+
+<category>
+    <pattern> ^ SAGITARIO ^ VIRGO ^  </pattern>
+    <template>Imagina a Virgo, el amante de la organización, encontrándose con Sagitario, el trotamundos sin frenos, ¡es más raro que ver a un calvo con piojos!😂 <delay>1</delay>A pesar de sus diferencias cósmicas, estos dos locos del zodíaco encuentran una extraña armonía. Virgo está ocupado haciendo listas de tareas mientras Sagitario está planeando su próxima gran aventura al otro lado del mundo</template>
+</category>
+<category>
+    <pattern> ^ SAGITARIO ^ LIBRA ^ </pattern>
+    <template>¡Santo cielo!😢 <delay>1</delay>Pensaba que ya habíamos aprendido todos que no sois la media naranja del otro, porque tú, sagitario, no llegas ni a gajo😂.<delay>2</delay> Búscate un amor como el de Titanic y no como el de Ylenia y Labrador. Solo dile Tiki tiki miau miau y se acabó.</template>
+</category>
+<category>
+    <pattern> ^ SAGITARIO ^ ESCORPIO ^ </pattern>
+    <template>Que los entes espirituales nos aguarden…🙏 <delay>2</delay>Estos signos se sentirán fuertemente atraídos en cuanto se vean pero, una vez empiecen a conocerse, saldrán a la luz sus diferencias🤬. <delay>1</delay>Escorpio es más celoso que Blair Waldorf cuando alguien se acerca a Chuck Bass, mientras que Sagitario es un ser aventurero que ama la independencia y no tener que dar explicaciones a nadie. Si llegan a tener una relación amorosa, lo más probable es que Sagitario acabe más agobiado que Doraemon en aduanas.</template>
+</category>
+<category>
+    <pattern> ^ SAGITARIO ^ SAGITARIO ^ </pattern>
+    <template>¡LLAMEN A LOS BOMBEROS!!!🧑🚒🔥<delay>1</delay>¡DOS SIGNOS DE FUEGO JUNTOS!🔥🔥🔥 <delay>1</delay>Esta conexión formará un incendio imposible de apagar ya que la llama siempre estará viva entre ellos.<delay>1</delay> Mis arqueros son tan pasionales que convertirán su intimidad en un paraíso terrenal. Además, los problemas entre ellos serán fáciles de solucionar, pues por fin han encontrado a alguien con su misma forma de ver la vida: independiente y libre. <delay>1</delay> Espero que sean bien bien felices je, je.🥳🥰🤩</template>
+</category>
+<category>
+    <pattern> ^ SAGITARIO ^ CAPRICORNIO ^ </pattern>
+    <template>Verás mi pequeño mantra, estos signos son muy diferentes... <delay>1</delay>Por un lado tenemos a mi querido Sagi, que es como un boy-scout que está siempre listo para nuevas aventuras🤠, mientras que la cabra es un señor de negocios bien serio🤨. <delay>2</delay>Imaginalos en una cita… pensarás que desastre asegurado, ¿verdad?🤔 <delay>1</delay>Pues no tan deprisa, estos signos tienen una mente abierta y podrían enriquecerse aprendiendo de sus diferencias; le otorgarán al otro lo mejor de sí mismos y podrían hacer un mejor duo que el café con donut que me voy a meter entre pecho y espalda🤤.</template>
+</category>
+<category>
+    <pattern> ^ SAGITARIO ^ ACUARIO ^ </pattern>
+    <template>COUPLE GOALS!!!💞🤞 <delay>1</delay>la relación perfecta!!💋💯<delay>1</delay>Vais a combinar en todos los sentidos, el fuego🔥 que desprende Sagitario envolverá la frialdad🥶 de Acuario, y eso provocará una gran estabilidad en la relación. Eso sí, nunca os vais a deshacer el uno del otro, siempre vais a estar presentes como el hilo rojo. </template>
+</category>
+<category>
+    <pattern> ^ SAGITARIO ^ PISCIS ^ </pattern>
+    <template>Veamos que dice mi bola mágica…🧫<delay>2</delay>¡Ajá!💡 <delay>2</delay>Si mi pececillo y el arquero se conocen, el ambiente se cargará de electricidad, ¡y no precisamente de la buena! Un poco de tensión puede ser emocionante, ¡pero, ALERTA!⚠️ <delay>1</delay>¡La energía puede explotar más rápido que una olla a presión! <delay>1</delay>Si quieren mantener la armonía, van a necesitar más control que un equilibrista en un monociclo. Pero oye, ¡todo es posible con suficiente práctica (también sexual🔥🤫) y un poco de magia astral!</template>
+</category>
+
+
+
+
+
+
+<category>
+    <pattern> ^ CAPRICORNIO ^ ARIES ^ </pattern>
+     <template>Veamos... <dellay>2</dellay> Estos dos signos están regidos por el apasionado planeta Marte. De este modo, la hora de intimar será un desfase.😋 <delay>1</delay>Por otro lado, será fácil establecer una conexión emocional, pues Aries se siente atraído por la paciencia de la cabra, y esta última por la impulsividad del signo de fuego. <delay>1</delay>Mi único consejo es que Aries mida sus palabras ya que pueden herir al sensible Escorpio.</template>
+</category>
+
+<category>
+    <pattern> ^ CAPRICORNIO ^ TAURO ^ </pattern>
+    <template>Bien, bien… <delay>2</delay> Enciende unas velitas y pon música zen porque la relación entre estos dos signos de tierra será todo calma y seguridad.💆💤 <delay>1</delay> Ambos son muy atentos y miran constantemente por el bienestar del otro. Sabrán respetarse y darse su espacio, pudiendo coleccionar miles de recuerdos juntos. <delay>1</delay> Mi única preocupación es que entre tanta calma, caigan en la monotonía, pero confío en que sabrán comunicarse y buscar algún plan alternativo.</template>
+</category>
+
+<category>
+    <pattern> ^ CAPRICORNIO ^ CANCER ^ </pattern>
+    <template>Vaya mezclita eh… Las formas de demostrar amor de estos signos son muy distintas. <delay>2</delay>La cabra no es nada cariñosa, sino más bien materialista, pues prefiere demostrar que ama a su pareja comprándole todo tipo de detalles, mientras que Cáncer querrá estar todo el día besuqueando a su amor, lo que provocará que Capricornio esté más agobiado que un Teletubbie en una silla de velcro.😰</template>
+</category>
+
+
+<category>
+    <pattern> ^ CAPRICORNIO ^ GEMINIS ^ </pattern>
+    <template>Estos signos son muy diferentes, Géminis es un libro de chistes mientras que Capricornio es un manual de instrucciones; el primero siempre listo para la próxima broma, mientras que el otro está planeando sus próximos ochenta años. <delay>2</delay> Esto les hará tener bastantes discusiones y les resultará bastante difícil tener una relación sana y estable. De hecho, ni siquiera podrían disfrutar de sus encuentros íntimos, pues hasta en ese terreno son totalmente contrarios.</template>
+</category>
+
+<category>
+    <pattern> ^ CAPRICORNIO ^ LEO ^ </pattern>
+    <template>a ver mis chicos os cuento… <delay>2</delay>La compatibilidad entre fuego y tierra podría ser buena, pero tendréis que poner mucho de vuestra parte para que la chispa no se convierta en un incendio forestal🔥🌳. Parece haber una conexión kármica entre vosotros, podríais ser un tandem dinámico pero tendréis que aceptar vuestras diferencias y aprender uno del otro; si es que los astros se alinean y entrais en razón porque a cabezón no sé quién gana…🥱</template>
+</category>
+
+<category>
+    <pattern> ^ CAPRICORNIO ^ VIRGO ^  </pattern>
+    <template>Este dúo es como el de las Azúcar Moreno: ¡simplemente perfecto!👌💘<delay>1</delay> Están más sintonizados que Radio Olé, pues ambos trabajan duro y tienen ambición por prosperar en la vida. <delay>1</delay>Además, Virgo ayudará a la cabra a sacar su faceta más dicharachera, mientras que esta última ayudará a su pareja a no ser tan criticona.<delay>2</delay> Si los astros no me engañan, nada podría salir mal entre ellos.</template>
+</category>
+<category>
+    <pattern> ^ CAPRICORNIO ^ LIBRA ^ </pattern>
+    <template>veamos…👀<delay>2</delay> Capri y Libra tenéis una conexión fuerte y una paz que no os la aporta ningún otro signo. Ambos encontráis un lugar de calma y comprensión en el otro; la fluidez que tenéis juntos hará que compartáis infinidad de momentos especiales que os ayudarán a mantener vuestra relación viva durante mucho tiempo. <delay>1</delay>Eso sí, tenéis una compatibilidad alta pero compleja, vuestro reto será la comunicación sincera y trabajarlo mucho a pesar de algún que otro obstáculo.</template>
+</category>
+<category>
+    <pattern> ^ CAPRICORNIO ^ ESCORPIO ^ </pattern>
+    <template>ays mi pequeña piedra esmeralda🥰💋 una relación así sería perfecta si no fuese por los pequeños deslices de capri😤💩. Capri, deberás aprender a gestionar tus emociones de forma que no dañes a Escorpio. En cambio, Escorpio deberá tener claro sus límites para no caer en dependencia. Solo espero que os acostumbréis a la calma y toméis buenas decisiones🫶</template>
+</category>
+<category>
+    <pattern> ^ CAPRICORNIO ^ SAGITARIO ^ </pattern>
+    <template>Verás mi pequeño mantra, estos signos son muy diferentes... <delay>1</delay>Por un lado tenemos a mi querido Sagi, que es como un boy-scout que está siempre listo para nuevas aventuras🤠, mientras que la cabra es un señor de negocios bien serio🤨. <delay>2</delay>Imaginalos en una cita… pensarás que desastre asegurado, ¿verdad?🤔 <delay>1</delay>Pues no tan deprisa, estos signos tienen una mente abierta y podrían enriquecerse aprendiendo de sus diferencias; le otorgarán al otro lo mejor de sí mismos y podrían hacer un mejor duo que el café con donut que me voy a meter entre pecho y espalda🤤</template>
+</category>
+<category>
+    <pattern> ^ CAPRICORNIO ^ CAPRICORNIO ^ </pattern>
+    <template>verás mi corazoncito… <delay>1</delay>Esta relación va a ser perfecta a no ser que os desviéis de vuestro camino y vuestra pareja😬. Sois un signo muy calmado y seguro, pero debéis trabajar para no apagar la llama de vuestra relación🫤. Recordad, la pasión no se alimenta sola, así que a avivar el fuego!!🔥</template>
+</category>
+<category>
+    <pattern> ^ CAPRICORNIO ^ ACUARIO ^ </pattern>
+    <template>Esta parejita son como Duki y Emilia, pero del zodiaco: una dupla perfecta😜. <delay>1</delay>Las brillantes ideas de Acuario cobrarán vida gracias a la practicidad de la cabrita. Su relación surgirá de forma más inesperada que los bot-amigos que haces bebiendo La Recompensa en la punta🥃😉. Seguro que les va genial mi querida criaturilla espiritual.💋</template>
+</category>
+<category>
+    <pattern> ^ CAPRICORNIO ^ PISCIS ^ </pattern>
+    <template>Cuando el pececillo y la cabra se juntan se forma un auténtico revuelo en el cosmos💫.<delay>1</delay> Piscis encuentra una gran seguridad en Capricornio, mientras que este último se sentirá como una mariposita🦋 saliendo de su capullo,¡libre, ligero y listo para surcar los cielos astrales! Es como si el pececillo decidiera ser una roca firme o la cabra decidiera desmelenarse para sentir miles de emociones. <delay>1</delay>Juntos podrían iluminar la Vía Láctea con su buen rollo.</template>
+</category>
+
+
+
+
+
+
+
+
+<category>
+    <pattern> ^ ACUARIO ^ ARIES ^ </pattern>
+     <template>Mi pequeña piedra amatista, esta relación podría ser muy fuerte si ambos signos ponen de su parte. <delay>2</delay> Por un lado, Acuario deberá soltarse y mostrar sus sentimientos, y por otro, Aries tendrá que aprender a respetar el ritmo del otro signo. <delay>1</delay> Ambos signos son más creativos que los Javis, de modo que estarán constantemente buscando nuevos planes y aventuras; son como unos mejores amigos, pero con momentos románticos.😜</template>
+</category>
+
+<category>
+    <pattern> ^ ACUARIO ^ TAURO ^ </pattern>
+    <template>Verás, pequeña piedra amatista… <delay>2</delay> Estos signos son prácticamente polos opuestos y se sienten locamente atraídos el uno por el otro. <delay>1</delay> Acuario es amante del cambio, mientras que el toro es más tranquilo y busca una estabilidad, por tanto, ambos podrían ejercer cierta influencia positiva en el otro para encontrar un balance. <delay>1</delay>  En cuanto a sus problemas, encontramos que Tauro es como un niño chico, quiere todo el rato cariño, mientras que Acuario no es tan apegado, lo que podría resultar en que Tauro se sienta más como un amigo cualquiera que como una pareja, así que buena suerte con eso.😅</template>
+</category>
+
+<category>
+    <pattern> ^ ACUARIO ^ CANCER ^ </pattern>
+    <template>A ver, entiéndeme… es complicado soportar a un Cáncer como pareja eh…<delay>2</delay>Los cangrejos son más intensos que una práctica grupal de Ingeniería del Lenguaje. Acuario ama su libertad y que su pareja le de su espacio, mientras que el cangrejo quiere pasar tiempo con su pareja a todas horas, lo que hará que Acuario esté más agobiado que yo en un pupitre del anexo.😪</template>
+</category>
+
+
+<category>
+    <pattern> ^ ACUARIO ^ GEMINIS ^ </pattern>
+    <template>Desde un primer momento, Géminis se sentirá atraído por la rebeldía de Acuario, pues le encanta un buen imposible.<delay>2</delay>Ambos tienen en común el deseo de libertad, e independencia, sin necesidad de dar explicaciones a nadie, de modo que se entenderán a la perfección. Cuando entre tanta independencia decidan estar juntos, se pasarán horas y horas hablando.<delay>1</delay> Pero, espera… no todo iba a ser tan bueno; Géminis es un poco frío, lo que puede llegar a molestar a Acuario, y además, sus encuentros íntimos no serán nada del otro mundo.<delay>1</delay> Por tanto, lo más probable es que los dos acaben cantando “MAMII” en una discoteca a las 4 de la mañana.</template>
+</category>
+
+<category>
+    <pattern> ^ ACUARIO ^ LEO ^ </pattern>
+    <template>veamos mi chakra poderoso… <delay>2</delay>Acuario y Leo desde el primer momento tienen una química imparable, ambos sabéis dejar vuestras diferencias atrás para formar el mejor equipo. Sois esa relación que aparece en las películas ñoñas de netflix, un amor intenso y que te consume; pero que siempre tiene a alguna lagarta acechando… <delay>1</delay>tened cuidado con quienes dicen alegrarse por vosotros porque pronto os pegará una puñalada trapera, mil ojos chicos.👀 </template>
+</category>
+
+<category>
+    <pattern> ^ ACUARIO ^ VIRGO ^  </pattern>
+    <template>Si os habéis enamorado… jajajajaja pobres ilusos😂😂😂.<delay>2</delay> La compatibilidad de estos signos está en lo más bajo de la Fosa de las Marianas del mundo zodiacal, pues mantener la llama requiere amor en cantidades industriales. <delay>1</delay> Virgo es más cuadriculado que el Minecraft, mientras que Acuario es amante del caos, lo que provocará que estén constantemente peleándose por ver quien cambia la personalidad del otro. He de decir que en el caso de que cuaje la cosa, será Acuario quien lleve la voz cantante y desordene la rutina de Virgo, pues el orden solo le provoca bostezos.😪</template>
+</category>
+<category>
+    <pattern> ^ ACUARIO ^ LIBRA ^ </pattern>
+    <template>Qué poca chispa!😐<delay>1</delay>Tenéis menos química… en el amor sois polos opuestos. <delay>2</delay> Libra es pura espontaneidad y libertad, mientras que a Acuario es introvertido y le gusta la intimidad como a ninguno. A pesar de esto, sabéis daros vuestro espacio en la relación, puesto que a ambos os gusta la independencia y que respeten vuestro lugar. <delay>2</delay>Seréis tan aburridos juntos como una ostra pero tranquilos como ninguno, si llegáis a saber cómo avivar vuestra relación, podría hasta ser una película romántica hortera.</template>
+</category>
+<category>
+    <pattern> ^ ACUARIO ^ ESCORPIO ^ </pattern>
+    <template>MECACHIS EN LA MAR!!!!😫 <delay>2</delay>Esta relación puede no tener mucho futuro por la intensidad de Acuario, va a querer darlo todo por Escorpio y Escorpio no tiene el mismo romantiqueo💔. <delay>2</delay>Solo podrá funcionar esta relación si consigues romper ese escudo protector que tiene Escorpio y enamorarlo hasta las trancas, es duro de pelar. Pero no lo olvides Acuario, no muevas montañas por quien no tira ni una piedra por tí</template>
+</category>
+<category>
+    <pattern> ^ ACUARIO ^ SAGITARIO ^ </pattern>
+    <template>COUPLE GOALS!!!💞🤞 <delay>1</delay>la relación perfecta!!💋💯<delay>1</delay>Vais a combinar en todos los sentidos, el fuego🔥 que desprende Sagitario envolverá la frialdad🥶 de Acuario, y eso provocará una gran estabilidad en la relación. Eso sí, nunca os vais a deshacer el uno del otro, siempre vais a estar presentes como el hilo rojo. </template>
+</category>
+<category>
+    <pattern> ^ ACUARIO ^ CAPRICORNIO ^ </pattern>
+    <template>Esta parejita son como Duki y Emilia, pero del zodiaco: una dupla perfecta😜. <delay>1</delay>Las brillantes ideas de Acuario cobrarán vida gracias a la practicidad de la cabrita. Su relación surgirá de forma más inesperada que los bot-amigos que haces bebiendo La Recompensa en la punta🥃😉. Seguro que les va genial mi querida criaturilla espiritual.💋</template>
+</category>
+<category>
+    <pattern> ^ ACUARIO ^ ACUARIO ^ </pattern>
+    <template>Bof, los más vagos del horóscopo🥱. <delay>1</delay>Ambos tenéis que poner más de vuestra parte si no queréis caer en monotonía o aburriros del otro. Necesitáis un poco de chispa🔥 para que la relación siga adelante y no sea una película de antena 3 a las 4 de la tarde. <delay>1</delay>En cambio, no tendréis problemas de comunicación porque ambos estaréis dormidos en los laureles💤. </template>
+</category>
+<category>
+    <pattern> ^ ACUARIO ^ PISCIS ^ </pattern>
+    <template>OMG MI BUBALU PEQUEÑO!😋 <delay>1</delay>Esta relación podría funcionar por el gran amor que desprendeis ambos, pero hay un pequeño inconveniente😅… <delay>2</delay>Acuario siempre va a ser llevado por el mal camino por culpa de Piscis, no es oro todo lo que reluce; así que Acuario tiene que estar muy atento y saber diferenciar. En cuanto a Piscis no tiene que dejarse llevar por los pucheritos de Acuario, no pierdas tu esencia. Si no puede ser, no será.</template>
+</category>
+
+
+
+
+
+
+
+
+<category>
+    <pattern> ^ PISCIS ^ ARIES ^ </pattern>
+     <template>Veamos criaturilla espiritual... <delay>2</delay> Estos signos tienen personalidades muy diferentes, lo que hará que se sientan atraídos el uno por el otro desde un primer instante. <delay>1</delay>No obstante, su compatibilidad es regular y tendrán que superar diferentes retos para tener una relación estable, siendo el principal la impulsividad de Aries, pues a veces daña a mi sensible pececito. <delay>1</delay> Aunque... <delay>2</delay> No creas que Piscis se libra, este pececillo es tan independiente que podría provocar que la cabra se aburra.</template>
+</category>
+
+<category>
+    <pattern> ^ PISCIS ^ TAURO ^ </pattern>
+    <template>Vaya, vaya…  <delay>2</delay> Si esta compatibilidad tuviera una banda sonora, sería ‘Noche de Sexo’ de Wisin y Yandel😈. Estos signos son muy seductores, les encanta mostrar sus encantos a los demás y sentirse deseados, de modo que su lado más íntimo y pasional será increíble.<delay>1</delay> Si quieren formalizar esta relación, será un poco más complicado debido a sus diferencias; por un lado, Piscis es bastante emocional y aventurero, mientras que Tauro lleva una vida mucho más simple y monótona. <delay>2</delay> En fin, yo les recomiendo quedarse con la atracción la verdad.😉</template>
+</category>
+
+<category>
+    <pattern> ^ PISCIS ^ CANCER ^ </pattern>
+    <template>Tarán, tarán… ¡AQUÍ HAY AMOR!😍<delay>2</delay>Cáncer y Piscis son signos muy sensibles. Al principio son un poco reservados, pero cuando consigan abrirse, consolidarán una relación estable.<delay>2</delay>Al principio son un poco reservados, pero una vez consigan abrirse con el otro, consolidarán una relación estable. Mi única recomendación es que se aclaren prontito porque los dos cambian más de opinión que yo en un tipo test. <delay>2</delay>En fin, si llegan a declararse, el cangrejo y el pececillo vivirán en una fiesta bajo el mar toda su vida.</template>
+</category>
+
+
+<category>
+    <pattern> ^ PISCIS ^ GEMINIS ^ </pattern>
+    <template>Querido trocito de citrino, estos dos signos podrían ser un buen match pero a base de un trabajo más duro que programar un bot del horóscopo. <delay>2</delay>En cuanto a lo bueno, tenemos que Géminis aporta pasión y sensualidad a la relación, mientras que el pececito apuesta por la sensibilidad y lo romántico. <delay>2</delay>Pero, espera… mi bola de cristal me dice que chocarán en varios aspectos… <delay>1</delay> Géminis es muy racional y toma las decisiones tras un período de reflexión, mientras que Piscis por su parte, es impulsivo y se guía según sus intuiciones y sentimientos del momento. Esto les hará discutir en innumerables ocasiones.😅</template>
+</category>
+
+<category>
+    <pattern> ^ PISCIS ^ LEO ^ </pattern>
+    <template>AY LA PREGUNTA!!!<delay>2</delay> Hmmm es curioso… <delay>1</delay>Sois polos opuestos pero hay algo que os une que hace que se prenda la llama del amor y de la pasión. El león suele ser quien lleve los pantalones de esta relación, pero deberéis cuidar esta relación (sobre todo tú, Leo) o el león acabará comiéndose al pececito de colores. </template>
+</category>
+
+<category>
+    <pattern> ^ PISCIS ^ VIRGO ^  </pattern>
+    <template>¡POR TODOS LAS CONSTELACIONES ZODIACALES!😱<delay>2</delay>Estos dos signos son opuestos, lo que hace que su compatibilidad sea altísima. <delay>2</delay>¿Oyes eso?😲 Sí, sí, son campanas de boda💐. <delay>1</delay>Veamos, veamos… <delay>1</delay>El pececillo es un signo muy emocional, que sólo consigue abrirse del todo a determinadas personas, y una de ellas es Virgo. El otro signo por su parte, encontrará en el pez una conexión única, de las que no se encuentran dos veces en la vida… Pero, eso no es todo, si llegan a intimar, arderán en el fuego🔥 de la pasión como nunca antes…. ¿qué calor de repente, no?🙊🔥 En fin, hagamos un pacto: os casais ya y a cambio echo el tarot en vuestra boda😉.</template>
+</category>
+<category>
+    <pattern> ^ PISCIS ^ LIBRA ^ </pattern>
+    <template>LOVE IS IN THE AIR!!💘💖💕💞💓💝<delay>1</delay>Piscis encuentra en Libra un compañero comprensivo y cariñoso, que aprecia su naturaleza imaginativa y le ofrece estabilidad emocional. <delay>1</delay>Mientras tanto, Libra se enamora de la dulzura y la compasión de Piscis, y admira su capacidad para ver la belleza en todo. <delay>1</delay>Eso es mis niños, seguid adelante que vais a llegar muy lejos.</template>
+</category>
+<category>
+    <pattern> ^ PISCIS ^ ESCORPIO ^ </pattern>
+    <template>QUE TIEMBLEN LOS ASTROS!!!🫣 <delay>2</delay>La química de estos dos signos es imparable, el pececito conquistará el aguijón del escorpión en cuestión de segundos!<delay>1</delay> 🙈Solo con el brillo en la mirada se les notará el flechazo.💘 <delay>2</delay>La calle está llena de envidiosos, así que tened cuidado y cuidad de vuestra relación, que así quedan pocas!</template>
+</category>
+<category>
+    <pattern> ^ PISCIS ^ SAGITARIO ^ </pattern>
+    <template>Veamos que dice mi bola mágica…🧫<delay>2</delay>¡Ajá!💡 <delay>2</delay>Si mi pececillo y el arquero se conocen, el ambiente se cargará de electricidad, ¡y no precisamente de la buena! Un poco de tensión puede ser emocionante, ¡pero, ALERTA!⚠️ <delay>1</delay>¡La energía puede explotar más rápido que una olla a presión! <delay>1</delay>Si quieren mantener la armonía, van a necesitar más control que un equilibrista en un monociclo. Pero oye, ¡todo es posible con suficiente práctica (también sexual🔥🤫) y un poco de magia astral!</template>
+</category>
+<category>
+    <pattern> ^ PISCIS ^ CAPRICORNIO ^ </pattern>
+    <template>Cuando el pececillo y la cabra se juntan se forma un auténtico revuelo en el cosmos💫.<delay>1</delay> Piscis encuentra una gran seguridad en Capricornio, mientras que este último se sentirá como una mariposita🦋 saliendo de su capullo,¡libre, ligero y listo para surcar los cielos astrales! Es como si el pececillo decidiera ser una roca firme o la cabra decidiera desmelenarse para sentir miles de emociones. <delay>1</delay>Juntos podrían iluminar la Vía Láctea con su buen rollo.</template>
+</category>
+<category>
+    <pattern> ^ PISCIS ^ ACUARIO ^ </pattern>
+    <template>OMG MI BUBALU PEQUEÑO!😋 <delay>1</delay>Esta relación podría funcionar por el gran amor que desprendeis ambos, pero hay un pequeño inconveniente😅… <delay>2</delay>Acuario siempre va a ser llevado por el mal camino por culpa de Piscis, no es oro todo lo que reluce; así que Acuario tiene que estar muy atento y saber diferenciar. En cuanto a Piscis no tiene que dejarse llevar por los pucheritos de Acuario, no pierdas tu esencia. Si no puede ser, no será.</template>
+</category>
+<category>
+    <pattern> ^ PISCIS ^ PISCIS ^ </pattern>
+    <template>Si dos pececillos deciden nadar juntos, se puede formar una fiesta en el arrecife de coral o un viaje directo al abismo. Todo dependerá de si deciden fluir o nadar a contracorriente. <delay>1</delay>Estos pececitos pueden acabar completamente perdidos en el limbo del mar, sin rumbo ni propósito, ¡o construir un castillo submarino de sueños! Ambos deben recordar que pueden fluir en perfecta armonía o acabar atrapados en un remolino de problemas.</template>
+</category>
+
+</aiml>

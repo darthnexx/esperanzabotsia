@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern> ^ <set>famcapricornio</set> ^ </pattern>
+        <template> <star index="2"/> es Capricornio. </template>
+    </category>
+
+
+<category>
+        <pattern> ^ <set>famacuario</set> ^ </pattern>
+        <template> <star index="2"/> es Acuario. </template>
+    </category>
+
+
+<category>
+        <pattern> ^ <set>fampiscis</set> ^ </pattern>
+        <template> <star index="2"/> es Piscis. </template>
+    </category>
+
+
+<category>
+        <pattern> ^ <set>famaries</set> ^ </pattern>
+        <template> <star index="2"/> es Aries. </template>
+    </category>
+
+
+<category>
+        <pattern> ^ <set>famtauro</set> ^ </pattern>
+        <template> <star index="2"/> es Tauro. </template>
+    </category>
+
+
+<category>
+        <pattern> ^ <set>famgeminis</set> ^ </pattern>
+        <template> <star index="2"/> es Géminis. </template>
+    </category>
+    
+<category>
+        <pattern> ^ <set>famcancer</set> ^ </pattern>
+        <template> <star index="2"/> es Cáncer. </template>
+    </category>
+
+<category>
+        <pattern> ^ <set>famleo</set> ^ </pattern>
+        <template> <star index="2"/> es Leo. </template>
+    </category>
+
+<category>
+        <pattern> ^ <set>famvirgo</set> ^ </pattern>
+        <template> <star index="2"/> es Virgo. </template>
+    </category>
+
+<category>
+        <pattern> ^ <set>famlibra</set> ^ </pattern>
+        <template> <star index="2"/> es Libra. </template>
+    </category>
+
+<category>
+        <pattern> ^ <set>famescorpio</set> ^ </pattern>
+        <template> <star index="2"/> es Escorpio. </template>
+    </category>
+
+<category>
+        <pattern> ^ <set>famsagitario</set> ^ </pattern>
+        <template> <star index="2"/> es Sagitario. </template>
+    </category>
+</aiml>
