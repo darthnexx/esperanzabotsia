@@ -62,7 +62,7 @@
 </category>   
 <!-- ¿Cómo me va a ir?-->
 <category>
-    <pattern> ^ <set>como</set> ^ ir ^ </pattern>
+    <pattern> ^ <set>destino</set>  ^ </pattern>
     <template>¿Quieres hablar de las predicciones de tu signo?
     <think><set name="topic">prediccion</set></think>
     </template>
@@ -88,59 +88,59 @@
         </random>
         <delay>2</delay>
         ¿De qué otro signo te gustaría conocer la predicción?
-        <button>
-        <text>Géminis</text>
-        <postback>^ geminis ^</postback>
-        </button>
-        <button>
-        <text>Aries</text>
-        <postback>^ aries ^</postback>
-        </button>
-        <button>
-        <text>Leo</text>
-        <postback>^ leo ^</postback>
-        </button>
-        <button>
-        <text>Sagitario</text>
-        <postback>^ sagitario ^</postback>
-        </button>
-        <button>
-        <text>Piscis</text>
-        <postback>^ piscis ^</postback>
-        </button>
-        <button>
-        <text>Cáncer</text>
-        <postback>^ cancer ^</postback>
-        </button>
-        <button>
-        <text>Tauro</text>
-        <postback>^ tauro ^</postback>
-        </button>
-        <button>
-        <text>Virgo</text>
-        <postback>^ virgo ^</postback>
-        </button>
-        <button>
-        <text>Capricornio</text>
-        <postback>^ capricornio ^</postback>
-        </button>
-        <button>
-        <text>Libra</text>
-        <postback>^ libra ^</postback>
-        </button>
-        <button>
-        <text>Acuario</text>
-        <postback>^ acuario ^</postback>
-        </button>
-        <button>
-        <text>Escorpio</text>
-        <postback>^ escorpio ^</postback>
-        </button>
-        <button>
-        <text>Hablar de otra cosa</text>
-        <postback>No</postback>
-        </button>
-        <think><set name="topic">prediccion</set></think>
+                    <button>
+            <text>Géminis</text>
+            <postback>BOTON PRED GEMINIS</postback>
+            </button>
+            <button>
+            <text>Aries</text>
+            <postback>BOTON PRED ARIES</postback>
+            </button>
+            <button>
+            <text>Leo</text>
+            <postback>BOTON PRED LEO</postback>
+            </button>
+            <button>
+            <text>Sagitario</text>
+            <postback>BOTON PRED SAGITARIO</postback>
+            </button>
+            <button>
+            <text>Piscis</text>
+            <postback>BOTON PRED PISCIS</postback>
+            </button>
+            <button>
+            <text>Cáncer</text>
+            <postback>BOTON PRED CANCER</postback>
+            </button>
+            <button>
+            <text>Tauro</text>
+            <postback>BOTON PRED TAURO</postback>
+            </button>
+            <button>
+            <text>Virgo</text>
+            <postback>BOTON PRED VIRGO</postback>
+            </button>
+            <button>
+            <text>Capricornio</text>
+            <postback>BOTON PRED CAPRICORNIO</postback>
+            </button>
+            <button>
+            <text>Libra</text>
+            <postback>BOTON PRED LIBRA</postback>
+            </button>
+            <button>
+            <text>Acuario</text>
+            <postback>BOTON PRED ACUARIO</postback>
+            </button>
+            <button>
+            <text>Escorpio</text>
+            <postback>BOTON PRED ESCORPIO</postback>
+            </button>
+            <button>
+            <text>Hablar de otra cosa</text>
+            <postback>No</postback>
+            </button>
+            <think><set name="topic">prediccion</set></think>
         </template>
   </category>
   
@@ -155,59 +155,59 @@
         </random>
         <delay>2</delay>
         ¿De qué otro signo te gustaría conocer la predicción?
-        <button>
-        <text>Géminis</text>
-        <postback>^ geminis ^</postback>
-        </button>
-        <button>
-        <text>Aries</text>
-        <postback>^ aries ^</postback>
-        </button>
-        <button>
-        <text>Leo</text>
-        <postback>^ leo ^</postback>
-        </button>
-        <button>
-        <text>Sagitario</text>
-        <postback>^ sagitario ^</postback>
-        </button>
-        <button>
-        <text>Piscis</text>
-        <postback>^ piscis ^</postback>
-        </button>
-        <button>
-        <text>Cáncer</text>
-        <postback>^ cancer ^</postback>
-        </button>
-        <button>
-        <text>Tauro</text>
-        <postback>^ tauro ^</postback>
-        </button>
-        <button>
-        <text>Virgo</text>
-        <postback>^ virgo ^</postback>
-        </button>
-        <button>
-        <text>Capricornio</text>
-        <postback>^ capricornio ^</postback>
-        </button>
-        <button>
-        <text>Libra</text>
-        <postback>^ libra ^</postback>
-        </button>
-        <button>
-        <text>Acuario</text>
-        <postback>^ acuario ^</postback>
-        </button>
-        <button>
-        <text>Escorpio</text>
-        <postback>^ escorpio ^</postback>
-        </button>
-        <button>
-        <text>Hablar de otra cosa</text>
-        <postback>No</postback>
-        </button>
-        <think><set name="topic">prediccion</set></think>
+            <button>
+            <text>Géminis</text>
+            <postback>BOTON PRED GEMINIS</postback>
+            </button>
+            <button>
+            <text>Aries</text>
+            <postback>BOTON PRED ARIES</postback>
+            </button>
+            <button>
+            <text>Leo</text>
+            <postback>BOTON PRED LEO</postback>
+            </button>
+            <button>
+            <text>Sagitario</text>
+            <postback>BOTON PRED SAGITARIO</postback>
+            </button>
+            <button>
+            <text>Piscis</text>
+            <postback>BOTON PRED PISCIS</postback>
+            </button>
+            <button>
+            <text>Cáncer</text>
+            <postback>BOTON PRED CANCER</postback>
+            </button>
+            <button>
+            <text>Tauro</text>
+            <postback>BOTON PRED TAURO</postback>
+            </button>
+            <button>
+            <text>Virgo</text>
+            <postback>BOTON PRED VIRGO</postback>
+            </button>
+            <button>
+            <text>Capricornio</text>
+            <postback>BOTON PRED CAPRICORNIO</postback>
+            </button>
+            <button>
+            <text>Libra</text>
+            <postback>BOTON PRED LIBRA</postback>
+            </button>
+            <button>
+            <text>Acuario</text>
+            <postback>BOTON PRED ACUARIO</postback>
+            </button>
+            <button>
+            <text>Escorpio</text>
+            <postback>BOTON PRED ESCORPIO</postback>
+            </button>
+            <button>
+            <text>Hablar de otra cosa</text>
+            <postback>No</postback>
+            </button>
+            <think><set name="topic">prediccion</set></think>
         </template>
   </category>
   
@@ -222,59 +222,59 @@
         </random>
         <delay>2</delay>
         ¿De qué otro signo te gustaría conocer la predicción?
-        <button>
-        <text>Géminis</text>
-        <postback>^ geminis ^</postback>
-        </button>
-        <button>
-        <text>Aries</text>
-        <postback>^ aries ^</postback>
-        </button>
-        <button>
-        <text>Leo</text>
-        <postback>^ leo ^</postback>
-        </button>
-        <button>
-        <text>Sagitario</text>
-        <postback>^ sagitario ^</postback>
-        </button>
-        <button>
-        <text>Piscis</text>
-        <postback>^ piscis ^</postback>
-        </button>
-        <button>
-        <text>Cáncer</text>
-        <postback>^ cancer ^</postback>
-        </button>
-        <button>
-        <text>Tauro</text>
-        <postback>^ tauro ^</postback>
-        </button>
-        <button>
-        <text>Virgo</text>
-        <postback>^ virgo ^</postback>
-        </button>
-        <button>
-        <text>Capricornio</text>
-        <postback>^ capricornio ^</postback>
-        </button>
-        <button>
-        <text>Libra</text>
-        <postback>^ libra ^</postback>
-        </button>
-        <button>
-        <text>Acuario</text>
-        <postback>^ acuario ^</postback>
-        </button>
-        <button>
-        <text>Escorpio</text>
-        <postback>^ escorpio ^</postback>
-        </button>
-        <button>
-        <text>Hablar de otra cosa</text>
-        <postback>No</postback>
-        </button>
-        <think><set name="topic">prediccion</set></think>
+            <button>
+            <text>Géminis</text>
+            <postback>BOTON PRED GEMINIS</postback>
+            </button>
+            <button>
+            <text>Aries</text>
+            <postback>BOTON PRED ARIES</postback>
+            </button>
+            <button>
+            <text>Leo</text>
+            <postback>BOTON PRED LEO</postback>
+            </button>
+            <button>
+            <text>Sagitario</text>
+            <postback>BOTON PRED SAGITARIO</postback>
+            </button>
+            <button>
+            <text>Piscis</text>
+            <postback>BOTON PRED PISCIS</postback>
+            </button>
+            <button>
+            <text>Cáncer</text>
+            <postback>BOTON PRED CANCER</postback>
+            </button>
+            <button>
+            <text>Tauro</text>
+            <postback>BOTON PRED TAURO</postback>
+            </button>
+            <button>
+            <text>Virgo</text>
+            <postback>BOTON PRED VIRGO</postback>
+            </button>
+            <button>
+            <text>Capricornio</text>
+            <postback>BOTON PRED CAPRICORNIO</postback>
+            </button>
+            <button>
+            <text>Libra</text>
+            <postback>BOTON PRED LIBRA</postback>
+            </button>
+            <button>
+            <text>Acuario</text>
+            <postback>BOTON PRED ACUARIO</postback>
+            </button>
+            <button>
+            <text>Escorpio</text>
+            <postback>BOTON PRED ESCORPIO</postback>
+            </button>
+            <button>
+            <text>Hablar de otra cosa</text>
+            <postback>No</postback>
+            </button>
+            <think><set name="topic">prediccion</set></think>
         </template>
   </category>
   
@@ -289,59 +289,59 @@
         </random>
         <delay>2</delay>
         ¿De qué otro signo te gustaría conocer la predicción?
-        <button>
-        <text>Géminis</text>
-        <postback>^ geminis ^</postback>
-        </button>
-        <button>
-        <text>Aries</text>
-        <postback>^ aries ^</postback>
-        </button>
-        <button>
-        <text>Leo</text>
-        <postback>^ leo ^</postback>
-        </button>
-        <button>
-        <text>Sagitario</text>
-        <postback>^ sagitario ^</postback>
-        </button>
-        <button>
-        <text>Piscis</text>
-        <postback>^ piscis ^</postback>
-        </button>
-        <button>
-        <text>Cáncer</text>
-        <postback>^ cancer ^</postback>
-        </button>
-        <button>
-        <text>Tauro</text>
-        <postback>^ tauro ^</postback>
-        </button>
-        <button>
-        <text>Virgo</text>
-        <postback>^ virgo ^</postback>
-        </button>
-        <button>
-        <text>Capricornio</text>
-        <postback>^ capricornio ^</postback>
-        </button>
-        <button>
-        <text>Libra</text>
-        <postback>^ libra ^</postback>
-        </button>
-        <button>
-        <text>Acuario</text>
-        <postback>^ acuario ^</postback>
-        </button>
-        <button>
-        <text>Escorpio</text>
-        <postback>^ escorpio ^</postback>
-        </button>
-        <button>
-        <text>Hablar de otra cosa</text>
-        <postback>No</postback>
-        </button>
-        <think><set name="topic">prediccion</set></think>
+            <button>
+            <text>Géminis</text>
+            <postback>BOTON PRED GEMINIS</postback>
+            </button>
+            <button>
+            <text>Aries</text>
+            <postback>BOTON PRED ARIES</postback>
+            </button>
+            <button>
+            <text>Leo</text>
+            <postback>BOTON PRED LEO</postback>
+            </button>
+            <button>
+            <text>Sagitario</text>
+            <postback>BOTON PRED SAGITARIO</postback>
+            </button>
+            <button>
+            <text>Piscis</text>
+            <postback>BOTON PRED PISCIS</postback>
+            </button>
+            <button>
+            <text>Cáncer</text>
+            <postback>BOTON PRED CANCER</postback>
+            </button>
+            <button>
+            <text>Tauro</text>
+            <postback>BOTON PRED TAURO</postback>
+            </button>
+            <button>
+            <text>Virgo</text>
+            <postback>BOTON PRED VIRGO</postback>
+            </button>
+            <button>
+            <text>Capricornio</text>
+            <postback>BOTON PRED CAPRICORNIO</postback>
+            </button>
+            <button>
+            <text>Libra</text>
+            <postback>BOTON PRED LIBRA</postback>
+            </button>
+            <button>
+            <text>Acuario</text>
+            <postback>BOTON PRED ACUARIO</postback>
+            </button>
+            <button>
+            <text>Escorpio</text>
+            <postback>BOTON PRED ESCORPIO</postback>
+            </button>
+            <button>
+            <text>Hablar de otra cosa</text>
+            <postback>No</postback>
+            </button>
+            <think><set name="topic">prediccion</set></think>
         </template>
   </category>
   
@@ -357,59 +357,59 @@
         </random>
         <delay>2</delay>
         ¿De qué otro signo te gustaría conocer la predicción?
-        <button>
-        <text>Géminis</text>
-        <postback>^ geminis ^</postback>
-        </button>
-        <button>
-        <text>Aries</text>
-        <postback>^ aries ^</postback>
-        </button>
-        <button>
-        <text>Leo</text>
-        <postback>^ leo ^</postback>
-        </button>
-        <button>
-        <text>Sagitario</text>
-        <postback>^ sagitario ^</postback>
-        </button>
-        <button>
-        <text>Piscis</text>
-        <postback>^ piscis ^</postback>
-        </button>
-        <button>
-        <text>Cáncer</text>
-        <postback>^ cancer ^</postback>
-        </button>
-        <button>
-        <text>Tauro</text>
-        <postback>^ tauro ^</postback>
-        </button>
-        <button>
-        <text>Virgo</text>
-        <postback>^ virgo ^</postback>
-        </button>
-        <button>
-        <text>Capricornio</text>
-        <postback>^ capricornio ^</postback>
-        </button>
-        <button>
-        <text>Libra</text>
-        <postback>^ libra ^</postback>
-        </button>
-        <button>
-        <text>Acuario</text>
-        <postback>^ acuario ^</postback>
-        </button>
-        <button>
-        <text>Escorpio</text>
-        <postback>^ escorpio ^</postback>
-        </button>
-        <button>
-        <text>Hablar de otra cosa</text>
-        <postback>No</postback>
-        </button>
-        <think><set name="topic">prediccion</set></think>
+            <button>
+            <text>Géminis</text>
+            <postback>BOTON PRED GEMINIS</postback>
+            </button>
+            <button>
+            <text>Aries</text>
+            <postback>BOTON PRED ARIES</postback>
+            </button>
+            <button>
+            <text>Leo</text>
+            <postback>BOTON PRED LEO</postback>
+            </button>
+            <button>
+            <text>Sagitario</text>
+            <postback>BOTON PRED SAGITARIO</postback>
+            </button>
+            <button>
+            <text>Piscis</text>
+            <postback>BOTON PRED PISCIS</postback>
+            </button>
+            <button>
+            <text>Cáncer</text>
+            <postback>BOTON PRED CANCER</postback>
+            </button>
+            <button>
+            <text>Tauro</text>
+            <postback>BOTON PRED TAURO</postback>
+            </button>
+            <button>
+            <text>Virgo</text>
+            <postback>BOTON PRED VIRGO</postback>
+            </button>
+            <button>
+            <text>Capricornio</text>
+            <postback>BOTON PRED CAPRICORNIO</postback>
+            </button>
+            <button>
+            <text>Libra</text>
+            <postback>BOTON PRED LIBRA</postback>
+            </button>
+            <button>
+            <text>Acuario</text>
+            <postback>BOTON PRED ACUARIO</postback>
+            </button>
+            <button>
+            <text>Escorpio</text>
+            <postback>BOTON PRED ESCORPIO</postback>
+            </button>
+            <button>
+            <text>Hablar de otra cosa</text>
+            <postback>No</postback>
+            </button>
+            <think><set name="topic">prediccion</set></think>
         </template>
   </category>
   
@@ -425,59 +425,59 @@
         </random>
         <delay>2</delay>
         ¿De qué otro signo te gustaría conocer la predicción?
-        <button>
-        <text>Géminis</text>
-        <postback>^ geminis ^</postback>
-        </button>
-        <button>
-        <text>Aries</text>
-        <postback>^ aries ^</postback>
-        </button>
-        <button>
-        <text>Leo</text>
-        <postback>^ leo ^</postback>
-        </button>
-        <button>
-        <text>Sagitario</text>
-        <postback>^ sagitario ^</postback>
-        </button>
-        <button>
-        <text>Piscis</text>
-        <postback>^ piscis ^</postback>
-        </button>
-        <button>
-        <text>Cáncer</text>
-        <postback>^ cancer ^</postback>
-        </button>
-        <button>
-        <text>Tauro</text>
-        <postback>^ tauro ^</postback>
-        </button>
-        <button>
-        <text>Virgo</text>
-        <postback>^ virgo ^</postback>
-        </button>
-        <button>
-        <text>Capricornio</text>
-        <postback>^ capricornio ^</postback>
-        </button>
-        <button>
-        <text>Libra</text>
-        <postback>^ libra ^</postback>
-        </button>
-        <button>
-        <text>Acuario</text>
-        <postback>^ acuario ^</postback>
-        </button>
-        <button>
-        <text>Escorpio</text>
-        <postback>^ escorpio ^</postback>
-        </button>
-        <button>
-        <text>Hablar de otra cosa</text>
-        <postback>No</postback>
-        </button>
-        <think><set name="topic">prediccion</set></think>
+            <button>
+            <text>Géminis</text>
+            <postback>BOTON PRED GEMINIS</postback>
+            </button>
+            <button>
+            <text>Aries</text>
+            <postback>BOTON PRED ARIES</postback>
+            </button>
+            <button>
+            <text>Leo</text>
+            <postback>BOTON PRED LEO</postback>
+            </button>
+            <button>
+            <text>Sagitario</text>
+            <postback>BOTON PRED SAGITARIO</postback>
+            </button>
+            <button>
+            <text>Piscis</text>
+            <postback>BOTON PRED PISCIS</postback>
+            </button>
+            <button>
+            <text>Cáncer</text>
+            <postback>BOTON PRED CANCER</postback>
+            </button>
+            <button>
+            <text>Tauro</text>
+            <postback>BOTON PRED TAURO</postback>
+            </button>
+            <button>
+            <text>Virgo</text>
+            <postback>BOTON PRED VIRGO</postback>
+            </button>
+            <button>
+            <text>Capricornio</text>
+            <postback>BOTON PRED CAPRICORNIO</postback>
+            </button>
+            <button>
+            <text>Libra</text>
+            <postback>BOTON PRED LIBRA</postback>
+            </button>
+            <button>
+            <text>Acuario</text>
+            <postback>BOTON PRED ACUARIO</postback>
+            </button>
+            <button>
+            <text>Escorpio</text>
+            <postback>BOTON PRED ESCORPIO</postback>
+            </button>
+            <button>
+            <text>Hablar de otra cosa</text>
+            <postback>No</postback>
+            </button>
+            <think><set name="topic">prediccion</set></think>
         </template>
   </category>
   
@@ -492,59 +492,59 @@
         </random>
         <delay>2</delay>
         ¿De qué otro signo te gustaría conocer la predicción?
-        <button>
-        <text>Géminis</text>
-        <postback>^ geminis ^</postback>
-        </button>
-        <button>
-        <text>Aries</text>
-        <postback>^ aries ^</postback>
-        </button>
-        <button>
-        <text>Leo</text>
-        <postback>^ leo ^</postback>
-        </button>
-        <button>
-        <text>Sagitario</text>
-        <postback>^ sagitario ^</postback>
-        </button>
-        <button>
-        <text>Piscis</text>
-        <postback>^ piscis ^</postback>
-        </button>
-        <button>
-        <text>Cáncer</text>
-        <postback>^ cancer ^</postback>
-        </button>
-        <button>
-        <text>Tauro</text>
-        <postback>^ tauro ^</postback>
-        </button>
-        <button>
-        <text>Virgo</text>
-        <postback>^ virgo ^</postback>
-        </button>
-        <button>
-        <text>Capricornio</text>
-        <postback>^ capricornio ^</postback>
-        </button>
-        <button>
-        <text>Libra</text>
-        <postback>^ libra ^</postback>
-        </button>
-        <button>
-        <text>Acuario</text>
-        <postback>^ acuario ^</postback>
-        </button>
-        <button>
-        <text>Escorpio</text>
-        <postback>^ escorpio ^</postback>
-        </button>
-        <button>
-        <text>Hablar de otra cosa</text>
-        <postback>No</postback>
-        </button>
-        <think><set name="topic">prediccion</set></think>
+            <button>
+            <text>Géminis</text>
+            <postback>BOTON PRED GEMINIS</postback>
+            </button>
+            <button>
+            <text>Aries</text>
+            <postback>BOTON PRED ARIES</postback>
+            </button>
+            <button>
+            <text>Leo</text>
+            <postback>BOTON PRED LEO</postback>
+            </button>
+            <button>
+            <text>Sagitario</text>
+            <postback>BOTON PRED SAGITARIO</postback>
+            </button>
+            <button>
+            <text>Piscis</text>
+            <postback>BOTON PRED PISCIS</postback>
+            </button>
+            <button>
+            <text>Cáncer</text>
+            <postback>BOTON PRED CANCER</postback>
+            </button>
+            <button>
+            <text>Tauro</text>
+            <postback>BOTON PRED TAURO</postback>
+            </button>
+            <button>
+            <text>Virgo</text>
+            <postback>BOTON PRED VIRGO</postback>
+            </button>
+            <button>
+            <text>Capricornio</text>
+            <postback>BOTON PRED CAPRICORNIO</postback>
+            </button>
+            <button>
+            <text>Libra</text>
+            <postback>BOTON PRED LIBRA</postback>
+            </button>
+            <button>
+            <text>Acuario</text>
+            <postback>BOTON PRED ACUARIO</postback>
+            </button>
+            <button>
+            <text>Escorpio</text>
+            <postback>BOTON PRED ESCORPIO</postback>
+            </button>
+            <button>
+            <text>Hablar de otra cosa</text>
+            <postback>No</postback>
+            </button>
+            <think><set name="topic">prediccion</set></think>
         </template>
   </category>
   
@@ -559,59 +559,59 @@
         </random>
         <delay>2</delay>
         ¿De qué otro signo te gustaría conocer la predicción?
-        <button>
-        <text>Géminis</text>
-        <postback>^ geminis ^</postback>
-        </button>
-        <button>
-        <text>Aries</text>
-        <postback>^ aries ^</postback>
-        </button>
-        <button>
-        <text>Leo</text>
-        <postback>^ leo ^</postback>
-        </button>
-        <button>
-        <text>Sagitario</text>
-        <postback>^ sagitario ^</postback>
-        </button>
-        <button>
-        <text>Piscis</text>
-        <postback>^ piscis ^</postback>
-        </button>
-        <button>
-        <text>Cáncer</text>
-        <postback>^ cancer ^</postback>
-        </button>
-        <button>
-        <text>Tauro</text>
-        <postback>^ tauro ^</postback>
-        </button>
-        <button>
-        <text>Virgo</text>
-        <postback>^ virgo ^</postback>
-        </button>
-        <button>
-        <text>Capricornio</text>
-        <postback>^ capricornio ^</postback>
-        </button>
-        <button>
-        <text>Libra</text>
-        <postback>^ libra ^</postback>
-        </button>
-        <button>
-        <text>Acuario</text>
-        <postback>^ acuario ^</postback>
-        </button>
-        <button>
-        <text>Escorpio</text>
-        <postback>^ escorpio ^</postback>
-        </button>
-        <button>
-        <text>Hablar de otra cosa</text>
-        <postback>No</postback>
-        </button>
-        <think><set name="topic">prediccion</set></think>
+            <button>
+            <text>Géminis</text>
+            <postback>BOTON PRED GEMINIS</postback>
+            </button>
+            <button>
+            <text>Aries</text>
+            <postback>BOTON PRED ARIES</postback>
+            </button>
+            <button>
+            <text>Leo</text>
+            <postback>BOTON PRED LEO</postback>
+            </button>
+            <button>
+            <text>Sagitario</text>
+            <postback>BOTON PRED SAGITARIO</postback>
+            </button>
+            <button>
+            <text>Piscis</text>
+            <postback>BOTON PRED PISCIS</postback>
+            </button>
+            <button>
+            <text>Cáncer</text>
+            <postback>BOTON PRED CANCER</postback>
+            </button>
+            <button>
+            <text>Tauro</text>
+            <postback>BOTON PRED TAURO</postback>
+            </button>
+            <button>
+            <text>Virgo</text>
+            <postback>BOTON PRED VIRGO</postback>
+            </button>
+            <button>
+            <text>Capricornio</text>
+            <postback>BOTON PRED CAPRICORNIO</postback>
+            </button>
+            <button>
+            <text>Libra</text>
+            <postback>BOTON PRED LIBRA</postback>
+            </button>
+            <button>
+            <text>Acuario</text>
+            <postback>BOTON PRED ACUARIO</postback>
+            </button>
+            <button>
+            <text>Escorpio</text>
+            <postback>BOTON PRED ESCORPIO</postback>
+            </button>
+            <button>
+            <text>Hablar de otra cosa</text>
+            <postback>No</postback>
+            </button>
+            <think><set name="topic">prediccion</set></think>
         </template>
   </category>
   
@@ -627,59 +627,59 @@
         </random>
         <delay>2</delay>
         ¿De qué otro signo te gustaría conocer la predicción?
-        <button>
-        <text>Géminis</text>
-        <postback>^ geminis ^</postback>
-        </button>
-        <button>
-        <text>Aries</text>
-        <postback>^ aries ^</postback>
-        </button>
-        <button>
-        <text>Leo</text>
-        <postback>^ leo ^</postback>
-        </button>
-        <button>
-        <text>Sagitario</text>
-        <postback>^ sagitario ^</postback>
-        </button>
-        <button>
-        <text>Piscis</text>
-        <postback>^ piscis ^</postback>
-        </button>
-        <button>
-        <text>Cáncer</text>
-        <postback>^ cancer ^</postback>
-        </button>
-        <button>
-        <text>Tauro</text>
-        <postback>^ tauro ^</postback>
-        </button>
-        <button>
-        <text>Virgo</text>
-        <postback>^ virgo ^</postback>
-        </button>
-        <button>
-        <text>Capricornio</text>
-        <postback>^ capricornio ^</postback>
-        </button>
-        <button>
-        <text>Libra</text>
-        <postback>^ libra ^</postback>
-        </button>
-        <button>
-        <text>Acuario</text>
-        <postback>^ acuario ^</postback>
-        </button>
-        <button>
-        <text>Escorpio</text>
-        <postback>^ escorpio ^</postback>
-        </button>
-        <button>
-        <text>Hablar de otra cosa</text>
-        <postback>No</postback>
-        </button>
-        <think><set name="topic">prediccion</set></think>
+            <button>
+            <text>Géminis</text>
+            <postback>BOTON PRED GEMINIS</postback>
+            </button>
+            <button>
+            <text>Aries</text>
+            <postback>BOTON PRED ARIES</postback>
+            </button>
+            <button>
+            <text>Leo</text>
+            <postback>BOTON PRED LEO</postback>
+            </button>
+            <button>
+            <text>Sagitario</text>
+            <postback>BOTON PRED SAGITARIO</postback>
+            </button>
+            <button>
+            <text>Piscis</text>
+            <postback>BOTON PRED PISCIS</postback>
+            </button>
+            <button>
+            <text>Cáncer</text>
+            <postback>BOTON PRED CANCER</postback>
+            </button>
+            <button>
+            <text>Tauro</text>
+            <postback>BOTON PRED TAURO</postback>
+            </button>
+            <button>
+            <text>Virgo</text>
+            <postback>BOTON PRED VIRGO</postback>
+            </button>
+            <button>
+            <text>Capricornio</text>
+            <postback>BOTON PRED CAPRICORNIO</postback>
+            </button>
+            <button>
+            <text>Libra</text>
+            <postback>BOTON PRED LIBRA</postback>
+            </button>
+            <button>
+            <text>Acuario</text>
+            <postback>BOTON PRED ACUARIO</postback>
+            </button>
+            <button>
+            <text>Escorpio</text>
+            <postback>BOTON PRED ESCORPIO</postback>
+            </button>
+            <button>
+            <text>Hablar de otra cosa</text>
+            <postback>No</postback>
+            </button>
+            <think><set name="topic">prediccion</set></think>
         </template>
   </category> 
   
@@ -694,59 +694,59 @@
         </random>
         <delay>2</delay>
         ¿De qué otro signo te gustaría conocer la predicción?
-        <button>
-        <text>Géminis</text>
-        <postback>^ geminis ^</postback>
-        </button>
-        <button>
-        <text>Aries</text>
-        <postback>^ aries ^</postback>
-        </button>
-        <button>
-        <text>Leo</text>
-        <postback>^ leo ^</postback>
-        </button>
-        <button>
-        <text>Sagitario</text>
-        <postback>^ sagitario ^</postback>
-        </button>
-        <button>
-        <text>Piscis</text>
-        <postback>^ piscis ^</postback>
-        </button>
-        <button>
-        <text>Cáncer</text>
-        <postback>^ cancer ^</postback>
-        </button>
-        <button>
-        <text>Tauro</text>
-        <postback>^ tauro ^</postback>
-        </button>
-        <button>
-        <text>Virgo</text>
-        <postback>^ virgo ^</postback>
-        </button>
-        <button>
-        <text>Capricornio</text>
-        <postback>^ capricornio ^</postback>
-        </button>
-        <button>
-        <text>Libra</text>
-        <postback>^ libra ^</postback>
-        </button>
-        <button>
-        <text>Acuario</text>
-        <postback>^ acuario ^</postback>
-        </button>
-        <button>
-        <text>Escorpio</text>
-        <postback>^ escorpio ^</postback>
-        </button>
-        <button>
-        <text>Hablar de otra cosa</text>
-        <postback>No</postback>
-        </button>
-        <think><set name="topic">prediccion</set></think>
+            <button>
+            <text>Géminis</text>
+            <postback>BOTON PRED GEMINIS</postback>
+            </button>
+            <button>
+            <text>Aries</text>
+            <postback>BOTON PRED ARIES</postback>
+            </button>
+            <button>
+            <text>Leo</text>
+            <postback>BOTON PRED LEO</postback>
+            </button>
+            <button>
+            <text>Sagitario</text>
+            <postback>BOTON PRED SAGITARIO</postback>
+            </button>
+            <button>
+            <text>Piscis</text>
+            <postback>BOTON PRED PISCIS</postback>
+            </button>
+            <button>
+            <text>Cáncer</text>
+            <postback>BOTON PRED CANCER</postback>
+            </button>
+            <button>
+            <text>Tauro</text>
+            <postback>BOTON PRED TAURO</postback>
+            </button>
+            <button>
+            <text>Virgo</text>
+            <postback>BOTON PRED VIRGO</postback>
+            </button>
+            <button>
+            <text>Capricornio</text>
+            <postback>BOTON PRED CAPRICORNIO</postback>
+            </button>
+            <button>
+            <text>Libra</text>
+            <postback>BOTON PRED LIBRA</postback>
+            </button>
+            <button>
+            <text>Acuario</text>
+            <postback>BOTON PRED ACUARIO</postback>
+            </button>
+            <button>
+            <text>Escorpio</text>
+            <postback>BOTON PRED ESCORPIO</postback>
+            </button>
+            <button>
+            <text>Hablar de otra cosa</text>
+            <postback>No</postback>
+            </button>
+            <think><set name="topic">prediccion</set></think>
         </template>
   </category> 
   
@@ -761,59 +761,59 @@
         </random>
         <delay>2</delay>
         ¿De qué otro signo te gustaría conocer la predicción?
-        <button>
-        <text>Géminis</text>
-        <postback>^ geminis ^</postback>
-        </button>
-        <button>
-        <text>Aries</text>
-        <postback>^ aries ^</postback>
-        </button>
-        <button>
-        <text>Leo</text>
-        <postback>^ leo ^</postback>
-        </button>
-        <button>
-        <text>Sagitario</text>
-        <postback>^ sagitario ^</postback>
-        </button>
-        <button>
-        <text>Piscis</text>
-        <postback>^ piscis ^</postback>
-        </button>
-        <button>
-        <text>Cáncer</text>
-        <postback>^ cancer ^</postback>
-        </button>
-        <button>
-        <text>Tauro</text>
-        <postback>^ tauro ^</postback>
-        </button>
-        <button>
-        <text>Virgo</text>
-        <postback>^ virgo ^</postback>
-        </button>
-        <button>
-        <text>Capricornio</text>
-        <postback>^ capricornio ^</postback>
-        </button>
-        <button>
-        <text>Libra</text>
-        <postback>^ libra ^</postback>
-        </button>
-        <button>
-        <text>Acuario</text>
-        <postback>^ acuario ^</postback>
-        </button>
-        <button>
-        <text>Escorpio</text>
-        <postback>^ escorpio ^</postback>
-        </button>
-        <button>
-        <text>Hablar de otra cosa</text>
-        <postback>No</postback>
-        </button>
-        <think><set name="topic">prediccion</set></think>
+            <button>
+            <text>Géminis</text>
+            <postback>BOTON PRED GEMINIS</postback>
+            </button>
+            <button>
+            <text>Aries</text>
+            <postback>BOTON PRED ARIES</postback>
+            </button>
+            <button>
+            <text>Leo</text>
+            <postback>BOTON PRED LEO</postback>
+            </button>
+            <button>
+            <text>Sagitario</text>
+            <postback>BOTON PRED SAGITARIO</postback>
+            </button>
+            <button>
+            <text>Piscis</text>
+            <postback>BOTON PRED PISCIS</postback>
+            </button>
+            <button>
+            <text>Cáncer</text>
+            <postback>BOTON PRED CANCER</postback>
+            </button>
+            <button>
+            <text>Tauro</text>
+            <postback>BOTON PRED TAURO</postback>
+            </button>
+            <button>
+            <text>Virgo</text>
+            <postback>BOTON PRED VIRGO</postback>
+            </button>
+            <button>
+            <text>Capricornio</text>
+            <postback>BOTON PRED CAPRICORNIO</postback>
+            </button>
+            <button>
+            <text>Libra</text>
+            <postback>BOTON PRED LIBRA</postback>
+            </button>
+            <button>
+            <text>Acuario</text>
+            <postback>BOTON PRED ACUARIO</postback>
+            </button>
+            <button>
+            <text>Escorpio</text>
+            <postback>BOTON PRED ESCORPIO</postback>
+            </button>
+            <button>
+            <text>Hablar de otra cosa</text>
+            <postback>No</postback>
+            </button>
+            <think><set name="topic">prediccion</set></think>
         </template>
   </category> 
   
@@ -828,59 +828,59 @@
         </random>
         <delay>2</delay>
         ¿De qué otro signo te gustaría conocer la predicción?
-        <button>
-        <text>Géminis</text>
-        <postback>^ geminis ^</postback>
-        </button>
-        <button>
-        <text>Aries</text>
-        <postback>^ aries ^</postback>
-        </button>
-        <button>
-        <text>Leo</text>
-        <postback>^ leo ^</postback>
-        </button>
-        <button>
-        <text>Sagitario</text>
-        <postback>^ sagitario ^</postback>
-        </button>
-        <button>
-        <text>Piscis</text>
-        <postback>^ piscis ^</postback>
-        </button>
-        <button>
-        <text>Cáncer</text>
-        <postback>^ cancer ^</postback>
-        </button>
-        <button>
-        <text>Tauro</text>
-        <postback>^ tauro ^</postback>
-        </button>
-        <button>
-        <text>Virgo</text>
-        <postback>^ virgo ^</postback>
-        </button>
-        <button>
-        <text>Capricornio</text>
-        <postback>^ capricornio ^</postback>
-        </button>
-        <button>
-        <text>Libra</text>
-        <postback>^ libra ^</postback>
-        </button>
-        <button>
-        <text>Acuario</text>
-        <postback>^ acuario ^</postback>
-        </button>
-        <button>
-        <text>Escorpio</text>
-        <postback>^ escorpio ^</postback>
-        </button>
-        <button>
-        <text>Hablar de otra cosa</text>
-        <postback>No</postback>
-        </button>
-        <think><set name="topic">prediccion</set></think>
+            <button>
+            <text>Géminis</text>
+            <postback>BOTON PRED GEMINIS</postback>
+            </button>
+            <button>
+            <text>Aries</text>
+            <postback>BOTON PRED ARIES</postback>
+            </button>
+            <button>
+            <text>Leo</text>
+            <postback>BOTON PRED LEO</postback>
+            </button>
+            <button>
+            <text>Sagitario</text>
+            <postback>BOTON PRED SAGITARIO</postback>
+            </button>
+            <button>
+            <text>Piscis</text>
+            <postback>BOTON PRED PISCIS</postback>
+            </button>
+            <button>
+            <text>Cáncer</text>
+            <postback>BOTON PRED CANCER</postback>
+            </button>
+            <button>
+            <text>Tauro</text>
+            <postback>BOTON PRED TAURO</postback>
+            </button>
+            <button>
+            <text>Virgo</text>
+            <postback>BOTON PRED VIRGO</postback>
+            </button>
+            <button>
+            <text>Capricornio</text>
+            <postback>BOTON PRED CAPRICORNIO</postback>
+            </button>
+            <button>
+            <text>Libra</text>
+            <postback>BOTON PRED LIBRA</postback>
+            </button>
+            <button>
+            <text>Acuario</text>
+            <postback>BOTON PRED ACUARIO</postback>
+            </button>
+            <button>
+            <text>Escorpio</text>
+            <postback>BOTON PRED ESCORPIO</postback>
+            </button>
+            <button>
+            <text>Hablar de otra cosa</text>
+            <postback>No</postback>
+            </button>
+            <think><set name="topic">prediccion</set></think>
         </template>
     </category>
     <category>
@@ -1217,7 +1217,7 @@
         </button>
         <button>
             <text>Random</text>
-            <postback></postback>
+            <postback>BOTON PRED RANDOM CAPRICORNIO</postback>
         </button>
     </template>
 </category>   
@@ -1244,7 +1244,7 @@
         </button>
         <button>
             <text>Random</text>
-            <postback></postback>
+            <postback>BOTON PRED RANDOM ACUARIO</postback>
         </button>
     </template>
 </category>   
@@ -1271,7 +1271,7 @@
         </button>
         <button>
             <text>Random</text>
-            <postback></postback>
+            <postback>BOTON PRED RANDOM PISCIS</postback>
         </button>
     </template>
 </category> 

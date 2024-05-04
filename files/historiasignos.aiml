@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+<category>
+        <pattern> ^ <set>historia</set> ^ aries ^ </pattern>
+        <template>En el mito griego de Frixo y Hele, hijos de Atamante y Néfele, la malvada madrastra Ino conspira para deshacerse de ellos provocando una hambruna al tostar las semillas de la cosecha. Los niños son salvados por un carnero dorado enviado por su madre o por Hermes, el cual posee la capacidad de hablar y lleva consigo el vellocino de oro. Montados en el carnero, Frixo y Hele huyen hacia Asia, pero durante el viaje Hele cae al mar y muere, dando nombre al estrecho de Helesponto. Frixo llega a la Cólquida, donde es acogido por el rey Eetes y se casa con su hija Calcíope. <delay>2</delay>En gratitud hacia Eetes, Frixo sacrifica al carnero y le ofrece el vellocino, el cual es consagrado a Ares y colgado en un bosque dedicado al dios. Este acto de sacrificio y la consagración del vellocino llevan a Zeus a colocar la constelación de Aries en el cielo nocturno como símbolo de agradecimiento.</template>
+</category>
+    
+<category>
+    <pattern> ^ <set>historia</set> ^ tauro ^ </pattern>
+    <template>En la mitología griega, Tauro es la forma de toro que el dios Zeus adoptó para seducir a Europa, una mítica princesa fenicia. Tuvieron tres hijos: Minos, el legendario rey de Creta, Sarpedón y Radamantis. <delay>2</delay>Otra versión nos dice que fue la bestia que envió la diosa Hera para acabar con Orión.<delay>2</delay>Según otra versión, Tauro es Ío convertida en vaca por su amante Zeus para evitar que Hera se enterase de sus amores.<delay>2</delay>Según otra, se trata del Toro de Creta.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>historia</set> ^ geminis ^ </pattern>
+    <template> En la mitología griega, Géminis está ligado al mito de Cástor y Pólux. Pólux era el hijo de Zeus y Leda, mientras que Cástor era el hijo de Tyndareus, rey de Esparta y esposo de Leda.<delay>2</delay>Después de que Cástor fuera asesinado por Linceo, se cuenta que Pólux pidió a su padre Zeus que le otorgara la inmortalidad a su hermano. Cuando Zeus no pudo concederle la inmortalidad completa, Pólux logró que compartiera la mitad de su inmortalidad, lo que permitió que ambos vivieran en días alternos.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>historia</set> ^ cancer ^ </pattern>
+    <template>La leyenda cuenta que Hera, celosa de Hércules por ser hijo de Zeus y Alcmena, lo lleva a un ataque de locura en el que mata a su familia. Profundamente arrepentido, se retira a vivir solo en tierras salvajes, donde lo encuentra su hermano Ificles. Convencido por él, Hércules visita el oráculo de Delfos en busca de redención. La sibila délfica le ordena realizar las 12 tareas encomendadas por Euristeo como penitencia.<delay>2</delay>La segunda tarea consiste en enfrentar y vencer a la Hidra de Lerna, una monstruosa serpiente de múltiples cabezas que guardaba una entrada al inframundo. Durante la batalla, Hera envía a Carcinos, un cangrejo coloso, para distraer a Hércules. Aunque el cangrejo logra picarle los pies, Hércules lo derrota y luego vence a la Hidra con la ayuda de su sobrino Yolao.<delay>2</delay>Aunque Hera no queda satisfecha, eleva la imagen de Carcinos en los cielos en reconocimiento por su sacrificio. Se sugiere que el origen del signo zodiacal Cáncer podría remontarse a la constelación sumeria Allul, que significa "cangrejo".</template>
+</category>
+
+<category>
+    <pattern> ^ <set>historia</set> ^ leo ^ </pattern>
+    <template> El nacimiento de Leo se vincula al mito del León de Nemea, un ser invulnerable hijo de Tifón y Equidna que aterrorizaba la región devorando gente y ganado. La primera tarea de Hércules fue matarlo. Hércules bloqueó una entrada de la cueva del león y lo sorprendió por la otra, lo estranguló y desolló con sus propias garras, tomando su piel y cabeza como trofeos. Zeus luego transformó al león en la constelación de Leo para honrar a Hércules.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>historia</set> ^ virgo ^ </pattern>
+    <template> En la mitología es la representación de Dice, hija de Zeus y Temis y diosa de la justicia para los hombres. Había nacido mortal y fue puesta en la tierra para administrar justicia y orden. Vivió con los mortales durante la Edad de Oro y la Edad de Plata, pero cuando nació la Raza de Bronce, a la que detestaba, dejó la tierra y subió al cielo, donde se estableció junto a la constelación del Boyero. <delay>2</delay> Era una de las tres Titánides y la más notable entre las diosas vírgenes.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>historia</set> ^ libra ^ </pattern>
+    <template> La constelación, que originalmente formaba parte de las pinzas de Escorpio, es de las más jóvenes del Zodiaco y la única que no representa un ser vivo. <delay>2</delay> En la mitología griega, esta constelación figura la balanza sostenida por Hera, diosa del matrimonio.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>historia</set> ^ escorpio ^ </pattern>
+    <template> La constelación de Orión tiene su origen en la leyenda que cuenta que Orión el cazador, en un arrebato de celos, se sacó los ojos y mientras vagaba ciego por el mundo, pisó un escorpión que lo picó, causando su muerte. <delay>2</delay> Los dioses elevaron a Orión y al escorpión al cielo, colocándolos en extremos opuestos. Cuando Escorpio emerge en el horizonte, Orión se oculta, huyendo del animal que lo mató. </template>
+</category>
+
+<category>
+    <pattern> ^ <set>historia</set> ^ sagitario ^ </pattern>
+    <template> Hubo controversia entre los mitólogos antiguos sobre si la constelación representaba un Centauro. Eratóstenes e Higino argumentaban que no, ya que ningún centauro usaba arco. Sostenían que era un sátiro llamado Croto, quien vivía con las Musas en el monte Helicón. <delay>2</delay> Croto inventó el arte de disparar flechas y el aplauso mientras escuchaba a las Musas. Ellas, complacidas, pidieron a Zeus que lo colocara entre las constelaciones.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>historia</set> ^ capricornio ^ </pattern>
+    <template>El escritor y general romano Germánico, en el siglo I d.C., realizó una traducción libre del Phainomena de Arato, donde asoció a Capricornio no con Pan, como comúnmente se creía, sino con una criatura híbrida llamada Egipán. Egipán era un ser mitológico con cuerpo de cabra y cola de pez, que además era hermano de leche de Júpiter.<delay>2</delay>Se cuenta que Egipán descubrió un instrumento musical, la caracola, que utilizó durante la guerra de los dioses contra los gigantes, atemorizándolos con su sonido. Como recompensa por su valentía, Zeus lo colocó entre las estrellas como la constelación de Capricornio. Germánico también asoció este signo zodiacal al emperador Augusto.
+<delay>2</delay>Otra versión sugiere que el origen de Capricornio proviene de la guerra de los dioses, cuando Pan huyó al río Nilo y, con la mitad de su cuerpo sumergido, se transformó en una criatura con cuerpo de cabra y cola de pez. Al concluir la guerra, Zeus lo inmortalizó como una de las constelaciones en el cielo nocturno.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>historia</set> ^ acuario ^ </pattern>
+    <template>En la mitología griega, Acuario se asocia frecuentemente con la figura de Odiseo, el rey de Ítaca, cuya historia se relata en el épico poema "La Odisea" de Homero. Se representa a Odiseo llevando consigo la "jarra de los vientos", un regalo del dios Eolo que contenía todos los vientos contrarios que podían obstaculizar su regreso a Ítaca.<delay>2</delay>Aunque el signo de Acuario se relaciona con el elemento aire, su representación a menudo fue malinterpretada, siendo identificada erróneamente con agua cayendo de la jarra en lugar de aire.<delay>2</delay>Además, Acuario está ligado al dios grecorromano Saturno, siendo este su regente tradicional, aunque en ocasiones también se asocia con Urano o Caelus, y el dios Crono o Saturno. En la mitología griega, la constelación de Acuario alguna vez fue representada por Ganímedes, el copero de los dioses.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>historia</set> ^ piscis ^ </pattern>
+    <template>En la mitología asociada con el signo de Acuario, se cuenta la historia de la huida de Afrodita y su hijo Eros del monstruo Tifón. Tras la Titanomaquia, donde los dioses olímpicos derrocaron a los titanes y los encarcelaron en el Tártaro, Gea, madre de los titanes, dio a luz a su hijo menor, Tifón, un monstruo colosal con aspecto terrorífico.<delay>2</delay>Tifón, junto con su esposa Equidna y sus hijos, incluyendo a criaturas famosas como la Hidra de Lerna y el León de Nemea, intentaron liberar a los titanes atacando a los olímpicos.<delay>2</delay>Los dioses, atemorizados por la llegada de Tifón, huyeron transformándose en diferentes animales para escapar. Afrodita y Eros se convirtieron en peces y fueron socorridos por un par de peces llamados Ictios, quienes los ayudaron a atravesar las aguas turbulentas.<delay>2</delay>En agradecimiento por su ayuda, Afrodita inmortalizó la imagen de los Ictios en el cielo como la constelación de Piscis. Esta historia también está vinculada al nacimiento de Afrodita en el mar después de que Cronos fuera castrado y su miembro arrojado al agua.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>historia</set> ^ horoscopo ^ </pattern>
+    <template>Los babilonios crearon el zodiaco basándose en la observación de las estrellas, utilizando 12 constelaciones para representar los 12 signos. Estos signos se correspondían con los 12 meses de su calendario, basado en los ciclos solares. La astrología se centra en como los astros influyen en todo lo que nos rodea. </template>
+</category>
+
+<category>
+    <pattern> ^ <set>historia</set> ^ zodiaco ^ </pattern>
+    <template>Los babilonios crearon el zodiaco basándose en la observación de las estrellas, utilizando 12 constelaciones para representar los 12 signos. Estos signos se correspondían con los 12 meses de su calendario, basado en los ciclos solares. La astrología se centra en como los astros influyen en todo lo que nos rodea. </template>
+</category>
+
+<category>
+    <pattern> ^ <set>historia</set> ^ signos ^ </pattern>
+    <template>Los babilonios crearon el zodiaco basándose en la observación de las estrellas, utilizando 12 constelaciones para representar los 12 signos. Estos signos se correspondían con los 12 meses de su calendario, basado en los ciclos solares. La astrología se centra en como los astros influyen en todo lo que nos rodea. </template>
+</category>
+    
+</aiml>

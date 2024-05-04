@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    <!-- Quiero jugar al trivial-->
+ <category>
+     <pattern> ^ TRIVIAL ^ </pattern>
+     <template>Si quieres jugar al trivial solo tienes que escribir "trivial" y estaré encantada de jugar contigo </template>
+ </category>
+ 
+        <!-- Inicio trivial -->
+    <category>	    
+        <pattern>TRIVIAL</pattern>
+        <template>¡Vamos allá!<br/><think><set name = "topic">trivial0</set></think> 
+        Di "ya" cuando quieras empezar y "fin" cuando quieras terminar
+        <think><set name="aciertos">0</set></think>
+        <think><set name="total">0</set></think></template>  
+    </category>
+    
+        <!-- Final trivial -->
+    <category>
+        <pattern>FIN</pattern>
+        <template>
+          Partida Terminada. <set name = "topic"></set> Acertaste <get name="aciertos"/> preguntas de <get name="total"/>. Buen trabajo.
+        </template>
+    </category>
+        
+        <!-- Topic: Trivial 0 -->
+    <topic name="trivial0">
+    <category>
+        <!-- Respuestas del trivial - aciertos -->
+        <pattern>*</pattern>
+        <template>
+        <think><set name="resp"><star/></set></think>
+    	<condition name="resp">
+    
+                <li value="RespA"><condition name="preg">
+                    <li value="opcion_A">Correcta 😀 <set name="aciertos"><map><name>successor</name><get name="aciertos"/></map></set>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_B">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_C">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_D">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li> 
+            	    <li value="opcion_E">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_F">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_G">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_H">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_I">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li></condition></li>
+            	    
+                <li value="RespB"><condition name="preg">
+                    <li value="opcion_A">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_B">Correcta 😀 <set name="aciertos"><map><name>successor</name><get name="aciertos"/></map></set>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_C">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_D">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li> 
+            	    <li value="opcion_E">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_F">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_G">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_H">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_I">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li></condition></li>
+            	    
+                <li value="RespC"><condition name="preg">
+                    <li value="opcion_A">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_B">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_C">Correcta 😀 <set name="aciertos"><map><name>successor</name><get name="aciertos"/></map></set>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_D">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li> 
+            	    <li value="opcion_E">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_F">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_G">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_H">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_I">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li></condition></li>
+            	    
+                <li value="RespD"><condition name="preg">
+                    <li value="opcion_A">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_B">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_C">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_D">Correcta 😀 <set name="aciertos"><map><name>successor</name><get name="aciertos"/></map></set>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li> 
+            	    <li value="opcion_E">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_F">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_G">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_H">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>     	
+            	    <li value="opcion_I">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li></condition></li>
+    
+                <li value="RespE"><condition name="preg">
+                    <li value="opcion_A">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_B">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_C">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_D">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li> 
+            	    <li value="opcion_E">Correcta 😀 <set name="aciertos"><map><name>successor</name><get name="aciertos"/></map></set>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_F">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_G">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_H">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_I">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li></condition></li>
+            	    
+            	<li value="RespF"><condition name="preg">
+                    <li value="opcion_A">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_B">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_C">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_D">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li> 
+            	    <li value="opcion_E">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_F">Correcta 😀 <set name="aciertos"><map><name>successor</name><get name="aciertos"/></map></set>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_G">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_H">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li> 
+            	    <li value="opcion_I">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li></condition></li>
+            	    
+            	<li value="RespG"><condition name="preg">
+                    <li value="opcion_A">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_B">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_C">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_D">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li> 
+            	    <li value="opcion_E">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_F">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_G">Correcta 😀 <set name="aciertos"><map><name>successor</name><get name="aciertos"/></map></set>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_H">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>   
+            	    <li value="opcion_I">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li></condition></li>
+    
+                <li value="RespH"><condition name="preg">
+                    <li value="opcion_A">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_B">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_C">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_D">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li> 
+            	    <li value="opcion_E">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_F">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_G">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_H">Correcta 😀 <set name="aciertos"><map><name>successor</name><get name="aciertos"/></map></set>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_I">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li></condition></li>
+    
+                <li value="RespI"><condition name="preg">
+                    <li value="opcion_A">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_B">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_C">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_D">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li> 
+            	    <li value="opcion_E">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_F">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_G">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_H">Incorrecta. Era la <get name = "preg"></get><br/><br/><get name="aciertos"/>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li>
+            	    <li value="opcion_I">Correcta 😀 <set name="aciertos"><map><name>successor</name><get name="aciertos"/></map></set>/<set name="total"><map><name>successor</name><get name="total"/></map></set><br/><br/></li></condition></li>
+            	    
+        </condition>
+        
+        <!-- Preguntas alternas -->
+        <random>
+            
+	    
+	    <li>¿Cuál es el signo zodiacal asociado con el elemento tierra?<delay>2</delay>
+		A. Virgo<br/>
+		B. Géminis<br/>
+		C. Sagitario<br/>
+		D. Capricornio<br/>
+		<button><text>A</text><postback>RespA</postback></button>
+		<button><text>B</text><postback>RespB</postback></button>
+		<button><text>C</text><postback>RespC</postback></button>
+		<button><text>D</text><postback>RespD</postback></button>
+		<think><set name="preg">opcion_A</set></think>
+		</li>
+		
+		<li>¿Qué signo del zodíaco es conocido por su dualidad?<delay>2</delay>
+		A. Piscis<br/>
+		B. Géminis<br/>
+		C. Aries<br/>
+		D. Libra<br/>
+		<button><text>A</text><postback>RespA</postback></button>
+		<button><text>B</text><postback>RespB</postback></button>
+		<button><text>C</text><postback>RespC</postback></button>
+		<button><text>D</text><postback>RespD</postback></button>
+		<think><set name="preg">opcion_B</set></think>
+		</li>
+		
+		<li>¿Cuál es el signo zodiacal asociado con el agua?<delay>2</delay>
+		A. Sagitario<br/>
+		B. Piscis<br/>
+		C. Aries<br/>
+		D. Virgo<br/>
+		<button><text>A</text><postback>RespA</postback></button>
+		<button><text>B</text><postback>RespB</postback></button>
+		<button><text>C</text><postback>RespC</postback></button>
+		<button><text>D</text><postback>RespD</postback></button>
+		<think><set name="preg">opcion_B</set></think>
+		</li>
+		
+		<li>¿Qué signo zodiacal está representado por un centauro?<delay>2</delay>
+		A. Tauro<br/>
+		B. Cáncer<br/>
+		C. Sagitario<br/>
+		D. Virgo<br/>
+		<button><text>A</text><postback>RespA</postback></button>
+		<button><text>B</text><postback>RespB</postback></button>
+		<button><text>C</text><postback>RespC</postback></button>
+		<button><text>D</text><postback>RespD</postback></button>
+		<think><set name="preg">opcion_C</set></think>
+		</li>
+		
+		<li>¿Cuál es el signo zodiacal asociado con el arquetipo del "portador de agua"?<delay>2</delay>
+		A. Aries<br/>
+		B. Acuario<br/>
+		C. Leo<br/>
+		<button><text>A</text><postback>RespA</postback></button>
+		<button><text>B</text><postback>RespB</postback></button>
+		<button><text>C</text><postback>RespC</postback></button>
+		<think><set name="preg">opcion_B</set></think>
+		</li>
+	    
+	    <li>¿Cuál es el planeta regente de Capricornio?<delay>2</delay>
+		A. Saturno<br/>
+		B. Neptuno<br/>
+		C. Urano<br/>
+		D. Plutón<br/>
+		<button><text>A</text><postback>RespA</postback></button>
+		<button><text>B</text><postback>RespB</postback></button>
+		<button><text>C</text><postback>RespC</postback></button>
+		<button><text>D</text><postback>RespD</postback></button>
+		<think><set name="preg">opcion_A</set></think>
+		</li>
+	    
+	    <li>¿Qué signo del zodíaco está regido por el elemento fuego?<delay>2</delay>
+		A. Virgo<br/>
+		B. Escorpio<br/>
+		C. Leo<br/>
+		D. Libra<br/>
+		<button><text>A</text><postback>RespA</postback></button>
+		<button><text>B</text><postback>RespB</postback></button>
+		<button><text>C</text><postback>RespC</postback></button>
+		<button><text>D</text><postback>RespD</postback></button>
+		<think><set name="preg">opcion_C</set></think>
+		</li>
+		
+		<li>¿Qué planeta se considera el regente tradicional de Piscis?<delay>2</delay>
+		A. Neptuno<br/>
+		B. Venus<br/>
+		C. Plutón<br/>
+		D. Marte<br/>
+		<button><text>A</text><postback>RespA</postback></button>
+		<button><text>B</text><postback>RespB</postback></button>
+		<button><text>C</text><postback>RespC</postback></button>
+		<button><text>D</text><postback>RespD</postback></button>
+		<think><set name="preg">opcion_A</set></think>
+		</li>
+		
+		<li>¿Cuál es el signo zodiacal asociado con el elemento aire?<delay>2</delay>
+		A. Cáncer<br/>
+		B. Escorpio<br/>
+		C. Libra<br/>
+		D. Piscis<br/>
+		<button><text>A</text><postback>RespA</postback></button>
+		<button><text>B</text><postback>RespB</postback></button>
+		<button><text>C</text><postback>RespC</postback></button>
+		<button><text>D</text><postback>RespD</postback></button>
+		<think><set name="preg">opcion_C</set></think>
+		</li>
+		
+		<li>¿Qué signo del zodíaco se considera regido por la Luna?<delay>2</delay>
+		A. Leo<br/>
+		B. Géminis<br/>
+		C. Cáncer<br/>
+		D. Virgo<br/>
+		<button><text>A</text><postback>RespA</postback></button>
+		<button><text>B</text><postback>RespB</postback></button>
+		<button><text>C</text><postback>RespC</postback></button>
+		<button><text>D</text><postback>RespD</postback></button>
+		<think><set name="preg">opcion_C</set></think>
+		</li>
+		
+	    <li>¿Cuál es el signo zodiacal representado por un escorpión?<delay>2</delay>
+		A. Capricornio<br/>
+		B. Acuario<br/>
+		C. Escorpio<br/>
+		D. Leo<br/>
+		<button><text>A</text><postback>RespA</postback></button>
+		<button><text>B</text><postback>RespB</postback></button>
+		<button><text>C</text><postback>RespC</postback></button>
+		<button><text>D</text><postback>RespD</postback></button>
+		<think><set name="preg">opcion_C</set></think>
+		</li>
+</random>
+</template>
+</category>
+</topic>	
+    
+</aiml>

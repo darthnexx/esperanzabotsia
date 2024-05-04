@@ -892,7 +892,7 @@
 
 <category>
     <pattern> ^ GEMINIS ^ </pattern>
-    <template><srai> ^ cancion ^ gemini ^ </srai></template>
+    <template><srai> ^ cancion ^ geminis ^ </srai></template>
 </category>
 
 <category>

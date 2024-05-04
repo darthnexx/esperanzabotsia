@@ -3,7 +3,7 @@
     
 <category>
     <pattern> ^ <set>mejoresamigos</set> ^ ARIES  ^ </pattern>
-    <template> ¿En qué ambito, corazón de melón?
+    <template> ¿En qué ámbito, corazón de melón?
         <button>
             <text>En la amistad</text>
             <postback>BOTON AMIGO ARIES</postback>
@@ -21,7 +21,7 @@
 
 <category>
     <pattern> ^ <set>mejoresamigos</set> ^ TAURO  ^ </pattern>
-    <template> ¿En qué ambito, corazón de melón?
+    <template> ¿En qué ámbito, corazón de melón?
         <button>
             <text>En la amistad</text>
             <postback>BOTON AMIGO TAURO</postback>
@@ -34,12 +34,13 @@
             <text>En el amor</text>
             <postback>BOTON AMOR TAURO</postback>
         </button>
+    <think><set name="topic">mejoramigo</set></think>
     </template>
 </category> 
 
 <category>
     <pattern> ^ <set>mejoresamigos</set> ^ GEMINIS  ^ </pattern>
-    <template> ¿En qué ambito, corazón de melón?
+    <template> ¿En qué ámbito, corazón de melón?
         <button>
             <text>En la amistad</text>
             <postback>BOTON AMIGO GEMINIS</postback>
@@ -52,12 +53,13 @@
             <text>En el amor</text>
             <postback>BOTON AMOR GEMINIS</postback>
         </button>
+    <think><set name="topic">mejoramigo</set></think>
     </template>
 </category> 
 
 <category>
     <pattern> ^ <set>mejoresamigos</set> ^ CANCER  ^ </pattern>
-    <template> ¿En qué ambito, corazón de melón?
+    <template> ¿En qué ámbito, corazón de melón?
         <button>
             <text>En la amistad</text>
             <postback>BOTON AMIGO CANCER</postback>
@@ -70,12 +72,13 @@
             <text>En el amor</text>
             <postback>BOTON AMOR CANCER</postback>
         </button>
+    <think><set name="topic">mejoramigo</set></think>
     </template>
 </category> 
 
 <category>
     <pattern> ^ <set>mejoresamigos</set> ^ LEO  ^ </pattern>
-    <template> ¿En qué ambito, corazón de melón?
+    <template> ¿En qué ámbito, corazón de melón?
         <button>
             <text>En la amistad</text>
             <postback>BOTON AMIGO LEO</postback>
@@ -88,12 +91,13 @@
             <text>En el amor</text>
             <postback>BOTON AMOR LEO</postback>
         </button>
+    <think><set name="topic">mejoramigo</set></think>
     </template>
 </category> 
 
 <category>
     <pattern> ^ <set>mejoresamigos</set> ^ VIRGO  ^ </pattern>
-    <template> ¿En qué ambito, corazón de melón?
+    <template> ¿En qué ámbito, corazón de melón?
         <button>
             <text>En la amistad</text>
             <postback>BOTON AMIGO ARIES</postback>
@@ -106,12 +110,13 @@
             <text>En el amor</text>
             <postback>BOTON AMOR ARIES</postback>
         </button>
+    <think><set name="topic">mejoramigo</set></think>
     </template>
 </category> 
 
 <category>
     <pattern> ^ <set>mejoresamigos</set> ^ LIBRA  ^ </pattern>
-    <template> ¿En qué ambito, corazón de melón?
+    <template> ¿En qué ámbito, corazón de melón?
         <button>
             <text>En la amistad</text>
             <postback>BOTON AMIGO LIBRA</postback>
@@ -124,12 +129,13 @@
             <text>En el amor</text>
             <postback>BOTON AMOR LIBRA</postback>
         </button>
+    <think><set name="topic">mejoramigo</set></think>
     </template>
 </category> 
 
 <category>
     <pattern> ^ <set>mejoresamigos</set> ^ SAGITARIO  ^ </pattern>
-    <template> ¿En qué ambito, corazón de melón?
+    <template> ¿En qué ámbito, corazón de melón?
         <button>
             <text>En la amistad</text>
             <postback>BOTON AMIGO SAGITARIO</postback>
@@ -142,12 +148,13 @@
             <text>En el amor</text>
             <postback>BOTON AMOR SAGITARIO</postback>
         </button>
+    <think><set name="topic">mejoramigo</set></think>
     </template>
 </category> 
 
 <category>
     <pattern> ^ <set>mejoresamigos</set> ^ ESCORPIO  ^ </pattern>
-    <template> ¿En qué ambito, corazón de melón?
+    <template> ¿En qué ámbito, corazón de melón?
         <button>
             <text>En la amistad</text>
             <postback>BOTON AMIGO ESCORPIO</postback>
@@ -160,12 +167,13 @@
             <text>En el amor</text>
             <postback>BOTON AMOR ESCORPIO</postback>
         </button>
+    <think><set name="topic">mejoramigo</set></think>
     </template>
 </category> 
 
 <category>
     <pattern> ^ <set>mejoresamigos</set> ^ CAPRICORNIO  ^ </pattern>
-    <template> ¿En qué ambito, corazón de melón?
+    <template> ¿En qué ámbito, corazón de melón?
         <button>
             <text>En la amistad</text>
             <postback>BOTON AMIGO CAPRICORNIO</postback>
@@ -178,12 +186,13 @@
             <text>En el amor</text>
             <postback>BOTON AMOR CAPRICORNIO</postback>
         </button>
+    <think><set name="topic">mejoramigo</set></think>
     </template>
 </category> 
 
 <category>
     <pattern> ^ <set>mejoresamigos</set> ^ ACUARIO  ^ </pattern>
-    <template> ¿En qué ambito, corazón de melón?
+    <template> ¿En qué ámbito, corazón de melón?
         <button>
             <text>En la amistad</text>
             <postback>BOTON AMIGO ACUARIO</postback>
@@ -196,12 +205,13 @@
             <text>En el amor</text>
             <postback>BOTON AMOR ACUARIO</postback>
         </button>
+    <think><set name="topic">mejoramigo</set></think>
     </template>
 </category> 
 
 <category>
     <pattern> ^ <set>mejoresamigos</set> ^ PISCIS  ^ </pattern>
-    <template> ¿En qué ambito, corazón de melón?
+    <template> ¿En qué ámbito, corazón de melón?
         <button>
             <text>En la amistad</text>
             <postback>BOTON AMIGO PISCIS</postback>
@@ -214,6 +224,14 @@
             <text>En el amor</text>
             <postback>BOTON AMOR PISCIS</postback>
         </button>
+    <think><set name="topic">mejoramigo</set></think>
+    </template>
+</category> 
+
+<category>
+    <pattern> ^ <set>mejoresamigos</set> ^ </pattern>
+    <template>Gordi, se me ha olvidado tomarme la pastilla de la memoria. Acuérdate de especificarme los signos siempre.😘
+    <think><set name="topic">mejoramigo</set></think>
     </template>
 </category> 
 
@@ -276,5 +294,222 @@
 <category>
     <pattern>BOTON AMIGO PISCIS</pattern>
     <template>El mejor amigo del pececillo es sin duda el intrépido Sagitario, pues le permitirá sacar su lado más divertido y aventurero.😻</template>
+</category>  
+
+<topic name="mejoramigo">
+<category>
+    <pattern> ^ ARIES ^ </pattern>
+    <template>¿En qué ámbito, corazón de melón?
+        <button>
+            <text>En la amistad</text>
+            <postback>BOTON AMIGO ARIES</postback>
+        </button>
+        <button>
+            <text>En la enemistad</text>
+            <postback>BOTON ENEMIGO ARIES</postback>
+        </button>
+        <button>
+            <text>En el amor</text>
+            <postback>BOTON AMOR ARIES</postback>
+        </button>
+    </template>
 </category>   
+
+<category>
+    <pattern> ^ TAURO ^ </pattern>
+    <template> ¿En qué ámbito, corazón de melón?
+        <button>
+            <text>En la amistad</text>
+            <postback>BOTON AMIGO ARIES</postback>
+        </button>
+        <button>
+            <text>En la enemistad</text>
+            <postback>BOTON ENEMIGO ARIES</postback>
+        </button>
+        <button>
+            <text>En el amor</text>
+            <postback>BOTON AMOR ARIES</postback>
+        </button>
+    </template>
+    </category>   
+
+<category>
+    <pattern> ^ GEMINIS ^ </pattern>
+    <template> ¿En qué ámbito, corazón de melón?
+        <button>
+            <text>En la amistad</text>
+            <postback>BOTON AMIGO ARIES</postback>
+        </button>
+        <button>
+            <text>En la enemistad</text>
+            <postback>BOTON ENEMIGO ARIES</postback>
+        </button>
+        <button>
+            <text>En el amor</text>
+            <postback>BOTON AMOR ARIES</postback>
+        </button>
+    </template>
+    </category>   
+
+<category>
+    <pattern> ^ CANCER ^ </pattern>
+    <template> ¿En qué ámbito, corazón de melón?
+        <button>
+            <text>En la amistad</text>
+            <postback>BOTON AMIGO ARIES</postback>
+        </button>
+        <button>
+            <text>En la enemistad</text>
+            <postback>BOTON ENEMIGO ARIES</postback>
+        </button>
+        <button>
+            <text>En el amor</text>
+            <postback>BOTON AMOR ARIES</postback>
+        </button>
+    </template>
+    </category>   
+
+<category>
+    <pattern> ^ LEO ^ </pattern>
+    <template> ¿En qué ámbito, corazón de melón?
+        <button>
+            <text>En la amistad</text>
+            <postback>BOTON AMIGO ARIES</postback>
+        </button>
+        <button>
+            <text>En la enemistad</text>
+            <postback>BOTON ENEMIGO ARIES</postback>
+        </button>
+        <button>
+            <text>En el amor</text>
+            <postback>BOTON AMOR ARIES</postback>
+        </button>
+    </template>
+    </category>   
+
+<category>
+    <pattern> ^ VIRGO ^ </pattern>
+    <template> ¿En qué ámbito, corazón de melón?
+        <button>
+            <text>En la amistad</text>
+            <postback>BOTON AMIGO ARIES</postback>
+        </button>
+        <button>
+            <text>En la enemistad</text>
+            <postback>BOTON ENEMIGO ARIES</postback>
+        </button>
+        <button>
+            <text>En el amor</text>
+            <postback>BOTON AMOR ARIES</postback>
+        </button>
+    </template>
+    </category>   
+
+<category>
+    <pattern> ^ LIBRA ^ </pattern>
+    <template> ¿En qué ámbito, corazón de melón?
+        <button>
+            <text>En la amistad</text>
+            <postback>BOTON AMIGO ARIES</postback>
+        </button>
+        <button>
+            <text>En la enemistad</text>
+            <postback>BOTON ENEMIGO ARIES</postback>
+        </button>
+        <button>
+            <text>En el amor</text>
+            <postback>BOTON AMOR ARIES</postback>
+        </button>
+    </template>
+    </category>   
+
+<category>
+    <pattern> ^ SAGITARIO ^ </pattern>
+    <template> ¿En qué ámbito, corazón de melón?
+        <button>
+            <text>En la amistad</text>
+            <postback>BOTON AMIGO ARIES</postback>
+        </button>
+        <button>
+            <text>En la enemistad</text>
+            <postback>BOTON ENEMIGO ARIES</postback>
+        </button>
+        <button>
+            <text>En el amor</text>
+            <postback>BOTON AMOR ARIES</postback>
+        </button>
+    </template>
+    </category>   
+<category>
+    <pattern> ^ ESCORPIO ^ </pattern>
+    <template> ¿En qué ámbito, corazón de melón?
+        <button>
+            <text>En la amistad</text>
+            <postback>BOTON AMIGO ARIES</postback>
+        </button>
+        <button>
+            <text>En la enemistad</text>
+            <postback>BOTON ENEMIGO ARIES</postback>
+        </button>
+        <button>
+            <text>En el amor</text>
+            <postback>BOTON AMOR ARIES</postback>
+        </button>
+    </template>
+    </category>   
+
+<category>
+    <pattern> ^ CAPRICORNIO ^ </pattern>
+    <template> ¿En qué ámbito, corazón de melón?
+        <button>
+            <text>En la amistad</text>
+            <postback>BOTON AMIGO ARIES</postback>
+        </button>
+        <button>
+            <text>En la enemistad</text>
+            <postback>BOTON ENEMIGO ARIES</postback>
+        </button>
+        <button>
+            <text>En el amor</text>
+            <postback>BOTON AMOR ARIES</postback>
+        </button>
+    </template>
+    </category>   
+
+<category>
+    <pattern> ^ ACUARIO ^ </pattern>
+    <template> ¿En qué ámbito, corazón de melón?
+        <button>
+            <text>En la amistad</text>
+            <postback>BOTON AMIGO ARIES</postback>
+        </button>
+        <button>
+            <text>En la enemistad</text>
+            <postback>BOTON ENEMIGO ARIES</postback>
+        </button>
+        <button>
+            <text>En el amor</text>
+            <postback>BOTON AMOR ARIES</postback>
+        </button>
+    </template>
+    </category>   
+
+<category>
+    <pattern> ^ PISCIS ^ </pattern>
+    <template> ¿En qué ámbito, corazón de melón?
+        <button>
+            <text>En la amistad</text>
+            <postback>BOTON AMIGO ARIES</postback>
+        </button>
+        <button>
+            <text>En la enemistad</text>
+            <postback>BOTON ENEMIGO ARIES</postback>
+        </button>
+        <button>
+            <text>En el amor</text>
+            <postback>BOTON AMOR ARIES</postback>
+        </button>
+    </template>
+    </category>  
+</topic>
 </aiml>

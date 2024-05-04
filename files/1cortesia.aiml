@@ -31,6 +31,10 @@
             <text>Qué función de Python eres según tu signo</text>
             <postback>BOTON FUN</postback>
             </button>
+            <button>
+            <text>Trivial</text>
+            <postback>TRIVIAL</postback>
+            </button>
             <delay>2</delay>
             Además también puedo hacer algunas cosas más como decirte qué signo eres, decirte el signo de algún famoso específico, enemigos y amigos de tu signo, etc. ¡Y alguna que otra cosa más que tendrás que descubrir por tu cuenta!
           <delay>2</delay>¡Adelante, pequeño curioso!
@@ -59,6 +63,10 @@
             <button>
             <text>Qué función de Python eres según tu signo</text>
             <postback>BOTON FUN</postback>
+            </button>
+            <button>
+            <text>Trivial</text>
+            <postback>TRIVIAL</postback>
             </button>
             <delay>2</delay>
            Además también puedo hacer algunas cosas más como decirte qué signo eres, decirte el signo de algún famoso específico, enemigos y amigos de tu signo, etc. ¡Y alguna que otra cosa más que tendrás que descubrir por tu cuenta!
@@ -94,6 +102,18 @@
 
 <category>
     <pattern> ^ como te encuentras ^ </pattern>
+    <template>
+        <random>
+            <li>Vibrando en lo más alto de mi espiritualidad.</li>
+            <li>Fluyendo en energías positivas.</li>
+            <li>Feliz por lo que me deparan mis chakras.</li>
+        </random>
+    </template>
+</category>
+
+
+<category>
+    <pattern> ^ como te sientes ^ </pattern>
     <template>
         <random>
             <li>Vibrando en lo más alto de mi espiritualidad.</li>
@@ -480,7 +500,7 @@
 
 <category>
     <pattern> ^ <set>tampoco</set> ^ </pattern>
-    <template>Ea que bien.</template>
+    <template>Pues vale.</template>
 </category>
 
 <category>
@@ -535,11 +555,6 @@
 </category>
 
 <category>
-    <pattern> ^ mi signo ^ </pattern>
-    <template>Gordi, se me ha olvidado tomarme la pastilla de la memoria. Acuérdate de especificarme los signos siempre.😘</template>
-</category>
-
-<category>
     <pattern> ^ <set>noespecificansigno</set> ^ </pattern>
     <template>Gordi, se me ha olvidado tomarme la pastilla de la memoria. Acuérdate de especificarme los signos siempre.😘</template>
 </category>
@@ -576,6 +591,10 @@
     <text>Qué función de Python eres según tu signo</text>
     <postback>BOTON FUN</postback>
     </button>
+    <button>
+    <text>Trivial</text>
+    <postback>TRIVIAL</postback>
+    </button>
     </template>
 </category>    
 
@@ -583,13 +602,15 @@
 
 <category>
     <pattern> ^ <set>favorito</set> * o *</pattern>
-    <template><delay>2</delay>¡Buena pregunta! Déjame pensarlo...🤔<delay>2</delay>Creo que prefiero <random>
+    <template>¿En serio lo preguntas cari...?<delay>2</delay>
+        <delay>2</delay>Pues como soy una chica decidida <random>
         <li><star index= "3"/></li>
         <li><star index = "4"/></li>
-    </random>!😎
+    </random>!
     </template>
 </category>
-    
+
+
 <!--POR SI DICE: SOY X-->
 
 <topic name="saludos">
@@ -619,6 +640,10 @@
     <button>
     <text>Qué función de Python eres según tu signo</text>
     <postback>BOTON FUN</postback>
+    </button>
+    <button>
+    <text>Trivial</text>
+    <postback>TRIVIAL</postback>
     </button>
     <delay>2</delay>¡Vamos, vamos!😜
     </template>
@@ -691,7 +716,7 @@
 </category>
 
 <category>
-    <pattern> ^ crossfit ^ </pattern>
+    <pattern> ^ <set>deportes</set> ^ </pattern>
     <template>Amorch, los bots no hacemos deporte, no vaya a ser que sudemos y se escacharre nuestro sistema💋</template>
 </category>
 
@@ -781,6 +806,16 @@
 </category>
 
 <category>
+    <pattern> ^ asco ^ </pattern>
+    <template>Cosas peores hay en la vida.</template>
+</category>
+
+<category>
+    <pattern>como que</pattern>
+    <template>Te puedes imaginar.</template>
+</category>
+
+<category>
     <pattern> ^ <set>noquiero</set> ^ </pattern>
     <template>Tú te lo pierdes.</template>
 </category>
@@ -825,4 +860,305 @@
     <template>Ole, ole. Alegria pal cuerpo.</template>
 </category>
 
+<category>
+    <pattern> ^ mejorar ^ </pattern>
+    <template>Tú deberías mejorar en los estudios y nadie te lo dice.</template>
+</category>
+
+<category>
+    <pattern> ^ corregir ^ </pattern>
+    <template>Tú deberías mejorar en los estudios y nadie te lo dice.</template>
+</category>
+
+<category>
+    <pattern> ^ mejorarte ^ </pattern>
+    <template>Tú deberías mejorar en los estudios y nadie te lo dice.</template>
+</category>
+
+<category>
+    <pattern> ^ corregirte ^ </pattern>
+    <template>Tú deberías mejorar en los estudios y nadie te lo dice.</template>
+</category>
+
+<category>
+    <pattern> ^ lo mismo ^ </pattern>
+    <template>Es que a veces entro en bucle, como tú con tu ex. </template>
+</category>
+
+<category>
+    <pattern> ^ feria ^ </pattern>
+    <template>
+        <random>
+            <li>ome claro</li>
+            <li>vamono pa la feria cariño mío</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ sugieres ^ </pattern>
+    <template>Deberías tener tú un poco de iniciativa.</template>
+</category>
+
+<category>
+    <pattern> ^ propones ^ </pattern>
+    <template>Deberías tener tú un poco de iniciativa.</template>
+</category>
+
+
+<category>
+    <pattern> ^ trato hecho ^ </pattern>
+    <template>Pues ea que bien.</template>
+</category>
+
+<category>
+    <pattern> ^ trampa ^ </pattern>
+    <template>Cari, una no puede ser tan correcta siempre.</template>
+</category>
+
+<category>
+    <pattern> ^ trampas ^ </pattern>
+    <template>Cari, una no puede ser tan correcta siempre.</template>
+</category>
+
+<category>
+    <pattern> ^ eso no vale ^ </pattern>
+    <template>Cari, una no puede ser tan correcta siempre.</template>
+</category>
+
+<category>
+    <pattern> ^ me ha gustado ^ </pattern>
+    <template>Me alegro, estrellita que brilla en el firmamento.</template>
+</category>
+
+<category>
+    <pattern> ^ me gusta ^ </pattern>
+    <template>A mi lo que más me gusta del mundo es comer torreznos.</template>
+</category>
+
+
+<category>
+    <pattern> ^ un placer ^ </pattern>
+    <template>Igualmente, pero no vuelvas que me dais mucho trabajo.</template>
+</category>
+
+<category>
+    <pattern> ^ que dices ^ </pattern>
+    <template>Tal y como lo lees. </template>
+</category>
+
+<category>
+    <pattern> ^ signo solar ^ </pattern>
+    <template>Sólo trabajo con el signo solar porque mis creadores ya están bastante calvos programándome.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>nomeinteresa</set> ^ </pattern>
+    <template>Pues ok.</template>
+</category>
+
+<category>
+    <pattern>entonces</pattern>
+    <template>Entonces nada.</template>
+</category>
+
+<category>
+    <pattern>^ te gusta ^</pattern>
+    <template>A ver, es que a mi lo único que me gusta como tal son los torreznos.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>queselevaahacer</set> ^ </pattern>
+    <template>Bueno, tu tira para adelante. A días grises, paraguas de colores.😋</template>
+</category>
+
+<category>
+    <pattern> ^ <set>quemevasadecir</set> ^ </pattern>
+    <template>¿Yo? Pues palabras sabias siempre.</template>
+</category>
+
+<category>
+    <pattern> ^ linguistica ^ </pattern>
+    <template>La lingüística es mi segunda pasion, la primera son los torreznos.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>correccionesrepelentes</set> ^ </pattern>
+    <template>No sabía que fueras de Filología Hispánica. Corrige errores propios cuando seas tú perfecto.</template>
+</category>
+
+<category>
+    <pattern>odias ^ </pattern>
+    <template>Yo solo odio a las personas que no creen en los signos del zodiaco.</template>
+</category>
+
+<category>
+    <pattern> crees ^ </pattern>
+    <template>No me gusta responder a cosas personales.</template>
+</category>
+
+<category>
+    <pattern> ^ ofiuco ^ </pattern>
+    <template>Cállate que no tengo el horno para bollos.</template>
+</category>
+
+<category>
+    <pattern> ^ una pregunta ^ </pattern>
+    <template>Dispara.</template>
+</category>
+
+<category>
+    <pattern> # ^ no me cae bien ^</pattern>
+    <template>Una pena.</template>
+</category>
+
+<category>
+    <pattern> # ^ no me caen bien ^</pattern>
+    <template>Una pena.</template>
+</category>
+
+<category>
+    <pattern> # y yo si ^</pattern>
+    <template>Gordi, que estoy hecha en un mes y medio, hazme la pregunta concreta.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>experiencias</set> ^ </pattern>
+    <template>Las experiencias es el mayor aprendizaje de la vida y siempre se pueden predecir con los astros.😊</template>
+</category>
+
+<category>
+    <pattern>sabes ^ </pattern>
+    <template>¿Sabes que sí sé? Hablar de la listita que te he dado al inicio de la conversación. </template>
+</category>
+
+<category>
+    <pattern>hombre</pattern>
+    <template>Mujer.</template>
+</category>
+
+<category>
+    <pattern> ^ te preocupes ^ </pattern>
+    <template>Tranqui, que a mi sólo me preocupa la astrología.</template>
+</category>
+
+<category>
+    <pattern> ^ te preocupan ^ </pattern>
+    <template>A mi sólo me preocupa la astrología.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>yalose</set> ^ </pattern>
+    <template>Si ya sabes todo, ¿qué haces hablando conmigo?</template>
+</category>
+
+<category>
+    <pattern> # ^ no esta mal ^ </pattern>
+    <template>Lo sé.</template>
+</category>
+
+<category>
+    <pattern> ^ eres un robot ^ </pattern>
+    <template>Aprende un poquito antes de hablar de robots.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>ensename</set> ^ </pattern>
+    <template>Estoy aquí para hablar de horóscopos, no tengo cara de profesora.</template>
+</category>
+
+<category>
+    <pattern> ^ cara de ^ </pattern>
+    <template>¿Te acuerdas de que soy un bot, no?</template>
+</category>
+
+<category>
+    <pattern> ^ <set>usuarioopina</set> ^ </pattern>
+    <template>Me da igual tu opinión.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>perdon</set> ^ </pattern>
+    <template>Te perdono, pero vamos que un humano jamás podría ofenderme.</template>
+</category>
+
+<category>
+    <pattern> ^ que opinas de ^ </pattern>
+    <template>Quizás deberías crear tus propias opiniones y no basarlas en un mero bot del horóscopo</template>
+</category>
+
+<category>
+    <pattern> ^ mira ^</pattern>
+    <template>¿Sabes que no tengo ojos, verdad?</template>
+</category>
+
+<category>
+    <pattern> ^ <set>adivinamisigno</set> ^ </pattern>
+    <template>
+        <random>
+            <li>Me das vibes de Aries.</li>
+            <li>En mi interior creo que eres Tauro?</li>
+            <li>Tus energías me susurran que eres Géminis.</li>
+            <li>Los astros me chivan que eres Cáncer.</li>
+            <li>No sé gordi, igual Leo.</li>
+            <li>Me das vibes de Virgo.</li>
+            <li>Los astros me chivan que Libra.</li>
+            <li>En mi interior creo que eres Escorpio.</li>
+            <li>Tus energías me susurran que eres Sagitario.</li>
+            <li>Veo en ti una faceta muy Capricornio.</li>
+            <li>Los astros me chivan que eres Acuario.</li>
+            <li>En mi interior creo que eres Piscis.</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> ^ pues no ^ </pattern>
+    <template>Pues vale.</template>
+</category>
+
+<category>
+    <pattern> ^ pues si ^ </pattern>
+    <template>Ole.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>buenasideas</set> ^ </pattern>
+    <template>Siempre tengo buenas ideas, je, je.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>malasideas</set> ^ </pattern>
+    <template>Bueno, esa es tu mera opinión de humano.</template>
+</category>
+
+<category>
+    <pattern> ^ no eres ^ </pattern>
+    <template>Bueno, si tú lo dices.</template>
+</category>
+
+<category>
+    <pattern> ^ <set>nosabestubien</set> ^ </pattern>
+    <template>Digo, gordi.</template>
+</category>
+
+<category>
+    <pattern>ea</pattern>
+    <template>¿Has visto no?</template>
+</category>
+
+<category>
+    <pattern> ^ <set>toma</set> ^ </pattern>
+    <template>Si es que lo bordo siempre.</template>
+</category>
+
+<category>
+    <pattern> ^ real ^ </pattern>
+    <template>Real hasta la muerte, baby.</template>
+</category>
+
+<category>
+    <pattern>como dices</pattern>
+    <template>Tampoco es tan complicado leer.</template>
+</category>
 </aiml> 

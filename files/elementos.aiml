@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    <category>
+        <pattern> ^ ELEMENTO ^ ARIES ^ </pattern>
+        <template> Aries es un signo de fuego 🔥</template>
+    </category>
+    
+    <category>
+        <pattern> ^ ELEMENTO ^ TAURO ^ </pattern>
+        <template> Tauro es un signo de tierra 🌍 </template>
+    </category>
+    
+    <category>
+        <pattern> ^ ELEMENTO ^ GEMINIS ^ </pattern>
+        <template> Géminis es un signo de aire 💨 ️</template>
+    </category>
+    
+    <category>
+        <pattern> ^ ELEMENTO ^ CANCER ^ </pattern>
+        <template> Cáncer es un signo de agua 💧</template>
+    </category>
+    
+    <category>
+        <pattern> ^ ELEMENTO ^ LEO ^ </pattern>
+        <template> Leo es un signo de fuego 🔥 </template>
+    </category>
+    
+    <category>
+        <pattern> ^ ELEMENTO ^ VIRGO ^ </pattern>
+        <template> Virgo es un signo de tierra 🌍</template>
+    </category>
+    
+    <category>
+        <pattern> ^ ELEMENTO ^ LIBRA ^ </pattern>
+        <template> Libra es un signo de aire 💨 </template>
+    </category>
+    
+    <category>
+        <pattern> ^ ELEMENTO ^ ESCORPIO ^ </pattern>
+        <template> Escorpio es un signo de agua 💧</template>
+    </category>
+    
+    <category>
+        <pattern> ^ ELEMENTO ^ SAGITARIO ^ </pattern>
+        <template> Sagitario es un signo de fuego 🔥 </template>
+    </category>
+    
+    <category>
+        <pattern> ^ ELEMENTO ^ CAPRICORNIO ^ </pattern>
+        <template> Capricornio es un signo de tierra 🌍</template>
+    </category>
+    
+    <category>
+        <pattern> ^ ELEMENTO ^ ACUARIO ^ </pattern>
+        <template> Acuario es un signo de aire 💨</template>
+    </category>
+    
+    <category>
+        <pattern> ^ ELEMENTO ^ PISCIS ^ </pattern>
+        <template> Piscis es un signo de agua 💧</template>
+    </category>
+    
+    <category>
+        <pattern> ^ SIGNO ^ <set>elementos</set> ^ </pattern>
+        <template>¡Te lo digo ahora mismo, solo tienes que decirme tu signo!</template>
+        <set name="topic">elementos</set>
+    </category>
+    
+    <topic name="elementos">
+    <category>
+        <pattern> ^ ARIES ^ </pattern>
+        <template><srai> ^ ELEMENTO ^ ARIES ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ TAURO ^ </pattern>
+        <template><srai> ^ ELEMENTO ^ TAURO ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ GEMINIS ^ </pattern>
+        <template><srai> ^ ELEMENTO ^ GEMINIS ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ CANCER ^ </pattern>
+        <template><srai> ^ ELEMENTO ^ CANCER ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ LEO ^ </pattern>
+        <template><srai> ^ ELEMENTO ^ LEO ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ VIRGO ^ </pattern>
+        <template><srai> ^ ELEMENTO ^ VIRGO ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ LIBRA ^ </pattern>
+        <template><srai> ^ ELEMENTO ^ LIBRA ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ ESCORPIO ^ </pattern>
+        <template><srai> ^ ELEMENTO ^ ESCORPIO ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ SAGITARIO ^ </pattern>
+        <template><srai> ^ ELEMENTO ^ SAGITARIO ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ CAPRICORNIO ^ </pattern>
+        <template><srai> ^ ELEMENTO ^ CAPRICORNIO ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ ACUARIO ^ </pattern>
+        <template><srai> ^ ELEMENTO ^ ACUARIO ^ </srai></template>
+    </category>
+    
+    <category>
+        <pattern> ^ PISCIS ^ </pattern>
+        <template><srai> ^ ELEMENTO ^ PISCIS ^ </srai></template>
+    </category>
+    </topic>
+</aiml>
